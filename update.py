@@ -83,8 +83,29 @@ def pull_locale(path, *, crowdin_api_key=None):
             if not os.path.exists(name[len(prefix):]):
                 os.mkdir(name[len(prefix):])
         else:
-            with open(name[len(prefix):], 'wb') as output:
+            name_suffix = name[len(prefix):]
+            with open(name_suffix, 'wb') as output:
                 output.write(zfobj.read(name))
+            if name.endswith('.po'):
+                filter_comment_lines(name_suffix)
+
+
+def filter_comment_lines(fname: str):
+    """Open text file and remove lines starting with "#".
+
+    As auto-generated comments contain line numbers, removing them makes
+    reviewing diffs much more practical.
+
+    note: we could be more relaxed and only rm lines starting with "#:",
+          see https://www.gnu.org/software/gettext/manual/html_node/PO-File-Entries.html
+    """
+    os.rename(fname, f"{fname}.orig")
+    with open(f"{fname}.orig", "r+", encoding="utf-8") as f_orig:
+        with open(fname, "w", encoding="utf-8") as f_filtered:
+            for line in f_orig:
+                if not line.startswith("#"):
+                    f_filtered.write(line)
+    os.remove(f"{fname}.orig")
 
 
 if __name__ == '__main__':
