@@ -1,15 +1,21 @@
 #!/usr/bin/env python3
 import datetime
 import os
+import subprocess
 import sys
 import io
 import zipfile
 
-
+# check dependencies are available
 try:
     import requests
 except ImportError as e:
     sys.exit(f"Error: {str(e)}. Try 'python3 -m pip install --user <module-name>'")
+
+try:
+    subprocess.check_output(["msgattrib", "--version"])
+except (subprocess.CalledProcessError, OSError):
+    raise Exception("missing gettext. Maybe try 'apt install gettext'")
 
 
 crowdin_project_id = 20482  # for "Electrum" project on crowdin
@@ -87,11 +93,12 @@ def pull_locale(path, *, crowdin_api_key=None):
             with open(name_suffix, 'wb') as output:
                 output.write(zfobj.read(name))
             if name.endswith('.po'):
-                filter_comment_lines(name_suffix)
+                filter_exclude_comment_lines(name_suffix)
+                filter_exclude_untranslated_strings(name_suffix)
 
 
-def filter_comment_lines(fname: str):
-    """Open text file and remove lines starting with "#".
+def filter_exclude_comment_lines(fname: str):
+    """Remove lines starting with "#". ==> easier to review diffs
 
     As auto-generated comments contain line numbers, removing them makes
     reviewing diffs much more practical.
@@ -106,6 +113,12 @@ def filter_comment_lines(fname: str):
                 if not line.startswith("#"):
                     f_filtered.write(line)
     os.remove(f"{fname}.orig")
+
+
+def filter_exclude_untranslated_strings(fname: str):
+    """Remove strings with empty translations. ==> easier to review diffs"""
+    cmd = ["msgattrib", "--translated", "--no-wrap", "--output-file", fname, fname]
+    subprocess.check_output(cmd)
 
 
 if __name__ == '__main__':
