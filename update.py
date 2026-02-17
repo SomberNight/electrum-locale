@@ -129,6 +129,7 @@ if __name__ == '__main__':
     pull_locale(path_locale)
 
     print('Local updates done.')
+    print("Please don't commit directly to master, switch to a branch instead.")
     c = input("Do you want to git commit this? (y/n): ")
     if c != "y":
         sys.exit(0)
@@ -141,4 +142,4 @@ if __name__ == '__main__':
         os.system(cmd)
 
     os.system("git commit -a -m 'update translations'")
-    print("please push")
+    print("please push to a branch, and open a pull request")
