@@ -58,6 +58,8 @@ def pull_locale(path, *, crowdin_api_key=None):
 
     latest_build = response.json()["data"][0]["data"]
     assert latest_build["status"] == "finished", latest_build["status"]
+    # if latest_build["attributes"]["exportApprovedOnly"] is not True:
+    #     raise Exception("latest_build from crowdin MUST have exportApprovedOnly==true")
     created_at = datetime.datetime.fromisoformat(latest_build["createdAt"])
     if (datetime.datetime.now(datetime.timezone.utc) - created_at) > datetime.timedelta(days=2):
         raise Exception(f"latest translation build looks too old. {created_at.isoformat()=}")
