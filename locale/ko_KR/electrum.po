@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: electrum\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-14 08:25+0000\n"
-"PO-Revision-Date: 2026-02-14 08:26\n"
+"POT-Creation-Date: 2026-02-18 12:59+0000\n"
+"PO-Revision-Date: 2026-02-18 12:59\n"
 "Last-Translator: \n"
 "Language-Team: Korean\n"
 "Language: ko_KR\n"
@@ -409,9 +409,6 @@ msgstr "외형 설정"
 msgid "Apply"
 msgstr "적용하기"
 
-msgid "Arabic"
-msgstr "아랍어"
-
 msgid ""
 "Are you SURE you want to wipe the device?\n"
 "Your wallet still has bitcoins in it!"
@@ -439,9 +436,6 @@ msgstr "이 트랜잭션을 지우시겠습니까?"
 
 msgid "Are you sure you want to sign this transaction?"
 msgstr "이 거래에 서명하시겠습니까?"
-
-msgid "Armenian"
-msgstr "아르메니아어"
 
 msgid "At block height: {}"
 msgstr "블록 높이: {}"
@@ -583,9 +577,6 @@ msgstr "트랜잭션 방송..."
 
 msgid "Build Date"
 msgstr "빌드 날짜"
-
-msgid "Bulgarian"
-msgstr "불가리아어"
 
 msgid "Bump Fee"
 msgstr "범프 수수료"
@@ -739,12 +730,6 @@ msgstr "부모를 위해 어린이가 지불한다."
 
 msgid "Child pays for parent"
 msgstr "어린이가 부모를 위해 지불한다."
-
-msgid "Chinese Simplified"
-msgstr "중국어 간체"
-
-msgid "Chinese Traditional"
-msgstr "중국어"
 
 msgid "Choose Hardware Device"
 msgstr "하드웨어 기기 선택"
@@ -1142,14 +1127,8 @@ msgstr "사용자 지정 URL"
 msgid "Custom secret"
 msgstr "사용자 정의 기밀 정보"
 
-msgid "Czech"
-msgstr "체코어"
-
 msgid "Danger! This transaction uses non-default sighash flags!"
 msgstr "경고! 이 거래는 기본 sighash 플래그를 사용하지 않습니다!"
-
-msgid "Danish"
-msgstr "덴마크어"
 
 msgid "Dark"
 msgstr "어둡게"
@@ -1320,9 +1299,6 @@ msgstr "마스터 키 복제"
 msgid "During that time, funds will not be recoverable from your seed, and may be lost if you lose your device."
 msgstr "주어진 기간 동안 시드로 자금을 복구할 수 없으며, 디바이스를 분실하면 자금을 잃을 수 있습니다."
 
-msgid "Dutch"
-msgstr "네덜란드어"
-
 msgid "Dynamic fee estimates not available"
 msgstr "동적 수수료 추정치를 사용할 수 없음"
 
@@ -1445,9 +1421,6 @@ msgstr "암호화 및 복호화가 {}에서 적용되지 않음"
 
 msgid "End"
 msgstr "종료"
-
-msgid "English"
-msgstr "영어"
 
 msgid "Enter PIN"
 msgstr "PIN 입력"
@@ -1583,9 +1556,6 @@ msgstr "라벨 동기화 에러"
 
 msgid "Error: Account discovery failed."
 msgstr "에러: 계정이 발견되지 않았습니다."
-
-msgid "Esperanto"
-msgstr "에스페란토어"
 
 msgid "Estimate"
 msgstr "추정"
@@ -1785,9 +1755,6 @@ msgstr "수신(받기) 동결"
 msgid "Freeze for sending"
 msgstr "송신(보내기) 동결"
 
-msgid "French"
-msgstr "프랑스어"
-
 msgid "From"
 msgstr "발신자"
 
@@ -1827,9 +1794,6 @@ msgstr "이 채널의 자금은 본인의 지갑으로 옮길 때까지 시드�
 msgid "Generate a new random wallet"
 msgstr "새 랜덤 지갑 생성"
 
-msgid "German"
-msgstr "독일어"
-
 msgid "Get wallet address"
 msgstr "지갑 주소 가져오기"
 
@@ -1838,9 +1802,6 @@ msgstr "Go online to complete wallet creation"
 
 msgid "Google Authenticator code:"
 msgstr "구글 인증 코드:"
-
-msgid "Greek"
-msgstr "그리스어"
 
 msgid "HTLCs in current commitment transaction"
 msgstr "현재 약정 거래의 HTLC"
@@ -1874,9 +1835,6 @@ msgstr "홈스크린"
 
 msgid "Hops"
 msgstr "홉"
-
-msgid "Hungarian"
-msgstr "헝가리어"
 
 msgid "I already have a seed"
 msgstr "이미 시드를 갖고 있습니다"
@@ -1967,9 +1925,6 @@ msgstr "비용 증가"
 
 msgid "Increase your transaction's fee to improve its position in mempool."
 msgstr "메모리 풀의 우선순위를 향상시키기 위해 수수료를 높이세요."
-
-msgid "Indonesian"
-msgstr "인도네시아어"
 
 msgid "Info"
 msgstr "정보"
@@ -2127,14 +2082,8 @@ msgstr "동일한 시드를 가진 다른 지갑으로 가져올 수 있습니�
 msgid "It shows a channel that was opened with another instance of this wallet"
 msgstr "이 지갑의 다른 인스턴스에서 열렸던 채널을 표시합니다."
 
-msgid "Italian"
-msgstr "이탈리아어"
-
 msgid "Jade Status"
 msgstr "Jade 상태"
-
-msgid "Japanese"
-msgstr "일본어"
 
 msgid "Join inputs/outputs"
 msgstr "입력/출력 병합"
@@ -2157,9 +2106,6 @@ msgstr "키스토어"
 msgid "Keystore type"
 msgstr "키스토어 유형"
 
-msgid "Kyrgyz"
-msgstr "키르기스어"
-
 msgid "Label"
 msgstr "라벨"
 
@@ -2177,9 +2123,6 @@ msgstr "언어 선택"
 
 msgid "Latest version: {}"
 msgstr "최신 버전: {}"
-
-msgid "Latvian"
-msgstr "라트비아어"
 
 msgid "Leave this field empty if you want to disable encryption."
 msgstr "이 필드는 암호화를 사용 하지 않도록 설정 하려는 경우 비어 둡니다."
@@ -2534,9 +2477,6 @@ msgstr "노드"
 msgid "None"
 msgstr "없음"
 
-msgid "Norwegian Bokmal"
-msgstr "노르웨이어(보크몰)"
-
 msgid "Nostr relays"
 msgstr "Nostr 릴레이"
 
@@ -2786,9 +2726,6 @@ msgstr "결제 (HTLC):"
 msgid "Performing swap..."
 msgstr "스왑 수행 중..."
 
-msgid "Persian"
-msgstr "페르시아어"
-
 msgid "Please briefly describe what led to the error (optional):"
 msgstr "오류 발생 원인을 간략히 설명해주세요 (선택 사항):"
 
@@ -2878,15 +2815,6 @@ msgstr "Electrum이 사용 가능한 업데이트를 확인하는 동안 기다�
 
 msgid "Please wait..."
 msgstr "잠시 기다려 주십시오…"
-
-msgid "Polish"
-msgstr "폴란드어"
-
-msgid "Portuguese"
-msgstr "포르투갈어"
-
-msgid "Portuguese (Brazil)"
-msgstr "포르투갈어 (브라질)"
 
 msgid "Position in mempool: {}"
 msgstr "메모리 풀 내 위치: {}"
@@ -3179,14 +3107,8 @@ msgstr "0으로 시작하는 Revealer는 취약성에 의해 안전하지 않습
 msgid "Right side"
 msgstr "우측"
 
-msgid "Romanian"
-msgstr "루마니아어"
-
 msgid "Routing Hints"
 msgstr "라우팅 안내"
-
-msgid "Russian"
-msgstr "러시아어"
 
 msgid "SLIP39 seed"
 msgstr "SLIP39 시드"
@@ -3467,12 +3389,6 @@ msgstr "단일 시드 (BIP39)"
 msgid "Size: {} {}"
 msgstr "크기: {} {}"
 
-msgid "Slovak"
-msgstr "슬로바키아어"
-
-msgid "Slovenian"
-msgstr "슬로베니아어"
-
 msgid "Some coins are frozen: {} (can be unfrozen in the Addresses or in the Coins tab)"
 msgstr "일부 코인 동결됨: {} (주소 또는 코인 탭에서 해제할 수 있습니다)"
 
@@ -3499,9 +3415,6 @@ msgstr "업데이트를 확인할 수 없습니다. 나중에 다시 시도해 �
 
 msgid "Source"
 msgstr "출처"
-
-msgid "Spanish"
-msgstr "스페인어"
 
 msgid "Spend only confirmed coins"
 msgstr "승인된 코인만 사용"
@@ -3566,9 +3479,6 @@ msgstr "스왑 서버 활성화됨"
 msgid "Swapping lightning funds for onchain funds will increase your capacity to receive lightning payments."
 msgstr "라이트닝 자금을 온체인 자금으로 교환하면 라이트닝 결제를 받을 수 있는 용량이 증가합니다."
 
-msgid "Swedish"
-msgstr "스웨덴어"
-
 msgid "Sweep"
 msgstr "청소하다"
 
@@ -3580,9 +3490,6 @@ msgstr "텍스트와 QR 코드 보기 전환"
 
 msgid "Synchronizing..."
 msgstr "동기화"
-
-msgid "Tamil"
-msgstr "타밀어"
 
 msgid "Target"
 msgstr "목표"
@@ -3607,9 +3514,6 @@ msgstr "원문이 클립보드에 복사됨"
 
 msgid "Text copied to clipboard"
 msgstr "원문이 클립보드에 복사됨"
-
-msgid "Thai"
-msgstr "태국어"
 
 msgid "Thanks for reporting this issue!"
 msgstr "이 문제를 보고해 주셔서 감사합니다!"
@@ -3770,9 +3674,6 @@ msgstr "재접속을 시도하시겠습니까?"
 msgid "Try to explain not only what the bug is, but how it occurs."
 msgstr "어떤 버그인지, 어떻게 발생하였는지 설명 하려고 합니다."
 
-msgid "Turkish"
-msgstr "터키어"
-
 msgid "Tx"
 msgstr "Tx"
 
@@ -3787,9 +3688,6 @@ msgstr "유형"
 
 msgid "USB Serial"
 msgstr "USB 직렬"
-
-msgid "Ukrainian"
-msgstr "우크라이나어"
 
 msgid "Unable to create backup"
 msgstr "백업을 만들 수 없습니다"
@@ -3955,9 +3853,6 @@ msgstr "매우 강함"
 
 msgid "Video Device"
 msgstr "비디오 장치"
-
-msgid "Vietnamese"
-msgstr "베트남어"
 
 msgid "View Channel"
 msgstr "채널 보기"

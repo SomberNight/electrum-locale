@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: electrum\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-14 08:25+0000\n"
-"PO-Revision-Date: 2026-02-14 08:25\n"
+"POT-Creation-Date: 2026-02-18 12:59+0000\n"
+"PO-Revision-Date: 2026-02-18 12:59\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Traditional\n"
 "Language: zh_TW\n"
@@ -320,9 +320,6 @@ msgstr "外觀"
 msgid "Apply"
 msgstr "應用"
 
-msgid "Arabic"
-msgstr "阿拉伯語"
-
 msgid ""
 "Are you SURE you want to wipe the device?\n"
 "Your wallet still has bitcoins in it!"
@@ -344,9 +341,6 @@ msgstr "你確定要移除這交易和 它｛｝的子女交易嗎？"
 
 msgid "Are you sure you want to remove this transaction?"
 msgstr "你確定要刪除這交易嗎？"
-
-msgid "Armenian"
-msgstr "亞美尼亞語"
 
 msgid "At block height: {}"
 msgstr "在區塊： {}"
@@ -471,12 +465,6 @@ msgstr "子代親支付"
 msgid "Child pays for parent"
 msgstr "子代親支付"
 
-msgid "Chinese Simplified"
-msgstr "简体中文"
-
-msgid "Chinese Traditional"
-msgstr "繁體中文"
-
 msgid "Choose a password to encrypt your wallet keys."
 msgstr "請想定一道加密您錢包金鑰的密碼。"
 
@@ -564,12 +552,6 @@ msgstr "目前利率"
 msgid "Custom"
 msgstr "自訂"
 
-msgid "Czech"
-msgstr "捷克語"
-
-msgid "Danish"
-msgstr "丹麥語"
-
 msgid "Dark/Light"
 msgstr "暗/亮"
 
@@ -641,9 +623,6 @@ msgstr "您想要發送這個報告嗎？"
 
 msgid "Do you wish to continue?"
 msgstr "您是否打算繼續？"
-
-msgid "Dutch"
-msgstr "荷蘭語"
 
 msgid "Electrum Plugins"
 msgstr "Electrum 插件"

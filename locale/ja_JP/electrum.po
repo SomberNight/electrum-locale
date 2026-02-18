@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: electrum\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-14 08:25+0000\n"
-"PO-Revision-Date: 2026-02-14 08:26\n"
+"POT-Creation-Date: 2026-02-18 12:59+0000\n"
+"PO-Revision-Date: 2026-02-18 12:59\n"
 "Last-Translator: \n"
 "Language-Team: Japanese\n"
 "Language: ja_JP\n"
@@ -421,9 +421,6 @@ msgstr "外観"
 msgid "Apply"
 msgstr "適用"
 
-msgid "Arabic"
-msgstr "アラビア語"
-
 msgid ""
 "Are you SURE you want to wipe the device?\n"
 "Your wallet still has bitcoins in it!"
@@ -451,9 +448,6 @@ msgstr "本当にこの取引を削除しますか？"
 
 msgid "Are you sure you want to sign this transaction?"
 msgstr "本当にこの取引に署名しますか？"
-
-msgid "Armenian"
-msgstr "アルメニア語"
 
 msgid "At block height: {}"
 msgstr "ブロック高: {}"
@@ -595,9 +589,6 @@ msgstr "取引をブロードキャストしています..."
 
 msgid "Build Date"
 msgstr "ビルド日時"
-
-msgid "Bulgarian"
-msgstr "ブルガリア語"
 
 msgid "Bump Fee"
 msgstr "手数料を増額する"
@@ -754,12 +745,6 @@ msgstr "スタックしている親（取引情報）に対して子（受取ア
 
 msgid "Child pays for parent"
 msgstr "スタックしている親（取引情報）に対して子（受取アドレス、釣銭アドレス）の手数料を支払う"
-
-msgid "Chinese Simplified"
-msgstr "中国語 (簡体字)"
-
-msgid "Chinese Traditional"
-msgstr "中国語 (繁体字)"
 
 msgid "Choose Hardware Device"
 msgstr "ハードウェアデバイスを選択"
@@ -1173,14 +1158,8 @@ msgstr "カスタム URL"
 msgid "Custom secret"
 msgstr "カスタムシークレット"
 
-msgid "Czech"
-msgstr "チェコ語"
-
 msgid "Danger! This transaction uses non-default sighash flags!"
 msgstr "危険! このトランザクションは普通ではないsighashフラグを使用しています!"
-
-msgid "Danish"
-msgstr "デンマーク語"
 
 msgid "Dark"
 msgstr "ダーク"
@@ -1357,9 +1336,6 @@ msgstr "マスターキーを複製"
 msgid "During that time, funds will not be recoverable from your seed, and may be lost if you lose your device."
 msgstr "その間、資金はあなたのシードでは回復不可能で、デバイスを紛失すると失われることになるかもしれません。"
 
-msgid "Dutch"
-msgstr "オランダ語"
-
 msgid "Dynamic fee estimates not available"
 msgstr "手数料見積り機能は現在使えません"
 
@@ -1488,9 +1464,6 @@ msgstr "暗号化と復号は{}で実装されていません"
 
 msgid "End"
 msgstr "終り"
-
-msgid "English"
-msgstr "英語"
 
 msgid "Enter PIN"
 msgstr "PINを入力"
@@ -1649,9 +1622,6 @@ msgstr "ラベルを同期できません"
 
 msgid "Error: Account discovery failed."
 msgstr "エラー: アカウントの発見に失敗しました。"
-
-msgid "Esperanto"
-msgstr "エスペラント語"
 
 msgid "Estimate"
 msgstr "見積り"
@@ -1885,9 +1855,6 @@ msgstr "凍結(受け取り用)"
 msgid "Freeze for sending"
 msgstr "凍結(送信用)"
 
-msgid "French"
-msgstr "フランス語"
-
 msgid "From"
 msgstr "送金元"
 
@@ -1927,9 +1894,6 @@ msgstr "あなたのウォレットに移すまで、このチャネルの資金
 msgid "Generate a new random wallet"
 msgstr "新規ランダム ウォレットを生成"
 
-msgid "German"
-msgstr "ドイツ語"
-
 msgid "Get wallet address"
 msgstr "ウォレットアドレスを入手"
 
@@ -1938,9 +1902,6 @@ msgstr "ウォレット作成を完了するためにオンライン接続して
 
 msgid "Google Authenticator code:"
 msgstr "Google認証コード: "
-
-msgid "Greek"
-msgstr "ギリシャ語"
 
 msgid "HTLCs in current commitment transaction"
 msgstr "現在のコミットメントトランザクションにおけるHTLC"
@@ -1983,9 +1944,6 @@ msgstr "我々の安全基準を満たさないのでBIP39シードは生成し�
 
 msgid "However, we do not generate SLIP39 seeds."
 msgstr "しかしながら、我々はSLIP39シードは生成しません。"
-
-msgid "Hungarian"
-msgstr "ハンガリー語"
 
 msgid "I already have a seed"
 msgstr "既存のシードを使用する"
@@ -2128,9 +2086,6 @@ msgstr "手数料を増やす"
 
 msgid "Increase your transaction's fee to improve its position in mempool."
 msgstr "取引処理の優先順位を上げるには手数料を増やしてください。"
-
-msgid "Indonesian"
-msgstr "インドネシア語"
 
 msgid "Info"
 msgstr "情報"
@@ -2294,14 +2249,8 @@ msgstr "他のウォレットに同じシードでインポートされるかも
 msgid "It shows a channel that was opened with another instance of this wallet"
 msgstr "このウォレットの別インスタンスで開かれたチャネルを表示します"
 
-msgid "Italian"
-msgstr "イタリア語"
-
 msgid "Jade Status"
 msgstr "Jadeステータス"
-
-msgid "Japanese"
-msgstr "日本語"
 
 msgid "Join inputs/outputs"
 msgstr "インプットとアウトプットを結合(Join)する"
@@ -2324,9 +2273,6 @@ msgstr "キーストア"
 msgid "Keystore type"
 msgstr "キーストアのタイプ"
 
-msgid "Kyrgyz"
-msgstr "キルギス語"
-
 msgid "Label"
 msgstr "ラベル"
 
@@ -2344,9 +2290,6 @@ msgstr "言語"
 
 msgid "Latest version: {}"
 msgstr "最新のバージョン: {}"
-
-msgid "Latvian"
-msgstr "ラトビア語"
 
 msgid "Leave this field empty if you want to disable encryption."
 msgstr "暗号化が必要でない場合は、テキストボックスを空のままにして下さい。"
@@ -2718,9 +2661,6 @@ msgstr "ノード"
 msgid "None"
 msgstr "なし"
 
-msgid "Norwegian Bokmal"
-msgstr "ノルウェー語 (ブークモール)"
-
 msgid "Nostr relays"
 msgstr "Nostrリレー"
 
@@ -2976,9 +2916,6 @@ msgstr "支払い(HTLC): "
 msgid "Performing swap..."
 msgstr "スワップ実行中..."
 
-msgid "Persian"
-msgstr "ペルシャ語"
-
 msgid "Please briefly describe what led to the error (optional):"
 msgstr "エラーの発生原因を簡単に説明して下さい（オプション）"
 
@@ -3068,15 +3005,6 @@ msgstr "アップデート可能なelectrumのバージョンがあるか確認�
 
 msgid "Please wait..."
 msgstr "少々お待ち下さい..."
-
-msgid "Polish"
-msgstr "ポーランド語"
-
-msgid "Portuguese"
-msgstr "ポルトガル語"
-
-msgid "Portuguese (Brazil)"
-msgstr "ポルトガル語 (ブラジル)"
 
 msgid "Position in mempool: {}"
 msgstr "メモリープール内の位置: {}"
@@ -3372,14 +3300,8 @@ msgstr "0から始まるRevealerは脆弱性のため安全ではありません
 msgid "Right side"
 msgstr "右側"
 
-msgid "Romanian"
-msgstr "ルーマニア語"
-
 msgid "Routing Hints"
 msgstr "ルーティングヒント"
-
-msgid "Russian"
-msgstr "ロシア語"
 
 msgid "SLIP39 seed"
 msgstr "SLIP39シード"
@@ -3666,12 +3588,6 @@ msgstr "単一シード(BIP39)"
 msgid "Size: {} {}"
 msgstr "サイズ: {} {}"
 
-msgid "Slovak"
-msgstr "スロバキア語"
-
-msgid "Slovenian"
-msgstr "スロベニア語"
-
 msgid "Some coins are frozen: {} (can be unfrozen in the Addresses or in the Coins tab)"
 msgstr "いくつかのコインは凍結されています: {} (アドレス一覧やコインのタブから解凍することができます)"
 
@@ -3698,9 +3614,6 @@ msgstr "アップデートの確認が出来ませんでした。また後でト
 
 msgid "Source"
 msgstr "ソース"
-
-msgid "Spanish"
-msgstr "スペイン語"
 
 msgid "Spend only confirmed coins"
 msgstr "承認されたコインだけ使用"
@@ -3774,9 +3687,6 @@ msgstr "スワップサーバーはアクティブです"
 msgid "Swapping lightning funds for onchain funds will increase your capacity to receive lightning payments."
 msgstr "ライトニングの資金をオンチェーンの資金にスワップすることでライトニング支払いを受け取るキャパシティを増加させることができます。"
 
-msgid "Swedish"
-msgstr "スウェーデン語"
-
 msgid "Sweep"
 msgstr "スイープ"
 
@@ -3791,9 +3701,6 @@ msgstr "テキストとQRコード表示の切り替え"
 
 msgid "Synchronizing..."
 msgstr "同期中..."
-
-msgid "Tamil"
-msgstr "タミル語"
 
 msgid "Target"
 msgstr "目標"
@@ -3818,9 +3725,6 @@ msgstr "テキストをクリップボードにコピーしました"
 
 msgid "Text copied to clipboard"
 msgstr "クリップボードにコピーされました"
-
-msgid "Thai"
-msgstr "タイ語"
 
 msgid "Thanks for reporting this issue!"
 msgstr "問題を報告してくださりありがとうございます!"
@@ -4358,9 +4262,6 @@ msgstr "どんなバグかだけでなく、どうすると起こるのか、過
 msgid "Try to raise your transaction fee, or use a server with a lower relay fee."
 msgstr "取引手数料を上げてみて下さい。"
 
-msgid "Turkish"
-msgstr "トルコ語"
-
 msgid "Two-factor authentication is a service provided by TrustedCoin.  It uses a multi-signature wallet, where you own 2 of 3 keys.  The third key is stored on a remote server that signs transactions on your behalf.  To use this service, you will need a smartphone with Google Authenticator installed."
 msgstr "2段階認証ウォレットはTrustedCoinにより提供されているサービスです。これは3つの鍵のうち2つの鍵をあなたが所有するマルチシグのウォレットです。3つ目の鍵はあなたの取引トランザクションに署名を行うリモートサーバに保管されます。このサービスを使用するためにはGoogle Authenticatorがインストールされたスマートフォンが必要です。"
 
@@ -4381,9 +4282,6 @@ msgstr "Type"
 
 msgid "USB Serial"
 msgstr "USBシリアル"
-
-msgid "Ukrainian"
-msgstr "ウクライナ語"
 
 msgid "Unable to create backup"
 msgstr "バックアップを作成できませんでした"
@@ -4569,9 +4467,6 @@ msgstr "とても強い"
 
 msgid "Video Device"
 msgstr "ビデオデバイス"
-
-msgid "Vietnamese"
-msgstr "ベトナム語"
 
 msgid "View"
 msgstr "表示"
@@ -5227,10 +5122,6 @@ msgstr "MIT ライセンス"
 msgctxt "About|"
 msgid "Homepage"
 msgstr "ホームページ"
-
-msgctxt "About|"
-msgid "<a href=\"https://electrum.org\">https://electrum.org</a>"
-msgstr "<a href=\"https://electrum.org\">https://electrum.org</a>"
 
 msgctxt "About|"
 msgid "Developers"

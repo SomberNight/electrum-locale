@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: electrum\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-14 08:25+0000\n"
-"PO-Revision-Date: 2026-02-14 08:26\n"
+"POT-Creation-Date: 2026-02-18 12:59+0000\n"
+"PO-Revision-Date: 2026-02-18 12:59\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -177,9 +177,6 @@ msgstr "({} están congelados)"
 msgid "({}% of amount)"
 msgstr "({}% of amount)"
 
-msgid "- a Lightning invoice"
-msgstr "- a Lightning invoice"
-
 msgid "- a label from your list of contacts"
 msgstr "- una etiqueta de tu lista de contactos"
 
@@ -258,9 +255,6 @@ msgstr "Precio de adquisición"
 msgid "Add"
 msgstr "Añadir"
 
-msgid "Add Cosigner {}"
-msgstr "Añadir consignador"
-
 msgid "Add a cosigner to your multi-sig wallet"
 msgstr "Agregue un Cosigner a su cartera multifirma"
 
@@ -296,13 +290,6 @@ msgstr "La dirección está congelada"
 
 msgid "Address not in wallet."
 msgstr "La dirección no está en la cartera."
-
-msgid "Address not in wallet: {}"
-msgstr ""
-"Licence: MIT Licence\n"
-"Author: Thomas Voegtlin\n"
-"Language: Python (>= 3.8)\n"
-"Homepage: https://electrum.org/"
 
 msgid "Address reuse"
 msgstr "Reutilización de la dirección"
@@ -352,9 +339,6 @@ msgstr "Cantidad"
 msgid "Amount for OP_RETURN output must be zero."
 msgstr "La cantidad para la salida OP_RETURN debe ser cero."
 
-msgid "Amount received: {}"
-msgstr "cmc6686@gmail.com"
-
 msgid "Amount sent: {}"
 msgstr "Cantidad enviada"
 
@@ -385,9 +369,6 @@ msgstr "Apariencia"
 msgid "Apply"
 msgstr "Aplicar"
 
-msgid "Arabic"
-msgstr "Árabe"
-
 msgid ""
 "Are you SURE you want to wipe the device?\n"
 "Your wallet still has bitcoins in it!"
@@ -415,9 +396,6 @@ msgstr "¿Seguro que quieres borrar esta transacción?"
 
 msgid "Are you sure you want to sign this transaction?"
 msgstr "¿Estás seguro de que quieres firmar esta transacción?"
-
-msgid "Armenian"
-msgstr "Armenio"
 
 msgid "At block height: {}"
 msgstr "A la altura del bloque: {}"
@@ -553,9 +531,6 @@ msgstr "Transmitiendo la transacción..."
 
 msgid "Build Date"
 msgstr "Fecha de compilación"
-
-msgid "Bulgarian"
-msgstr "Búlgaro"
 
 msgid "Bump Fee"
 msgstr "Incrementar comisión"
@@ -713,12 +688,6 @@ msgstr "Transacción hija paga por el padre (CPFP)"
 msgid "Child pays for parent"
 msgstr "Transacción hija paga por el padre (CPFP)"
 
-msgid "Chinese Simplified"
-msgstr "Chino (simplificado)"
-
-msgid "Chinese Traditional"
-msgstr "Chino (tradicional)"
-
 msgid "Choose Hardware Device"
 msgstr "Elige dispositivo Hardware"
 
@@ -770,9 +739,6 @@ msgstr "Elija cual explorador de bloques en línea utilizar para funciones que a
 
 msgid "Choose..."
 msgstr "Elegir..."
-
-msgid "Claim transaction"
-msgstr "Claim transaction"
 
 msgid "Clear"
 msgstr "Borrar"
@@ -1074,12 +1040,6 @@ msgstr "URL personalizada"
 msgid "Custom secret"
 msgstr "Secreto personalizado"
 
-msgid "Czech"
-msgstr "Checo (Čeština)"
-
-msgid "Danish"
-msgstr "Danés"
-
 msgid "Dark"
 msgstr "Oscuro"
 
@@ -1228,9 +1188,6 @@ msgstr "Debido a un fallo, las versiones anteriores de Electrum NO podrán crear
 msgid "During that time, funds will not be recoverable from your seed, and may be lost if you lose your device."
 msgstr "Durante ese tiempo, los fondos no serán recuperables de su semilla y pueden perderse si pierde su dispositivo."
 
-msgid "Dutch"
-msgstr "Holandés"
-
 msgid "Dynamic fee estimates not available"
 msgstr "Tarifas dinámicas estimadas no están disponibles"
 
@@ -1344,9 +1301,6 @@ msgstr "Cifrar y descifrar no están implementados por {}"
 
 msgid "End"
 msgstr "Fin"
-
-msgid "English"
-msgstr "Inglés"
 
 msgid "Enter PIN"
 msgstr "Introduzca PIN"
@@ -1495,9 +1449,6 @@ msgstr "Error al sincronizar las etiquetas"
 
 msgid "Error: Account discovery failed."
 msgstr "Error: la detección de la cuenta falló."
-
-msgid "Esperanto"
-msgstr "Esperanto"
 
 msgid "Estimate"
 msgstr "Estimación"
@@ -1711,9 +1662,6 @@ msgstr "Congelar (para recibir)"
 msgid "Freeze for sending"
 msgstr "Congelar para el envío"
 
-msgid "French"
-msgstr "Francés"
-
 msgid "From"
 msgstr "De"
 
@@ -1750,14 +1698,8 @@ msgstr "Los fondos de este canal no serán recuperables de la semilla hasta que 
 msgid "Generate a new random wallet"
 msgstr "Generar una nueva billetera aleatoria"
 
-msgid "German"
-msgstr "Alemán"
-
 msgid "Google Authenticator code:"
 msgstr "Código de Google Authenticator:"
-
-msgid "Greek"
-msgstr "Griego"
 
 msgid "HTLCs in current commitment transaction"
 msgstr "HTLC en la transacción de compromiso actual"
@@ -1785,9 +1727,6 @@ msgstr "Sin embargo, no generamos semillas BIP39 porque no cumplen con nuestro e
 
 msgid "However, we do not generate SLIP39 seeds."
 msgstr "Sin embargo, no generamos semillas SLIP39."
-
-msgid "Hungarian"
-msgstr "Húngaro"
 
 msgid "I already have a seed"
 msgstr "Ya tengo un una semilla"
@@ -1904,9 +1843,6 @@ msgstr "Aumentar comisión"
 
 msgid "Increase your transaction's fee to improve its position in mempool."
 msgstr "Aumente la tarifa de su transacción para mejorar su posición en mempool."
-
-msgid "Indonesian"
-msgstr "Indonesio"
 
 msgid "Info"
 msgstr "Información"
@@ -2036,12 +1972,6 @@ msgstr "Puede importarse en otra cartera con la misma semilla."
 msgid "It shows a channel that was opened with another instance of this wallet"
 msgstr "Muestra un canal que se abrió con otra instancia de este monedero"
 
-msgid "Italian"
-msgstr "Italiano"
-
-msgid "Japanese"
-msgstr "Japones"
-
 msgid "Join inputs/outputs"
 msgstr "Unir entradas/salidas"
 
@@ -2056,9 +1986,6 @@ msgstr "Almacén de claves"
 
 msgid "Keystore type"
 msgstr "Tipo de almacén de claves"
-
-msgid "Kyrgyz"
-msgstr "Kirguizo"
 
 msgid "Label"
 msgstr "Etiqueta"
@@ -2077,9 +2004,6 @@ msgstr "Idioma"
 
 msgid "Latest version: {}"
 msgstr "Última versión: {}"
-
-msgid "Latvian"
-msgstr "Letón"
 
 msgid "Leave this field empty if you want to disable encryption."
 msgstr "Deje este campo vacío si desea desactivar el cifrado."
@@ -2366,9 +2290,6 @@ msgstr "Nodos"
 msgid "None"
 msgstr "Ninguno"
 
-msgid "Norwegian Bokmal"
-msgstr "Bokmal Noruego"
-
 msgid "Nostr"
 msgstr "Nostr"
 
@@ -2587,9 +2508,6 @@ msgstr "Pago enviado."
 
 msgid "Payments (HTLCs):"
 msgstr "Pagos (HTLC):"
-
-msgid "Persian"
-msgstr "Persa"
 
 msgid "Please briefly describe what led to the error (optional):"
 msgstr "Describa brevemente qué provocó el error (opcional):"
@@ -2882,12 +2800,6 @@ msgstr "Reintentar"
 msgid "Right side"
 msgstr "Lado derecho"
 
-msgid "Romanian"
-msgstr "Rumano"
-
-msgid "Russian"
-msgstr "Ruso"
-
 msgid "SLIP39 seeds can be imported in Electrum, so that users can access funds locked in other wallets."
 msgstr "Las semillas SLIP39 se pueden importar en Electrum, para que los usuarios puedan acceder a los fondos bloqueados en otras carteras."
 
@@ -3110,12 +3022,6 @@ msgstr "Firmar con una dirección significa firmar con la clave privada correspo
 msgid "Single seed (BIP39)"
 msgstr "Semilla única (BIP39)"
 
-msgid "Slovak"
-msgstr "Eslovaco"
-
-msgid "Slovenian"
-msgstr "Esloveno"
-
 msgid "Some coins are frozen: {} (can be unfrozen in the Addresses or in the Coins tab)"
 msgstr "Algunas monedas están congeladas: {} (se pueden descongelar en la pestaña Direcciones o Monedas)"
 
@@ -3136,9 +3042,6 @@ msgstr "Lo sentimos, pero no pudimos buscar actualizaciones. Por favor, inténte
 
 msgid "Source"
 msgstr "Codigo fuente"
-
-msgid "Spanish"
-msgstr "Español"
 
 msgid "Spend only confirmed coins"
 msgstr "Gastar sólo monedas confirmadas"
@@ -3179,9 +3082,6 @@ msgstr "Super Shamir"
 msgid "Supported Coins"
 msgstr "Monedas soportadas"
 
-msgid "Swedish"
-msgstr "Sueco"
-
 msgid "Sweep"
 msgstr "Barrer"
 
@@ -3190,9 +3090,6 @@ msgstr "Barrer llaves privadas"
 
 msgid "Synchronizing..."
 msgstr "Sincronizando..."
-
-msgid "Tamil"
-msgstr "Tamil"
 
 msgid "Target"
 msgstr "Objetivo"
@@ -3211,9 +3108,6 @@ msgstr "Text"
 
 msgid "Text copied to clipboard"
 msgstr "Texto copiado al portapapeles"
-
-msgid "Thai"
-msgstr "Tailandés"
 
 msgid "Thanks for reporting this issue!"
 msgstr "¡Gracias por reportar este problema!"
@@ -4134,10 +4028,6 @@ msgstr "Licencia MIT"
 msgctxt "About|"
 msgid "Homepage"
 msgstr "Página Principal"
-
-msgctxt "About|"
-msgid "<a href=\"https://electrum.org\">https://electrum.org</a>"
-msgstr "<a href=\"https://electrum.org\">https://electrum.org</a>"
 
 msgctxt "About|"
 msgid "Developers"

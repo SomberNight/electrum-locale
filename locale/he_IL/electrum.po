@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: electrum\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-14 08:25+0000\n"
-"PO-Revision-Date: 2026-02-14 08:25\n"
+"POT-Creation-Date: 2026-02-18 12:59+0000\n"
+"PO-Revision-Date: 2026-02-18 12:59\n"
 "Last-Translator: \n"
 "Language-Team: Hebrew\n"
 "Language: he_IL\n"
@@ -264,9 +264,6 @@ msgstr "{} ללא שם"
 msgid "Apply"
 msgstr "החל"
 
-msgid "Arabic"
-msgstr "ערבית"
-
 msgid ""
 "Are you SURE you want to wipe the device?\n"
 "Your wallet still has bitcoins in it!"
@@ -288,9 +285,6 @@ msgstr "האם אתה בטוח שברצונך להסיר את העסקה הזא�
 
 msgid "Are you sure you want to remove this transaction?"
 msgstr "האם אתה בטוח שברצונך למחוק עסקה זו?"
-
-msgid "Armenian"
-msgstr "ארמנית"
 
 msgid "At block height: {}"
 msgstr "בגובה בלוק: {}"
@@ -399,9 +393,6 @@ msgstr "משדרת העברה..."
 
 msgid "Build Date"
 msgstr "תאריך הגרסה"
-
-msgid "Bulgarian"
-msgstr "בולגרית"
 
 msgid "Bump Fee"
 msgstr "הקפצת עמלה"
@@ -519,12 +510,6 @@ msgstr "ילד משלם עבור הורה"
 
 msgid "Child pays for parent"
 msgstr "ילד משלם עבור הורה"
-
-msgid "Chinese Simplified"
-msgstr "סינית פשוטה"
-
-msgid "Chinese Traditional"
-msgstr "סינית מסורתית"
 
 msgid "Choose Homescreen"
 msgstr "בחירת מסך בית"
@@ -794,12 +779,6 @@ msgstr "כתובת URL מותאמת"
 msgid "Custom secret"
 msgstr "סוד מותאם"
 
-msgid "Czech"
-msgstr "צ׳כית"
-
-msgid "Danish"
-msgstr "דנית"
-
 msgid "Dark"
 msgstr "כהה"
 
@@ -920,9 +899,6 @@ msgstr "בגלל באג, גירסאות ישנות של אלקטרום *לא* י
 msgid "During that time, funds will not be recoverable from your seed, and may be lost if you lose your device."
 msgstr "במשך הזמן ההוא, לא יהיה ניתן לשחזר ממון מהזרע שלך, ועלולים ללכת לאיבוד אם תאבד את ההֶתְקֵן שלך."
 
-msgid "Dutch"
-msgstr "הולנדית"
-
 msgid "Dynamic fee estimates not available"
 msgstr "הערכות עמלה משתנה לא זמינים"
 
@@ -1024,9 +1000,6 @@ msgstr "הצפנה ופיענוח לא ממומשים על ידי {}"
 
 msgid "End"
 msgstr "סוף"
-
-msgid "English"
-msgstr "אנגלית"
 
 msgid "Enter PIN"
 msgstr "הזן מספר זהוי"
@@ -1167,9 +1140,6 @@ msgstr "שגיאה בסינכרון תוויות"
 
 msgid "Error: Account discovery failed."
 msgstr "שגיאה: גלוי חשבון נכשל."
-
-msgid "Esperanto"
-msgstr "אספרנטו"
 
 msgid "Estimate"
 msgstr "הערכה"
@@ -1318,9 +1288,6 @@ msgstr "הקפאת מטבע"
 msgid "Freeze Coins"
 msgstr "הקפאת מטבעות"
 
-msgid "French"
-msgstr "צרפתית"
-
 msgid "From"
 msgstr "מ-"
 
@@ -1342,14 +1309,8 @@ msgstr "לא יהיה ניתן לשחזר את הממון בערוץ הזה מה
 msgid "Generate a new random wallet"
 msgstr "צור ארנק אקראי חדש"
 
-msgid "German"
-msgstr "גרמנית"
-
 msgid "Google Authenticator code:"
 msgstr "קוד מאמת גוגל:"
-
-msgid "Greek"
-msgstr "יוונית"
 
 msgid "HTLCs in current commitment transaction"
 msgstr "חוזים נעולים-בזמן מגובבים (HTLC) בעסקת ההתחייבות הנוכחית"
@@ -1374,9 +1335,6 @@ msgstr "שם שרת לא טוב (נכשל getaddrinfo)"
 
 msgid "However, we do not generate BIP39 seeds, because they do not meet our safety standard."
 msgstr "אמנם, אנחנו לא מפיקים זרעי BIP39, כי הם לא עומדים בתנאי הבטיחות שלנו."
-
-msgid "Hungarian"
-msgstr "הונגרית"
 
 msgid "I already have a seed"
 msgstr "יש לי כבר זרע"
@@ -1484,9 +1442,6 @@ msgstr "הגדל עמלה"
 msgid "Increase your transaction's fee to improve its position in mempool."
 msgstr "הגדל את העמלה של עסקתך כדי לשפר את מיקומו במאגר העסקאות הלא מאושרות (mempool)."
 
-msgid "Indonesian"
-msgstr "אנדונזית"
-
 msgid "Info"
 msgstr "מידע"
 
@@ -1574,12 +1529,6 @@ msgstr "הוא סותר את ההיסטוריה הנוכחית."
 msgid "It may be imported in another wallet with the same seed."
 msgstr "ניתן לייבא אותו לארנק אחר עם אותו זרע."
 
-msgid "Italian"
-msgstr "איטלקית"
-
-msgid "Japanese"
-msgstr "יפנית"
-
 msgid "Join inputs/outputs"
 msgstr "חבר קלטים/פלטים"
 
@@ -1595,9 +1544,6 @@ msgstr "אחסון-מפתחות"
 msgid "Keystore type"
 msgstr "סוג אחסון-מפתחות"
 
-msgid "Kyrgyz"
-msgstr "קירגיזית"
-
 msgid "Label"
 msgstr "תווית"
 
@@ -1606,9 +1552,6 @@ msgstr "שפה"
 
 msgid "Latest version: {}"
 msgstr "הגירסה האחרונה: {}"
-
-msgid "Latvian"
-msgstr "לטבית"
 
 msgid "Leave this field empty if you want to disable encryption."
 msgstr "השאר את השדה הזה ריק אם ברצונך להשבית הצפנה."
@@ -1838,9 +1781,6 @@ msgstr "צמתים"
 msgid "None"
 msgstr "ללא"
 
-msgid "Norwegian Bokmal"
-msgstr "נורבגית ספרותית"
-
 msgid "Not Now"
 msgstr "לא עכשיו"
 
@@ -2039,9 +1979,6 @@ msgstr "תשלום נשלח."
 msgid "Payments (HTLCs):"
 msgstr "תשלומים (חוזים-מגובבים-נעולים-בזמן HTLCs)"
 
-msgid "Persian"
-msgstr "פרסית"
-
 msgid "Please briefly describe what led to the error (optional):"
 msgstr "נא לתאר בקצרה מה הוביל לשגיאה (לא חובה):"
 
@@ -2110,12 +2047,6 @@ msgstr "נא להמתין בזמן שאלקטרום מחפש עידכונים ז
 
 msgid "Please wait..."
 msgstr "המתן בבקשה..."
-
-msgid "Polish"
-msgstr "פולנית"
-
-msgid "Portuguese"
-msgstr "פורטוגזית"
 
 msgid "Preferences"
 msgstr "העדפות"
@@ -2275,12 +2206,6 @@ msgstr "נסה שוב"
 
 msgid "Right side"
 msgstr "צד ימין"
-
-msgid "Romanian"
-msgstr "רומנית"
-
-msgid "Russian"
-msgstr "רוסית"
 
 msgid "Save"
 msgstr "שמירה"
@@ -2462,12 +2387,6 @@ msgstr "בפועל, חתימה באמצעות כתובת משמעותה חתימ
 msgid "Single seed (BIP39)"
 msgstr "זרע בודד (BIP39)"
 
-msgid "Slovak"
-msgstr "סלובקית"
-
-msgid "Slovenian"
-msgstr "סלובנית"
-
 msgid "Some of the outputs pay to a non-standard script."
 msgstr "חלק מהפלטים משלמים לתסריט לא-סטנדרטי."
 
@@ -2482,9 +2401,6 @@ msgstr "מצטערים, אבל לא יכולנו לבדוק אם יש עדכונ
 
 msgid "Source"
 msgstr "מקור"
-
-msgid "Spanish"
-msgstr "ספרדית"
 
 msgid "Spend only confirmed coins"
 msgstr "הוציא רק מטבעות מוֻודאים"
@@ -2515,9 +2431,6 @@ msgstr "סיכום"
 
 msgid "Supported Coins"
 msgstr "מטבעות נתמכים"
-
-msgid "Swedish"
-msgstr "שבדית"
 
 msgid "Sweep"
 msgstr "ריקון"
@@ -2916,9 +2829,6 @@ msgstr "ערך"
 
 msgid "Verify"
 msgstr "אימות"
-
-msgid "Vietnamese"
-msgstr "וייטנאמית"
 
 msgid "View Channel"
 msgstr "הצג ערוץ"

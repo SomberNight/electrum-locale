@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: electrum\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-14 08:25+0000\n"
-"PO-Revision-Date: 2026-02-14 08:26\n"
+"POT-Creation-Date: 2026-02-18 12:59+0000\n"
+"PO-Revision-Date: 2026-02-18 12:59\n"
 "Last-Translator: \n"
 "Language-Team: Slovak\n"
 "Language: sk_SK\n"
@@ -258,9 +258,6 @@ msgstr "{} bez názvu"
 msgid "Apply"
 msgstr "Použiť"
 
-msgid "Arabic"
-msgstr "Arabčina"
-
 msgid ""
 "Are you SURE you want to wipe the device?\n"
 "Your wallet still has bitcoins in it!"
@@ -282,9 +279,6 @@ msgstr "Ste si istý/á, že chcete odstrániť túto transakciu a {} detských 
 
 msgid "Are you sure you want to remove this transaction?"
 msgstr "Ste si istý/á, že chcete odstrániť túto transakciu?"
-
-msgid "Armenian"
-msgstr "Arménčina"
 
 msgid "At block height: {}"
 msgstr "Vo výške bloku: {}"
@@ -369,9 +363,6 @@ msgstr "Vysiela sa transakcia..."
 
 msgid "Build Date"
 msgstr "Dátum zostavy"
-
-msgid "Bulgarian"
-msgstr "Bulharčina"
 
 msgid "Bump Fee"
 msgstr "Navýšiť poplatok"
@@ -459,12 +450,6 @@ msgstr "Dieťa platí za rodiča"
 
 msgid "Child pays for parent"
 msgstr "Dieťa platí za rodiča"
-
-msgid "Chinese Simplified"
-msgstr "Čínština (zjednodušená)"
-
-msgid "Chinese Traditional"
-msgstr "Čínština (tradičná)"
 
 msgid "Choose Hardware Device"
 msgstr "Vyber Hardvérové Zariadenie"
@@ -701,12 +686,6 @@ msgstr "Vlastné"
 msgid "Custom secret"
 msgstr "Vlastný tajný kľúč"
 
-msgid "Czech"
-msgstr "Čeština"
-
-msgid "Danish"
-msgstr "Dánčina"
-
 msgid "Dark"
 msgstr "Tmavý"
 
@@ -818,9 +797,6 @@ msgstr "Nabudúce nezobrazovať."
 msgid "Due to a bug, old versions of Electrum will NOT be creating the same wallet as newer versions or other software."
 msgstr "Kvôli chybe staré verzie Electra NEbudú vytvárať rovnakú peňaženku ako novšie verzie alebo iný softvér."
 
-msgid "Dutch"
-msgstr "Holandčina"
-
 msgid "Dynamic fee estimates not available"
 msgstr "Odhady dynamických poplatkov nie sú k dispozícii"
 
@@ -913,9 +889,6 @@ msgstr "Šifrovanie a dešifrovanie nie sú v {} implementované"
 
 msgid "End"
 msgstr "Koniec"
-
-msgid "English"
-msgstr "Angličtina"
 
 msgid "Enter PIN"
 msgstr "Zadajte PIN"
@@ -1054,9 +1027,6 @@ msgstr "Chyba pri zobrazení adresy"
 msgid "Error synchronising labels"
 msgstr "Chyba pri synchronizácii menoviek"
 
-msgid "Esperanto"
-msgstr "Esperanto"
-
 msgid "Estimate"
 msgstr "Odhad"
 
@@ -1189,9 +1159,6 @@ msgstr "Zmraziť mincu"
 msgid "Freeze Coins"
 msgstr "Zmraziť mince"
 
-msgid "French"
-msgstr "Francúzština"
-
 msgid "From"
 msgstr "Od"
 
@@ -1210,14 +1177,8 @@ msgstr "Financované"
 msgid "Generate a new random wallet"
 msgstr "Vytvoriť novú náhodnú peňaženku"
 
-msgid "German"
-msgstr "Nemčina"
-
 msgid "Google Authenticator code:"
 msgstr "Kód Google Authenticatora:"
-
-msgid "Greek"
-msgstr "Gréčtina"
 
 msgid "HTLCs in current commitment transaction"
 msgstr "Kontrakty HTLC v súčasnej záväzkovej transakcii"
@@ -1242,9 +1203,6 @@ msgstr "Názov hostiteľa neodkazuje (funkcia getaddrinfo zlyhala)"
 
 msgid "However, we do not generate BIP39 seeds, because they do not meet our safety standard."
 msgstr "My však nevytvárame seedy BIP39, pretože nespĺňajú naše bezpečnostné normy."
-
-msgid "Hungarian"
-msgstr "Maďarčina"
 
 msgid "I already have a seed"
 msgstr "Už mám seed"
@@ -1336,9 +1294,6 @@ msgstr "Navýšiť poplatok"
 msgid "Increase your transaction's fee to improve its position in mempool."
 msgstr "Pre zlepšenie pozície vašej transakcie v mempoole navýšte jej poplatok."
 
-msgid "Indonesian"
-msgstr "Indonézština"
-
 msgid "Info"
 msgstr "Info"
 
@@ -1420,12 +1375,6 @@ msgstr "Nie je možné ju „zálohovať“ iba exportovaním týchto súkromný
 msgid "It conflicts with current history."
 msgstr "Je to v rozpore so súčasnou históriou."
 
-msgid "Italian"
-msgstr "Taliančina"
-
-msgid "Japanese"
-msgstr "Japončina"
-
 msgid "Join inputs/outputs"
 msgstr "Spojiť vstupy/výstupy"
 
@@ -1441,9 +1390,6 @@ msgstr "Úložisko kľúčov"
 msgid "Keystore type"
 msgstr "Typ úložiska kľúčov"
 
-msgid "Kyrgyz"
-msgstr "Kirgizština"
-
 msgid "Label"
 msgstr "Menovka"
 
@@ -1452,9 +1398,6 @@ msgstr "Jazyk"
 
 msgid "Latest version: {}"
 msgstr "Najnovšia verzia: {}"
-
-msgid "Latvian"
-msgstr "Lotyština"
 
 msgid "Leave this field empty if you want to disable encryption."
 msgstr "Ak chcete vypnúť šifrovanie, nechajte toto pole prázdne."
@@ -1654,9 +1597,6 @@ msgstr "Uzly"
 msgid "None"
 msgstr "Žiadny"
 
-msgid "Norwegian Bokmal"
-msgstr "Nórčina Bokmal"
-
 msgid "Not Now"
 msgstr "Nie teraz"
 
@@ -1846,9 +1786,6 @@ msgstr "Platba odoslaná."
 msgid "Payments (HTLCs):"
 msgstr "Platby (kontrakty HTLC):"
 
-msgid "Persian"
-msgstr "Perzština"
-
 msgid "Please briefly describe what led to the error (optional):"
 msgstr "Prosím, stručne popíšte, čo viedlo k chybe (voliteľné):"
 
@@ -1911,12 +1848,6 @@ msgstr "Prosím, počkajte, kým Electrum vyhľadá dostupné aktualizácie."
 
 msgid "Please wait..."
 msgstr "Čakajte, prosím..."
-
-msgid "Polish"
-msgstr "Poľština"
-
-msgid "Portuguese"
-msgstr "Portugalčina"
 
 msgid "Preferences"
 msgstr "Predvoľby"
@@ -2076,12 +2007,6 @@ msgstr "Revealery začínajúce na 0 nie sú z dôvodu zraniteľnosti bezpečné
 
 msgid "Right side"
 msgstr "Pravá strana"
-
-msgid "Romanian"
-msgstr "Rumunčina"
-
-msgid "Russian"
-msgstr "Ruština"
 
 msgid "Save"
 msgstr "Uložiť"
@@ -2266,12 +2191,6 @@ msgstr "Podpisovanie adresou v skutočnosti znamená podpisovanie príslušným 
 msgid "Single seed (BIP39)"
 msgstr "Jediný seed (BIP39)"
 
-msgid "Slovak"
-msgstr "Slovenčina"
-
-msgid "Slovenian"
-msgstr "Slovinčina"
-
 msgid "Something went wrong while executing Electrum."
 msgstr "Pri vykonávaní aplikácie Electrum sa vyskytla chyba."
 
@@ -2283,9 +2202,6 @@ msgstr "Je nám ľúto, ale nepodarilo sa nám skontrolovať aktualizácie. Skú
 
 msgid "Source"
 msgstr "Zdroj"
-
-msgid "Spanish"
-msgstr "Španielčina"
 
 msgid "Spend only confirmed coins"
 msgstr "Minúť iba potvrdené mince"
@@ -2314,9 +2230,6 @@ msgstr "Super Shamir"
 msgid "Supported Coins"
 msgstr "Podporované mince"
 
-msgid "Swedish"
-msgstr "Švédčina"
-
 msgid "Sweep"
 msgstr "Zmiesť"
 
@@ -2325,9 +2238,6 @@ msgstr "Vymiesť súkromné kľúče"
 
 msgid "Synchronizing..."
 msgstr "Synchronizuje sa..."
-
-msgid "Tamil"
-msgstr "Tamilčina"
 
 msgid "Target"
 msgstr "Cieľ"
@@ -2343,9 +2253,6 @@ msgstr "Testnet funfuje nezávisle od hlavnej bitcoinovej siete a využíva sa n
 
 msgid "Text copied to clipboard"
 msgstr "Text sa skopíroval do schránky"
-
-msgid "Thai"
-msgstr "Thajčina"
 
 msgid "The Digital Bitbox is already seeded. Choose an option:"
 msgstr "Zariadenie Digital Bitbox je už seedované. Vyberte možnosť:"
@@ -2657,9 +2564,6 @@ msgstr "Pokúste sa objasniť nielen o akú chybu ide, ale tiež ako k nej doch�
 msgid "Try to raise your transaction fee, or use a server with a lower relay fee."
 msgstr "Skúste navýšiť transakčný poplatok alebo použite server s nižším prenosovým poplatkom."
 
-msgid "Turkish"
-msgstr "Turečtina"
-
 msgid "Two-factor authentication is a service provided by TrustedCoin.  It uses a multi-signature wallet, where you own 2 of 3 keys.  The third key is stored on a remote server that signs transactions on your behalf.  To use this service, you will need a smartphone with Google Authenticator installed."
 msgstr "Dvojfaktorové overenie je služba, ktorú poskytuje TrustedCoin.  Používa viacpodpisovú peňaženku, kde vlastníte 2 z 3 kľúčov.  Tretí kľúč je uložený na vzdialenom serveri, ktorý podpisuje transakcie vo vašom mene. Pre používanie tejto služby budete potrebovať smartfón s nainštalovanou aplikáciou Google Authenticator."
 
@@ -2674,9 +2578,6 @@ msgstr "Typ"
 
 msgid "USB Serial"
 msgstr "USB port"
-
-msgid "Ukrainian"
-msgstr "Ukrajinčina"
 
 msgid "Unable to create backup"
 msgstr "Nedá sa vytvoriť záloha"
@@ -2800,9 +2701,6 @@ msgstr "Verzia"
 
 msgid "Video Device"
 msgstr "Videozariadenie"
-
-msgid "Vietnamese"
-msgstr "Vietnamčina"
 
 msgid "View Channel"
 msgstr "Zobraziť kanál"

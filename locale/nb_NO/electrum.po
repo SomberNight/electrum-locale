@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: electrum\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-14 08:25+0000\n"
-"PO-Revision-Date: 2026-02-14 08:26\n"
+"POT-Creation-Date: 2026-02-18 12:59+0000\n"
+"PO-Revision-Date: 2026-02-18 12:59\n"
 "Last-Translator: \n"
 "Language-Team: Norwegian Bokmal\n"
 "Language: nb_NO\n"
@@ -201,9 +201,6 @@ msgstr "Utseende"
 msgid "Apply"
 msgstr "Bruk"
 
-msgid "Arabic"
-msgstr "Arabisk"
-
 msgid ""
 "Are you SURE you want to wipe the device?\n"
 "Your wallet still has bitcoins in it!"
@@ -225,9 +222,6 @@ msgstr "Er du sikker på at du vil fjerne denne transaksjonen og {} underordnede
 
 msgid "Are you sure you want to remove this transaction?"
 msgstr "Er du sikker på at du vil fjerne denne transaksjonen?"
-
-msgid "Armenian"
-msgstr "Armensk"
 
 msgid "At block height: {}"
 msgstr "På blokkhøyde: {}"
@@ -337,9 +331,6 @@ msgstr "Kringkaster transaksjon..."
 msgid "Build Date"
 msgstr "Versjonsdato"
 
-msgid "Bulgarian"
-msgstr "Bulgarsk"
-
 msgid "Bump Fee"
 msgstr "Øk gebyr"
 
@@ -447,12 +438,6 @@ msgstr "Sjekk din {}enhet for å fortsette"
 
 msgid "Checking for updates..."
 msgstr "Ser etter oppdateringer..."
-
-msgid "Chinese Simplified"
-msgstr "Enkel Kinesisk"
-
-msgid "Chinese Traditional"
-msgstr "Tradisjonell Kinesisk"
 
 msgid "Choose a backup file:"
 msgstr "Velg fil for sikkerhetskopi:"

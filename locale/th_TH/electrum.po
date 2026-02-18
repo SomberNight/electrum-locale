@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: electrum\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-14 08:25+0000\n"
-"PO-Revision-Date: 2026-02-14 08:26\n"
+"POT-Creation-Date: 2026-02-18 12:59+0000\n"
+"PO-Revision-Date: 2026-02-18 12:59\n"
 "Last-Translator: \n"
 "Language-Team: Thai\n"
 "Language: th_TH\n"
@@ -140,9 +140,6 @@ msgstr "&Sweep"
 
 msgid "&Tools"
 msgstr "&Tools"
-
-msgid "&Undo"
-msgstr "&Undo"
 
 msgid "&View"
 msgstr "&View"
@@ -285,9 +282,6 @@ msgstr "An unnamed {}"
 msgid "Apply"
 msgstr "Apply"
 
-msgid "Arabic"
-msgstr "Arabic"
-
 msgid ""
 "Are you SURE you want to wipe the device?\n"
 "Your wallet still has bitcoins in it!"
@@ -309,9 +303,6 @@ msgstr "Are you sure you want to remove this transaction and {} child transactio
 
 msgid "Are you sure you want to remove this transaction?"
 msgstr "Are you sure you want to remove this transaction?"
-
-msgid "Armenian"
-msgstr "Armenian"
 
 msgid "At block height: {}"
 msgstr "ที่ความสูงบล็อก: {}"
@@ -420,9 +411,6 @@ msgstr "Broadcasting transaction..."
 
 msgid "Build Date"
 msgstr "Build Date"
-
-msgid "Bulgarian"
-msgstr "Bulgarian"
 
 msgid "Bump Fee"
 msgstr "ค่าธรรมเนียมเพิ่มเติม"
@@ -534,12 +522,6 @@ msgstr "Child Pays for Parent"
 
 msgid "Child pays for parent"
 msgstr "Child Pays for Parent"
-
-msgid "Chinese Simplified"
-msgstr "ภาษาจีนประยุกต์"
-
-msgid "Chinese Traditional"
-msgstr "ภาษาจีนดั้งเดิม"
 
 msgid "Choose Homescreen"
 msgstr "เลือกหน้าจอหลัก"
@@ -755,12 +737,6 @@ msgstr "กำหนดเอง"
 msgid "Custom URL"
 msgstr "URL ที่กำหนดเอง"
 
-msgid "Czech"
-msgstr "ภาษาเช็ก"
-
-msgid "Danish"
-msgstr "ภาษาเดนมาร์ก"
-
 msgid "Dark"
 msgstr "โหมดมืด"
 
@@ -791,9 +767,6 @@ msgstr "ปิดการเชื่อมต่อ"
 msgid "Do you want to create your first channel?"
 msgstr "ต้องการสร้างแชนแนลแรกของคุณใช่หรือไม่?"
 
-msgid "Dutch"
-msgstr "ดัตช์"
-
 msgid "Enable"
 msgstr "เปิดใช้งาน"
 
@@ -823,9 +796,6 @@ msgstr "การเข้ารหัสและถอดรหัสไม่
 
 msgid "End"
 msgstr "สิ้นสุด"
-
-msgid "English"
-msgstr "อังกฤษ"
 
 msgid "Enter PIN"
 msgstr "ป้อน PIN"
@@ -893,12 +863,6 @@ msgstr "รหัสผ่าน:"
 
 msgid "Please enter your password"
 msgstr "โปรดป้อนรหัสผ่านของคุณ"
-
-msgid "Portuguese"
-msgstr "ภาษาโปรตุเกส"
-
-msgid "Portuguese (Brazil)"
-msgstr "ภาษาโปรตุเกส (บราซิล)"
 
 msgid "Proxy"
 msgstr "พร็อกซี"

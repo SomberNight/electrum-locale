@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: electrum\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-14 08:25+0000\n"
-"PO-Revision-Date: 2026-02-14 08:26\n"
+"POT-Creation-Date: 2026-02-18 12:59+0000\n"
+"PO-Revision-Date: 2026-02-18 12:59\n"
 "Last-Translator: \n"
 "Language-Team: Turkish\n"
 "Language: tr_TR\n"
@@ -336,9 +336,6 @@ msgstr "Görünüm"
 msgid "Apply"
 msgstr "Uygula"
 
-msgid "Arabic"
-msgstr "Arapça"
-
 msgid ""
 "Are you SURE you want to wipe the device?\n"
 "Your wallet still has bitcoins in it!"
@@ -363,9 +360,6 @@ msgstr "Arşive eklenmiş bu transferi silmek istediğinizden emin misiniz?"
 
 msgid "Are you sure you want to sign this transaction?"
 msgstr "Bu işlemi imzalamak istediğinize emin misiniz?"
-
-msgid "Armenian"
-msgstr "Ermenice"
 
 msgid "At block height: {}"
 msgstr "{}. Blokta"
@@ -469,9 +463,6 @@ msgstr "Transfer işlemi ağda yayımlanıyor..."
 msgid "Build Date"
 msgstr "Yapım Tarihi"
 
-msgid "Bulgarian"
-msgstr "Bulgarca"
-
 msgid "Bump Fee"
 msgstr "İşlem ücretini artır"
 
@@ -564,12 +555,6 @@ msgstr "Ebeveyn için Çocuk Ödeme"
 
 msgid "Child pays for parent"
 msgstr "Ebeveyn için çocuk ödeme"
-
-msgid "Chinese Simplified"
-msgstr "Basitleştirilmiş Çince"
-
-msgid "Chinese Traditional"
-msgstr "Geleneksel Çince"
 
 msgid "Choose Hardware Device"
 msgstr "Donanım Cihazı Seçin"
@@ -796,12 +781,6 @@ msgstr "Özel"
 msgid "Custom URL"
 msgstr "Özel URL"
 
-msgid "Czech"
-msgstr "Çekçe"
-
-msgid "Danish"
-msgstr "Danimarkaca"
-
 msgid "Dark"
 msgstr "Koyuu"
 
@@ -904,9 +883,6 @@ msgstr "Devam etmek istiyor musunuz?"
 msgid "Don't show this again."
 msgstr "Bunu bir daha gösterme."
 
-msgid "Dutch"
-msgstr "Flemenkçe"
-
 msgid "ETA"
 msgstr "ETA, Hesaplanan Varış Zamanı :"
 
@@ -997,9 +973,6 @@ msgstr "Şifrele"
 msgid "End"
 msgstr "Son"
 
-msgid "English"
-msgstr "İngilizce"
-
 msgid "Enter PIN"
 msgstr "PIN'i girin"
 
@@ -1056,9 +1029,6 @@ msgstr "Sunucuya bağlanmada hata"
 
 msgid "Error opening file"
 msgstr "Dosya açılırken sorun çıktı"
-
-msgid "Esperanto"
-msgstr "Esperantoca"
 
 msgid "Estimate"
 msgstr "Tahmini"
@@ -1162,9 +1132,6 @@ msgstr "Parayı Dondur"
 msgid "Freeze Coins"
 msgstr "Paraları Dondur"
 
-msgid "French"
-msgstr "Fransızca"
-
 msgid "From"
 msgstr "Gönderen"
 
@@ -1174,14 +1141,8 @@ msgstr "%d imzalayıcıdan"
 msgid "Frozen"
 msgstr "Donmuş"
 
-msgid "German"
-msgstr "Almanca"
-
 msgid "Google Authenticator code:"
 msgstr "Google Kimlik Doğrulama"
-
-msgid "Greek"
-msgstr "Yunanca"
 
 msgid "Hardware successfully unlocked"
 msgstr "Donanımın kilidi başarılı bir şekilde açıldı"
@@ -1197,9 +1158,6 @@ msgstr "Geçmiş"
 
 msgid "Homescreen"
 msgstr "Ana Ekran"
-
-msgid "Hungarian"
-msgstr "Macarca"
 
 msgid "I already have a seed"
 msgstr "Zaten bir tohumum var"
@@ -1251,9 +1209,6 @@ msgstr "Yanlış parola girildi."
 
 msgid "Increase fee"
 msgstr "İşlem ücretini artır"
-
-msgid "Indonesian"
-msgstr "Endonezya dili"
 
 msgid "Info"
 msgstr "Bilgi"
@@ -1321,26 +1276,14 @@ msgstr "Geçersiz fatura biçemi"
 msgid "Invoices"
 msgstr "Faturalar"
 
-msgid "Italian"
-msgstr "İtalyanca"
-
-msgid "Japanese"
-msgstr "Japonca"
-
 msgid "Keyboard shortcut: type \"!\" to send all your coins."
 msgstr "Klavye kısayolu: Tüm paraları göndermek için \"!\""
-
-msgid "Kyrgyz"
-msgstr "Kırgızca"
 
 msgid "Label"
 msgstr "Etiket"
 
 msgid "Language"
 msgstr "Dil"
-
-msgid "Latvian"
-msgstr "Leton Dili"
 
 msgid "Leave this field empty if you want to disable encryption."
 msgstr "Şifrelemeyi devre dışı bırakmak istiyorsanız bu kutuyu boş bırakın."
@@ -1576,9 +1519,6 @@ msgstr "Ödeme gönderildi"
 msgid "Payment sent."
 msgstr "Ödeme gönderildi."
 
-msgid "Persian"
-msgstr "Farsça"
-
 msgid "Please confirm"
 msgstr "Lütfen onaylayın"
 
@@ -1602,15 +1542,6 @@ msgstr "Lütfen bekleyin"
 
 msgid "Please wait..."
 msgstr "Lütfen bekleyin..."
-
-msgid "Polish"
-msgstr "Polonya dili"
-
-msgid "Portuguese"
-msgstr "Portekizce"
-
-msgid "Portuguese (Brazil)"
-msgstr "Portekizce (Brezilya)"
 
 msgid "Preferences"
 msgstr "Ayarlar"
@@ -1732,12 +1663,6 @@ msgstr "Yeniden dene"
 msgid "Right side"
 msgstr "Sağ taraf"
 
-msgid "Romanian"
-msgstr "Romence"
-
-msgid "Russian"
-msgstr "Rusça"
-
 msgid "Save"
 msgstr "Kayıt"
 
@@ -1858,12 +1783,6 @@ msgstr "İmzalı"
 msgid "Signing transaction..."
 msgstr "İşlem imzalanıyor..."
 
-msgid "Slovak"
-msgstr "Slovakça"
-
-msgid "Slovenian"
-msgstr "Slovakça"
-
 msgid "Some inputs use non-default sighash flags, which might affect the fee."
 msgstr "Bazı girdiler standart olmayan sighash etiketi içeriyor. Bu durum, şu an yapmak istediğiniz transferi etkileyerek gereğinden fazla komisyon ödemenize neden olabilir."
 
@@ -1872,9 +1791,6 @@ msgstr "Üzgünüm!"
 
 msgid "Source"
 msgstr "Kaynak"
-
-msgid "Spanish"
-msgstr "İspanyolca"
 
 msgid "Spend only confirmed coins"
 msgstr "Sadece onaylanan madeni paraları harca"
@@ -1918,9 +1834,6 @@ msgstr "Takas iptal edildi"
 msgid "Swap failed!"
 msgstr "Takas başarısız!"
 
-msgid "Swedish"
-msgstr "İsveççe"
-
 msgid "Sweep"
 msgstr "Temizle"
 
@@ -1929,9 +1842,6 @@ msgstr "Gizli anahtarı temizle"
 
 msgid "Synchronizing..."
 msgstr "Senkronize ediliyor.."
-
-msgid "Tamil"
-msgstr "Tamil dili"
 
 msgid "Target"
 msgstr "Hedef"
@@ -1944,9 +1854,6 @@ msgstr "Metin panoya kopyalandı"
 
 msgid "Text copied to clipboard"
 msgstr "Metin panoya kopyalandı"
-
-msgid "Thai"
-msgstr "Tay dili"
 
 msgid "The amount of fee can be decided freely by the sender. However, transactions with low fees take more time to be processed."
 msgstr "İşlem ücretinin miktarı gönderici tarafından serbestçe ayarlanabilir. Fakat, düşük ücretli işlemler işlemek için daha fazla zaman gerektiriyor."
@@ -2089,9 +1996,6 @@ msgstr "Güvenilir koin"
 msgid "Try to explain not only what the bug is, but how it occurs."
 msgstr "Sadece hatanın ne olduğunu değil, nasıl olduğunu da açıklamaya çalışın."
 
-msgid "Turkish"
-msgstr "Türkçe"
-
 msgid "Tx"
 msgstr "İşlem"
 
@@ -2103,9 +2007,6 @@ msgstr "Tx çıktısı #{}"
 
 msgid "Type"
 msgstr "Tür"
-
-msgid "Ukrainian"
-msgstr "Ukraynaca"
 
 msgid "Unable to create backup"
 msgstr "yedekleme oluşturulamıyor"
@@ -2181,9 +2082,6 @@ msgstr "Sürüm"
 
 msgid "Video Device"
 msgstr "Video Aygıtı"
-
-msgid "Vietnamese"
-msgstr "Vietnam Dili"
 
 msgid "View Channel"
 msgstr "Kanalı Göster"

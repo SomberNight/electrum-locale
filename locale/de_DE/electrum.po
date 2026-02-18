@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: electrum\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-14 08:25+0000\n"
-"PO-Revision-Date: 2026-02-14 08:25\n"
+"POT-Creation-Date: 2026-02-18 12:59+0000\n"
+"PO-Revision-Date: 2026-02-18 12:59\n"
 "Last-Translator: \n"
 "Language-Team: German\n"
 "Language: de_DE\n"
@@ -482,9 +482,6 @@ msgstr "Darstellung"
 msgid "Apply"
 msgstr "Anwenden"
 
-msgid "Arabic"
-msgstr "Arabisch"
-
 msgid ""
 "Are you SURE you want to wipe the device?\n"
 "Your wallet still has bitcoins in it!"
@@ -524,9 +521,6 @@ msgstr "Wollen Sie diese Transaktion wirklich löschen?"
 
 msgid "Are you sure you want to sign this transaction?"
 msgstr "Sind Sie sicher, dass Sie diese Transaktion signieren möchten?"
-
-msgid "Armenian"
-msgstr "Armenisch"
 
 msgid "At block height: {}"
 msgstr "Auf Blockhöhe: {}"
@@ -716,9 +710,6 @@ msgstr "Budget [{}]"
 
 msgid "Build Date"
 msgstr "Erstellungsdatum"
-
-msgid "Bulgarian"
-msgstr "Bulgarisch"
 
 msgid "Bump Fee"
 msgstr "Gebühr erhöhen"
@@ -916,12 +907,6 @@ msgstr "Child-Pays-For-Parent"
 
 msgid "Child pays for parent"
 msgstr "Child-Pays-For-Parent"
-
-msgid "Chinese Simplified"
-msgstr "Chinesisch (vereinfacht)"
-
-msgid "Chinese Traditional"
-msgstr "Chinesisch (traditionell)"
 
 msgid "Choose Hardware Device"
 msgstr "Hardware -Gerät wählen"
@@ -1389,17 +1374,11 @@ msgstr "Benutzerdefinierte URL"
 msgid "Custom secret"
 msgstr "Eigenes Geheimnis"
 
-msgid "Czech"
-msgstr "Tschechisch"
-
 msgid "Daily Satoshi Budget (optional):"
 msgstr "Tägliches Satoshi Budget (optional):"
 
 msgid "Danger! This transaction uses non-default sighash flags!"
 msgstr "Gefahr! Diese Transaktion verwendet nicht standardmäßige Sighash-Flags!"
-
-msgid "Danish"
-msgstr "Dänisch"
 
 msgid "Dark"
 msgstr "Dunkel"
@@ -1594,9 +1573,6 @@ msgstr "Doppelte Hauptschlüssel"
 msgid "During that time, funds will not be recoverable from your seed, and may be lost if you lose your device."
 msgstr "Während dieser Zeit kann das Guthaben nicht mithilfe Ihres Seeds wiederhergestellt werden und kann verloren gehen, wenn Sie Ihr Gerät verlieren."
 
-msgid "Dutch"
-msgstr "Niederländisch"
-
 msgid "Dynamic fee estimates not available"
 msgstr "Dynamische Gebührenschätzung nicht verfügbar"
 
@@ -1752,9 +1728,6 @@ msgstr "Eine Ver- oder Entschlüsselung ist mit {} nicht implementiert"
 
 msgid "End"
 msgstr "Ende"
-
-msgid "English"
-msgstr "Englisch"
 
 msgid "Enter NWC connection parameters"
 msgstr "Geben Sie die NWC Verbindungsparameter ein"
@@ -1931,9 +1904,6 @@ msgstr "Fehler beim Synchronisieren der Beschreibungen"
 
 msgid "Error: Account discovery failed."
 msgstr "Fehler: Kontoerkennung fehlgeschlagen."
-
-msgid "Esperanto"
-msgstr "Esperanto"
 
 msgid "Estimate"
 msgstr "Schätzung"
@@ -2215,9 +2185,6 @@ msgstr "Zum empfangen sperren"
 msgid "Freeze for sending"
 msgstr "Zum senden sperren"
 
-msgid "French"
-msgstr "Französisch"
-
 msgid "From"
 msgstr "Von"
 
@@ -2257,9 +2224,6 @@ msgstr "Die Gelder in diesem Kanal können nicht mithilfe eines Seeds wiederherg
 msgid "Generate a new random wallet"
 msgstr "Neue zufällige Geldbörse generieren"
 
-msgid "German"
-msgstr "Deutsch"
-
 msgid "Get wallet address"
 msgstr "Wallet-Adresse erhalten"
 
@@ -2268,9 +2232,6 @@ msgstr "Gehen Sie online, um die Geldbörse-Erstellung abzuschließen"
 
 msgid "Google Authenticator code:"
 msgstr "Google-Authenticator-Code:"
-
-msgid "Greek"
-msgstr "Griechisch"
 
 msgid "HTLCs in current commitment transaction"
 msgstr "HTLCs in aktueller Zusage-Transaktion"
@@ -2316,9 +2277,6 @@ msgstr "Allerdings generieren wir keine BIP39-Seeds, da sie nicht unsere Sicherh
 
 msgid "However, we do not generate SLIP39 seeds."
 msgstr "Wir generieren jedoch keine SLIP39-Seeds."
-
-msgid "Hungarian"
-msgstr "Ungarisch"
 
 msgid "I Accept"
 msgstr "Ich akzeptiere"
@@ -2523,9 +2481,6 @@ msgstr "Gebühr erhöhen"
 msgid "Increase your transaction's fee to improve its position in mempool."
 msgstr "Erhöhen Sie die Transaktionsgebühr um die Position im Mempool zu verbessern."
 
-msgid "Indonesian"
-msgstr "Indonesisch"
-
 msgid "Info"
 msgstr "Info"
 
@@ -2703,9 +2658,6 @@ msgstr "Es kann in eine andere Geldbörse mit demselben Seed importiert werden."
 msgid "It shows a channel that was opened with another instance of this wallet"
 msgstr "Zeigt einen Kanal, der mit einer anderen Instanz dieser Geldbörse erstellt wurde"
 
-msgid "Italian"
-msgstr "Italienisch"
-
 msgid "Its password will be required to sign transactions."
 msgstr "Das Passwort wird zum Unterzeichnen von Transaktionen benötigt werden."
 
@@ -2720,9 +2672,6 @@ msgstr "JSON-Datei (*.json)"
 
 msgid "Jade Status"
 msgstr "Jade Status"
-
-msgid "Japanese"
-msgstr "Japanisch"
 
 msgid "Join inputs/outputs"
 msgstr "Eingänge/Ausgänge verbinden"
@@ -2748,9 +2697,6 @@ msgstr "Schlüsselspeicher in dieser Wallet nicht gefunden"
 msgid "Keystore type"
 msgstr "Schlüsselspeichertyp"
 
-msgid "Kyrgyz"
-msgstr "Kirgisisch"
-
 msgid "Label"
 msgstr "Beschreibung"
 
@@ -2771,9 +2717,6 @@ msgstr "Zuletzt gesehen"
 
 msgid "Latest version: {}"
 msgstr "Neueste Version: {}"
-
-msgid "Latvian"
-msgstr "Lettisch"
 
 msgid "Leave this field empty if you want to disable encryption."
 msgstr "Lassen Sie das Feld leer, um die Verschlüsselung zu deaktivieren."
@@ -3211,9 +3154,6 @@ msgstr "Knoten"
 msgid "None"
 msgstr "Keine Angabe"
 
-msgid "Norwegian Bokmal"
-msgstr "Norwegisch (Bokmål)"
-
 msgid "Nostr"
 msgstr "Nostr"
 
@@ -3541,9 +3481,6 @@ msgstr "Ausstehender Submarine-Swap"
 msgid "Performing swap..."
 msgstr "Tausch wird durchgeführt..."
 
-msgid "Persian"
-msgstr "Persisch"
-
 msgid "Please briefly describe what led to the error (optional):"
 msgstr "Bitte beschreiben Sie kurz, was zum Fehler geführt hat (optional):"
 
@@ -3645,15 +3582,6 @@ msgstr "Erweiterung bereits installiert."
 
 msgid "Plugins"
 msgstr "Erweiterungen"
-
-msgid "Polish"
-msgstr "Polnisch"
-
-msgid "Portuguese"
-msgstr "Portugiesisch"
-
-msgid "Portuguese (Brazil)"
-msgstr "Portugiesisch (Brasilien)"
 
 msgid "Position in mempool: {}"
 msgstr "Position im Mempool: {}"
@@ -4024,14 +3952,8 @@ msgstr "Revealer die mit einer 0 beginnen sind aufgrund einer Sicherheitslücke 
 msgid "Right side"
 msgstr "Rechte Seite"
 
-msgid "Romanian"
-msgstr "Rumänisch"
-
 msgid "Routing Hints"
 msgstr "Routing-Hinweise"
-
-msgid "Russian"
-msgstr "Russisch"
 
 msgid "SLIP39 seed"
 msgstr "SLIP39-Seed"
@@ -4363,12 +4285,6 @@ msgstr "Single Seed (BIP39)"
 msgid "Size: {} {}"
 msgstr "Größe: {} {}"
 
-msgid "Slovak"
-msgstr "Slowakisch"
-
-msgid "Slovenian"
-msgstr "Slowenisch"
-
 msgid "Some coins are frozen: {} (can be unfrozen in the Addresses or in the Coins tab)"
 msgstr "Einige Coins sind eingefroren: {} (können in den Adressen oder auf der Registerkarte \"Coins\" wieder aufgetaut werden)"
 
@@ -4395,9 +4311,6 @@ msgstr "Entschuldigung, aber wir konnten nicht nach Updates suchen. Bitte versuc
 
 msgid "Source"
 msgstr "Quelle"
-
-msgid "Spanish"
-msgstr "Spanisch"
 
 msgid "Spend only confirmed coins"
 msgstr "Nur bestätigte Coins ausgeben"
@@ -4510,9 +4423,6 @@ msgstr "Der Swap-Server ist aktiv"
 msgid "Swapping lightning funds for onchain funds will increase your capacity to receive lightning payments."
 msgstr "Durch den Tausch von Lightning-Guthaben gegen On-Chain-Guthaben erhöhen Sie Ihre Fähigkeit, Lightning-Zahlungen zu erhalten."
 
-msgid "Swedish"
-msgstr "Schwedisch"
-
 msgid "Sweep"
 msgstr "Entleeren"
 
@@ -4527,9 +4437,6 @@ msgstr "Wechseln Sie zwischen Text- und QR-Code-Ansicht"
 
 msgid "Synchronizing..."
 msgstr "Synchronisiere..."
-
-msgid "Tamil"
-msgstr "Tamilisch"
 
 msgid "Target"
 msgstr "Ziel"
@@ -4557,9 +4464,6 @@ msgstr "Text in Zwischenablage kopiert"
 
 msgid "Text copied to clipboard"
 msgstr "Der Text wurde in die Zwischenablage kopiert"
-
-msgid "Thai"
-msgstr "Thai"
 
 msgid "Thanks for reporting this issue!"
 msgstr "Danke für das Melden des Fehlers"
@@ -5207,9 +5111,6 @@ msgstr "Versuchen Sie, nicht nur den Fehler zu erklären, sondern auch die Begle
 msgid "Try to raise your transaction fee, or use a server with a lower relay fee."
 msgstr "Versuchen Sie die Transaktionsgebühr zu erhöhen oder wechseln Sie zu einem Server mit einer geringeren Mindestgebühr."
 
-msgid "Turkish"
-msgstr "Türkisch"
-
 msgid "Two-factor authentication is a service provided by TrustedCoin.  It uses a multi-signature wallet, where you own 2 of 3 keys.  The third key is stored on a remote server that signs transactions on your behalf.  To use this service, you will need a smartphone with Google Authenticator installed."
 msgstr "Die Zwei-Faktor Authentifizierung wird von TrustedCoin bereitgestellt. Dabei wird eine Multisignaturbörse verwendet, bei der Sie 2 der 3 Schlüssel besitzen. Der dritte Schlüssel wird auf einem Server gespeichert und signiert Transaktionen für Sie. Um den Dienst zu nutzen, benötigen Sie ein Smartphone mit der Google-Authenticator App."
 
@@ -5230,9 +5131,6 @@ msgstr "Typ"
 
 msgid "USB Serial"
 msgstr "USB-Seriell"
-
-msgid "Ukrainian"
-msgstr "Ukrainisch"
 
 msgid "Unable to create backup"
 msgstr "Sicherung konnte nicht erstellt werden"
@@ -5431,9 +5329,6 @@ msgstr "Sehr stark"
 
 msgid "Video Device"
 msgstr "Videogerät"
-
-msgid "Vietnamese"
-msgstr "Vietnamesisch"
 
 msgid "View"
 msgstr "Betrachten"
@@ -6263,10 +6158,6 @@ msgstr "MIT Lizenz"
 msgctxt "About|"
 msgid "Homepage"
 msgstr "Website"
-
-msgctxt "About|"
-msgid "<a href=\"https://electrum.org\">https://electrum.org</a>"
-msgstr "<a href=\"https://electrum.org\">https://electrum.org</a>"
 
 msgctxt "About|"
 msgid "Developers"

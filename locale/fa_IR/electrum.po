@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: electrum\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-14 08:25+0000\n"
-"PO-Revision-Date: 2026-02-14 08:26\n"
+"POT-Creation-Date: 2026-02-18 12:59+0000\n"
+"PO-Revision-Date: 2026-02-18 12:59\n"
 "Last-Translator: \n"
 "Language-Team: Persian\n"
 "Language: fa_IR\n"
@@ -87,9 +87,6 @@ msgstr "لود کردن تراکنش"
 msgid "&Network"
 msgstr "شبکه"
 
-msgid "&New contact"
-msgstr "&New contact"
-
 msgid "&New/Restore"
 msgstr "جدید/بازگردانی"
 
@@ -120,9 +117,6 @@ msgstr "خروج"
 msgid "&Recently open"
 msgstr "به تازگی باز شده"
 
-msgid "&Redo"
-msgstr "Sjesonic"
-
 msgid "&Report Bug"
 msgstr "گزارش مشکلات"
 
@@ -144,9 +138,6 @@ msgstr "رفت و برگشت"
 msgid "&Tools"
 msgstr "ابزارها"
 
-msgid "&Undo"
-msgstr "Rastakh8888\n"
-
 msgid "&View"
 msgstr "مشاهده"
 
@@ -155,18 +146,6 @@ msgstr "کیف پول"
 
 msgid "(Touch {} of {})"
 msgstr "لمس کردن"
-
-msgid "(feerate: {})"
-msgstr "(feerate: {})"
-
-msgid "({} are frozen)"
-msgstr "RST-666"
-
-msgid "({}% of amount)"
-msgstr "Rastakhmind"
-
-msgid "- a Lightning invoice"
-msgstr "mbtc1970"
 
 msgid "1 day"
 msgstr "1 روز"
@@ -182,9 +161,6 @@ msgstr "ده دقیقه"
 
 msgid "2. Align your Revealer borderlines to the dashed lines on the top and left."
 msgstr "کادر رویلر را در بالا و سمت چب بر روی خطوط، نقطه چین تنظیم کنید."
-
-msgid "2fa fee: {} (for the next batch of transactions)"
-msgstr "2fa fee: {} (for the next batch of transactions)"
 
 msgid "3. Press slightly the Revealer against the paper and read the numbers that best match on the opposite sides. "
 msgstr "3. نشان دهنده را روی کاغذ کمی فشار دهید و اعدادی را که در دو طرف مقابل با هم مطابقت دارند بخوانید."
@@ -282,9 +258,6 @@ msgstr "یک {} بی نام"
 msgid "Apply"
 msgstr "اعمال"
 
-msgid "Arabic"
-msgstr "عربی"
-
 msgid ""
 "Are you SURE you want to wipe the device?\n"
 "Your wallet still has bitcoins in it!"
@@ -306,9 +279,6 @@ msgstr "آیا مطمئن هستید که می‌خواهید این تراکن�
 
 msgid "Are you sure you want to remove this transaction?"
 msgstr "آیا مطمئن هستید که می‌خواهید این تراکنش را پاک کنید؟"
-
-msgid "Armenian"
-msgstr "ارمنی"
 
 msgid "At block height: {}"
 msgstr "در ارتفاع بلوک: {}"
@@ -397,9 +367,6 @@ msgstr "انتشار تراکنش..."
 msgid "Build Date"
 msgstr "تاریخ ساخت"
 
-msgid "Bulgarian"
-msgstr "بلغارستانی"
-
 msgid "Bump Fee"
 msgstr "هزینه Bump"
 
@@ -486,12 +453,6 @@ msgstr "افزایش کارمزد (CPFP)"
 
 msgid "Child pays for parent"
 msgstr "افزایش کارمزد (CPFP)"
-
-msgid "Chinese Simplified"
-msgstr "چینی ساده‌شده"
-
-msgid "Chinese Traditional"
-msgstr "چینی سنتی"
 
 msgid "Choose a backup file:"
 msgstr "یک فایل پشتیبال انتخاب کنید:"
@@ -671,12 +632,6 @@ msgstr "نرخ فعلی"
 msgid "Custom URL"
 msgstr "URL  سفارشی"
 
-msgid "Czech"
-msgstr "کشور چک"
-
-msgid "Danish"
-msgstr "دانمارکی"
-
 msgid "Dark"
 msgstr "تاریک"
 
@@ -817,9 +772,6 @@ msgstr "رمزنگاری"
 
 msgid "Encrypt/decrypt Message"
 msgstr "رمزگزاری / رمزگشایی پیام"
-
-msgid "English"
-msgstr "انگلیسی"
 
 msgid "Error"
 msgstr "خطا"

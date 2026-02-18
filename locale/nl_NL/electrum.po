@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: electrum\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-14 08:25+0000\n"
-"PO-Revision-Date: 2026-02-14 08:25\n"
+"POT-Creation-Date: 2026-02-18 12:59+0000\n"
+"PO-Revision-Date: 2026-02-18 12:59\n"
 "Last-Translator: \n"
 "Language-Team: Dutch\n"
 "Language: nl_NL\n"
@@ -388,13 +388,6 @@ msgstr "Alle types"
 msgid "All your addresses are used in pending requests."
 msgstr "Al je adressen zijn in gebruik door wachtende betaalverzoeken."
 
-msgid ""
-"Allows partial updates to be written to disk for the wallet DB.\n"
-"If disabled, the full wallet file is written to disk for every change. Experimental."
-msgstr ""
-"Allows partial updates to be written to disk for the wallet DB.\n"
-"If disabled, the full wallet file is written to disk for every change. Experimental."
-
 msgid "Already up to date"
 msgstr "Reeds up-to-date"
 
@@ -476,9 +469,6 @@ msgstr "Weergave"
 msgid "Apply"
 msgstr "Toepassen"
 
-msgid "Arabic"
-msgstr "Arabisch"
-
 msgid ""
 "Are you SURE you want to wipe the device?\n"
 "Your wallet still has bitcoins in it!"
@@ -518,9 +508,6 @@ msgstr "Weet u zeker dat u deze transactie wilt verwijderen?"
 
 msgid "Are you sure you want to sign this transaction?"
 msgstr "Weet je zeker dat je deze transactie wilt ondertekenen?"
-
-msgid "Armenian"
-msgstr "Armeens"
 
 msgid "At block height: {}"
 msgstr "Op blokhoogte: {}"
@@ -703,9 +690,6 @@ msgstr "Budget [{}]"
 
 msgid "Build Date"
 msgstr "Versiedatum"
-
-msgid "Bulgarian"
-msgstr "Bulgaars"
 
 msgid "Bump Fee"
 msgstr "Transactievergoeding verhogen"
@@ -894,12 +878,6 @@ msgstr "Kind-betaalt-voor-ouder"
 
 msgid "Child pays for parent"
 msgstr "Kind-betaalt-voor-ouder"
-
-msgid "Chinese Simplified"
-msgstr "Chinees (vereenvoudigd)"
-
-msgid "Chinese Traditional"
-msgstr "Chinees (traditioneel)"
 
 msgid "Choose Hardware Device"
 msgstr "Kies Hardware Apparaat"
@@ -1355,17 +1333,11 @@ msgstr "Aangepaste URL"
 msgid "Custom secret"
 msgstr "Aangepast geheim"
 
-msgid "Czech"
-msgstr "Tjechisch"
-
 msgid "Daily Satoshi Budget (optional):"
 msgstr "Dagelijks Satoshi Budget (optioneel):"
 
 msgid "Danger! This transaction uses non-default sighash flags!"
 msgstr "Gevaar! Deze transactie gebruikt ongewone sighash vlaggen!"
-
-msgid "Danish"
-msgstr "Deens"
 
 msgid "Dark"
 msgstr "Donker"
@@ -1557,9 +1529,6 @@ msgstr "Dubbele moedersleutels"
 msgid "During that time, funds will not be recoverable from your seed, and may be lost if you lose your device."
 msgstr "Gedurende die tijd is het saldo niet herstelbaar vanuit de seed en kan verloren gaan als je je apparaaat verliest."
 
-msgid "Dutch"
-msgstr "Nederlands"
-
 msgid "Dynamic fee estimates not available"
 msgstr "Dynamische vergoeding verwachtingen niet beschikbaar"
 
@@ -1583,9 +1552,6 @@ msgstr "Bewerk vergoeding handmatig"
 
 msgid "Edit {}"
 msgstr "Wijzigen {}"
-
-msgid "Electrum"
-msgstr "Electrum"
 
 msgid "Electrum Bitcoin Wallet"
 msgstr "Electrum Bitcoin Portemonnee"
@@ -1715,9 +1681,6 @@ msgstr "Versleuteling en ontsleuteling zijn niet geïmplementeerd door {}"
 
 msgid "End"
 msgstr "Eind"
-
-msgid "English"
-msgstr "Engels"
 
 msgid "Enter NWC connection parameters"
 msgstr "Voer NWC verbindingsgegevens in"
@@ -1891,9 +1854,6 @@ msgstr "Fout bij synchroniseren van labels"
 
 msgid "Error: Account discovery failed."
 msgstr "Fout: Account ontdekken mislukt."
-
-msgid "Esperanto"
-msgstr "Esperanto"
 
 msgid "Estimate"
 msgstr "Schatting"
@@ -2157,9 +2117,6 @@ msgstr "Bevriezen voor ontvangen"
 msgid "Freeze for sending"
 msgstr "Bevriezen voor versturen"
 
-msgid "French"
-msgstr "Frans"
-
 msgid "From"
 msgstr "Van"
 
@@ -2199,9 +2156,6 @@ msgstr "Saldo in dit kanaal is niet herstelbaar vanuit de seed totdat het terugg
 msgid "Generate a new random wallet"
 msgstr "Een nieuwe willekeurige portemonnee genereren"
 
-msgid "German"
-msgstr "Duits"
-
 msgid "Get wallet address"
 msgstr "Verkrijg portemonnee adres"
 
@@ -2210,9 +2164,6 @@ msgstr "Ga on-line om de portemonnee te completeren"
 
 msgid "Google Authenticator code:"
 msgstr "Google Authenticator-code:"
-
-msgid "Greek"
-msgstr "Grieks"
 
 msgid "HTLCs in current commitment transaction"
 msgstr "HTLCs in de huidige inzettransactie"
@@ -2258,9 +2209,6 @@ msgstr "Wij genereren echter geen BIP39-seeds, omdat deze niet aan onze veilighe
 
 msgid "However, we do not generate SLIP39 seeds."
 msgstr "Echter, wij genereren geen SLIP39 seeds."
-
-msgid "Hungarian"
-msgstr "Hongaars"
 
 msgid "I Accept"
 msgstr "Ik Accepteer"
@@ -2441,9 +2389,6 @@ msgstr "Transactievergoeding verhogen"
 msgid "Increase your transaction's fee to improve its position in mempool."
 msgstr "Verhoog de transactievergoeding van deze transactie om de positie in de mempool te verbeteren."
 
-msgid "Indonesian"
-msgstr "Indonesisch"
-
 msgid "Info"
 msgstr "Info"
 
@@ -2606,17 +2551,11 @@ msgstr "Je kunt het importeren in een andere portemonnee met dezelfde seed."
 msgid "It shows a channel that was opened with another instance of this wallet"
 msgstr "Het toont een kanaal dat geopend was met een andere instatie van deze portemonnee"
 
-msgid "Italian"
-msgstr "Italiaans"
-
 msgid "JSON files (*.json)"
 msgstr "JSON bestanden (*.json)"
 
 msgid "Jade Status"
 msgstr "Jade Status"
-
-msgid "Japanese"
-msgstr "Japans"
 
 msgid "Join inputs/outputs"
 msgstr "Inputs/outputs samenvoegen"
@@ -2642,9 +2581,6 @@ msgstr "Sleutelopslag niet gevonden in deze portemonnee"
 msgid "Keystore type"
 msgstr "Sleutelopslagtype"
 
-msgid "Kyrgyz"
-msgstr "Kirgizisch"
-
 msgid "Label"
 msgstr "Label"
 
@@ -2665,9 +2601,6 @@ msgstr "Laatst gezien"
 
 msgid "Latest version: {}"
 msgstr "Nieuwste versie: {}"
-
-msgid "Latvian"
-msgstr "Lets"
 
 msgid "Leave this field empty if you want to disable encryption."
 msgstr "Laat dit veld leeg als u versleuteling wilt uitschakelen."
@@ -3075,9 +3008,6 @@ msgstr "Nodes"
 msgid "None"
 msgstr "Geen"
 
-msgid "Norwegian Bokmal"
-msgstr "Noors Bokmal"
-
 msgid "Nostr"
 msgstr "Nostr"
 
@@ -3378,9 +3308,6 @@ msgstr "Lopende submarine swap"
 msgid "Performing swap..."
 msgstr "Uitvoeren swap..."
 
-msgid "Persian"
-msgstr "Perzisch"
-
 msgid "Please briefly describe what led to the error (optional):"
 msgstr "Beschrijf kort wat leidde tot de fout (optioneel):"
 
@@ -3479,15 +3406,6 @@ msgstr "Plugin al geïnstalleerd"
 
 msgid "Plugins"
 msgstr "Plugins"
-
-msgid "Polish"
-msgstr "Pools"
-
-msgid "Portuguese"
-msgstr "Portugees"
-
-msgid "Portuguese (Brazil)"
-msgstr "Portugees (Brazilië)"
 
 msgid "Position in mempool: {}"
 msgstr "Positie in mempool: {}"
@@ -3822,14 +3740,8 @@ msgstr "Revealers beginnend met 0 zijn niet veilig vanwege een kwetsbaarheid."
 msgid "Right side"
 msgstr "Rechterzijde"
 
-msgid "Romanian"
-msgstr "Roemeens"
-
 msgid "Routing Hints"
 msgstr "Route hints"
-
-msgid "Russian"
-msgstr "Russisch"
 
 msgid "SLIP39 seed"
 msgstr "SLIP39-seed"
@@ -4146,12 +4058,6 @@ msgstr "Enkele seed (BIP39)"
 msgid "Size: {} {}"
 msgstr "Grootte: {} {}"
 
-msgid "Slovak"
-msgstr "Slowaaks"
-
-msgid "Slovenian"
-msgstr "Sloveens"
-
 msgid "Some coins are frozen: {} (can be unfrozen in the Addresses or in the Coins tab)"
 msgstr "Sommige munten zijn bevroren: {} (kunnen vrijgegeven worden in de Adressen of Munten tab)"
 
@@ -4178,9 +4084,6 @@ msgstr "Sorry, maar we konden niet controleren op updates. Probeer het later opn
 
 msgid "Source"
 msgstr "Bron"
-
-msgid "Spanish"
-msgstr "Spaans"
 
 msgid "Spend only confirmed coins"
 msgstr "Alleen bevestigde munten uitgeven"
@@ -4263,9 +4166,6 @@ msgstr "Swap server is actief"
 msgid "Swapping lightning funds for onchain funds will increase your capacity to receive lightning payments."
 msgstr "Een swap van Lightning saldo naar on-chain saldo vergroot de capaciteit voor het ontvangen van Lightning betalingen."
 
-msgid "Swedish"
-msgstr "Zweeds"
-
 msgid "Sweep"
 msgstr "Leegvegen"
 
@@ -4280,9 +4180,6 @@ msgstr "Wissel tussen tekst en QR code "
 
 msgid "Synchronizing..."
 msgstr "Bezig met synchroniseren..."
-
-msgid "Tamil"
-msgstr "Tamilse"
 
 msgid "Target"
 msgstr "Doel"
@@ -4310,9 +4207,6 @@ msgstr "Tekst gekopieerd naar klembord"
 
 msgid "Text copied to clipboard"
 msgstr "Tekst naar klembord gekopieerd"
-
-msgid "Thai"
-msgstr "Thais"
 
 msgid "Thanks for reporting this issue!"
 msgstr "Bedankt voor het melden van de fout!"
@@ -4900,9 +4794,6 @@ msgstr "Probeer niet alleen uit te leggen wat de bug is, maar ook wanneer hij op
 msgid "Try to raise your transaction fee, or use a server with a lower relay fee."
 msgstr "Verhoog de transactievergoeding, of gebruik een server met lagere doorstuurdrempel."
 
-msgid "Turkish"
-msgstr "Turks"
-
 msgid "Two-factor authentication is a service provided by TrustedCoin.  It uses a multi-signature wallet, where you own 2 of 3 keys.  The third key is stored on a remote server that signs transactions on your behalf.  To use this service, you will need a smartphone with Google Authenticator installed."
 msgstr "Twee-factor-authenticatie is een service aangeboden door TrustedCoin. Het gebruikt een multi-signature-portemonnee, waarbij u 2 van de 3 sleutels bezit. De derde sleutel is opgeslagen op een externe server die transacties namens u ondertekent. Om van deze service gebruik te maken, heeft u een smartphone nodig met Google Authenticator geïnstalleerd."
 
@@ -4923,9 +4814,6 @@ msgstr "Type"
 
 msgid "USB Serial"
 msgstr "USB-serial"
-
-msgid "Ukrainian"
-msgstr "Oekraïens"
 
 msgid "Unable to create backup"
 msgstr "Back-up aanmaken mislukt"
@@ -5121,9 +5009,6 @@ msgstr "Zeer sterk"
 
 msgid "Video Device"
 msgstr "Video-apparaat"
-
-msgid "Vietnamese"
-msgstr "Vietnamees"
 
 msgid "View"
 msgstr "Bekijk"
@@ -5920,10 +5805,6 @@ msgstr "MIT-licentie"
 msgctxt "About|"
 msgid "Homepage"
 msgstr "Startpagina"
-
-msgctxt "About|"
-msgid "<a href=\"https://electrum.org\">https://electrum.org</a>"
-msgstr "<a href=\"https://electrum.org\">https://electrum.org</a>"
 
 msgctxt "About|"
 msgid "Developers"

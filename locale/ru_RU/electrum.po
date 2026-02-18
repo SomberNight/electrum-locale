@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: electrum\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-14 08:25+0000\n"
-"PO-Revision-Date: 2026-02-14 08:26\n"
+"POT-Creation-Date: 2026-02-18 12:59+0000\n"
+"PO-Revision-Date: 2026-02-18 12:59\n"
 "Last-Translator: \n"
 "Language-Team: Russian\n"
 "Language: ru_RU\n"
@@ -424,9 +424,6 @@ msgstr "Внешний вид"
 msgid "Apply"
 msgstr "Применить"
 
-msgid "Arabic"
-msgstr "Arabic"
-
 msgid ""
 "Are you SURE you want to wipe the device?\n"
 "Your wallet still has bitcoins in it!"
@@ -455,9 +452,6 @@ msgstr "Вы точно хотите удалить эту транзакцию?
 
 msgid "Are you sure you want to sign this transaction?"
 msgstr "Вы уверены, что хотите подписать эту транзакцию?"
-
-msgid "Armenian"
-msgstr "Armenian"
 
 msgid "At block height: {}"
 msgstr "At block height: {}"
@@ -597,9 +591,6 @@ msgstr "Рассылка транзакции..."
 msgid "Build Date"
 msgstr "Дата сборки"
 
-msgid "Bulgarian"
-msgstr "Bulgarian"
-
 msgid "Bump Fee"
 msgstr "Комиссия коллизии"
 
@@ -666,9 +657,6 @@ msgstr "Оплата меньше суммы указанной в счете н
 msgid "Cannot read file"
 msgstr "Не удаётся прочесть файл"
 
-msgid "Cannot receive this payment. Request at least {} to purchase a Lightning channel from your service provider."
-msgstr "Cannot receive this payment. Request at least {} to purchase a Lightning channel from your service provider."
-
 msgid "Cannot sign messages with this type of address:"
 msgstr "Невозможно подписать сообщение от адреса этого типа:"
 
@@ -677,9 +665,6 @@ msgstr "Не удается запустить QR-сканер, камера н�
 
 msgid "Cannot start QR scanner: initialization failed."
 msgstr "Не удается запустить сканер QR: ошибка инициализации."
-
-msgid "Cannot start QR scanner: zbar not available."
-msgstr "Cannot start QR scanner: zbar not available."
 
 msgid "Capacity"
 msgstr "Ёмкость"
@@ -752,12 +737,6 @@ msgstr "Потомок Платит за Родителя"
 
 msgid "Child pays for parent"
 msgstr "Потомок платит за родителя"
-
-msgid "Chinese Simplified"
-msgstr "Chinese Simplified"
-
-msgid "Chinese Traditional"
-msgstr "Chinese Traditional"
 
 msgid "Choose Hardware Device"
 msgstr "Выберете устройство"
@@ -1087,12 +1066,6 @@ msgstr "Пользовательский URL"
 msgid "Custom secret"
 msgstr "Введенный вручную секрет"
 
-msgid "Czech"
-msgstr "Czech"
-
-msgid "Danish"
-msgstr "Danish"
-
 msgid "Dark"
 msgstr "Тёмная"
 
@@ -1243,9 +1216,6 @@ msgstr "Из-за бага в старой версии Electrum, не буде�
 msgid "Duplicate master keys"
 msgstr "Дублицировать главные ключи"
 
-msgid "Dutch"
-msgstr "Dutch"
-
 msgid "Dynamic fee estimates not available"
 msgstr "Динамическое определение комиссии не доступно"
 
@@ -1359,9 +1329,6 @@ msgstr "Шифрование и расшифровка не реализован
 
 msgid "End"
 msgstr "Конец"
-
-msgid "English"
-msgstr "English"
 
 msgid "Enter PIN"
 msgstr "Введите PIN-код"
@@ -1504,9 +1471,6 @@ msgstr "Ошибка синхронизации меток"
 
 msgid "Error: Account discovery failed."
 msgstr "Ошибка: Не удалось обнаружить учетную запись."
-
-msgid "Esperanto"
-msgstr "Esperanto"
 
 msgid "Estimate"
 msgstr "Приблизительно"
@@ -1676,9 +1640,6 @@ msgstr "Заморозить монету"
 msgid "Freeze Coins"
 msgstr "Заморозить монеты"
 
-msgid "French"
-msgstr "French"
-
 msgid "From"
 msgstr "От"
 
@@ -1700,14 +1661,8 @@ msgstr "Финансируется или не используется"
 msgid "Generate a new random wallet"
 msgstr "Сгенерировать новый случайный кошелек"
 
-msgid "German"
-msgstr "German"
-
 msgid "Google Authenticator code:"
 msgstr "Код из Google Authenticator:"
-
-msgid "Greek"
-msgstr "Greek"
 
 msgid "Handler not found for {}"
 msgstr "Обработчик для {} не найден"
@@ -1726,9 +1681,6 @@ msgstr "Главный экран"
 
 msgid "However, we do not generate BIP39 seeds, because they do not meet our safety standard."
 msgstr "Мы не генерируем seed-фразу в формате BIP39, т. к. это не отвечает нашему стандарту безопасности."
-
-msgid "Hungarian"
-msgstr "Hungarian"
 
 msgid "I Accept"
 msgstr "Подтверждаю"
@@ -1844,9 +1796,6 @@ msgstr "Увеличить комиссию"
 msgid "Increase your transaction's fee to improve its position in mempool."
 msgstr "Увеличить комиссию вашей транзакции, что улучшит ее позицию в мемпуле."
 
-msgid "Indonesian"
-msgstr "Indonesian"
-
 msgid "Info"
 msgstr "Информация"
 
@@ -1946,14 +1895,8 @@ msgstr "Нельзя создать резервную копию путем э�
 msgid "It conflicts with current history."
 msgstr "Конфликтует с текущей историей."
 
-msgid "Italian"
-msgstr "Italian"
-
 msgid "JSON files (*.json)"
 msgstr "Файлы JSON (*.json)"
-
-msgid "Japanese"
-msgstr "Japanese"
 
 msgid "Join inputs/outputs"
 msgstr "Объединить входы/выходы"
@@ -1970,9 +1913,6 @@ msgstr "Хранилище ключей"
 msgid "Keystore type"
 msgstr "Тип хранилища ключей"
 
-msgid "Kyrgyz"
-msgstr "Kyrgyz"
-
 msgid "Label"
 msgstr "Метка"
 
@@ -1981,9 +1921,6 @@ msgstr "Язык"
 
 msgid "Latest version: {}"
 msgstr "Последняя версия: {}"
-
-msgid "Latvian"
-msgstr "Latvian"
 
 msgid "Leave this field empty if you want to disable encryption."
 msgstr "Оставьте эти поля пустыми, если вы хотите отключить шифрование."
@@ -2197,9 +2134,6 @@ msgstr "Ноды"
 
 msgid "None"
 msgstr "(Пусто)"
-
-msgid "Norwegian Bokmal"
-msgstr "Norwegian Bokmal"
 
 msgid "Nostr"
 msgstr "Nostr"
@@ -2432,9 +2366,6 @@ msgstr "Платёж отправлен."
 msgid "Payments (HTLCs):"
 msgstr "Платежи (HTLCs):"
 
-msgid "Persian"
-msgstr "Persian"
-
 msgid "Please briefly describe what led to the error (optional):"
 msgstr "Кратко опишите, что привело к ошибке (не обязательно):"
 
@@ -2503,15 +2434,6 @@ msgstr "Плагин уже установлен."
 
 msgid "Plugins"
 msgstr "Плагины"
-
-msgid "Polish"
-msgstr "Polish"
-
-msgid "Portuguese"
-msgstr "Portuguese"
-
-msgid "Portuguese (Brazil)"
-msgstr "Португальский (Бразилия)"
 
 msgid "Preferences"
 msgstr "Настройки"
@@ -2693,12 +2615,6 @@ msgstr "Revealer начинающийся с 0 небезопасен ввиду
 
 msgid "Right side"
 msgstr "Правая сторона"
-
-msgid "Romanian"
-msgstr "Romanian"
-
-msgid "Russian"
-msgstr "Russian"
 
 msgid "Save"
 msgstr "Сохранить"
@@ -2901,12 +2817,6 @@ msgstr "Подписывание транзакции..."
 msgid "Signing with an address actually means signing with the corresponding private key, and verifying with the corresponding public key. The address you have entered does not have a unique public key, so these operations cannot be performed."
 msgstr "Подписание с адресом на самом деле означает подписание с соответствующим приватным ключем и проверку соответствующего публичного ключа. Адрес, который вы ввели, не имеет уникального публичного ключа, поэтому эти операции не могут быть выполнены."
 
-msgid "Slovak"
-msgstr "Slovak"
-
-msgid "Slovenian"
-msgstr "Slovenian"
-
 msgid "Something went wrong while executing Electrum."
 msgstr "Что-то пошло не так во время работы Electrum."
 
@@ -2918,9 +2828,6 @@ msgstr "Извините, но сейчас невозможно провери�
 
 msgid "Source"
 msgstr "Источник"
-
-msgid "Spanish"
-msgstr "Spanish"
 
 msgid "Spend only confirmed coins"
 msgstr "Тратить только подтверждённые монеты"
@@ -2955,9 +2862,6 @@ msgstr "Итог"
 msgid "Supported Coins"
 msgstr "Поддерживаемые монеты"
 
-msgid "Swedish"
-msgstr "Swedish"
-
 msgid "Sweep"
 msgstr "Импорт"
 
@@ -2966,9 +2870,6 @@ msgstr "Импорт приватных ключей"
 
 msgid "Synchronizing..."
 msgstr "Синхронизация..."
-
-msgid "Tamil"
-msgstr "Tamil"
 
 msgid "Target"
 msgstr "Цель"
@@ -2993,9 +2894,6 @@ msgstr "Текст скопирован в буфер обмена"
 
 msgid "Text copied to clipboard"
 msgstr "Текст скопирован в буфер обмена"
-
-msgid "Thai"
-msgstr "Thai"
 
 msgid "Thanks for reporting this issue!"
 msgstr "Спасибо, что сообщили об этой проблеме!"
@@ -3306,9 +3204,6 @@ msgstr "Постарайтесь рассказать не только об о�
 msgid "Try to raise your transaction fee, or use a server with a lower relay fee."
 msgstr "Попробуйте повысить комиссию за транзакцию или используйте сервер с меньшей комиссией."
 
-msgid "Turkish"
-msgstr "Turkish"
-
 msgid "Two-factor authentication is a service provided by TrustedCoin.  It uses a multi-signature wallet, where you own 2 of 3 keys.  The third key is stored on a remote server that signs transactions on your behalf.  To use this service, you will need a smartphone with Google Authenticator installed."
 msgstr "Двухфакторная аутентификация обеспечивается сервисом TrustedCoin. Используется кошелек с несколькими подписями, где вам принадлежат 2 из 3 ключей. Третий ключ хранится на сервере, который подписывает транзакции для вас.  У вас должно быть отдельное устройство с приложением Google Authenticator."
 
@@ -3323,9 +3218,6 @@ msgstr "Тип"
 
 msgid "USB Serial"
 msgstr "USB-порт"
-
-msgid "Ukrainian"
-msgstr "Ukrainian"
 
 msgid "Unable to create backup"
 msgstr "Невозможно создать резервную копию"
@@ -3458,9 +3350,6 @@ msgstr "Очень сильный"
 
 msgid "Video Device"
 msgstr "Видео устройство"
-
-msgid "Vietnamese"
-msgstr "Vietnamese"
 
 msgid "View"
 msgstr "Просмотр"

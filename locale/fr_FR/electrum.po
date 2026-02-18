@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: electrum\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-14 08:25+0000\n"
-"PO-Revision-Date: 2026-02-14 08:25\n"
+"POT-Creation-Date: 2026-02-18 12:59+0000\n"
+"PO-Revision-Date: 2026-02-18 12:59\n"
 "Last-Translator: \n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
@@ -364,9 +364,6 @@ msgstr "Thème"
 msgid "Apply"
 msgstr "Appliquer"
 
-msgid "Arabic"
-msgstr "Arabe"
-
 msgid ""
 "Are you SURE you want to wipe the device?\n"
 "Your wallet still has bitcoins in it!"
@@ -391,9 +388,6 @@ msgstr "Êtes-vous sûr de vouloir supprimer cette transaction et {} transaction
 
 msgid "Are you sure you want to remove this transaction?"
 msgstr "Êtes-vous certain(e) de vouloir supprimer cette transaction ?"
-
-msgid "Armenian"
-msgstr "Arménien"
 
 msgid "At block height: {}"
 msgstr "À la hauteur du bloc : {}"
@@ -512,22 +506,8 @@ msgstr "Diffusion de la transaction en cours..."
 msgid "Build Date"
 msgstr "Date de compilation"
 
-msgid "Bulgarian"
-msgstr "Bulgare"
-
 msgid "Bump Fee"
 msgstr "Frais supplémentaires"
-
-msgid ""
-"By default the client does not listen on any port for incoming BOLT-08 transports.\n"
-"Set this to an interface:port combination, such as 'localhost:9735', to open a port and start listening.\n"
-"\n"
-"Note: if you open multiple lightning wallets, they will all try to bind the same port, conflict, and only the first will succeed."
-msgstr ""
-"By default the client does not listen on any port for incoming BOLT-08 transports.\n"
-"Set this to an interface:port combination, such as 'localhost:9735', to open a port and start listening.\n"
-"\n"
-"Note: if you open multiple lightning wallets, they will all try to bind the same port, conflict, and only the first will succeed."
 
 msgid "CLTV expiry"
 msgstr "CLTV expiration"
@@ -669,12 +649,6 @@ msgstr "L'enfant paie pour le parent"
 
 msgid "Child pays for parent"
 msgstr "L'enfant paie pour le parent"
-
-msgid "Chinese Simplified"
-msgstr "Chinois simplifié"
-
-msgid "Chinese Traditional"
-msgstr "Chinois traditionnel"
 
 msgid "Choose Homescreen"
 msgstr "Choisissez l'écran principal"
@@ -947,9 +921,6 @@ msgstr "Impossible d'ouvrir le canal : {}"
 msgid "Could not parse clipboard text"
 msgstr "Impossible d'analyser le texte du presse-papiers"
 
-msgid "Could not resolve BIP70 payment request: {}"
-msgstr "Could not resolve BIP70 payment request: {}"
-
 msgid "Could not sign message"
 msgstr "Impossible de signer le message"
 
@@ -1006,12 +977,6 @@ msgstr "URL personnalisée"
 
 msgid "Custom secret"
 msgstr "Secret personnalisé"
-
-msgid "Czech"
-msgstr "Tchèque"
-
-msgid "Danish"
-msgstr "Danois"
 
 msgid "Dark"
 msgstr "Sombre"
@@ -1167,9 +1132,6 @@ msgstr "En raison d'un bug, les anciennes version d'Electrum NE créeront PAS le
 msgid "During that time, funds will not be recoverable from your seed, and may be lost if you lose your device."
 msgstr "Pendant cette période, les fonds ne pourront pas être récupérés à partir de votre clé de récupération et pourront être perdus si vous perdez votre appareil."
 
-msgid "Dutch"
-msgstr "Néerlandais"
-
 msgid "Dynamic fee estimates not available"
 msgstr "Estimation dynamique des frais non disponible"
 
@@ -1286,9 +1248,6 @@ msgstr "Cryptage et décryptage ne sont pas implémentés par {}"
 
 msgid "End"
 msgstr "Fin"
-
-msgid "English"
-msgstr "Anglais"
 
 msgid "Enter PIN"
 msgstr "Saisir le code PIN"
@@ -1410,9 +1369,6 @@ msgstr "Erreur lors de l'affichage d'adresse"
 
 msgid "Error synchronising labels"
 msgstr "Erreur lors de la synchronisation des libellés"
-
-msgid "Esperanto"
-msgstr "Espéranto"
 
 msgid "Estimate"
 msgstr "Estimation"
@@ -1561,9 +1517,6 @@ msgstr "Geler la pièce de monnaie"
 msgid "Freeze Coins"
 msgstr "Geler les pièces de monnaie"
 
-msgid "French"
-msgstr "Français"
-
 msgid "From"
 msgstr "De"
 
@@ -1582,14 +1535,8 @@ msgstr "Financée"
 msgid "Generate a new random wallet"
 msgstr "Générer un nouveau portefeuille aléatoire"
 
-msgid "German"
-msgstr "Allemand"
-
 msgid "Google Authenticator code:"
 msgstr "Code Google Authenticator :"
-
-msgid "Greek"
-msgstr "Grec"
 
 msgid "Height"
 msgstr "Hauteur"
@@ -1605,9 +1552,6 @@ msgstr "Écran d'accueil"
 
 msgid "However, we do not generate BIP39 seeds, because they do not meet our safety standard."
 msgstr "Toutefois nous ne générons pas de graine BIP39 car elle ne satisfont pas nos standard de sécurité."
-
-msgid "Hungarian"
-msgstr "Hongrois"
 
 msgid "I already have a seed"
 msgstr "Je possède déjà une graine"
@@ -1699,9 +1643,6 @@ msgstr "Augmenter les frais"
 msgid "Increase your transaction's fee to improve its position in mempool."
 msgstr "Augmentez vos frais de transaction pour améliorer votre position dans le mempool."
 
-msgid "Indonesian"
-msgstr "Indonésien"
-
 msgid "Info"
 msgstr "Info"
 
@@ -1780,12 +1721,6 @@ msgstr "Il ne peut pas être sauvegardé simplement en exportant ces clés priv�
 msgid "It conflicts with current history."
 msgstr "Il entre en conflit avec l'historique courante."
 
-msgid "Italian"
-msgstr "Italien"
-
-msgid "Japanese"
-msgstr "Japonais"
-
 msgid "KeepKey Seed Recovery"
 msgstr "Graine de récupération KeepKey"
 
@@ -1798,9 +1733,6 @@ msgstr "Magasin de clés"
 msgid "Keystore type"
 msgstr "Type de magasin de clés"
 
-msgid "Kyrgyz"
-msgstr "Kirghize"
-
 msgid "Label"
 msgstr "Libellé"
 
@@ -1809,9 +1741,6 @@ msgstr "Langue"
 
 msgid "Latest version: {}"
 msgstr "Dernière version : {}"
-
-msgid "Latvian"
-msgstr "Letton"
 
 msgid "Leave this field empty if you want to disable encryption."
 msgstr "Laissez ce champ vide si vous souhaitez désactiver le chiffrage."
@@ -2011,9 +1940,6 @@ msgstr "Nœuds"
 msgid "None"
 msgstr "Aucun"
 
-msgid "Norwegian Bokmal"
-msgstr "Norvégien classique"
-
 msgid "Not Now"
 msgstr "Pas pour l'instant"
 
@@ -2194,9 +2120,6 @@ msgstr "La demande de paiement a expirée"
 msgid "Payment sent."
 msgstr "Paiement envoyé."
 
-msgid "Persian"
-msgstr "Perse"
-
 msgid "Please briefly describe what led to the error (optional):"
 msgstr "Veuillez brièvement décrire ce qui a mené à cette erreur (optionnel) :"
 
@@ -2247,15 +2170,6 @@ msgstr "Veuillez attendre pendant qu'Electrum vérifie la disponibilité des mis
 
 msgid "Please wait..."
 msgstr "Veuillez patienter..."
-
-msgid "Polish"
-msgstr "Polonais"
-
-msgid "Portuguese"
-msgstr "Portugais"
-
-msgid "Portuguese (Brazil)"
-msgstr "Portugais (Brésil)"
 
 msgid "Preferences"
 msgstr "Préférences"
@@ -2400,12 +2314,6 @@ msgstr "Les Revealer commençant avec 0 ne sont pas sécurisé à cause d'une vu
 
 msgid "Right side"
 msgstr "Côté droit"
-
-msgid "Romanian"
-msgstr "Roumain"
-
-msgid "Russian"
-msgstr "Russe"
 
 msgid "Save"
 msgstr "Enregistrer"
@@ -2557,12 +2465,6 @@ msgstr "Signature de la transaction en cours..."
 msgid "Signing with an address actually means signing with the corresponding private key, and verifying with the corresponding public key. The address you have entered does not have a unique public key, so these operations cannot be performed."
 msgstr "Signer avec une adresse signifie en réalité signer avec la clé privée correspondante et vérifier avec la clé publique correspondante. L'adresse que vous avez entrée n'a pas de clé publique unique ainsi ces opérations ne peuvent pas être effectuées."
 
-msgid "Slovak"
-msgstr "Slovaque"
-
-msgid "Slovenian"
-msgstr "Slovène"
-
 msgid "Something went wrong while executing Electrum."
 msgstr "Quelque chose c'est mal passé lors de l'exécution d'Electrum."
 
@@ -2574,9 +2476,6 @@ msgstr "Désolé, mais nous avons pas réussi à vérifier les mises à jour. Ve
 
 msgid "Source"
 msgstr "Source"
-
-msgid "Spanish"
-msgstr "Espagnole"
 
 msgid "Spend only confirmed coins"
 msgstr "Dépense seulement la monnaie confirmée"
@@ -2605,9 +2504,6 @@ msgstr "Récapitulatif"
 msgid "Supported Coins"
 msgstr "Monnaies prises en charge"
 
-msgid "Swedish"
-msgstr "Suédois"
-
 msgid "Sweep"
 msgstr "Balayer"
 
@@ -2617,9 +2513,6 @@ msgstr "Balayer les clés privées"
 msgid "Synchronizing..."
 msgstr "Synchronisation..."
 
-msgid "Tamil"
-msgstr "Tamoule"
-
 msgid "Target"
 msgstr "Cible"
 
@@ -2628,9 +2521,6 @@ msgstr "Réseau de test"
 
 msgid "Text copied to clipboard"
 msgstr "Texte copié dans le presse-papiers"
-
-msgid "Thai"
-msgstr "Thaï"
 
 msgid "The Digital Bitbox is already seeded. Choose an option:"
 msgstr "Le Digital Bitbox a déjà une graine. Veuillez choisir une option :"
@@ -2896,9 +2786,6 @@ msgstr "Essayez d'expliquer non seulement l'erreur mais comment elle se produit.
 msgid "Try to raise your transaction fee, or use a server with a lower relay fee."
 msgstr "Essayez d'augmenter vos frais de transaction ou utilisez un serveur avec un frais de relai plus bas."
 
-msgid "Turkish"
-msgstr "Turc"
-
 msgid "Two-factor authentication is a service provided by TrustedCoin.  It uses a multi-signature wallet, where you own 2 of 3 keys.  The third key is stored on a remote server that signs transactions on your behalf.  To use this service, you will need a smartphone with Google Authenticator installed."
 msgstr "L'authentification à deux facteur est un service fournit par TrustedCoin. Il utilise un portefeuille à signatures multiples dans lequel vous possédez 2 des 3 clés. La troisième clé est stockée sur un serveur distant qui signe les transactions en votre nom. Pour utiliser ce service, vous aurez besoin d'un smartphone avec Google Authenticator installé."
 
@@ -2913,9 +2800,6 @@ msgstr "Type"
 
 msgid "USB Serial"
 msgstr "USB Série"
-
-msgid "Ukrainian"
-msgstr "Ukrainien"
 
 msgid "Unable to create backup"
 msgstr "Impossible de créer une sauvegarde"
@@ -3030,9 +2914,6 @@ msgstr "Version"
 
 msgid "Video Device"
 msgstr "Appareil vidéo"
-
-msgid "Vietnamese"
-msgstr "Vietnamien"
 
 msgid "View Channel"
 msgstr "Afficher le salon"
@@ -3394,10 +3275,6 @@ msgstr "Licence MIT"
 msgctxt "About|"
 msgid "Homepage"
 msgstr "Page d'accueil"
-
-msgctxt "About|"
-msgid "<a href=\"https://electrum.org\">https://electrum.org</a>"
-msgstr "<a href=\"https://electrum.org\">https://electrum.org</a>"
 
 msgctxt "About|"
 msgid "Developers"

@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: electrum\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-14 08:25+0000\n"
-"PO-Revision-Date: 2026-02-14 08:25\n"
+"POT-Creation-Date: 2026-02-18 12:59+0000\n"
+"PO-Revision-Date: 2026-02-18 12:59\n"
 "Last-Translator: \n"
 "Language-Team: Azerbaijani\n"
 "Language: az_AZ\n"
@@ -279,9 +279,6 @@ msgstr "Görünüş"
 msgid "Apply"
 msgstr "Tətbiq et"
 
-msgid "Arabic"
-msgstr "Ərəbcə"
-
 msgid ""
 "Are you SURE you want to wipe the device?\n"
 "Your wallet still has bitcoins in it!"
@@ -294,9 +291,6 @@ msgstr "\"Digital Bitbox\"u silmək istədiyinizə əminsiniz?"
 
 msgid "Are you sure you want to proceed?"
 msgstr "Davam etmək istədiyinizə əminsiniz?"
-
-msgid "Armenian"
-msgstr "Ermənicə"
 
 msgid "At block height: {}"
 msgstr "Blok hündürlüyündə: {}"
@@ -390,9 +384,6 @@ msgstr "Yayımlanır"
 
 msgid "Build Date"
 msgstr "Quruluş tarixi"
-
-msgid "Bulgarian"
-msgstr "Bolqarca"
 
 msgid "CLTV expiry"
 msgstr "CLTV bitmə"
@@ -504,12 +495,6 @@ msgstr "Davam etmək üçün {} cihazınızı yoxlayın"
 
 msgid "Checking for updates..."
 msgstr "Güncəlləmələr yoxlanılır..."
-
-msgid "Chinese Simplified"
-msgstr "Sadələşdirilmiş çincə"
-
-msgid "Chinese Traditional"
-msgstr "Ənənəvi çincə"
 
 msgid "Choose Hardware Device"
 msgstr "Avadanlıq cihazını seçin"
@@ -733,12 +718,6 @@ msgstr "Özəl URL"
 msgid "Custom secret"
 msgstr "Özəl sirr"
 
-msgid "Czech"
-msgstr "Çexcə"
-
-msgid "Danish"
-msgstr "Danca"
-
 msgid "Dark"
 msgstr "Qaranlıq"
 
@@ -940,9 +919,6 @@ msgstr "Şifrələmə və şifrəsini açma {} tərəfindən tətbiq edilmir"
 msgid "End"
 msgstr "Bitmə"
 
-msgid "English"
-msgstr "İngiliscə"
-
 msgid "Enter PIN"
 msgstr "PİN-i daxil et"
 
@@ -1008,9 +984,6 @@ msgstr "Etiketləri sinxr. xətası"
 
 msgid "Error: Account discovery failed."
 msgstr "Xəta: Hesabın kəşf edilməsi uğursuz oldu."
-
-msgid "Esperanto"
-msgstr "Esperanto"
 
 msgid "Estimate"
 msgstr "Təxmini"
@@ -1366,10 +1339,6 @@ msgstr "Lisenziya"
 msgctxt "About|"
 msgid "MIT License"
 msgstr "MIT Lisenziyası"
-
-msgctxt "About|"
-msgid "<a href=\"https://electrum.org\">https://electrum.org</a>"
-msgstr "<a href=\"https://electrum.org\">https://electrum.org</a>"
 
 msgctxt "AddressDetails|"
 msgid "Address"

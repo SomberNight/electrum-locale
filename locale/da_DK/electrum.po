@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: electrum\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-14 08:25+0000\n"
-"PO-Revision-Date: 2026-02-14 08:25\n"
+"POT-Creation-Date: 2026-02-18 12:59+0000\n"
+"PO-Revision-Date: 2026-02-18 12:59\n"
 "Last-Translator: \n"
 "Language-Team: Danish\n"
 "Language: da_DK\n"
@@ -168,9 +168,6 @@ msgstr "Beløb"
 msgid "Apply"
 msgstr "Anvend"
 
-msgid "Arabic"
-msgstr "Arabisk"
-
 msgid "Balance"
 msgstr "Saldo"
 
@@ -233,9 +230,6 @@ msgstr "Kopiér til udklipsholder"
 
 msgid "Current Password:"
 msgstr "Nuværende adgangskode:"
-
-msgid "Danish"
-msgstr "Dansk"
 
 msgid "Dark"
 msgstr "Mørkt"
@@ -350,9 +344,6 @@ msgstr "Format"
 
 msgid "From"
 msgstr "Fra"
-
-msgid "German"
-msgstr "Tysk"
 
 msgid "Height"
 msgstr "Højde"
@@ -629,9 +620,6 @@ msgstr "Ryd private nøgler"
 
 msgid "Synchronizing..."
 msgstr "Synkroniserer …"
-
-msgid "Thai"
-msgstr "Thai"
 
 msgid "The amount of fee can be decided freely by the sender. However, transactions with low fees take more time to be processed."
 msgstr "Størrelsen på gebyret kan frit bestemmes af afsenderen. Overførsler med lave gebyrer tager dog længere tid om at blive behandlet."

@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: electrum\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-14 08:25+0000\n"
-"PO-Revision-Date: 2026-02-14 08:26\n"
+"POT-Creation-Date: 2026-02-18 12:59+0000\n"
+"PO-Revision-Date: 2026-02-18 12:59\n"
 "Last-Translator: \n"
 "Language-Team: Vietnamese\n"
 "Language: vi_VN\n"
@@ -84,9 +84,6 @@ msgstr "thông tin"
 msgid "&Labels"
 msgstr "&Nhãn"
 
-msgid "&Load transaction"
-msgstr "Loading transaction"
-
 msgid "&Network"
 msgstr "&Mạng"
 
@@ -141,26 +138,14 @@ msgstr "&Công cụ"
 msgid "&View"
 msgstr "&Xem"
 
-msgid "&Wallet"
-msgstr "Ví Điện Tử"
-
 msgid "(Touch {} of {})"
 msgstr "(Chạm {} của {})"
-
-msgid "1 day"
-msgstr "1 chuyến đi"
-
-msgid "1 hour"
-msgstr "1 tiếng"
 
 msgid "1 week"
 msgstr "1 tuần"
 
 msgid "A copy of your wallet file was created in"
 msgstr "Một bản sao của tập tin ví của bạn đã được tạo trong"
-
-msgid "A suggested fee is automatically added to this field. You may override it. The suggested fee increases with the size of the transaction."
-msgstr "Eine empfohlene Gebühr wird diesem Feld automatisch hinzugefügt, kann aber überschrieben werden. Die empfohlene Gebühr Steigt mit der Größe der Transaction."
 
 msgid "Additional fees"
 msgstr "Các khoản phí khác"
@@ -170,9 +155,6 @@ msgstr "Địa chỉ"
 
 msgid "Amount"
 msgstr "số tiền"
-
-msgid "Amount to be sent"
-msgstr "10000000000"
 
 msgid "BIP39 seed"
 msgstr "Hạt giống BIP39"
@@ -195,12 +177,6 @@ msgstr "Trước khi báo cáo một lỗi, vui lòng nâng cấp lên phiên b�
 msgid "Bitcoin Address is None"
 msgstr "Chưa có địa chỉ Bitcoin"
 
-msgid "Bitcoin transactions are in general not free. A transaction fee is paid by the sender of the funds."
-msgstr "Les giao dịch Bitcoin ne sont généralement pas gratuites. L'expéditeur paye des frais de ธุรกรรม aux mineurs."
-
-msgid "Blockchain"
-msgstr "Blockchain"
-
 msgid "Broadcast"
 msgstr "Phát sóng"
 
@@ -222,9 +198,6 @@ msgstr "Không thể đọc tệp"
 msgid "Change Password"
 msgstr "Đổi mật khẩu"
 
-msgid "Child Pays for Parent"
-msgstr "Child Pays for Parent"
-
 msgid "Child pays for parent"
 msgstr "GD con trả cho GD mẹ (CPFP)"
 
@@ -245,9 +218,6 @@ msgstr "Xoá"
 
 msgid "Close"
 msgstr "Đóng"
-
-msgid "Co&ins"
-msgstr "Monnaie"
 
 msgid "Con&sole"
 msgstr "Dòng &lệnh"
@@ -383,9 +353,6 @@ msgstr "Phí"
 
 msgid "History"
 msgstr "Lịch sử"
-
-msgid "Input amount"
-msgstr "Import input 100000000000000000"
 
 msgid "Invalid Address"
 msgstr "Địa chỉ không hợp lệ."
@@ -615,14 +582,6 @@ msgstr "số tiền"
 msgctxt "ReceiveRequests|"
 msgid "Delete"
 msgstr "Xoá"
-
-msgctxt "RequestExpiryComboBox|"
-msgid "1 hour"
-msgstr "1 tiếng"
-
-msgctxt "RequestExpiryComboBox|"
-msgid "1 day"
-msgstr "1 chuyến đi"
 
 msgctxt "RequestExpiryComboBox|"
 msgid "1 week"

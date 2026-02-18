@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: electrum\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-14 08:25+0000\n"
-"PO-Revision-Date: 2026-02-14 08:26\n"
+"POT-Creation-Date: 2026-02-18 12:59+0000\n"
+"PO-Revision-Date: 2026-02-18 12:59\n"
 "Last-Translator: \n"
 "Language-Team: Portuguese\n"
 "Language: pt_PT\n"
@@ -288,9 +288,6 @@ msgstr "Aparência"
 msgid "Apply"
 msgstr "Aplicar"
 
-msgid "Arabic"
-msgstr "Árabe"
-
 msgid ""
 "Are you SURE you want to wipe the device?\n"
 "Your wallet still has bitcoins in it!"
@@ -312,9 +309,6 @@ msgstr "Tem a certeza que quer remover esta transação e as {} transações fil
 
 msgid "Are you sure you want to remove this transaction?"
 msgstr "Tem a certeza que quer remover esta transação?"
-
-msgid "Armenian"
-msgstr "Arménio"
 
 msgid "At most 100 satoshis might be lost due to this rounding."
 msgstr "Podem ser perdidos no máximo 100 satoshis devido a este arredondamento."
@@ -414,9 +408,6 @@ msgstr "A transmitir a transação..."
 
 msgid "Build Date"
 msgstr "Data da compilação"
-
-msgid "Bulgarian"
-msgstr "Búlgaro"
 
 msgid "Bump Fee"
 msgstr "Aumentar comissão"
@@ -519,12 +510,6 @@ msgstr "Filho paga pelo pai"
 
 msgid "Child pays for parent"
 msgstr "Filho paga pelo pai"
-
-msgid "Chinese Simplified"
-msgstr "Chinês (simplificado)"
-
-msgid "Chinese Traditional"
-msgstr "Chinês (tradicional)"
 
 msgid "Choose Homescreen"
 msgstr "Escolha o ecrã inicial"
@@ -733,12 +718,6 @@ msgstr "URL personalizado"
 msgid "Custom secret"
 msgstr "Segredo personalizado"
 
-msgid "Czech"
-msgstr "Checo"
-
-msgid "Danish"
-msgstr "Dinamarquês"
-
 msgid "Dark"
 msgstr "Escuro"
 
@@ -850,9 +829,6 @@ msgstr "Devido a um erro, as versões antigas do Electrum NÃO criarão a mesma 
 msgid "During that time, funds will not be recoverable from your seed, and may be lost if you lose your device."
 msgstr "Durante esse tempo, os fundos não serão recuperáveis da sua semente e podem ser perdidos caso perca o seu dispositivo."
 
-msgid "Dutch"
-msgstr "Holandês"
-
 msgid "Edit {}"
 msgstr "Editar {}"
 
@@ -925,9 +901,6 @@ msgstr "A encriptação e desencriptação não estão implementadas em {}"
 msgid "End"
 msgstr "Fim"
 
-msgid "English"
-msgstr "Inglês"
-
 msgid "Enter PIN"
 msgstr "Introduzir PIN"
 
@@ -993,9 +966,6 @@ msgstr "Erro ao mostrar o endereço"
 
 msgid "Error synchronising labels"
 msgstr "Erro ao sincronizar etiquetas"
-
-msgid "Esperanto"
-msgstr "Esperanto"
 
 msgid "Estimate"
 msgstr "Estimativa"
@@ -1114,23 +1084,14 @@ msgstr "Congelar moeda"
 msgid "Freeze Coins"
 msgstr "Congelar moedas"
 
-msgid "French"
-msgstr "Francês"
-
 msgid "From"
 msgstr "De"
 
 msgid "Generate a new random wallet"
 msgstr "Gerar uma nova carteira aleatória"
 
-msgid "German"
-msgstr "Alemão"
-
 msgid "Google Authenticator code:"
 msgstr "Código do Google Authenticator:"
-
-msgid "Greek"
-msgstr "Grego"
 
 msgid "Height"
 msgstr "Altura"
@@ -1143,9 +1104,6 @@ msgstr "Histórico"
 
 msgid "Homescreen"
 msgstr "Ecrã inicial"
-
-msgid "Hungarian"
-msgstr "Húngaro"
 
 msgid "I already have a seed"
 msgstr "Eu já tenho a semente"
@@ -1194,9 +1152,6 @@ msgstr "Foi inserida uma palavra-passe incorreta."
 
 msgid "Increase fee"
 msgstr "Aumentar a taxa"
-
-msgid "Indonesian"
-msgstr "Indonésio"
 
 msgid "Info"
 msgstr "Info"
@@ -1261,12 +1216,6 @@ msgstr "A fatura venceu"
 msgid "Invoices"
 msgstr "Faturas"
 
-msgid "Italian"
-msgstr "Italiano"
-
-msgid "Japanese"
-msgstr "Japonês"
-
 msgid "Keyboard shortcut: type \"!\" to send all your coins."
 msgstr "Atalho do teclado: pressione \"!\" para enviar todas as suas moedas."
 
@@ -1278,9 +1227,6 @@ msgstr "Idioma"
 
 msgid "Latest version: {}"
 msgstr "Última versão: {}"
-
-msgid "Latvian"
-msgstr "Letão"
 
 msgid "Leave this field empty if you want to disable encryption."
 msgstr "Deixe este campo em branco se quiser desativar a encriptação."
@@ -1380,9 +1326,6 @@ msgstr "Nós"
 
 msgid "None"
 msgstr "Nenhum"
-
-msgid "Norwegian Bokmal"
-msgstr "Bokmal Norueguês"
 
 msgid "Not Now"
 msgstr "Agora não"
@@ -1519,9 +1462,6 @@ msgstr "Pagamento enviado."
 msgid "Payments (HTLCs):"
 msgstr "Pagamentos (HTLCs):"
 
-msgid "Persian"
-msgstr "Persa"
-
 msgid "Please confirm"
 msgstr "Por favor, confirme"
 
@@ -1557,12 +1497,6 @@ msgstr "Por favor, aguarde enquanto a Electrum procura por atualizações."
 
 msgid "Please wait..."
 msgstr "Aguarde, por favor..."
-
-msgid "Polish"
-msgstr "Polaco"
-
-msgid "Portuguese"
-msgstr "Português"
 
 msgid "Preferences"
 msgstr "Preferências"
@@ -1680,12 +1614,6 @@ msgstr "Tentar de novo"
 
 msgid "Right side"
 msgstr "Lado direito"
-
-msgid "Romanian"
-msgstr "Romeno"
-
-msgid "Russian"
-msgstr "Russo"
 
 msgid "Save"
 msgstr "Guardar"
@@ -1807,12 +1735,6 @@ msgstr "A assinar a mensagem..."
 msgid "Signing transaction..."
 msgstr "A assinar transação..."
 
-msgid "Slovak"
-msgstr "Eslovaco"
-
-msgid "Slovenian"
-msgstr "Esloveno"
-
 msgid "Source"
 msgstr "Fonte"
 
@@ -1837,9 +1759,6 @@ msgstr "Resumo"
 msgid "Supported Coins"
 msgstr "Moedas suportadas"
 
-msgid "Swedish"
-msgstr "Sueco"
-
 msgid "Sweep"
 msgstr "Varrer"
 
@@ -1849,17 +1768,11 @@ msgstr "Varrer chaves privadas"
 msgid "Synchronizing..."
 msgstr "A sincronizar..."
 
-msgid "Tamil"
-msgstr "Tâmil"
-
 msgid "Target"
 msgstr "Alvo"
 
 msgid "Text copied to clipboard"
 msgstr "Texto copiado para a área de transferência"
-
-msgid "Thai"
-msgstr "Tailandês"
 
 msgid "The amount of fee can be decided freely by the sender. However, transactions with low fees take more time to be processed."
 msgstr "O valor da taxa pode ser decidido livremente pelo remetente. Contudo, as transações com taxas baixas podem demorar mais tempo a ser processadas."
@@ -1954,14 +1867,8 @@ msgstr "Tentar conectar novamente?"
 msgid "Try to explain not only what the bug is, but how it occurs."
 msgstr "Tente explicar não só qual é o erro, mas também como este ocorre."
 
-msgid "Turkish"
-msgstr "Turco"
-
 msgid "Type"
 msgstr "Tipo"
-
-msgid "Ukrainian"
-msgstr "Ucraniano"
 
 msgid "Unable to create backup"
 msgstr "Incapaz de criar cópia de segurança"
@@ -2040,9 +1947,6 @@ msgstr "Versão"
 
 msgid "Video Device"
 msgstr "Dispositivo de Vídeo"
-
-msgid "Vietnamese"
-msgstr "Vietnamita"
 
 msgid "View Channel"
 msgstr "Ver canal"

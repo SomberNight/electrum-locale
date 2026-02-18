@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: electrum\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-14 08:25+0000\n"
-"PO-Revision-Date: 2026-02-14 08:25\n"
+"POT-Creation-Date: 2026-02-18 12:59+0000\n"
+"PO-Revision-Date: 2026-02-18 12:59\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -480,9 +480,6 @@ msgstr "外观"
 msgid "Apply"
 msgstr "应用"
 
-msgid "Arabic"
-msgstr "阿拉伯语"
-
 msgid ""
 "Are you SURE you want to wipe the device?\n"
 "Your wallet still has bitcoins in it!"
@@ -522,9 +519,6 @@ msgstr "确定要删除这项交易吗？"
 
 msgid "Are you sure you want to sign this transaction?"
 msgstr "您确定要签名这笔交易吗？"
-
-msgid "Armenian"
-msgstr "亚美尼亚语"
 
 msgid "At block height: {}"
 msgstr "位于区块高度： {}"
@@ -714,9 +708,6 @@ msgstr "预算 [{}]"
 
 msgid "Build Date"
 msgstr "构建日期"
-
-msgid "Bulgarian"
-msgstr "保加利亚语"
 
 msgid "Bump Fee"
 msgstr "追加手续费"
@@ -914,12 +905,6 @@ msgstr "使用父子交易（CPFP）追加手续费"
 
 msgid "Child pays for parent"
 msgstr "用于追加手续费的父子交易（CPFP）"
-
-msgid "Chinese Simplified"
-msgstr "简体中文"
-
-msgid "Chinese Traditional"
-msgstr "繁体中文"
 
 msgid "Choose Hardware Device"
 msgstr "选择硬件设备"
@@ -1393,17 +1378,11 @@ msgstr "自定义URL"
 msgid "Custom secret"
 msgstr "自定义机密信息"
 
-msgid "Czech"
-msgstr "捷克语"
-
 msgid "Daily Satoshi Budget (optional):"
 msgstr "每日聪预算（选填）："
 
 msgid "Danger! This transaction uses non-default sighash flags!"
 msgstr "危险! 此交易使用了非默认的sighash flags!"
-
-msgid "Danish"
-msgstr "丹麦语"
 
 msgid "Dark"
 msgstr "暗色调"
@@ -1598,9 +1577,6 @@ msgstr "重复的主密钥"
 msgid "During that time, funds will not be recoverable from your seed, and may be lost if you lose your device."
 msgstr "在这期间，资金是无法从您的密语种子恢复的，并且如果您丢失了设备，资金也可能随之丢失。"
 
-msgid "Dutch"
-msgstr "荷兰语"
-
 msgid "Dynamic fee estimates not available"
 msgstr "无法进行动态手续费估计"
 
@@ -1756,9 +1732,6 @@ msgstr "加密和解密未被{} 实现"
 
 msgid "End"
 msgstr "结束"
-
-msgid "English"
-msgstr "英语"
 
 msgid "Enter NWC connection parameters"
 msgstr "输入 Nostr 钱包连接参数"
@@ -1935,9 +1908,6 @@ msgstr "同步标签失败"
 
 msgid "Error: Account discovery failed."
 msgstr "错误: 账户探测失败。"
-
-msgid "Esperanto"
-msgstr "世界语"
 
 msgid "Estimate"
 msgstr "估计"
@@ -2222,9 +2192,6 @@ msgstr "冻结收款功能"
 msgid "Freeze for sending"
 msgstr "冻结付款功能"
 
-msgid "French"
-msgstr "法语"
-
 msgid "From"
 msgstr "来源"
 
@@ -2264,9 +2231,6 @@ msgstr "这个通道中的资金在它们被重新扫入回到你的钱包之前
 msgid "Generate a new random wallet"
 msgstr "随机生成一个新的钱包"
 
-msgid "German"
-msgstr "德语"
-
 msgid "Get wallet address"
 msgstr "获取钱包地址"
 
@@ -2275,9 +2239,6 @@ msgstr "联网来完成钱包创建"
 
 msgid "Google Authenticator code:"
 msgstr "Google 身份验证码："
-
-msgid "Greek"
-msgstr "希腊语"
 
 msgid "HTLCs in current commitment transaction"
 msgstr "当前承诺交易中的HTLC"
@@ -2323,9 +2284,6 @@ msgstr "然而，我们不生成BIP39种子，因为它不符合我们的安全�
 
 msgid "However, we do not generate SLIP39 seeds."
 msgstr "然而，我们不生成SLIP39种子。"
-
-msgid "Hungarian"
-msgstr "匈牙利语"
 
 msgid "I Accept"
 msgstr "我接受"
@@ -2532,9 +2490,6 @@ msgstr "追加手续费"
 msgid "Increase your transaction's fee to improve its position in mempool."
 msgstr "追加交易手续费以提高其在内存池中的排位。"
 
-msgid "Indonesian"
-msgstr "印度尼西亚语"
-
 msgid "Info"
 msgstr "信息"
 
@@ -2712,9 +2667,6 @@ msgstr "可以用相同的种子把它导入到其他钱包。"
 msgid "It shows a channel that was opened with another instance of this wallet"
 msgstr "它展示了一个由这个钱包的另外一个实例打开的通道"
 
-msgid "Italian"
-msgstr "意大利语"
-
 msgid "Its password will be required to sign transactions."
 msgstr "签名交易时需要输入其密码。"
 
@@ -2729,9 +2681,6 @@ msgstr "JSON 文件（*.json）"
 
 msgid "Jade Status"
 msgstr "Jade状态"
-
-msgid "Japanese"
-msgstr "日语"
 
 msgid "Join inputs/outputs"
 msgstr "接合（join）输入/输出"
@@ -2757,9 +2706,6 @@ msgstr "未在此钱包中找到密钥库"
 msgid "Keystore type"
 msgstr "密钥库类型"
 
-msgid "Kyrgyz"
-msgstr "吉尔吉斯坦语"
-
 msgid "Label"
 msgstr "标签"
 
@@ -2780,9 +2726,6 @@ msgstr "最后一次出现"
 
 msgid "Latest version: {}"
 msgstr "最新版本：{}"
-
-msgid "Latvian"
-msgstr "拉脱维亚语"
 
 msgid "Leave this field empty if you want to disable encryption."
 msgstr "若您想要停用加密功能，请将此栏留空。"
@@ -3220,9 +3163,6 @@ msgstr "节点"
 msgid "None"
 msgstr "无"
 
-msgid "Norwegian Bokmal"
-msgstr "挪威书面语"
-
 msgid "Nostr"
 msgstr "Nostr"
 
@@ -3550,9 +3490,6 @@ msgstr "待处理的潜水艇互换"
 msgid "Performing swap..."
 msgstr "进行互换..."
 
-msgid "Persian"
-msgstr "波斯语"
-
 msgid "Please briefly describe what led to the error (optional):"
 msgstr "请简要描述导致错误的原因（可选）："
 
@@ -3654,15 +3591,6 @@ msgstr "插件已安装。"
 
 msgid "Plugins"
 msgstr "插件"
-
-msgid "Polish"
-msgstr "波兰语"
-
-msgid "Portuguese"
-msgstr "葡萄牙语"
-
-msgid "Portuguese (Brazil)"
-msgstr "葡萄牙语 (巴西)"
 
 msgid "Position in mempool: {}"
 msgstr "内存池里的位置: {}"
@@ -4033,14 +3961,8 @@ msgstr "以0开始的Revealer存在一个漏洞，并不安全。"
 msgid "Right side"
 msgstr "右边"
 
-msgid "Romanian"
-msgstr "罗马尼亚语"
-
 msgid "Routing Hints"
 msgstr "路由提示"
-
-msgid "Russian"
-msgstr "俄语"
 
 msgid "SLIP39 seed"
 msgstr "SLIP39密语种子"
@@ -4375,12 +4297,6 @@ msgstr "单个密语种子（BIP39）"
 msgid "Size: {} {}"
 msgstr "大小: {} {}"
 
-msgid "Slovak"
-msgstr "斯洛伐克语"
-
-msgid "Slovenian"
-msgstr "斯洛文尼亚语"
-
 msgid "Some coins are frozen: {} (can be unfrozen in the Addresses or in the Coins tab)"
 msgstr "有些币被冻结: {} (可在“地址”或“选币”标签页中解冻)"
 
@@ -4407,9 +4323,6 @@ msgstr "抱歉，我们无法检查更新。请过一会再试试。"
 
 msgid "Source"
 msgstr "数据来源"
-
-msgid "Spanish"
-msgstr "西班牙语"
 
 msgid "Spend only confirmed coins"
 msgstr "只动用交易已被确认的币"
@@ -4522,9 +4435,6 @@ msgstr "兑换服务器已激活"
 msgid "Swapping lightning funds for onchain funds will increase your capacity to receive lightning payments."
 msgstr "交换闪电网络资金与链上资金可以增加从闪电网络收款的容量。"
 
-msgid "Swedish"
-msgstr "瑞典语"
-
 msgid "Sweep"
 msgstr "扫入钱包"
 
@@ -4539,9 +4449,6 @@ msgstr "切换文本和二维码视图"
 
 msgid "Synchronizing..."
 msgstr "同步中..."
-
-msgid "Tamil"
-msgstr "泰米尔语"
 
 msgid "Target"
 msgstr "目标"
@@ -4569,9 +4476,6 @@ msgstr "已复制文本到剪贴板"
 
 msgid "Text copied to clipboard"
 msgstr "已复制文本到剪贴板"
-
-msgid "Thai"
-msgstr "泰语"
 
 msgid "Thanks for reporting this issue!"
 msgstr "谢谢您报告这个问题！"
@@ -5139,9 +5043,6 @@ msgstr "请在解释错误时尽量描述它是怎么发生的。"
 msgid "Try to raise your transaction fee, or use a server with a lower relay fee."
 msgstr "请尝试提高你的手续费，或者使用一个允许传播低费率交易的服务器。"
 
-msgid "Turkish"
-msgstr "土耳其语"
-
 msgid "Two-factor authentication is a service provided by TrustedCoin.  It uses a multi-signature wallet, where you own 2 of 3 keys.  The third key is stored on a remote server that signs transactions on your behalf.  To use this service, you will need a smartphone with Google Authenticator installed."
 msgstr "双因子认证服务由TrustedCoin提供。它使用多重签名钱包，你拥有3个密钥中的2个。第三个密钥存储在代表您签署交易的远程服务器上。要使用此服务，您需要安装有Google身份验证器的智能手机。"
 
@@ -5162,9 +5063,6 @@ msgstr "类型"
 
 msgid "USB Serial"
 msgstr "USB串口"
-
-msgid "Ukrainian"
-msgstr "乌克兰语"
 
 msgid "Unable to create backup"
 msgstr "无法创建备份"
@@ -5348,9 +5246,6 @@ msgstr "很强"
 
 msgid "Video Device"
 msgstr "视频设备"
-
-msgid "Vietnamese"
-msgstr "越南语"
 
 msgid "View"
 msgstr "查看"
@@ -6033,10 +5928,6 @@ msgstr "MIT 许可证"
 msgctxt "About|"
 msgid "Homepage"
 msgstr "主页"
-
-msgctxt "About|"
-msgid "<a href=\"https://electrum.org\">https://electrum.org</a>"
-msgstr "<a href=\"https://electrum.org\">https://electrum.org</a>"
 
 msgctxt "About|"
 msgid "Developers"

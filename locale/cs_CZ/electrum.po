@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: electrum\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-14 08:25+0000\n"
-"PO-Revision-Date: 2026-02-14 08:25\n"
+"POT-Creation-Date: 2026-02-18 12:59+0000\n"
+"PO-Revision-Date: 2026-02-18 12:59\n"
 "Last-Translator: \n"
 "Language-Team: Czech\n"
 "Language: cs_CZ\n"
@@ -195,6 +195,9 @@ msgstr "- libovolný on-chain skript, např.:"
 msgid "- an openalias"
 msgstr "- openalias"
 
+msgid ".onion address, but no proxy configured"
+msgstr ".onion adresa, ale bez nakonfigurované proxy"
+
 msgid "1 day"
 msgstr "1 den"
 
@@ -205,7 +208,7 @@ msgid "1 week"
 msgstr "1 týden"
 
 msgid "1. Place this paper on a flat and well illuminated surface."
-msgstr "veronikatilke33@seznam.cz"
+msgstr "1. Umístěte tento papír na rovný a dobře osvětlený povrch."
 
 msgid "10 minutes"
 msgstr "10 minut"
@@ -479,9 +482,6 @@ msgstr "Vzhled"
 msgid "Apply"
 msgstr "Použít"
 
-msgid "Arabic"
-msgstr "Arabsky"
-
 msgid ""
 "Are you SURE you want to wipe the device?\n"
 "Your wallet still has bitcoins in it!"
@@ -521,9 +521,6 @@ msgstr "Opravdu chcete tuto transakci odebrat?"
 
 msgid "Are you sure you want to sign this transaction?"
 msgstr "Jste si jisti, že chcete podepsat tuto transakci?"
-
-msgid "Armenian"
-msgstr "Arménsky"
 
 msgid "At block height: {}"
 msgstr "Ve výšce bloku: {}"
@@ -716,9 +713,6 @@ msgstr "Rozpočet [{}]"
 
 msgid "Build Date"
 msgstr "Datum buildu"
-
-msgid "Bulgarian"
-msgstr "Bulharsky"
 
 msgid "Bump Fee"
 msgstr "Navýšit poplatek"
@@ -923,12 +917,6 @@ msgstr "Podřízená platí za nadřazenou"
 msgid "Child pays for parent"
 msgstr "Podřízená platí za nadřazenou"
 
-msgid "Chinese Simplified"
-msgstr "Čínština (zjednodušená)"
-
-msgid "Chinese Traditional"
-msgstr "Čínština (tradiční)"
-
 msgid "Choose Hardware Device"
 msgstr "Vyberte si hardwarové zařízení"
 
@@ -997,7 +985,7 @@ msgid "Click here to hide this message."
 msgstr "Klepnutím sem skryjete tuto zprávu."
 
 msgid "Click the button above or type an existing revealer code in the box below."
-msgstr "Veve"
+msgstr "Klikněte na tlačítko výše nebo napište existující revealer kód do kolonky níže."
 
 msgid "Click the button above to encrypt the seed or type a custom alphanumerical secret below."
 msgstr "Klikněte na tlačítko výše pro zašifrování seedu nebo napište níže vlastní tajný kód složený z písmen a číslic. "
@@ -1401,17 +1389,11 @@ msgstr "Vlastní URL"
 msgid "Custom secret"
 msgstr "Vlastní tajný kód"
 
-msgid "Czech"
-msgstr "Čeština"
-
 msgid "Daily Satoshi Budget (optional):"
 msgstr "Denní rozpočet Satoshi (volitelné):"
 
 msgid "Danger! This transaction uses non-default sighash flags!"
 msgstr "Nebezpečí! Tato transakce nevyužívá výchozí sighash flags!"
-
-msgid "Danish"
-msgstr "Dánština"
 
 msgid "Dark"
 msgstr "Tmavý"
@@ -1606,9 +1588,6 @@ msgstr "Duplikovat hlavní klíče"
 msgid "During that time, funds will not be recoverable from your seed, and may be lost if you lose your device."
 msgstr "Během této doby nebude možné z vašeho seedu získat prostředky a můžete o ně přijít, pokud ztratíte zařízení."
 
-msgid "Dutch"
-msgstr "Holandština"
-
 msgid "Dynamic fee estimates not available"
 msgstr "Odhady dynamických poplatků nejsou k dispozici"
 
@@ -1764,9 +1743,6 @@ msgstr "Šifrování a dešifrování není implementováno {}"
 
 msgid "End"
 msgstr "Konec"
-
-msgid "English"
-msgstr "Angličtina"
 
 msgid "Enter NWC connection parameters"
 msgstr "Zadejte parametry připojení NWC"
@@ -1943,9 +1919,6 @@ msgstr "Chyba při synchronizaci štítků"
 
 msgid "Error: Account discovery failed."
 msgstr "Chyba: Zjištění účtu se nezdařilo."
-
-msgid "Esperanto"
-msgstr "Esperanto"
 
 msgid "Estimate"
 msgstr "Odhad"
@@ -2242,9 +2215,6 @@ msgstr "Zmrazení pro přijímání"
 msgid "Freeze for sending"
 msgstr "Zmrazení pro odesílání"
 
-msgid "French"
-msgstr "Francouzsky"
-
 msgid "From"
 msgstr "Od"
 
@@ -2284,9 +2254,6 @@ msgstr "Prostředky v tomto kanálu nebudou obnovitelné ze seedu, dokud nebudou
 msgid "Generate a new random wallet"
 msgstr "Vytvořit novou náhodnou peněženku"
 
-msgid "German"
-msgstr "Němčina"
-
 msgid "Get wallet address"
 msgstr "Získat adresu peněženky"
 
@@ -2295,9 +2262,6 @@ msgstr "Připojte se online pro dokončení tvorby peněženky"
 
 msgid "Google Authenticator code:"
 msgstr "Kód Google Authenticatoru:"
-
-msgid "Greek"
-msgstr "Řečtina"
 
 msgid "HTLCs in current commitment transaction"
 msgstr "HTLC v aktuální závazkové transakci"
@@ -2343,9 +2307,6 @@ msgstr "My však nevytváříme seedy BIP39, protože nesplňují naše bezpečn
 
 msgid "However, we do not generate SLIP39 seeds."
 msgstr "Seedy SLIP39 však nevytváříme."
-
-msgid "Hungarian"
-msgstr "Maďarština"
 
 msgid "I Accept"
 msgstr "Přijímám"
@@ -2552,9 +2513,6 @@ msgstr "Navýšit poplatek"
 msgid "Increase your transaction's fee to improve its position in mempool."
 msgstr "Zvyšte poplatek za transakci a vylepšete tak její pozici v mempoolu."
 
-msgid "Indonesian"
-msgstr "Indonéština"
-
 msgid "Info"
 msgstr "Info"
 
@@ -2732,9 +2690,6 @@ msgstr "Může být importován do jiné peněženky se stejným seedem."
 msgid "It shows a channel that was opened with another instance of this wallet"
 msgstr "Zobrazuje kanál, který byl otevřen jinou relací této peněženky"
 
-msgid "Italian"
-msgstr "Italština"
-
 msgid "Its password will be required to sign transactions."
 msgstr "Jeho heslo bude vyžadováno pro podepisování transakcí."
 
@@ -2749,9 +2704,6 @@ msgstr "JSON soubory (*.json)"
 
 msgid "Jade Status"
 msgstr "Stav Jade"
-
-msgid "Japanese"
-msgstr "Japonština"
 
 msgid "Join inputs/outputs"
 msgstr "Spojit vstupy/výstupy"
@@ -2777,9 +2729,6 @@ msgstr "Keystore nenalezeno v této peněžence"
 msgid "Keystore type"
 msgstr "Typ úložiště klíčů"
 
-msgid "Kyrgyz"
-msgstr "Kyrgizština"
-
 msgid "Label"
 msgstr "Štítek"
 
@@ -2800,9 +2749,6 @@ msgstr "Naposledy spatřen"
 
 msgid "Latest version: {}"
 msgstr "Nejnovější verze: {}"
-
-msgid "Latvian"
-msgstr "Lotyština"
 
 msgid "Leave this field empty if you want to disable encryption."
 msgstr "Pokud nechcete použít šifrování nechte toto pole prázdné."
@@ -3246,9 +3192,6 @@ msgstr "Uzly"
 msgid "None"
 msgstr "Žádný"
 
-msgid "Norwegian Bokmal"
-msgstr "Norština Bokmal"
-
 msgid "Nostr"
 msgstr "Nostr"
 
@@ -3576,9 +3519,6 @@ msgstr "Probíhá submarine swap"
 msgid "Performing swap..."
 msgstr "Provádění swapu..."
 
-msgid "Persian"
-msgstr "Perština"
-
 msgid "Please briefly describe what led to the error (optional):"
 msgstr "Prosím, stručně popište, co vedlo k chybě (volitelné):"
 
@@ -3680,15 +3620,6 @@ msgstr "Plugin je již nainstalován."
 
 msgid "Plugins"
 msgstr "Pluginy"
-
-msgid "Polish"
-msgstr "Polština"
-
-msgid "Portuguese"
-msgstr "Portugalština"
-
-msgid "Portuguese (Brazil)"
-msgstr "Portugalština (Brazílie)"
 
 msgid "Position in mempool: {}"
 msgstr "Pozice v mempoolu: {}"
@@ -4059,14 +3990,8 @@ msgstr "Revealery začínající na 0 nejsou kvůli zranitelnosti bezpečené."
 msgid "Right side"
 msgstr "Pravá strana"
 
-msgid "Romanian"
-msgstr "Rumunština"
-
 msgid "Routing Hints"
 msgstr "Tipy pro směrování"
-
-msgid "Russian"
-msgstr "Ruština"
 
 msgid "SLIP39 seed"
 msgstr "SLIP39 seed"
@@ -4401,12 +4326,6 @@ msgstr "Jediný seed (BIP39)"
 msgid "Size: {} {}"
 msgstr "Velikost: {} {}"
 
-msgid "Slovak"
-msgstr "Slovenština"
-
-msgid "Slovenian"
-msgstr "Slovinština"
-
 msgid "Some coins are frozen: {} (can be unfrozen in the Addresses or in the Coins tab)"
 msgstr "Některé mince jsou zmrazené: {} (lze je rozmrazit v záložce Adresy nebo v záložce Mince)"
 
@@ -4433,9 +4352,6 @@ msgstr "Litujeme, ale nemohli jsme zkontrolovat aktualizace. Prosím zkuste to z
 
 msgid "Source"
 msgstr "Zdroj"
-
-msgid "Spanish"
-msgstr "Španělština"
 
 msgid "Spend only confirmed coins"
 msgstr "Utratit pouze ověřené mince"
@@ -4551,9 +4467,6 @@ msgstr "Swap server je aktivní"
 msgid "Swapping lightning funds for onchain funds will increase your capacity to receive lightning payments."
 msgstr "Swap lightning prostředků za onchain prostředky zvýší vaši kapacitu přijímat lightning platby."
 
-msgid "Swedish"
-msgstr "Švédština"
-
 msgid "Sweep"
 msgstr "Sweep"
 
@@ -4568,9 +4481,6 @@ msgstr "Přepnout mezi zobrazením textu a QR kódu"
 
 msgid "Synchronizing..."
 msgstr "Synchronizuji..."
-
-msgid "Tamil"
-msgstr "Tamilština"
 
 msgid "Target"
 msgstr "Cíl"
@@ -4598,9 +4508,6 @@ msgstr "Text zkopírován do schránky"
 
 msgid "Text copied to clipboard"
 msgstr "Text byl zkopírován do schránky"
-
-msgid "Thai"
-msgstr "Thajština"
 
 msgid "Thanks for reporting this issue!"
 msgstr "Děkujeme za nahlášení této chyby!"
@@ -5245,9 +5152,6 @@ msgstr "Zkuste vysvětlit nejen chybu samotnou, ale i jak k ní dochází."
 msgid "Try to raise your transaction fee, or use a server with a lower relay fee."
 msgstr "Zkuste zvýšit transakční poplatek nebo použijte server s nižším poplatkem za přenos."
 
-msgid "Turkish"
-msgstr "Turečtina"
-
 msgid "Two-factor authentication is a service provided by TrustedCoin.  It uses a multi-signature wallet, where you own 2 of 3 keys.  The third key is stored on a remote server that signs transactions on your behalf.  To use this service, you will need a smartphone with Google Authenticator installed."
 msgstr "Dvoufaktorové ověřování je služba, kterou poskytuje TrustedCoin. Používá vícepodpisovou peněženku, ve které vlastníte 2 ze 3 klíčů. Třetí klíč je uložen na vzdáleném serveru, který podepisuje transakce vaším jménem. Chcete-li tuto službu používat, budete potřebovat smartphone s nainstalovanou aplikací Google Authenticator."
 
@@ -5268,9 +5172,6 @@ msgstr "Typ"
 
 msgid "USB Serial"
 msgstr "USB port"
-
-msgid "Ukrainian"
-msgstr "Ukrajinština"
 
 msgid "Unable to create backup"
 msgstr "Nelze vytvořit zálohu"
@@ -5469,9 +5370,6 @@ msgstr "Velmi silné"
 
 msgid "Video Device"
 msgstr "Video zařízení"
-
-msgid "Vietnamese"
-msgstr "Vietnamština"
 
 msgid "View"
 msgstr "Zobrazit"
@@ -6313,10 +6211,6 @@ msgstr "Licence MIT"
 msgctxt "About|"
 msgid "Homepage"
 msgstr "Úvodní stránka"
-
-msgctxt "About|"
-msgid "<a href=\"https://electrum.org\">https://electrum.org</a>"
-msgstr "<a href=\"https://electrum.org\">https://electrum.org</a>"
 
 msgctxt "About|"
 msgid "Developers"
@@ -8673,6 +8567,10 @@ msgstr "Spolupodepisovatel č. %1 z(e) %2"
 msgctxt "WCHaveSeed|"
 msgid "Seed Type"
 msgstr "Typ seedu"
+
+msgctxt "WCHaveSeed|"
+msgid "Electrum"
+msgstr "Electrum"
 
 msgctxt "WCHaveSeed|"
 msgid "BIP39"

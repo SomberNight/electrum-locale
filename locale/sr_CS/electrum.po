@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: electrum\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-14 08:25+0000\n"
-"PO-Revision-Date: 2026-02-14 08:26\n"
+"POT-Creation-Date: 2026-02-18 12:59+0000\n"
+"PO-Revision-Date: 2026-02-18 12:59\n"
 "Last-Translator: \n"
 "Language-Team: Serbian (Latin)\n"
 "Language: sr_CS\n"
@@ -466,9 +466,6 @@ msgstr ""
 msgid "Apply"
 msgstr ""
 
-msgid "Arabic"
-msgstr ""
-
 msgid "Are you SURE you want to wipe the device?\n"
 "Your wallet still has bitcoins in it!"
 msgstr ""
@@ -504,9 +501,6 @@ msgid "Are you sure you want to remove this transaction?"
 msgstr ""
 
 msgid "Are you sure you want to sign this transaction?"
-msgstr ""
-
-msgid "Armenian"
 msgstr ""
 
 msgid "At block height: {}"
@@ -695,9 +689,6 @@ msgid "Budget [{}]"
 msgstr ""
 
 msgid "Build Date"
-msgstr ""
-
-msgid "Bulgarian"
 msgstr ""
 
 msgid "Bump Fee"
@@ -895,12 +886,6 @@ msgid "Child Pays for Parent"
 msgstr ""
 
 msgid "Child pays for parent"
-msgstr ""
-
-msgid "Chinese Simplified"
-msgstr ""
-
-msgid "Chinese Traditional"
 msgstr ""
 
 msgid "Choose Hardware Device"
@@ -1362,16 +1347,10 @@ msgstr ""
 msgid "Custom secret"
 msgstr ""
 
-msgid "Czech"
-msgstr ""
-
 msgid "Daily Satoshi Budget (optional):"
 msgstr ""
 
 msgid "Danger! This transaction uses non-default sighash flags!"
-msgstr ""
-
-msgid "Danish"
 msgstr ""
 
 msgid "Dark"
@@ -1564,9 +1543,6 @@ msgstr ""
 msgid "During that time, funds will not be recoverable from your seed, and may be lost if you lose your device."
 msgstr ""
 
-msgid "Dutch"
-msgstr ""
-
 msgid "Dynamic fee estimates not available"
 msgstr ""
 
@@ -1589,9 +1565,6 @@ msgid "Edit fees manually"
 msgstr ""
 
 msgid "Edit {}"
-msgstr ""
-
-msgid "Electrum"
 msgstr ""
 
 msgid "Electrum Bitcoin Wallet"
@@ -1719,9 +1692,6 @@ msgid "Encryption and decryption are not implemented by {}"
 msgstr ""
 
 msgid "End"
-msgstr ""
-
-msgid "English"
 msgstr ""
 
 msgid "Enter NWC connection parameters"
@@ -1892,9 +1862,6 @@ msgid "Error synchronising labels"
 msgstr ""
 
 msgid "Error: Account discovery failed."
-msgstr ""
-
-msgid "Esperanto"
 msgstr ""
 
 msgid "Estimate"
@@ -2189,9 +2156,6 @@ msgstr ""
 msgid "Freeze for sending"
 msgstr ""
 
-msgid "French"
-msgstr ""
-
 msgid "From"
 msgstr ""
 
@@ -2231,9 +2195,6 @@ msgstr ""
 msgid "Generate a new random wallet"
 msgstr ""
 
-msgid "German"
-msgstr ""
-
 msgid "Get wallet address"
 msgstr ""
 
@@ -2241,9 +2202,6 @@ msgid "Go online to complete wallet creation"
 msgstr ""
 
 msgid "Google Authenticator code:"
-msgstr ""
-
-msgid "Greek"
 msgstr ""
 
 msgid "HTLCs in current commitment transaction"
@@ -2289,9 +2247,6 @@ msgid "However, we do not generate BIP39 seeds, because they do not meet our saf
 msgstr ""
 
 msgid "However, we do not generate SLIP39 seeds."
-msgstr ""
-
-msgid "Hungarian"
 msgstr ""
 
 msgid "I Accept"
@@ -2492,9 +2447,6 @@ msgstr ""
 msgid "Increase your transaction's fee to improve its position in mempool."
 msgstr ""
 
-msgid "Indonesian"
-msgstr ""
-
 msgid "Info"
 msgstr ""
 
@@ -2672,9 +2624,6 @@ msgstr ""
 msgid "It shows a channel that was opened with another instance of this wallet"
 msgstr ""
 
-msgid "Italian"
-msgstr ""
-
 msgid "Its password will be required to sign transactions."
 msgstr ""
 
@@ -2688,9 +2637,6 @@ msgid "JSON files (*.json)"
 msgstr ""
 
 msgid "Jade Status"
-msgstr ""
-
-msgid "Japanese"
 msgstr ""
 
 msgid "Join inputs/outputs"
@@ -2717,9 +2663,6 @@ msgstr ""
 msgid "Keystore type"
 msgstr ""
 
-msgid "Kyrgyz"
-msgstr ""
-
 msgid "Label"
 msgstr ""
 
@@ -2739,9 +2682,6 @@ msgid "Last seen"
 msgstr ""
 
 msgid "Latest version: {}"
-msgstr ""
-
-msgid "Latvian"
 msgstr ""
 
 msgid "Leave this field empty if you want to disable encryption."
@@ -3178,9 +3118,6 @@ msgstr ""
 msgid "None"
 msgstr ""
 
-msgid "Norwegian Bokmal"
-msgstr ""
-
 msgid "Nostr"
 msgstr ""
 
@@ -3508,9 +3445,6 @@ msgstr ""
 msgid "Performing swap..."
 msgstr ""
 
-msgid "Persian"
-msgstr ""
-
 msgid "Please briefly describe what led to the error (optional):"
 msgstr ""
 
@@ -3611,15 +3545,6 @@ msgid "Plugin already installed."
 msgstr ""
 
 msgid "Plugins"
-msgstr ""
-
-msgid "Polish"
-msgstr ""
-
-msgid "Portuguese"
-msgstr ""
-
-msgid "Portuguese (Brazil)"
 msgstr ""
 
 msgid "Position in mempool: {}"
@@ -3986,13 +3911,7 @@ msgstr ""
 msgid "Right side"
 msgstr ""
 
-msgid "Romanian"
-msgstr ""
-
 msgid "Routing Hints"
-msgstr ""
-
-msgid "Russian"
 msgstr ""
 
 msgid "SLIP39 seed"
@@ -4328,12 +4247,6 @@ msgstr ""
 msgid "Size: {} {}"
 msgstr ""
 
-msgid "Slovak"
-msgstr ""
-
-msgid "Slovenian"
-msgstr ""
-
 msgid "Some coins are frozen: {} (can be unfrozen in the Addresses or in the Coins tab)"
 msgstr ""
 
@@ -4359,9 +4272,6 @@ msgid "Sorry, but we were unable to check for updates. Please try again later."
 msgstr ""
 
 msgid "Source"
-msgstr ""
-
-msgid "Spanish"
 msgstr ""
 
 msgid "Spend only confirmed coins"
@@ -4478,9 +4388,6 @@ msgstr ""
 msgid "Swapping lightning funds for onchain funds will increase your capacity to receive lightning payments."
 msgstr ""
 
-msgid "Swedish"
-msgstr ""
-
 msgid "Sweep"
 msgstr ""
 
@@ -4494,9 +4401,6 @@ msgid "Switch between text and QR code view"
 msgstr ""
 
 msgid "Synchronizing..."
-msgstr ""
-
-msgid "Tamil"
 msgstr ""
 
 msgid "Target"
@@ -4524,9 +4428,6 @@ msgid "Text copied to Clipboard"
 msgstr ""
 
 msgid "Text copied to clipboard"
-msgstr ""
-
-msgid "Thai"
 msgstr ""
 
 msgid "Thanks for reporting this issue!"
@@ -5131,9 +5032,6 @@ msgstr ""
 msgid "Try to raise your transaction fee, or use a server with a lower relay fee."
 msgstr ""
 
-msgid "Turkish"
-msgstr ""
-
 msgid "Two-factor authentication is a service provided by TrustedCoin.  It uses a multi-signature wallet, where you own 2 of 3 keys.  The third key is stored on a remote server that signs transactions on your behalf.  To use this service, you will need a smartphone with Google Authenticator installed."
 msgstr ""
 
@@ -5153,9 +5051,6 @@ msgid "Type"
 msgstr ""
 
 msgid "USB Serial"
-msgstr ""
-
-msgid "Ukrainian"
 msgstr ""
 
 msgid "Unable to create backup"
@@ -5354,9 +5249,6 @@ msgid "Very Strong"
 msgstr ""
 
 msgid "Video Device"
-msgstr ""
-
-msgid "Vietnamese"
 msgstr ""
 
 msgid "View"
@@ -6167,10 +6059,6 @@ msgstr ""
 
 msgctxt "About|"
 msgid "Homepage"
-msgstr ""
-
-msgctxt "About|"
-msgid "<a href=\"https://electrum.org\">https://electrum.org</a>"
 msgstr ""
 
 msgctxt "About|"

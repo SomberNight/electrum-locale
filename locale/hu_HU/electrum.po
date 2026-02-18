@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: electrum\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-14 08:25+0000\n"
-"PO-Revision-Date: 2026-02-14 08:25\n"
+"POT-Creation-Date: 2026-02-18 12:59+0000\n"
+"PO-Revision-Date: 2026-02-18 12:59\n"
 "Last-Translator: \n"
 "Language-Team: Hungarian\n"
 "Language: hu_HU\n"
@@ -419,9 +419,6 @@ msgstr "Megjelenés"
 msgid "Apply"
 msgstr "Alkalmazás"
 
-msgid "Arabic"
-msgstr "Arab"
-
 msgid ""
 "Are you SURE you want to wipe the device?\n"
 "Your wallet still has bitcoins in it!"
@@ -449,9 +446,6 @@ msgstr "Biztosan eltávolítod ezt a tranzakciót?"
 
 msgid "Are you sure you want to sign this transaction?"
 msgstr "Biztos, hogy aláírod ezt a tranzakciót?"
-
-msgid "Armenian"
-msgstr "Örmény"
 
 msgid "At block height: {}"
 msgstr "Blokk magassága: {}"
@@ -593,9 +587,6 @@ msgstr "Tranzakció kiküldése folyamatban..."
 
 msgid "Build Date"
 msgstr "Build dátuma"
-
-msgid "Bulgarian"
-msgstr "Bolgár"
 
 msgid "Bump Fee"
 msgstr "Tranzakciós díj megemelése"
@@ -749,12 +740,6 @@ msgstr "Díjfizetés másodlagos tranzakcióval"
 
 msgid "Child pays for parent"
 msgstr "Díjfizetés másodlagos tranzakcióval"
-
-msgid "Chinese Simplified"
-msgstr "Kínai (egyszerűsített)"
-
-msgid "Chinese Traditional"
-msgstr "Kínai (hagyományos)"
 
 msgid "Choose Hardware Device"
 msgstr "Válassz hardver eszközt"
@@ -1165,14 +1150,8 @@ msgstr "Egyéni URL"
 msgid "Custom secret"
 msgstr "Egyedi titok"
 
-msgid "Czech"
-msgstr "Cseh"
-
 msgid "Danger! This transaction uses non-default sighash flags!"
 msgstr "Veszély! Ez a tranzakció nem alapértelmezett sighash jelzőket használ!"
-
-msgid "Danish"
-msgstr "Dán"
 
 msgid "Dark"
 msgstr "Sötét"
@@ -1349,9 +1328,6 @@ msgstr "Duplikált mesterkulcsok"
 msgid "During that time, funds will not be recoverable from your seed, and may be lost if you lose your device."
 msgstr "Ezalatt az összegek nem lesznek helyreállíthatóak a mag beállításodból, akár el is veszhetnek ha elveszted az eszközödet."
 
-msgid "Dutch"
-msgstr "Holland"
-
 msgid "Dynamic fee estimates not available"
 msgstr "Dinamikus tranzakciós díj becslése nem elérhető"
 
@@ -1477,9 +1453,6 @@ msgstr "A titkosítást és a visszafejtést nem támogatja a {}"
 
 msgid "End"
 msgstr "Vége"
-
-msgid "English"
-msgstr "Angol"
 
 msgid "Enter PIN"
 msgstr "PIN kód megadása"
@@ -1638,9 +1611,6 @@ msgstr "Hiba a címkék szinkronizálása közben"
 
 msgid "Error: Account discovery failed."
 msgstr "Hiba: A fiók felfedezése nem sikerült."
-
-msgid "Esperanto"
-msgstr "Eszperantó"
 
 msgid "Estimate"
 msgstr "Nagyjából"
@@ -1871,9 +1841,6 @@ msgstr "Befagyasztás fogadáshoz"
 msgid "Freeze for sending"
 msgstr "Befagyasztás küldéshez"
 
-msgid "French"
-msgstr "Francia"
-
 msgid "From"
 msgstr "Kezdő dátum"
 
@@ -1913,17 +1880,11 @@ msgstr "Az ezen a csatornán lévő összegek nem lesznek helyreállíthatók a 
 msgid "Generate a new random wallet"
 msgstr "Új véletlenszerű tárca létrehozása"
 
-msgid "German"
-msgstr "Német"
-
 msgid "Go online to complete wallet creation"
 msgstr "Csatlakozz az internethez a tárca létrehozás befejezéséhez"
 
 msgid "Google Authenticator code:"
 msgstr "Google Authenticator kód:"
-
-msgid "Greek"
-msgstr "Görög"
 
 msgid "HTLCs in current commitment transaction"
 msgstr "HTLC-k a jelenlegi tranzakcióban"
@@ -1966,9 +1927,6 @@ msgstr "Viszont az Electrum nem hoz létre új BIP39-es magokat, mivel azok nem 
 
 msgid "However, we do not generate SLIP39 seeds."
 msgstr "Viszont, nem hozunk létre SLIP39 magokat."
-
-msgid "Hungarian"
-msgstr "Magyar"
 
 msgid "I already have a seed"
 msgstr "Már rendelkezem egy maggal"
@@ -2111,9 +2069,6 @@ msgstr "Tranzakciós díj növelése"
 
 msgid "Increase your transaction's fee to improve its position in mempool."
 msgstr "A tranzakciós díj növelésével, a tranzakciód előrébb kerülhet a mempoolban."
-
-msgid "Indonesian"
-msgstr "Indonéz"
 
 msgid "Info"
 msgstr "Infó"
@@ -2274,14 +2229,8 @@ msgstr "Importálható egy másik tárcában, ugyanazzal a maggal."
 msgid "It shows a channel that was opened with another instance of this wallet"
 msgstr "Megjelenít egy csatornát, amely ennek a tárcának egy másik példányával került megnyitásra."
 
-msgid "Italian"
-msgstr "Olasz"
-
 msgid "Jade Status"
 msgstr "Jade állapota"
-
-msgid "Japanese"
-msgstr "Japán"
 
 msgid "Join inputs/outputs"
 msgstr "Be-/kimenetek egyesítése"
@@ -2304,9 +2253,6 @@ msgstr "Kulcstár"
 msgid "Keystore type"
 msgstr "Kulcstár típusa"
 
-msgid "Kyrgyz"
-msgstr "Kirgiz"
-
 msgid "Label"
 msgstr "Címke"
 
@@ -2324,9 +2270,6 @@ msgstr "Nyelv"
 
 msgid "Latest version: {}"
 msgstr "Legújabb verzió: {}"
-
-msgid "Latvian"
-msgstr "Lett"
 
 msgid "Leave this field empty if you want to disable encryption."
 msgstr "Hagyd ezt a mezőt üresen, ha ki szeretnéd kapcsolni a titkosítást."
@@ -2695,9 +2638,6 @@ msgstr "Csomópontok"
 msgid "None"
 msgstr "Nincs"
 
-msgid "Norwegian Bokmal"
-msgstr "Norvég"
-
 msgid "Nostr relays"
 msgstr "Nostr továbbítók"
 
@@ -2953,9 +2893,6 @@ msgstr "Fizetések (HTLC-k):"
 msgid "Performing swap..."
 msgstr "Csereügylet végrehajtása..."
 
-msgid "Persian"
-msgstr "Perzsa"
-
 msgid "Please briefly describe what led to the error (optional):"
 msgstr "Írd le nagyjából, hogy mi vezetett ehhez a hibához (nem kötelező):"
 
@@ -3045,15 +2982,6 @@ msgstr "Kérjük várj amíg az Electrum ellenőrzi az elérhető frissítéseke
 
 msgid "Please wait..."
 msgstr "Egy kis türelmet..."
-
-msgid "Polish"
-msgstr "Lengyel"
-
-msgid "Portuguese"
-msgstr "Portugál"
-
-msgid "Portuguese (Brazil)"
-msgstr "Portugál (Brazíliai)"
 
 msgid "Position in mempool: {}"
 msgstr "Pozíció a memóriahalmon: {}"
@@ -3349,14 +3277,8 @@ msgstr "A 0-val kezdődő Revealer-ek nem biztonságosak egy sebezhetőség miat
 msgid "Right side"
 msgstr "Jobb oldal"
 
-msgid "Romanian"
-msgstr "Román"
-
 msgid "Routing Hints"
 msgstr "Útvonalválasztási tippek"
-
-msgid "Russian"
-msgstr "Orosz"
 
 msgid "SLIP39 seed"
 msgstr "SLIP39 mag"
@@ -3643,12 +3565,6 @@ msgstr "Egyes mag (BIP39)"
 msgid "Size: {} {}"
 msgstr "Méret: {} {}"
 
-msgid "Slovak"
-msgstr "Szlovák"
-
-msgid "Slovenian"
-msgstr "Szlovén"
-
 msgid "Some coins are frozen: {} (can be unfrozen in the Addresses or in the Coins tab)"
 msgstr "Néhány érme le van fagyasztva: {} (kiolvasztható a Címek vagy az Érmék lapon)"
 
@@ -3675,9 +3591,6 @@ msgstr "Sajnos nem sikerült ellenőrizni a frissítéseket. Próbáld újra ké
 
 msgid "Source"
 msgstr "Forrás"
-
-msgid "Spanish"
-msgstr "Spanyol"
 
 msgid "Spend only confirmed coins"
 msgstr "Csak megerősített érmék elköltése"
@@ -3751,9 +3664,6 @@ msgstr "A csereügylet szerver aktív"
 msgid "Swapping lightning funds for onchain funds will increase your capacity to receive lightning payments."
 msgstr "Blokkláncon lévő összegek cseréje Lightning összegekre, megnöveli a fogadási kapacitásodat a Lightning fizetéseknél."
 
-msgid "Swedish"
-msgstr "Svéd"
-
 msgid "Sweep"
 msgstr "Begyűjtés"
 
@@ -3765,9 +3675,6 @@ msgstr "Váltás szöveges és QR-kód nézet közt"
 
 msgid "Synchronizing..."
 msgstr "Szinkronizálás..."
-
-msgid "Tamil"
-msgstr "Tamil"
 
 msgid "Target"
 msgstr "Cél"
@@ -3792,9 +3699,6 @@ msgstr "Szöveg a vágólapra másolva"
 
 msgid "Text copied to clipboard"
 msgstr "Szöveg a vágólapra másolva"
-
-msgid "Thai"
-msgstr "Thai"
 
 msgid "Thanks for reporting this issue!"
 msgstr "Köszönjük, hogy bejelentetted a hibát!"
@@ -4329,9 +4233,6 @@ msgstr "Ne csak azt írd le, hogy mi maga a hiba, hanem próbáld meg azt is le�
 msgid "Try to raise your transaction fee, or use a server with a lower relay fee."
 msgstr "Próbáld meg növelni a díjat, vagy válassz egy szervert aminek alacsonyabb a minimum továbbítási díja."
 
-msgid "Turkish"
-msgstr "Török"
-
 msgid "Two-factor authentication is a service provided by TrustedCoin.  It uses a multi-signature wallet, where you own 2 of 3 keys.  The third key is stored on a remote server that signs transactions on your behalf.  To use this service, you will need a smartphone with Google Authenticator installed."
 msgstr "A kétlépcsős hitelesítést a TrustedCoin szolgáltatja. Több-aláírós pénztárcát használ, ahol a 3 kulcsból 2-t te birtokolsz. A harmadik kulcs egy távoli szerveren tárolódik, ami a te nevedben írja alá a tranzakciókat. A szolgáltatás használatához szükséged lesz a Google Authenticator (hitelesítő) alkalmazásra, amit egy okostelefonra kell feltelepítened."
 
@@ -4352,9 +4253,6 @@ msgstr "Típus"
 
 msgid "USB Serial"
 msgstr "USB port"
-
-msgid "Ukrainian"
-msgstr "Ukrán"
 
 msgid "Unable to create backup"
 msgstr "Nem lehetett létrehozni a biztonsági mentést"
@@ -4538,9 +4436,6 @@ msgstr "Nagyon erős"
 
 msgid "Video Device"
 msgstr "Videóeszköz"
-
-msgid "Vietnamese"
-msgstr "Vietnámi"
 
 msgid "View"
 msgstr "Megtekintés"
@@ -5196,10 +5091,6 @@ msgstr "MIT licenc"
 msgctxt "About|"
 msgid "Homepage"
 msgstr "Weboldal"
-
-msgctxt "About|"
-msgid "<a href=\"https://electrum.org\">https://electrum.org</a>"
-msgstr "<a href=\"https://electrum.org\">https://electrum.org</a>"
 
 msgctxt "About|"
 msgid "Developers"

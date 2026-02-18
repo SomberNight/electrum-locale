@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: electrum\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-14 08:25+0000\n"
-"PO-Revision-Date: 2026-02-14 08:26\n"
+"POT-Creation-Date: 2026-02-18 12:59+0000\n"
+"PO-Revision-Date: 2026-02-18 12:59\n"
 "Last-Translator: \n"
 "Language-Team: Latvian\n"
 "Language: lv_LV\n"
@@ -246,9 +246,6 @@ msgstr "Nenosaukts {}"
 msgid "Appearance"
 msgstr "Izskats"
 
-msgid "Arabic"
-msgstr "Arābu"
-
 msgid "Are you sure you want to delete this channel? This will purge associated transactions from your wallet history."
 msgstr "Vai tiešām vēlaties dzēst šo kanālu? Tas izdzēsīs saistītos darījumus no jūsu maciņa vēstures."
 
@@ -260,9 +257,6 @@ msgstr "Vai tiešām vēlaties izņemt šo transakciju un {} bērnu transakcijas
 
 msgid "Are you sure you want to remove this transaction?"
 msgstr "Vai tiešām vēlaties noņemt šo transakciju?"
-
-msgid "Armenian"
-msgstr "Armēņu"
 
 msgid "At block height: {}"
 msgstr "Bloka augstumā: {}"
@@ -338,9 +332,6 @@ msgstr "Apraide"
 
 msgid "Broadcasting transaction..."
 msgstr "Apraida transakciju..."
-
-msgid "Bulgarian"
-msgstr "Bulgāru"
 
 msgid "Bump Fee"
 msgstr "Palielināt komisijas maksu"
@@ -437,12 +428,6 @@ msgstr "Bērns maksā par vecākiem"
 
 msgid "Child pays for parent"
 msgstr "Bērns maksā par vecākiem"
-
-msgid "Chinese Simplified"
-msgstr "Ķīniešu vienkāršotā"
-
-msgid "Chinese Traditional"
-msgstr "Ķīniešu tradicionālā"
 
 msgid "Choose a password to encrypt your wallet keys."
 msgstr "Izvēlieties paroli, lai šifrētu maciņa atslēgas."
@@ -618,12 +603,6 @@ msgstr "Pielāgots"
 msgid "Custom URL"
 msgstr "Pielāgots URL"
 
-msgid "Czech"
-msgstr "Čehu"
-
-msgid "Danish"
-msgstr "Dāņu"
-
 msgid "Dark"
 msgstr "Tumša"
 
@@ -720,9 +699,6 @@ msgstr "Lejupielādēt trūkstošos datus"
 msgid "During that time, funds will not be recoverable from your seed, and may be lost if you lose your device."
 msgstr "Šajā laikā līdzekļus nevarēs atgūt no sēklas, un, ja pazaudēsiet ierīci, tie var tikt zaudēti."
 
-msgid "Dutch"
-msgstr "Nīderlandiešu"
-
 msgid "Dynamic fee estimates not available"
 msgstr "Dinamiskā komisijas maksas aprēķināšana nav pieejama."
 
@@ -798,9 +774,6 @@ msgstr "Šifrēts"
 msgid "End"
 msgstr "Beigas"
 
-msgid "English"
-msgstr "Angļu"
-
 msgid "Enter PIN"
 msgstr "Ievadiet PIN"
 
@@ -866,9 +839,6 @@ msgstr "Gadījās kļūda, parsējot URI"
 
 msgid "Error scanning devices"
 msgstr "Kļūda, skenējot ierīces"
-
-msgid "Esperanto"
-msgstr "Esperanto"
 
 msgid "Estimate"
 msgstr "Aprēķins"
@@ -1017,9 +987,6 @@ msgstr "Iesaldēt saņemšanai"
 msgid "Freeze for sending"
 msgstr "Iesaldēt sūtīšanai"
 
-msgid "French"
-msgstr "Franču"
-
 msgid "From"
 msgstr "No"
 
@@ -1050,12 +1017,6 @@ msgstr "Līdzekļi šajā kanālā nebūs atgūstami no sēklas, kamēr tie neti
 msgid "Generate a new random wallet"
 msgstr "Ģenerēt jaunu, nejaušu maciņu"
 
-msgid "German"
-msgstr "Vācu"
-
-msgid "Greek"
-msgstr "Grieķu"
-
 msgid "HTLCs in current commitment transaction"
 msgstr "HTLC pašreizējā saistību transakcijā"
 
@@ -1073,9 +1034,6 @@ msgstr "Lēcieni"
 
 msgid "However, we do not generate BIP39 seeds, because they do not meet our safety standard."
 msgstr "Tomēr, mēs neģenerējam BIP39 sēklas, jo tās neatbilst mūsu drošības standartiem."
-
-msgid "Hungarian"
-msgstr "Ungāru"
 
 msgid "I already have a seed"
 msgstr "Man jau ir sēkla"
@@ -1139,9 +1097,6 @@ msgstr "Paaugstināt komisijas maksu"
 
 msgid "Increase your transaction's fee to improve its position in mempool."
 msgstr "Palielināt transakcijas komisijas maksu, lai uzlabotu pozīciju atmiņas pūlā."
-
-msgid "Indonesian"
-msgstr "Indonēziešu"
 
 msgid "Information"
 msgstr "Informācija"
@@ -1230,12 +1185,6 @@ msgstr "Tie var tikt importēti citā maciņā ar tādu pašu sēklu."
 msgid "It shows a channel that was opened with another instance of this wallet"
 msgstr "Parāda kanālu, ko atvēra cita šī maciņa instance"
 
-msgid "Italian"
-msgstr "Itāļu"
-
-msgid "Japanese"
-msgstr "Japāņu"
-
 msgid "Join inputs/outputs"
 msgstr "Apvienot ievadus vai izvadus"
 
@@ -1248,9 +1197,6 @@ msgstr "Atslēgu glabātuve"
 msgid "Keystore type"
 msgstr "Atslēgu glabātuves tips"
 
-msgid "Kyrgyz"
-msgstr "Kirgīzu"
-
 msgid "Label"
 msgstr "Etiķete"
 
@@ -1259,9 +1205,6 @@ msgstr "Valoda"
 
 msgid "Latest version: {}"
 msgstr "Jaunākā versija: {}"
-
-msgid "Latvian"
-msgstr "Latviešu"
 
 msgid "Leave this field empty if you want to disable encryption."
 msgstr "Atstājiet šo lauciņu tukšu, ja vēlaties atslēgt šifrēšanu."
@@ -1452,9 +1395,6 @@ msgstr "Mezgli"
 msgid "None"
 msgstr "Nekas"
 
-msgid "Norwegian Bokmal"
-msgstr "Norvēģu būkmols"
-
 msgid "Not Now"
 msgstr "Ne tagad"
 
@@ -1623,9 +1563,6 @@ msgstr "Maksājums nosūtīts."
 msgid "Payments (HTLCs):"
 msgstr "Maksājumi (HTLC):"
 
-msgid "Persian"
-msgstr "Persiešu"
-
 msgid "Please briefly describe what led to the error (optional):"
 msgstr "Lūdzu, īsi aprakstiet darbības kuras izraisīja kļūdu (nav obligāti):"
 
@@ -1676,12 +1613,6 @@ msgstr "Lūdzu, uzgaidiet, kamēr Electrum pārbauda atjauninājumus."
 
 msgid "Please wait..."
 msgstr "Lūdzu, uzgaidiet..."
-
-msgid "Polish"
-msgstr "Poļu"
-
-msgid "Portuguese"
-msgstr "Portugāļu"
 
 msgid "Preferences"
 msgstr "Iestatījumi"
@@ -1854,14 +1785,8 @@ msgstr "Atstatīt"
 msgid "Retry"
 msgstr "Mēģināt vēlreiz"
 
-msgid "Romanian"
-msgstr "Rumāņu"
-
 msgid "Routing Hints"
 msgstr "Maršrutēšanas padomi"
-
-msgid "Russian"
-msgstr "Krievu"
 
 msgid "Save"
 msgstr "Saglabāt"
@@ -2013,12 +1938,6 @@ msgstr "Paraksta transakciju..."
 msgid "Signing with an address actually means signing with the corresponding private key, and verifying with the corresponding public key. The address you have entered does not have a unique public key, so these operations cannot be performed."
 msgstr "Parakstīšana ar adresi faktiski nozīmē parakstīšanu ar atbilstošo privāto atslēgu un verifikāciju ar atbilstošo publisko atslēgu. Jūsu ievadītajai adresei nav unikālas publiskās atslēgas, tāpēc šīs darbības nevar veikt."
 
-msgid "Slovak"
-msgstr "Slovāku"
-
-msgid "Slovenian"
-msgstr "Slovēņu"
-
 msgid "Some of the outputs pay to a non-standard script."
 msgstr "Daži izvadi maksā nestandarta skriptam."
 
@@ -2030,9 +1949,6 @@ msgstr "Atvainojiet!"
 
 msgid "Source"
 msgstr "Avots"
-
-msgid "Spanish"
-msgstr "Spāņu"
 
 msgid "Spend only confirmed coins"
 msgstr "Tērēt tikai apstiprinātās monētas"
@@ -2061,9 +1977,6 @@ msgstr "Ieteikt dalībnieku"
 msgid "Summary"
 msgstr "Kopsavilkums"
 
-msgid "Swedish"
-msgstr "Zviedru"
-
 msgid "Sweep"
 msgstr "Izslaucīt"
 
@@ -2072,9 +1985,6 @@ msgstr "Izslaucīt privātās atslēgas"
 
 msgid "Synchronizing..."
 msgstr "Sinhronizējas..."
-
-msgid "Tamil"
-msgstr "Tamilu"
 
 msgid "Target"
 msgstr "Mērķis"
@@ -2096,9 +2006,6 @@ msgstr "Teksts iekopēts starpliktuvē"
 
 msgid "Text copied to clipboard"
 msgstr "Teksts iekopēts starpliktuvē"
-
-msgid "Thai"
-msgstr "Taju"
 
 msgid "The Lightning Network graph is fully synced."
 msgstr "Lightning tīkla diagramma ir pilnībā sinhronizēta."
@@ -2384,17 +2291,11 @@ msgstr "Mēģiniet paskaidrot, kad notiek kļūda un kā to iespējams atkārtot
 msgid "Try to raise your transaction fee, or use a server with a lower relay fee."
 msgstr "Mēģiniet paaugstināt komisijas maksu vai izmantojiet serveri ar zemāku komisijas maksas pārraides slieksni."
 
-msgid "Turkish"
-msgstr "Turku"
-
 msgid "Tx"
 msgstr "Transakcijas"
 
 msgid "Type"
 msgstr "Tips"
-
-msgid "Ukrainian"
-msgstr "Ukraiņu"
 
 msgid "Unable to create backup"
 msgstr "Neizdevās izveidot rezerves kopiju"
@@ -2509,9 +2410,6 @@ msgstr "Versija"
 
 msgid "Video Device"
 msgstr "Video ierīce"
-
-msgid "Vietnamese"
-msgstr "Vjetnamiešu"
 
 msgid "View Channel"
 msgstr "Skatīt kanālu"

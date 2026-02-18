@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: electrum\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-14 08:25+0000\n"
-"PO-Revision-Date: 2026-02-14 08:25\n"
+"POT-Creation-Date: 2026-02-18 12:59+0000\n"
+"PO-Revision-Date: 2026-02-18 12:59\n"
 "Last-Translator: \n"
 "Language-Team: Indonesian\n"
 "Language: id_ID\n"
@@ -309,9 +309,6 @@ msgstr "Penampilan"
 msgid "Apply"
 msgstr "Terapkan"
 
-msgid "Arabic"
-msgstr "Arab"
-
 msgid ""
 "Are you SURE you want to wipe the device?\n"
 "Your wallet still has bitcoins in it!"
@@ -333,9 +330,6 @@ msgstr "Apa anda sudah pasti untuk menghapus transaksi ini dan {} transaksi anak
 
 msgid "Are you sure you want to remove this transaction?"
 msgstr "Apa anda sudah pasti untuk menghapus transaksi ini?"
-
-msgid "Armenian"
-msgstr "Armenia"
 
 msgid "At block height: {}"
 msgstr "Pada ketinggian blok: {}"
@@ -456,9 +450,6 @@ msgstr "Menyiarkan transaksi..."
 
 msgid "Build Date"
 msgstr "Tanggal Pembuatan"
-
-msgid "Bulgarian"
-msgstr "Bulgaria"
 
 msgid "Bump Fee"
 msgstr "Naikkan biaya transaksi"
@@ -585,12 +576,6 @@ msgstr "Anak membayar untuk orang tua"
 
 msgid "Child pays for parent"
 msgstr "Anak membayar untuk orang tua"
-
-msgid "Chinese Simplified"
-msgstr "Mandarin Sederhana"
-
-msgid "Chinese Traditional"
-msgstr "Mandarin Tradisional"
 
 msgid "Choose Homescreen"
 msgstr "Pilih Layar Beranda"
@@ -842,12 +827,6 @@ msgstr "Kustom"
 msgid "Custom URL"
 msgstr "URL kustom"
 
-msgid "Czech"
-msgstr "Ceko"
-
-msgid "Danish"
-msgstr "Denmark"
-
 msgid "Dark"
 msgstr "Gelap"
 
@@ -938,9 +917,6 @@ msgstr "Apakah anda ingin melanjutkan?"
 msgid "Don't show this again."
 msgstr "Jangan tampilkan lagi."
 
-msgid "Dutch"
-msgstr "Bahasa Belanda"
-
 msgid "ETA"
 msgstr "EWT"
 
@@ -1006,9 +982,6 @@ msgstr "Terenkripsi"
 
 msgid "End"
 msgstr "Akhiri"
-
-msgid "English"
-msgstr "Bahasa Inggris"
 
 msgid "Enter PIN"
 msgstr "Masukan PIN"
@@ -1178,9 +1151,6 @@ msgstr "Buat dompet acak baru"
 msgid "Google Authenticator code:"
 msgstr "Kode Google Authenticator"
 
-msgid "Greek"
-msgstr "Bahasa Yunani"
-
 msgid "Height"
 msgstr "Tinggi"
 
@@ -1195,9 +1165,6 @@ msgstr "Sayangnya, kami tidak membuat seed BIP39, karena itu tidak memenuhi stan
 
 msgid "However, we do not generate SLIP39 seeds."
 msgstr "Sayangnya, kami tidak membuat seed SLIP39."
-
-msgid "Hungarian"
-msgstr "Bahasa Hungaria"
 
 msgid "I already have a seed"
 msgstr "Saya sudah memiliki seed"
@@ -1280,9 +1247,6 @@ msgstr "Meningkatkan biaya mining"
 msgid "Increase your transaction's fee to improve its position in mempool."
 msgstr "Tingkatkan biaya transaksi Anda untuk meningkatkan posisinya pada mempool."
 
-msgid "Indonesian"
-msgstr "Bahasa Indonesia"
-
 msgid "Info"
 msgstr "Informasi"
 
@@ -1336,9 +1300,6 @@ msgstr "Baris tidak valid ditemukan:"
 
 msgid "Invoices"
 msgstr "Tagihan-Tagihan"
-
-msgid "Japanese"
-msgstr "Bahasa Jepang"
 
 msgid "Keyboard shortcut: type \"!\" to send all your coins."
 msgstr "Pintasan keyboard: tekan \"!\" untuk mengirim semua koin Anda."
@@ -1616,9 +1577,6 @@ msgstr "Silakan tunggu selagi Electrum memerika update yang tersedia."
 msgid "Please wait..."
 msgstr "Harap tunggu..."
 
-msgid "Polish"
-msgstr "Bahasa Polandia"
-
 msgid "Preferences"
 msgstr "Pengaturan"
 
@@ -1829,12 +1787,6 @@ msgstr "Ditanda tangani"
 msgid "Signing transaction..."
 msgstr "Transaksi sedang ditandatangani..."
 
-msgid "Slovak"
-msgstr "Bahasa Slovakia"
-
-msgid "Slovenian"
-msgstr "Bahasa Slovenia"
-
 msgid "Sorry!"
 msgstr "Maaf!"
 
@@ -1843,9 +1795,6 @@ msgstr "Maaf, kami tidak dapat mengecek update. Coba lagi nanti."
 
 msgid "Source"
 msgstr "Sumber"
-
-msgid "Spanish"
-msgstr "Bahasa Spanyol"
 
 msgid "Spend only confirmed coins"
 msgstr "Hanya habiskan koin yang dikonfirmasi"

@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: electrum\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-14 08:25+0000\n"
-"PO-Revision-Date: 2026-02-14 08:26\n"
+"POT-Creation-Date: 2026-02-18 12:59+0000\n"
+"PO-Revision-Date: 2026-02-18 12:59\n"
 "Last-Translator: \n"
 "Language-Team: Polish\n"
 "Language: pl_PL\n"
@@ -279,9 +279,6 @@ msgstr "Nienazwany {}"
 msgid "Apply"
 msgstr "Zastosuj"
 
-msgid "Arabic"
-msgstr "Arabski"
-
 msgid ""
 "Are you SURE you want to wipe the device?\n"
 "Your wallet still has bitcoins in it!"
@@ -305,9 +302,6 @@ msgstr "Czy na pewno chcesz usunąć tę transakcję i {} transakcji pochodnych?
 
 msgid "Are you sure you want to remove this transaction?"
 msgstr "Czy na pewno chcesz usunąć tę transakcję?"
-
-msgid "Armenian"
-msgstr "Armeński"
 
 msgid "At block height: {}"
 msgstr "Na bloku o numerze: {}"
@@ -396,9 +390,6 @@ msgstr "Przekazywanie transakcji..."
 msgid "Build Date"
 msgstr "Data Kompilacji"
 
-msgid "Bulgarian"
-msgstr "Bułgarski"
-
 msgid "Bump Fee"
 msgstr "Podbij prowizję"
 
@@ -482,12 +473,6 @@ msgstr "Dziecko Płaci za Rodzica"
 
 msgid "Child pays for parent"
 msgstr "Dziecko płaci za rodzica"
-
-msgid "Chinese Simplified"
-msgstr "Chiński uproszczony"
-
-msgid "Chinese Traditional"
-msgstr "Chiński tradycyjny"
 
 msgid "Choose Homescreen"
 msgstr "Wybierz Ekran Startowy"
@@ -687,12 +672,6 @@ msgstr "Własny URL"
 msgid "Custom secret"
 msgstr "Niestandardowy sekret"
 
-msgid "Czech"
-msgstr "Czeski"
-
-msgid "Danish"
-msgstr "Duński"
-
 msgid "Dark"
 msgstr "Ciemny"
 
@@ -798,9 +777,6 @@ msgstr "Nie pokazuj tego ponownie."
 msgid "Due to a bug, old versions of Electrum will NOT be creating the same wallet as newer versions or other software."
 msgstr "Z powodu błędu, stare wersje Electrum NIE będą tworzyły takich samych portfeli jak nowe wersje lub inne oprogramowanie."
 
-msgid "Dutch"
-msgstr "Holenderski"
-
 msgid "Dynamic fee estimates not available"
 msgstr "Dynamiczna estymacja prowizji nie jest dostępna"
 
@@ -847,7 +823,7 @@ msgid "Electrum was unable to produce a transaction export."
 msgstr "Electrum nie był w stanie wyprodukować eksportu transakcji."
 
 msgid "Electrum's focus is speed, with low resource usage and simplifying Bitcoin."
-msgstr "Electrum's focus is speed, with low resource usage and simplifying Bitcoin."
+msgstr "Największym celem Electron'u jest prędkość z niskim użytkowaniem zasobów komputerowych i uproszczanie Bitcoina."
 
 msgid "Enable PIN protection"
 msgstr "Włącz ochronę PIN"
@@ -869,9 +845,6 @@ msgstr "Zaszyfruj/odszyfruj wiadomość"
 
 msgid "Encrypted"
 msgstr "Zaszyfrowany"
-
-msgid "English"
-msgstr "Angielski"
 
 msgid "Enter PIN"
 msgstr "Wprowadź PIN"
@@ -941,9 +914,6 @@ msgstr "Błąd synchronizacji etykiet"
 
 msgid "Error: Account discovery failed."
 msgstr "Błąd: Nie wykryto konta."
-
-msgid "Esperanto"
-msgstr "Esperanto"
 
 msgid "Estimate"
 msgstr "Oszacuj"
@@ -1020,9 +990,6 @@ msgstr "Format: adres, wartość"
 msgid "Freeze"
 msgstr "Zamroź"
 
-msgid "French"
-msgstr "Francuski"
-
 msgid "From"
 msgstr "Od"
 
@@ -1038,14 +1005,8 @@ msgstr "Opłacone"
 msgid "Generate a new random wallet"
 msgstr "Wygeneruj nowy, losowy portfel"
 
-msgid "German"
-msgstr "Niemiecki"
-
 msgid "Google Authenticator code:"
 msgstr "Kod Google Authenticator:"
-
-msgid "Greek"
-msgstr "Grecki"
 
 msgid "Height"
 msgstr "Wielkość"
@@ -1061,9 +1022,6 @@ msgstr "Ekran główny"
 
 msgid "However, we do not generate BIP39 seeds, because they do not meet our safety standard."
 msgstr "Jednakże nie generujemy ziaren BIP39, ponieważ nie spełniają one naszych standardów bezpieczeństwa."
-
-msgid "Hungarian"
-msgstr "Węgierski"
 
 msgid "I already have a seed"
 msgstr "Mam już ziarno"
@@ -1131,12 +1089,6 @@ msgstr "Znaleziono nieprawidłowe linie:"
 msgid "Invoices"
 msgstr "Rachunki"
 
-msgid "Italian"
-msgstr "Włoski"
-
-msgid "Japanese"
-msgstr "Japoński"
-
 msgid "Keyboard shortcut: type \"!\" to send all your coins."
 msgstr "Skrót klawiaturowy: wpisz \"!\" aby wysłać wszystkie swoje monety."
 
@@ -1145,9 +1097,6 @@ msgstr "Język"
 
 msgid "Latest version: {}"
 msgstr "Najnowsza wersja: {}"
-
-msgid "Latvian"
-msgstr "Łotewski"
 
 msgid "Leave this field empty if you want to disable encryption."
 msgstr "Zostaw to pole puste jeżeli nie chcesz używać szyfrowania."
@@ -1320,9 +1269,6 @@ msgstr "Żądanie płatności wygasło"
 msgid "Payment sent."
 msgstr "Płatność wysłana."
 
-msgid "Persian"
-msgstr "Perski"
-
 msgid "Please enter the master public key (xpub) of your cosigner."
 msgstr "Proszę podać główny klucz publiczny (xpub) lub twój współpodpis."
 
@@ -1343,9 +1289,6 @@ msgstr "Proszę czekać"
 
 msgid "Please wait..."
 msgstr "Proszę czekać..."
-
-msgid "Polish"
-msgstr "Polski"
 
 msgid "Preferences"
 msgstr "Ustawienia"
@@ -1473,17 +1416,8 @@ msgstr "Sygnatura zweryfikowana"
 msgid "Signing transaction..."
 msgstr "Podpisywanie transakcji..."
 
-msgid "Slovak"
-msgstr "Słowacki"
-
-msgid "Slovenian"
-msgstr "Słoweński"
-
 msgid "Source"
 msgstr "Źródło"
-
-msgid "Spanish"
-msgstr "Hiszpański"
 
 msgid "Spend only confirmed coins"
 msgstr "Wydaj tylko potwierdzone monety"
@@ -1500,9 +1434,6 @@ msgstr "Status"
 msgid "Success"
 msgstr "Powodzenie"
 
-msgid "Swedish"
-msgstr "Szwedzki"
-
 msgid "Sweep"
 msgstr "Opróżnij"
 
@@ -1514,9 +1445,6 @@ msgstr "Synchronizowanie..."
 
 msgid "Text copied to clipboard"
 msgstr "Tekst został skopiowany do schowka"
-
-msgid "Thai"
-msgstr "Tajski"
 
 msgid "The amount of fee can be decided freely by the sender. However, transactions with low fees take more time to be processed."
 msgstr "Wysokość prowizji może być dowolnie ustalona przez nadawcę. Jednak im niższa opłata, tym transakcja może dłużej oczekiwać na potwierdzenie."
@@ -1598,12 +1526,6 @@ msgstr "Transakcja:"
 
 msgid "Try to explain not only what the bug is, but how it occurs."
 msgstr "Spróbuj wyjaśnić nie tylko jaki to błąd, ale jak do niego doszło."
-
-msgid "Turkish"
-msgstr "Turecki"
-
-msgid "Ukrainian"
-msgstr "Ukraiński"
 
 msgid "Unable to create backup"
 msgstr "Nie można utworzyć kopii zapasowej"

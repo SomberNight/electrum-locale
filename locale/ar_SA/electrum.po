@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: electrum\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-14 08:25+0000\n"
-"PO-Revision-Date: 2026-02-14 08:25\n"
+"POT-Creation-Date: 2026-02-18 12:59+0000\n"
+"PO-Revision-Date: 2026-02-18 12:59\n"
 "Last-Translator: \n"
 "Language-Team: Arabic\n"
 "Language: ar_SA\n"
@@ -278,9 +278,6 @@ msgstr "حدث خطأ"
 msgid "Apply"
 msgstr "تطبيق"
 
-msgid "Arabic"
-msgstr "اللغة العربية"
-
 msgid ""
 "Are you SURE you want to wipe the device?\n"
 "Your wallet still has bitcoins in it!"
@@ -294,9 +291,6 @@ msgstr "هل انت متاكد من انك تريد المتابعة؟"
 
 msgid "Are you sure you want to remove this transaction?"
 msgstr "هل  تريد حقا  محو هذا الشيئ"
-
-msgid "Armenian"
-msgstr "الأرمينية"
 
 msgid "Audio Modem Settings"
 msgstr "إعدادات مودم الصوت"
@@ -354,9 +348,6 @@ msgstr "يتم ارسال معاملة..."
 
 msgid "Build Date"
 msgstr "تاريخ الإصدار"
-
-msgid "Bulgarian"
-msgstr "البلغارية"
 
 msgid "Bump Fee"
 msgstr "زيادة الرسوم"

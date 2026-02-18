@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: electrum\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-14 08:25+0000\n"
-"PO-Revision-Date: 2026-02-14 08:26\n"
+"POT-Creation-Date: 2026-02-18 12:59+0000\n"
+"PO-Revision-Date: 2026-02-18 12:59\n"
 "Last-Translator: \n"
 "Language-Team: Swedish\n"
 "Language: sv_SE\n"
@@ -249,9 +249,6 @@ msgstr "En namnlös {}"
 msgid "Apply"
 msgstr "Verkställ"
 
-msgid "Arabic"
-msgstr "Arabiska"
-
 msgid ""
 "Are you SURE you want to wipe the device?\n"
 "Your wallet still has bitcoins in it!"
@@ -270,9 +267,6 @@ msgstr "Är det säkert att du vill ta bort denna transaktion och {} underordnad
 
 msgid "Are you sure you want to remove this transaction?"
 msgstr "Är det säkert att du vill ta bort denna transaktion?"
-
-msgid "Armenian"
-msgstr "Armeniska"
 
 msgid "At block height: {}"
 msgstr "Vid blockhöjd: {}"
@@ -369,9 +363,6 @@ msgstr "Sänder transaktion …"
 
 msgid "Build Date"
 msgstr "Versionsdatum"
-
-msgid "Bulgarian"
-msgstr "Bulgariska"
 
 msgid "Bump Fee"
 msgstr "Öka avgiften"
@@ -471,12 +462,6 @@ msgstr "Kontrollera din {}-enhet för att fortsätta"
 
 msgid "Checking for updates..."
 msgstr "Söker efter uppdateringar …"
-
-msgid "Chinese Simplified"
-msgstr "Förenklad kinesiska"
-
-msgid "Chinese Traditional"
-msgstr "Traditionell kinesiska"
 
 msgid "Choose Homescreen"
 msgstr "Välj startskärm"
@@ -607,12 +592,6 @@ msgstr "Aktuell version: {}"
 msgid "Custom"
 msgstr "Anpassad"
 
-msgid "Czech"
-msgstr "Tjeckiska"
-
-msgid "Danish"
-msgstr "Danska"
-
 msgid "Dark"
 msgstr "Mörk"
 
@@ -688,9 +667,6 @@ msgstr "Visa inte detta igen."
 msgid "Due to a bug, old versions of Electrum will NOT be creating the same wallet as newer versions or other software."
 msgstr "På grund av en bugg skapar äldre versioner av Electrum INTE samma plånbok som nyare versioner eller annan programvara."
 
-msgid "Dutch"
-msgstr "Nederländska"
-
 msgid "Electrum preferences"
 msgstr "Inställningar för Electrum"
 
@@ -726,9 +702,6 @@ msgstr "Krypterad"
 
 msgid "Encryption and decryption are currently not supported for {}"
 msgstr "För närvarande stöds inte kryptering och dekryptering för {}"
-
-msgid "English"
-msgstr "Engelska"
 
 msgid "Enter PIN"
 msgstr "Ange PIN"
@@ -766,9 +739,6 @@ msgstr "Fel"
 msgid "Error opening file"
 msgstr "Fel uppstod när filen öppnades"
 
-msgid "Esperanto"
-msgstr "Esperanto"
-
 msgid "Exit Electrum"
 msgstr "Avsluta Electrum"
 
@@ -805,17 +775,8 @@ msgstr "Sök"
 msgid "Format: address, amount"
 msgstr "Format: adress, belopp"
 
-msgid "French"
-msgstr "Franska"
-
 msgid "From"
 msgstr "Från"
-
-msgid "German"
-msgstr "Tyska"
-
-msgid "Greek"
-msgstr "Grekiska"
 
 msgid "Height"
 msgstr "Höjd"
@@ -825,9 +786,6 @@ msgstr "Hjälp"
 
 msgid "History"
 msgstr "Historik"
-
-msgid "Hungarian"
-msgstr "Ungerska"
 
 msgid "If you disable your PIN, anyone with physical access to your {} device can spend your bitcoins."
 msgstr "Om du inaktiverar din PIN kan alla som har fysisk åtkomst till din {}-enhet spendera dina Bitcoin."
@@ -849,9 +807,6 @@ msgstr "I nästa block"
 
 msgid "Increase fee"
 msgstr "Öka avgiften"
-
-msgid "Indonesian"
-msgstr "Indonesiska"
 
 msgid "Information"
 msgstr "Information"
@@ -892,23 +847,11 @@ msgstr "Ogiltigt engångslösenord."
 msgid "Invoices"
 msgstr "Fakturor"
 
-msgid "Italian"
-msgstr "Italienska"
-
-msgid "Japanese"
-msgstr "Japanska"
-
-msgid "Kyrgyz"
-msgstr "Kirgiziska"
-
 msgid "Label"
 msgstr "Etikett"
 
 msgid "Language"
 msgstr "Språk"
-
-msgid "Latvian"
-msgstr "Lettiska"
 
 msgid "Leave this field empty if you want to disable encryption."
 msgstr "Lämna detta tomt för att inaktivera kryptering."
@@ -1000,9 +943,6 @@ msgstr "Inga fler adresser i din plånbok."
 msgid "None"
 msgstr "Ingen"
 
-msgid "Norwegian Bokmal"
-msgstr "Norska (bokmål)"
-
 msgid "Not available for this wallet."
 msgstr "Inte tillgängligt för denna plånbok."
 
@@ -1069,9 +1009,6 @@ msgstr "Betala till"
 msgid "Payment sent."
 msgstr "Betalning skickad."
 
-msgid "Persian"
-msgstr "Persiska"
-
 msgid "Please confirm"
 msgstr "Vänligen bekräfta"
 
@@ -1098,12 +1035,6 @@ msgstr "Vänta"
 
 msgid "Please wait..."
 msgstr "Vänta …"
-
-msgid "Polish"
-msgstr "Polska"
-
-msgid "Portuguese"
-msgstr "Portugisiska"
 
 msgid "Preferences"
 msgstr "Inställningar"
@@ -1180,12 +1111,6 @@ msgstr "Begär kontoinformation från TrustedCoin-servern …"
 msgid "Requesting {} channels..."
 msgstr "Begär {} kanaler …"
 
-msgid "Romanian"
-msgstr "Rumänska"
-
-msgid "Russian"
-msgstr "Ryska"
-
 msgid "Save"
 msgstr "Spara"
 
@@ -1252,9 +1177,6 @@ msgstr "Signerar meddelande …"
 msgid "Signing transaction..."
 msgstr "Signerar transaktion …"
 
-msgid "Spanish"
-msgstr "Spanska"
-
 msgid "Standard wallet"
 msgstr "Standardplånbok"
 
@@ -1264,23 +1186,14 @@ msgstr "Status"
 msgid "Summary"
 msgstr "Sammanfattning"
 
-msgid "Swedish"
-msgstr "Svenska"
-
 msgid "Synchronizing..."
 msgstr "Synkroniserar …"
-
-msgid "Tamil"
-msgstr "Tamilska"
 
 msgid "Testnet"
 msgstr "Testnet"
 
 msgid "Text copied to clipboard"
 msgstr "Text kopierades till urklipp"
-
-msgid "Thai"
-msgstr "Thailändska"
 
 msgid "The amount to be received by the recipient."
 msgstr "Belopp som ska tas emot av mottagaren."
@@ -1345,14 +1258,8 @@ msgstr "Sant"
 msgid "Try to connect again?"
 msgstr "Försök att ansluta igen?"
 
-msgid "Turkish"
-msgstr "Turkiska"
-
 msgid "Type"
 msgstr "Typ"
-
-msgid "Ukrainian"
-msgstr "Ukrainska"
 
 msgid "Unconfirmed"
 msgstr "Obekräftad"
@@ -1380,9 +1287,6 @@ msgstr "Verifiera"
 
 msgid "Version"
 msgstr "Version"
-
-msgid "Vietnamese"
-msgstr "Vietnamesiska"
 
 msgid "View log"
 msgstr "Visa logg"
