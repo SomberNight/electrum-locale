@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 import datetime
+import glob
 import os
+import re
 import subprocess
 import sys
 import io
@@ -10,7 +12,12 @@ import zipfile
 try:
     import requests
 except ImportError as e:
-    sys.exit(f"Error: {str(e)}. Try 'python3 -m pip install --user <module-name>'")
+    sys.exit(f"Error: {str(e)}. Try 'python3 -m pip install --user <module-name>' (or 'python3-requests' from Debian)")
+
+try:
+    import polib
+except ImportError as e:
+    sys.exit(f"Error: {str(e)}. Try 'python3 -m pip install --user <module-name>' (or 'python3-polib' from Debian)")
 
 try:
     subprocess.check_output(["msgattrib", "--version"])
@@ -19,6 +26,28 @@ except (subprocess.CalledProcessError, OSError):
 
 
 crowdin_project_id = 20482  # for "Electrum" project on crowdin
+
+BITCOIN_ADDRESS_REGEXP = re.compile('([13]|bc1)[a-zA-Z0-9]{30,}')
+EMAIL_ADDRESS_REGEXP = re.compile(r'[\w.+-]+@[\w-]+\.[\w.-]+')
+
+URL1_REGEXP = re.compile(r"\S+\.\S*\w+\S*/\S+")  # str has a "." and somewhere later has a "/" ==> URL?
+assert URL1_REGEXP.search("download security update from scamwebsite.com/click-here") is not None
+URL2_REGEXP = re.compile(r"http(s){0,1}://")
+
+MIXED_LETTERS_AND_DIGITS_WORD_REGEXP = re.compile(  # try to match any cryptocurrency address
+    r"(?a)"  # limit match to ascii, as CJK languages do not put whitespaces between words (would match full sentence otherwise)
+    r"(?=\w{16,})"  # positive lookahead: check word length >=16
+    r"("
+        r"(\w*[a-zA-Z]\w*[0-9]\w*)|"  # contains a letter and then later a digit, OR
+        r"(\w*[0-9]\w*[a-zA-Z]\w*)"   # contains a digit and then later a letter
+    r")"
+)
+assert not (MIXED_LETTERS_AND_DIGITS_WORD_REGEXP.search("bip39 seeds cannot be converted to electrum seeds") is not None)
+assert not (MIXED_LETTERS_AND_DIGITS_WORD_REGEXP.search("ライトニングは現在p2wpkhアドレスのHDウォレットでのみ利用可能です。") is not None)
+assert MIXED_LETTERS_AND_DIGITS_WORD_REGEXP.search("ラ TB1Q9DVVAG8NS2EPXZ285FW03CR78HWEJP0Z7DFAFE") is not None
+assert MIXED_LETTERS_AND_DIGITS_WORD_REGEXP.search("bitcoin:tb1q9dvvag8ns2epxz285fw03cr78hwejp0z7dfafe?amount=12345678") is not None
+assert MIXED_LETTERS_AND_DIGITS_WORD_REGEXP.search("0x456d9347342B72BCf800bBf117391ac2f807c6bF") is not None  # eth
+assert MIXED_LETTERS_AND_DIGITS_WORD_REGEXP.search("84EgZVjXKF4d1JkEhZSxm4LQQEx64AvqQEwkvWPtHEb5JMrB1Y86y1vCPSCiXsKzbfS9x8vCpx3gVgPaHCpobPYqQzANTnC") is not None  # xmr
 
 
 def get_crowdin_api_key() -> str:
@@ -97,6 +126,8 @@ def pull_locale(path, *, crowdin_api_key=None):
             if name.endswith('.po'):
                 filter_exclude_comment_lines(name_suffix)
                 filter_exclude_untranslated_strings(name_suffix)
+            else:
+                raise Exception(f"unexpected file inside zipfile from crowdin: {name}")
 
 
 def filter_exclude_comment_lines(fname: str):
@@ -123,10 +154,46 @@ def filter_exclude_untranslated_strings(fname: str):
     subprocess.check_output(cmd)
 
 
+def detect_malicious_stuff_in_dir(path_locale: str) -> None:
+    is_detected = False
+    # scan each .po file separately
+    files_list = glob.glob(f"{path_locale}/**/*.po", recursive=True)
+    for fname in files_list:
+        is_detected |= detect_malicious_stuff_in_po_file(fname)
+    # after finding all errors, exit now if there were any:
+    if is_detected:
+        raise Exception("detected some possibly malicious translations. see logs above.")
+
+
+def detect_malicious_stuff_in_po_file(fname: str) -> bool:
+    pofile = polib.pofile(fname)
+
+    is_detected = False
+    regexes = {
+        "BITCOIN_ADDRESS_REGEXP": BITCOIN_ADDRESS_REGEXP,
+        "EMAIL_ADDRESS_REGEXP": EMAIL_ADDRESS_REGEXP,
+        "URL1_REGEXP": URL1_REGEXP,
+        "URL2_REGEXP": URL2_REGEXP,
+        "MIXED_LETTERS_AND_DIGITS_WORD_REGEXP": MIXED_LETTERS_AND_DIGITS_WORD_REGEXP,
+    }
+    for entry in pofile:
+        for regex_name, regex in regexes.items():
+            if regex.search(entry.msgstr) is not None:
+                print(
+                    f">> regex {regex_name} matched in {fname!r},\n"
+                    f"\t{entry.msgid=!r}\n"
+                    f"\t{entry.msgstr=!r}\n")
+                is_detected = True
+
+    return is_detected
+
+
 if __name__ == '__main__':
     path_here = os.path.dirname(os.path.realpath(__file__))
     path_locale = os.path.join(path_here, "locale")
+
     pull_locale(path_locale)
+    detect_malicious_stuff_in_dir(path_locale)
 
     print('Local updates done.')
     print("Please don't commit directly to master, switch to a branch instead.")
