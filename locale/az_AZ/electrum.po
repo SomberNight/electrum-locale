@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: electrum\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-18 12:59+0000\n"
-"PO-Revision-Date: 2026-02-18 12:59\n"
+"POT-Creation-Date: 2026-02-19 16:44+0000\n"
+"PO-Revision-Date: 2026-02-19 16:44\n"
 "Last-Translator: \n"
 "Language-Team: Azerbaijani\n"
 "Language: az_AZ\n"
@@ -21,47 +21,431 @@ msgstr ""
 "X-Crowdin-File: /electrum-client/messages.pot\n"
 "X-Crowdin-File-ID: 68\n"
 
+msgid "Do you want to send this report?"
+msgstr "Bu hesabatı göndərmək istəyirsiniz?"
+
+msgid "Do not enter sensitive/private information here. The report will be visible on the public issue tracker."
+msgstr "Bura həssas/şəxsi məlumatlarınızı daxil etməyin. Hər kəsə açıq hesabat, problem izləyicidə görünəcək."
+
 msgid "  (No FX rate available)"
 msgstr "(FX məzənnəsi əlçatmazdır)"
+
+msgid "ETA"
+msgstr "ETA"
+
+msgid "Current rate"
+msgstr "Hazırkı məzənnə"
+
+msgid "Estimate"
+msgstr "Təxmini"
+
+msgid "Close Lightning channel?"
+msgstr "Lightning kanalı bağlanılsın?"
+
+msgid "Could not close channel: "
+msgstr "Kanal bağlanıla bilmədi: "
+
+msgid "Open Lightning channel?"
+msgstr "Lightning kanalı açılsın?"
+
+msgid "Could not connect to channel peer"
+msgstr "Kanalı cütləşdirmək üçün bağlantı qurula bilmədi"
+
+msgid "Could not read/write file"
+msgstr "Fayl oxuna/yazıla bilmədi"
+
+msgid "Could not open wallet: {}"
+msgstr "Pulqabı açıla bilmədi: {}"
+
+msgid "Paid!"
+msgstr "Ödənildi!"
+
+msgid "Enter the amount you want to send"
+msgstr "Göndərmək istədiyiniz məbləği daxil edin"
+
+msgid "Cannot pay less than the amount specified in the invoice"
+msgstr "Fakturada göstərilən məbləğdən az ödəniş edilə bilməz"
+
+msgid "Detected valid Lightning invoice, but there are no open channels"
+msgstr "Yararlı Lightning fakturası aşkarlandı, ancaq açıq kanal yoxdur"
+
+msgid "Move the slider to set the amount and direction of the swap."
+msgstr "Mübadilənin miqdarini və istiqamətini ayarlamaq üçün diyircəyi hərəkət etdirin."
+
+msgid "Swapping lightning funds for onchain funds will increase your capacity to receive lightning payments."
+msgstr "Lightning fondlarını zəncirüstü fondlarla mübadilə etmək Lightning ödənişlərinizi alma tutumunu artıracaq."
+
+msgid "Error"
+msgstr "Xəta"
+
+msgid "Performing swap..."
+msgstr "Mübadilə icra edilir..."
+
+msgid "Success!"
+msgstr "Uğurlu!"
+
+msgid "Swap failed!"
+msgstr "Mübadilə uğursuz oldu!"
+
+msgid "Swap cancelled"
+msgstr "Mübadilə ləğv edildi"
+
+msgid "You are offline."
+msgstr "Oflaynsınız."
+
+msgid "Confirm Lightning swap?"
+msgstr "Lightning mübadiləsi təsdiqlənsin?"
+
+msgid "Cannot determine dynamic fees, not connected"
+msgstr "Dinamik xərclər müəyyənləşdirilə bilmir, bağlantılı deyil"
+
+msgid "Amount"
+msgstr "Miqdar"
+
+msgid "Pay lightning invoice?"
+msgstr "Lightning fakturası ödənilsin?"
+
+msgid "All your addresses are used in pending requests."
+msgstr "Bütün ünvanlarınız gözləyən tələblərdə istifadə edilir."
+
+msgid "Error creating payment request"
+msgstr "Ödəniş tələbini yaratma xətası"
+
+msgid "Lightning Network"
+msgstr "Lightning şəbəkəsi"
+
+msgid "Close"
+msgstr "Bağla"
+
+msgid "Dark/Light"
+msgstr "Qaranlıq/İşıqlı"
+
+msgid "Exit Electrum"
+msgstr "Electrum-dan çıx"
+
+msgid "Cannot load wallet"
+msgstr "Pulqabı yüklənə bilmir"
+
+msgid "Address"
+msgstr "Ünvan"
+
+msgid "Derivation path"
+msgstr "Törəmə yolu"
+
+msgid "All status"
+msgstr "Bütün status"
+
+msgid "All types"
+msgstr "Bütün növlər"
+
+msgid "Change"
+msgstr "Dəyişdir"
+
+msgid "Balance"
+msgstr "Balans"
+
+msgid "change"
+msgstr "dəyişdir"
+
+msgid "Details"
+msgstr "Detallar"
+
+msgid "Edit {}"
+msgstr "{} - düzəliş et"
+
+msgid "Sign/verify message"
+msgstr "Mesajı imzala/doğrula"
+
+msgid "Encrypt/decrypt message"
+msgstr "Mesajı şifrələ/şifrəsini aç"
+
+msgid "Lightning"
+msgstr "Lightning"
+
+msgid "Lightning frozen"
+msgstr "Lightning donduruldu"
+
+msgid "Lightning (frozen)"
+msgstr "Lightning (dondurulmuş)"
+
+msgid "Swap"
+msgstr "Mübadilə"
+
+msgid "BIP39 Recovery"
+msgstr "BIP39 Geri qaytarma"
+
+msgid "Choose an account to restore."
+msgstr "Bərpa etmək üçün bir hesab seçin."
+
+msgid "Error: Account discovery failed."
+msgstr "Xəta: Hesabın kəşf edilməsi uğursuz oldu."
+
+msgid "Lightning Channel"
+msgstr "Lightning kanalı"
+
+msgid "Channel Backup"
+msgstr "Kanal nüsxələmə"
+
+msgid "A backup does not contain information about your local balance in the channel."
+msgstr "Nüsxə, kanaldakı yerli balansınız haqqında məlumat ehtiva etmir."
+
+msgid "Channel stats"
+msgstr "Kanal statistikaları"
+
+msgid "CLTV expiry"
+msgstr "CLTV bitmə"
+
+msgid "Failed HTLCs"
+msgstr "HTLC uğursuz oldu"
+
+msgid "Channel ID"
+msgstr "Kanal kimliyi"
+
+msgid "Capacity"
+msgstr "Tutum:"
+
+msgid "Channel type:"
+msgstr "Kanal növü:"
+
+msgid "Can send"
+msgstr "Göndərə bilər"
+
+msgid "Can receive"
+msgstr "Ala bilər"
+
+msgid "Cooperative close?"
+msgstr "Kooperativ bağlanılsın?"
+
+msgid "Channel is frozen for sending"
+msgstr "Kanal göndərmə üçün donduruldu"
+
+msgid "Cooperative close"
+msgstr "Kooperativ bağlama"
+
+msgid "Export backup"
+msgstr "Nüsxəni xaricə köçür"
+
+msgid "Delete"
+msgstr "Sil"
+
+msgid "can receive"
+msgstr "ala bilər"
+
+msgid "Lightning Network Statistics"
+msgstr "Lightning şəbəkə statistikaları"
+
+msgid "Channels"
+msgstr "Kanallar"
+
+msgid "You can disable this setting in '{}'."
+msgstr "'{}' daxilindəki bu ayarı sıradan çıxarda bilərsiniz."
+
+msgid "Additional {} satoshis are going to be added."
+msgstr "Əlavə ediləcək {} satoşi sayı."
+
+msgid "Change your settings to allow spending unconfirmed coins."
+msgstr "Təsdiqlənməmiş pulların xərclənməsinə icazə vermək üçün ayarlarınızı dəyişdirin."
+
+msgid "You need to set a lower fee."
+msgstr "Daha aşağı bir xidmət haqqı ayarlamalısınız."
+
+msgid "You send"
+msgstr "Göndərdiyin"
+
+msgid "Mining fee"
+msgstr "Mədənçilik haqqı"
+
+msgid "Amount to be sent"
+msgstr "Göndəriləcək miqdar"
+
+msgid "Additional fees"
+msgstr "Əlavə xərclər"
+
+msgid "Do not paste code here that you don't understand. Executing the wrong code could lead to your coins being irreversibly lost."
+msgstr "Anlamadığınız kodu bura yapışdırmayın. Yanlış kodların icra edilməsi, pullarınızın geri qaytarılmaz şəkildə itirilməsinə səbəb ola bilər."
+
+msgid "Click here to hide this message."
+msgstr "Bu mesajı gizlətmək üçün toxunun."
+
+msgid "Copy {}"
+msgstr "{} - kopyala"
+
+msgid "&New contact"
+msgstr "&Yeni kontakt"
+
+msgid "Export"
+msgstr "Xaricə köçür"
+
+msgid "An Error Occurred"
+msgstr "Xəta baş verdi"
 
 msgid " confirmation"
 msgstr "təsdiq"
 
-msgid "&About"
-msgstr "&Haqqında"
+msgid "Acquisition price"
+msgstr "Əldə etmə qiyməti"
 
-msgid "&Addresses"
-msgstr "&Ünvanlar"
+msgid "Capital Gains"
+msgstr "Kapital Qazancları"
 
-msgid "&Bitcoin Paper"
-msgstr "&Bitcoin Paper"
+msgid "Date"
+msgstr "Tarix"
 
-msgid "&Check for updates"
-msgstr "&Güncəlləmələri yoxla"
+msgid "Description"
+msgstr "Açıqlama"
 
-msgid "&Close"
-msgstr "&Bağla"
+msgid "All"
+msgstr "Hamısı"
 
-msgid "&Documentation"
-msgstr "&Sənədləşmə"
+msgid "Custom"
+msgstr "Özəl"
 
-msgid "&Donate to server"
-msgstr "&Serverə ianə et"
-
-msgid "&Encrypt/decrypt message"
-msgstr "&Mesajı şifrələ/mesajın şifrəsini aç"
+msgid "&Summary"
+msgstr "&İcmal"
 
 msgid "&Export"
 msgstr "&Xaricə köçür"
 
+msgid "Begin"
+msgstr "Başla"
+
+msgid "End"
+msgstr "Bitmə"
+
+msgid "BTC balance"
+msgstr "BTC balansı"
+
+msgid "BTC Fiat price"
+msgstr "BTC Fiat qiyməti"
+
+msgid "BTC incoming"
+msgstr "BTC gələn"
+
+msgid "BTC outgoing"
+msgstr "BTC gedən"
+
+msgid "Cash flow"
+msgstr "Nağd axın"
+
+msgid "Copy"
+msgstr "Kopyala"
+
+msgid "Edit"
+msgstr "Düzəliş et"
+
+msgid "Export History"
+msgstr "Tarixçəni xaricə köçür"
+
+msgid "Delete invoices"
+msgstr "Fakturaları sil"
+
+msgid "{} channels"
+msgstr "{} kanal"
+
+msgid "Connected to {} peers"
+msgstr "{} cütə bağlandı"
+
+msgid "Lightning Payment"
+msgstr "Lightning ödənişi"
+
+msgid "Description:"
+msgstr "Açıqlama:"
+
+msgid "Lightning Invoice"
+msgstr "Lightning fakturası"
+
+msgid "&Addresses"
+msgstr "&Ünvanlar"
+
+msgid "Con&tacts"
+msgstr "Əla&qələr"
+
+msgid "Con&sole"
+msgstr "Kon&sol"
+
+msgid "Enable update check"
+msgstr "Güncəlləmə yoxlanışını fəallaşdır"
+
+msgid "Unlock"
+msgstr "Kilidi aç"
+
+msgid "watching only"
+msgstr "yalnız baxma"
+
+msgid "Don't show this again."
+msgstr "Bunu bir daha göstərmə."
+
+msgid "Backup directory"
+msgstr "Nüsxələmə kataloqu"
+
+msgid "Note that lightning channels will be converted to channel backups."
+msgstr "Unutmayın ki, Lightning kanalları kanal nüsxələrinə çevriləcək."
+
+msgid "Channel backups can only be used to request your channels to be closed."
+msgstr "Kanal nüsxələri, yalnız kanallarınızın bağlanılmasını tələb etmək üçün istifadə edilə bilər."
+
+msgid "Backup not configured"
+msgstr "Nüsxə konfiqurasiya edilməyib"
+
+msgid "A copy of your wallet file was created in"
+msgstr "Pulqabı faylınızın bir kopyası burada yaradıldı"
+
 msgid "&File"
 msgstr "&Fayl"
 
-msgid "&Flip horizontally"
-msgstr "&Üfüqi çevir"
+msgid "&Recently open"
+msgstr "&Təzəlikcə açılan"
 
-msgid "&From QR code"
-msgstr "&QR kodundan"
+msgid "&Open"
+msgstr "&Aç"
+
+msgid "&New/Restore"
+msgstr "&Yeni/Bərpa et"
+
+msgid "&Save backup"
+msgstr "&Nüsxəni saxla"
+
+msgid "&Quit"
+msgstr "&Çıxış"
+
+msgid "&Wallet"
+msgstr "&Pulqabı"
+
+msgid "&Information"
+msgstr "&Məlumat"
+
+msgid "&Password"
+msgstr "&Parol"
+
+msgid "&Private keys"
+msgstr "&Şəxsi açarlar"
+
+msgid "&Import"
+msgstr "&Daxilə köçür"
+
+msgid "&Labels"
+msgstr "&Etiketlər"
+
+msgid "&View"
+msgstr "&Bax"
+
+msgid "&Tools"
+msgstr "&Alətlər"
+
+msgid "Electrum preferences"
+msgstr "Electrum tərcihləri"
+
+msgid "&Network"
+msgstr "&Şəbəkə"
+
+msgid "&Plugins"
+msgstr "&Qoşmalar"
+
+msgid "&Sign/verify message"
+msgstr "&Mesajı imzala/doğrula"
+
+msgid "&Encrypt/decrypt message"
+msgstr "&Mesajı şifrələ/mesajın şifrəsini aç"
 
 msgid "&From file"
 msgstr "&Fayldan"
@@ -72,86 +456,741 @@ msgstr "&Mətndən"
 msgid "&From the blockchain"
 msgstr "&Blok zəncirindən"
 
+msgid "&From QR code"
+msgstr "&QR kodundan"
+
 msgid "&Help"
 msgstr "&Kömək"
 
-msgid "&Import"
-msgstr "&Daxilə köçür"
+msgid "&About"
+msgstr "&Haqqında"
 
-msgid "&Information"
-msgstr "&Məlumat"
-
-msgid "&Labels"
-msgstr "&Etiketlər"
-
-msgid "&Network"
-msgstr "&Şəbəkə"
-
-msgid "&New contact"
-msgstr "&Yeni kontakt"
-
-msgid "&New/Restore"
-msgstr "&Yeni/Bərpa et"
+msgid "&Check for updates"
+msgstr "&Güncəlləmələri yoxla"
 
 msgid "&Official website"
 msgstr "&Rəsmi veb sayt"
 
-msgid "&Open"
-msgstr "&Aç"
+msgid "&Documentation"
+msgstr "&Sənədləşmə"
 
-msgid "&Password"
-msgstr "&Parol"
-
-msgid "&Pay to many"
-msgstr "&Bir neçə nəfərə ödə"
-
-msgid "&Plugins"
-msgstr "&Qoşmalar"
-
-msgid "&Private keys"
-msgstr "&Şəxsi açarlar"
-
-msgid "&Quit"
-msgstr "&Çıxış"
-
-msgid "&Recently open"
-msgstr "&Təzəlikcə açılan"
+msgid "&Bitcoin Paper"
+msgstr "&Bitcoin Paper"
 
 msgid "&Report Bug"
 msgstr "&Xətanı bildir"
 
-msgid "&Save backup"
-msgstr "&Nüsxəni saxla"
+msgid "&Donate to server"
+msgstr "&Serverə ianə et"
 
-msgid "&Sign/verify message"
-msgstr "&Mesajı imzala/doğrula"
+msgid "Electrum's focus is speed, with low resource usage and simplifying Bitcoin."
+msgstr "\"Electrum\"un fokus nöqtəsi sürəti, aşağı resurs istifadəsi və Bitcoin-in sadələşdirilməsidir."
 
-msgid "&Summary"
-msgstr "&İcmal"
+msgid "Connected"
+msgstr "Bağlantılı"
 
-msgid "&Tools"
-msgstr "&Alətlər"
+msgid "Not connected"
+msgstr "Bağlantı qurulmayıb"
 
-msgid "&View"
-msgstr "&Bax"
+msgid "Lightning is disabled"
+msgstr "Lightning sıradan çıxarıldı"
 
-msgid "&Wallet"
-msgstr "&Pulqabı"
+msgid "Could not open channel: {}"
+msgstr "Kanal açıla bilmədi: {}"
 
-msgid "(Touch {} of {})"
-msgstr "(Toxun {} / {})"
+msgid "Alternatively, you can save a backup of your wallet file from the File menu"
+msgstr "Alternativ olaraq, pulqabı faylınızın bir nüsxəsini Fayl menyusundan saxlaya bilərsiniz"
 
-msgid "1 day"
-msgstr "1 gün"
+msgid "Channel established."
+msgstr "Kanal quruldu."
+
+msgid "Do you want to remove {} from your wallet?"
+msgstr "{} - pulqabınızdan silmək istəyirsiniz?"
+
+msgid "Expires"
+msgstr "Son istifadə tarixi"
+
+msgid "Creation time"
+msgstr "Yaratma vaxtı"
+
+msgid "Expiration time"
+msgstr "Bitmə vaxtı"
+
+msgid "Reset"
+msgstr "Sıfırla"
+
+msgid "Do you want to create your first channel?"
+msgstr "İlk kanalınızı yaratmaq istəyirsiniz?"
+
+msgid "Lightning is not enabled because this wallet was created with an old version of Electrum. Create lightning keys?"
+msgstr "Bu pulqabı Electrum-un köhnə versiyası ilə yaradıldığı üçün Lightning fəallaşdırıla bilmir. Lightning açarları yaradılsın?"
+
+msgid "Lightning keys have been initialized."
+msgstr "Lightning açarları başladıldı."
+
+msgid "Delete wallet file?"
+msgstr "Pulqabı faylı silinsin?"
+
+msgid "Address not in wallet."
+msgstr "Ünvan pulqabıda deyil."
+
+msgid "Cannot sign messages with this type of address:"
+msgstr "Bu növ ünvanlara sahib mesajlar imzalana bilmir:"
+
+msgid "Signature verified"
+msgstr "İmza doğrulandı"
+
+msgid "Sign/verify Message"
+msgstr "Mesajı imzala/doğrula"
+
+msgid "Verify"
+msgstr "Doğrula"
+
+msgid "Encrypt/decrypt Message"
+msgstr "Mesajı şifrələ/şifrəsini aç"
+
+msgid "Encrypted"
+msgstr "Şifrəli"
+
+msgid "Encrypt"
+msgstr "Şifrələ"
+
+msgid "Decrypt"
+msgstr "Şifrəsini aç"
+
+msgid "Channel Backup:"
+msgstr "Kanal nüsxələmə:"
+
+msgid "labels"
+msgstr "etiketlər"
+
+msgid "invoices"
+msgstr "fakturalar"
+
+msgid "contacts"
+msgstr "əlaqələr"
+
+msgid "Enter private keys"
+msgstr "Şəxsi açarları daxil et"
+
+msgid "Please restart Electrum to activate the new GUI settings"
+msgstr "Yeni GUI ayarlarını aktivləşdirmək üçün lütfən Electrum-u yenidən başladın"
+
+msgid "Certificate mismatch"
+msgstr "Sertifikat uyğunsuzluğu"
+
+msgid "Electrum will now exit."
+msgstr "Electrum indi çıxacaq."
+
+msgid "Expired"
+msgstr "Vaxtı bitdi"
+
+msgid "Lightning funds were not received."
+msgstr "Lightning fondları alınmadı."
+
+msgid "Server"
+msgstr "Server"
+
+msgid "Proxy"
+msgstr "Proksi"
+
+msgid "Connected nodes"
+msgstr "Bağlantılı düyünlər"
+
+msgid "Proxy settings apply to all connections: with Electrum servers, but also with third-party services."
+msgstr "Proksi ayarları bütün bağlantılara tətbiq edilir: Electrum serverlərlə, ancaq həm də üçüncü tərəf xidmətlərlə."
+
+msgid "Blockchain"
+msgstr "Blok zənciri"
+
+msgid "Max"
+msgstr "Maks"
+
+msgid "Clear"
+msgstr "Təmizlə"
+
+msgid "Amount too low"
+msgstr "Miqdar çox aşağıdır"
+
+msgid "Choose a password to encrypt your wallet keys."
+msgstr "Pulqabı açarlarınızı şifrələmək üçün bir parol seçin."
+
+msgid "Enter Password"
+msgstr "Parolu daxil et"
+
+msgid "Change Password"
+msgstr "Parolu dəyişdir"
+
+msgid "Confirm Password:"
+msgstr "Parolu təsdiqlə:"
+
+msgid "Current Password:"
+msgstr "Hazırkı parol:"
+
+msgid "Disable"
+msgstr "Sıradan çıxart"
+
+msgid "Enable"
+msgstr "Fəallaşdır"
+
+msgid "Settings"
+msgstr "Ayarlar"
+
+msgid "Enabled"
+msgstr "Fəaldır"
+
+msgid "Disabled"
+msgstr "Sıradan çıxarıldı"
+
+msgid "Electrum Plugins"
+msgstr "Electrum Qoşmaları"
+
+msgid "Copy Image"
+msgstr "Təsviri kopyala"
+
+msgid "Copy Text"
+msgstr "Mətni kopyala"
+
+msgid "&Flip horizontally"
+msgstr "&Üfüqi çevir"
+
+msgid "&Close"
+msgstr "&Bağla"
+
+msgid "Cannot start QR scanner, no usable camera found."
+msgstr "QR skaner başladıla bilmir, əlçatan kamera tapılmadı."
+
+msgid "Current fee"
+msgstr "Hazırkı xidmət haqqı"
+
+msgid "Expiry"
+msgstr "Bitmə"
+
+msgid "Export requests"
+msgstr "Tələbləri xaricə köçür"
+
+msgid "Delete expired requests"
+msgstr "Vaxtı bitmiş tələbləri sil"
+
+msgid "Expiration period of your request."
+msgstr "Tələbinizin bitmə müddəti."
+
+msgid "For Lightning requests, payments will not be accepted after the expiration."
+msgstr "Lightning tələblərində müddət bitdikdən sonra ödəniş qəbul edilməyəcək."
+
+msgid "Bitcoin URI"
+msgstr "Bitcoin URI"
+
+msgid "Lightning Request"
+msgstr "Lightning tələbi"
+
+msgid "Error adding payment request"
+msgstr "Ödəniş tələbini əlavə etmə xətası"
+
+msgid "Creating a new payment request will reuse one of your addresses and overwrite an existing request. Continue anyway?"
+msgstr "Yeni bir ödəniş tələbinin yaradılması ilə ünvanlarınızdan biri yenidən istifadə ediləcək və mövcud bir tələbin üzərinə yazılacaq. Yenə də davam edilsin?"
+
+msgid "Delete requests"
+msgstr "Tələbləri sil"
+
+msgid "Do not store it electronically."
+msgstr "Elektronik şəkildə saxlamayın."
+
+msgid "Comment for recipient"
+msgstr "Alıcı üçün rəy"
+
+msgid "Comment"
+msgstr "Rəy"
+
+msgid "Paste"
+msgstr "Yapışdır"
+
+msgid "&Pay to many"
+msgstr "&Bir neçə nəfərə ödə"
+
+msgid "Export invoices"
+msgstr "Fakturaları xaricə köçür"
+
+msgid "Bitcoin Address is None"
+msgstr "Bitcoin ünvanı yoxdur"
+
+msgid "Do you wish to continue?"
+msgstr "Davam etmək istəyirsiniz?"
+
+msgid "Provider"
+msgstr "Provayder"
+
+msgid "Base unit of your wallet."
+msgstr "Pulqabınızın təməl vahidi"
+
+msgid "Base unit"
+msgstr "Təməl vahid"
+
+msgid "Dark"
+msgstr "Qaranlıq"
+
+msgid "Custom URL"
+msgstr "Özəl URL"
+
+msgid "Appearance"
+msgstr "Görünüş"
+
+msgid "You receive"
+msgstr "Aldığın"
+
+msgid "Server fee"
+msgstr "Server haqqı"
+
+msgid "Awaiting swap payment..."
+msgstr "Mübadilə ödənişi gözlənilir..."
+
+msgid "Fee"
+msgstr "Xidmət haqqı"
+
+msgid "Change Address"
+msgstr "Ünvanı dəyişdir"
+
+msgid "Address Details"
+msgstr "Ünvan detalları"
+
+msgid "Copy Address"
+msgstr "Ünvanı kopyala"
+
+msgid "Copy Amount"
+msgstr "Miqdarı kopyala"
+
+msgid "Broadcast"
+msgstr "Yayım"
+
+msgid "Add to History"
+msgstr "Tarixçəyə əlavə et"
+
+msgid "Combine"
+msgstr "Birləşdir"
+
+msgid "Adding info to tx, from network..."
+msgstr "Şəbəkədən tx-ə məlumat əlavə edilir..."
+
+msgid "Copy to clipboard"
+msgstr "Lövhəyə kopyala"
+
+msgid "Failed to display QR code."
+msgstr "QR kodu göstərmə uğursuz oldu."
+
+msgid "add inputs and outputs"
+msgstr "giriş və çıxışlar əlavə et"
+
+msgid "Date: {}"
+msgstr "Tarix: {}"
+
+msgid "At block height: {}"
+msgstr "Blok hündürlüyündə: {}"
+
+msgid "unknown"
+msgstr "bilinmir"
+
+msgid "Current version: {}"
+msgstr "Hazırkı versiya: {}"
+
+msgid "Already up to date"
+msgstr "Artıq güncəldir"
+
+msgid "Checking for updates..."
+msgstr "Güncəlləmələr yoxlanılır..."
+
+msgid "Copy and Close"
+msgstr "Kopyala və bağla"
+
+msgid "Cancel"
+msgstr "İmtina"
+
+msgid "Critical Error"
+msgstr "Kritik xəta"
+
+msgid "CSV"
+msgstr "CSV"
+
+msgid "json"
+msgstr "json"
+
+msgid "Error opening file"
+msgstr "Fayl açma xətası"
+
+msgid "Address reuse"
+msgstr "Ünvan yenidən istifadəsi"
+
+msgid "{} outputs available ({} total)"
+msgstr "{} çıxış mövcuddur (cəmi {})"
+
+msgid "Address is frozen"
+msgstr "Ünvan dondurulub"
+
+msgid "Clipboard doesn't contain a valid address"
+msgstr "Lövhədə yararlı bir ünvan yoxdur"
+
+msgid "in new channel"
+msgstr "yeni kanalda"
+
+msgid "watching-only"
+msgstr "yalnız baxma"
+
+msgid "Lightning Node ID:"
+msgstr "Lightning düyün kimliyi:"
+
+msgid "Network and server configuration"
+msgstr "Şəbəkə və server konfiqurasiyası"
+
+msgid "A few examples"
+msgstr "Bir neçə nümunə"
+
+msgid "Set wallet file encryption."
+msgstr "Pulqabı faylının şifrələnməsini ayarlayın."
+
+msgid "Create/Restore wallet"
+msgstr "Pulqabı yarat/bərpa et"
+
+msgid "Do you want to delete the old file"
+msgstr "Köhnə faylı silmək istəyirsiniz"
+
+msgid "Electrum wallet"
+msgstr "Electrum pulqabısı"
+
+msgid "Choose..."
+msgstr "Seçin..."
+
+msgid "Cannot read file"
+msgstr "Fayl oxuna bilmir"
+
+msgid "Create new wallet"
+msgstr "Yeni pulqabı yarat"
+
+msgid "Choose the type of addresses in your wallet."
+msgstr "Pulqabınızdakı ünvanların növünü seçin."
+
+msgid "Detect Existing Accounts"
+msgstr "Mövcud hesabları aşkarla"
+
+msgid "Add a cosigner to your multi-sig wallet"
+msgstr "Çox imzalı pulqabınıza bir müştərək imza əlavə edin"
+
+msgid "Enter cosigner key"
+msgstr "Müştərək imza açarını daxil et"
+
+msgid "Enter cosigner seed"
+msgstr "Müştərək imza toxumunu daxil et"
+
+msgid "Cosign with hardware device"
+msgstr "Avandanlıq cihazı ilə müştərək imza"
+
+msgid "Add Cosigner {}"
+msgstr "Müştərək imza əlavə et {}"
+
+msgid "Please enter the master public key (xpub) of your cosigner."
+msgstr "Zəhmət olmasa müştərək imzanızın əsas ictimai açarını (xpub) daxil edin."
+
+msgid "From {0} cosigners"
+msgstr "{0} müştərək imzadan"
+
+msgid "Warning: to be able to restore a multisig wallet, you should include the master public key for each cosigner in all of your backups."
+msgstr "Xəbərdarlıq: çoxlu imza pulqabısını bərpa edə bilmək üçün, bütün nüsxələrinizdəki hər bir müştərək imzaya əsas ictimai açarı daxil etməlisiniz."
+
+msgid "Choose Hardware Device"
+msgstr "Avadanlıq cihazını seçin"
+
+msgid "initialized"
+msgstr "başladıldı"
+
+msgid "wiped"
+msgstr "təmizləndi"
+
+msgid "An unnamed {}"
+msgstr "Adsız {}"
+
+msgid "Error scanning devices"
+msgstr "Cihazları skan etmə xətası"
+
+msgid "If your device is not detected on Windows, go to \"Settings\", \"Devices\", \"Connected devices\", and do \"Remove device\". Then, plug your device again."
+msgstr "Cihazınız Windows-da aşkarlanmasa Ayarlar > Cihazlar > \"Bağlantılı cihazlar\"a gedin və \"Cihazı sil\"i seçin. Daha sonra cihazı yenidən qoşun."
+
+msgid "Debug message"
+msgstr "Sazlama mesajı"
+
+msgid "Encrypt using hardware"
+msgstr "Avadanlıq istifadəsini şifrələ"
+
+msgid "Finish"
+msgstr "Bitir"
+
+msgid "Back"
+msgstr "Geri"
+
+msgid "Addresses"
+msgstr "Ünvanlar"
+
+msgid "Contacts"
+msgstr "Əlaqələr"
+
+msgid "Banner"
+msgstr "Banner"
+
+msgid "Clipboard"
+msgstr "Lövhə"
+
+msgid "Could not parse clipboard text"
+msgstr "Lövhə mətni təhlil edilə bilmədi"
+
+msgid "Amount for OP_RETURN output must be zero."
+msgstr "OP_RETURN çıxışı üçün miqdar sıfır olmalıdır."
+
+msgid "Default"
+msgstr "İlkin"
+
+msgid "Consider trying to connect to a different server, or updating Electrum."
+msgstr "Fərqli bir serverə bağlanmağa və ya Electrum-u güncəlləməyə çalışın."
+
+msgid "Broadcasting"
+msgstr "Yayımlanır"
+
+msgid "Broadcast successfully"
+msgstr "Uğurla yayımlandı"
+
+msgid "Failed"
+msgstr "Uğursuz"
+
+msgid "Computing route..."
+msgstr "Marşrut hesablanır..."
+
+msgid "10 minutes"
+msgstr "10 dəqiqə"
 
 msgid "1 hour"
 msgstr "1 saat"
 
+msgid "1 day"
+msgstr "1 gün"
+
 msgid "1 week"
 msgstr "1 həftə"
 
-msgid "10 minutes"
-msgstr "10 dəqiqə"
+msgid "Destination node"
+msgstr "Hədəf düyün"
+
+msgid "Address unknown for node:"
+msgstr "Düyün üçün ünvan bilinmir:"
+
+msgid "Don't know any addresses for node:"
+msgstr "Düyün üçün heç bir ünvan bilmirəm:"
+
+msgid "Close channel"
+msgstr "Kanalı bağla"
+
+msgid "A payment was already initiated for this invoice"
+msgstr "Bu faktura üçün artıq bir ödəniş başladılıb"
+
+msgid "A previous attempt to pay this invoice did not clear"
+msgstr "Bu fakturanı ödəmək üçün edilən əvvəlki cəhd aydın deyil"
+
+msgid "Disconnected"
+msgstr "Bağlantı kəsildi"
+
+msgid "Connecting"
+msgstr "Bağlantı qurulur"
+
+msgid "Connected to {0} nodes."
+msgstr "{0} düyünə bağlandı."
+
+msgid "Connected to {0} node."
+msgstr "{0} düyünə bağlandı."
+
+msgid "Error parsing LNURL"
+msgstr "LNURL təhlil xətası"
+
+msgid "Error parsing Lightning invoice"
+msgstr "Lightning fakturasını təhlil etmə xətası"
+
+msgid "Invoice requires unknown or incompatible Lightning feature"
+msgstr "Faktura, bilinməyən və ya uyğunsuz Lightning özəlliyi tələb edir"
+
+msgid "A library is probably missing."
+msgstr "Yəqin ki, bir kitabxana yoxdur."
+
+msgid "Verify the cable is connected and that no other application is using it."
+msgstr "Kabelin bağlantılı olduğunu və başqa heç bir tətbiqin istifadə edilmədiyini doğrulayın."
+
+msgid "Try to connect again?"
+msgstr "Yenidən bağlantı qurmağa çalışılsın?"
+
+msgid "Audio Modem Settings"
+msgstr "Səs Modem Ayarları"
+
+msgid "Bit rate [kbps]: "
+msgstr "Bit sürəti [kbps]: "
+
+msgid "BitBox02 Status"
+msgstr "BitBox02 Statusu"
+
+msgid "Cancelled"
+msgstr "Ləğv edildi"
+
+msgid "Encryption and decryption are currently not supported for {}"
+msgstr "{} üçün şifrələmə və şifrəsini açma hazırda dəstəklənmir"
+
+msgid "Error showing address"
+msgstr "Ünvanları göstərmə xətası"
+
+msgid "Select where to save the setup file"
+msgstr "Quraşdırma faylının harada saxlanılacağını seçin"
+
+msgid "{} Settings"
+msgstr "{} Ayarları"
+
+msgid "Build Date"
+msgstr "Quruluş tarixi"
+
+msgid "Bootloader"
+msgstr "Bootloader"
+
+msgid "Device communication error. Please unplug and replug your Digital Bitbox."
+msgstr "Cihaz bağlantı xətası. Lütfən Digital Bitbox-unuzu ayırıb yenidən taxın."
+
+msgid "Enter password:"
+msgstr "Parolu daxil et:"
+
+msgid "An uninitialized Digital Bitbox is detected."
+msgstr "Başladılmamış bir Digital Bitbox aşkarlandı."
+
+msgid "A backup is saved automatically when generating a new wallet."
+msgstr "Yeni bir pulqabı yaradarkən nüsxə avtomatik saxlanılır."
+
+msgid "Erase the Digital Bitbox"
+msgstr "Digital Bitbox-u sil"
+
+msgid "Choose how to initialize your Digital Bitbox:"
+msgstr "Digital Bitbox-unuzu necə başladacağınızı seçin:"
+
+msgid "Do not pair"
+msgstr "Cütləşdirmə"
+
+msgid "Are you sure you want to erase the Digital Bitbox?"
+msgstr "\"Digital Bitbox\"u silmək istədiyinizə əminsiniz?"
+
+msgid "Choose a backup file:"
+msgstr "Nüsxə faylı seçin:"
+
+msgid "Could not sign message."
+msgstr "Mesaj imzalana bilmədi."
+
+msgid "Could not sign message"
+msgstr "Mesaj imzalana bilmədi"
+
+msgid "(Touch {} of {})"
+msgstr "(Toxun {} / {})"
+
+msgid "Device erased"
+msgstr "Cihaz silindi"
+
+msgid "Encryption and decryption are not implemented by {}"
+msgstr "Şifrələmə və şifrəsini açma {} tərəfindən tətbiq edilmir"
+
+msgid "Check your {} device to continue"
+msgstr "Davam etmək üçün {} cihazınızı yoxlayın"
+
+msgid "Confirm on your {} device to set a PIN"
+msgstr "PIN ayarlamaq üçün {} cihazınızda təsdiqləyin"
+
+msgid "The device was disconnected."
+msgstr "Cihazın bağlantısı kəsildi."
+
+msgid "Accept Word"
+msgstr "Sözü qəbul et"
+
+msgid "Enter PIN"
+msgstr "PİN-i daxil et"
+
+msgid "{} words"
+msgstr "{} söz"
+
+msgid "Enable PIN protection"
+msgstr "PIN qorumasını fəallaşdır"
+
+msgid "Enter the master private key beginning with xprv:"
+msgstr "xprv ilə başlayan şəxsi ana açarı daxil edin:"
+
+msgid "No"
+msgstr "Xeyr"
+
+msgid "Yes"
+msgstr "Bəli"
+
+msgid "Set a PIN"
+msgstr "Bir PIN təyin et"
+
+msgid "Change PIN"
+msgstr "PIN-i dəyişdir"
+
+msgid "Are you sure you want to proceed?"
+msgstr "Davam etmək istədiyinizə əminsiniz?"
+
+msgid "Confirm Device Wipe"
+msgstr "Cihaz silmə prosesini təsdiqlə"
+
+msgid ""
+"Are you SURE you want to wipe the device?\n"
+"Your wallet still has bitcoins in it!"
+msgstr ""
+"Cihazı sıfırlamaq istədiyinizə ƏMİNSİNİZ?\n"
+"Pulqabınızda hələ də \"bitcoin\"lər var!"
+
+msgid "{:2d} minutes"
+msgstr "{:2d} dəqiqə"
+
+msgid "Device Label"
+msgstr "Cihaz etiketi"
+
+msgid "PIN set"
+msgstr "PIN ayarla"
+
+msgid "Device ID"
+msgstr "Cihaz kimliyi"
+
+msgid "Bootloader Hash"
+msgstr "Bootloader Hash"
+
+msgid "Apply"
+msgstr "Tətbiq et"
+
+msgid "Disable PIN"
+msgstr "PIN-i sıradan çıxart"
+
+msgid "Advanced"
+msgstr "Qabaqcıl"
+
+msgid "Error connecting to {} server"
+msgstr "{} serverinə bağlanma xətası"
+
+msgid "Error synchronising labels"
+msgstr "Etiketləri sinxr. xətası"
+
+msgid "Cancelled by user"
+msgstr "İstifadəçi tərəfindən ləğv edildi"
+
+msgid "Do you want to open it now?"
+msgstr "İndi açmaq istəyirsiniz?"
+
+msgid "Always check your backups."
+msgstr "Nüsxələrinizi həmişə yoxlayın."
+
+msgid "your seed extension will <b>not</b> be included in the encrypted backup."
+msgstr "toxum uzantınız şifrələnmiş nüsxəyə <b>daxil edilməyəcək</b>."
+
+msgid "Encrypt custom secret"
+msgstr "Özəl sirri şifrələ"
+
+msgid "Custom secret"
+msgstr "Özəl sirr"
+
+msgid "Calibration sheet"
+msgstr "Dərəcələndirmə səhifəsi"
 
 msgid "2. Align your Revealer borderlines to the dashed lines on the top and left."
 msgstr "2. Açıqlayıcı sərhəd xətlərinizi sol üstdəki kəsikli xətlərə hizalayın."
@@ -162,1167 +1201,128 @@ msgstr "3. Açıqlayıcını kağıza yavaşca basın və əks tərəflərə ən
 msgid "4. Type the numbers in the software"
 msgstr "4. Yazılımdakı nömrələri yazın"
 
-msgid "A backup does not contain information about your local balance in the channel."
-msgstr "Nüsxə, kanaldakı yerli balansınız haqqında məlumat ehtiva etmir."
-
-msgid "A backup is saved automatically when generating a new wallet."
-msgstr "Yeni bir pulqabı yaradarkən nüsxə avtomatik saxlanılır."
-
-msgid "A copy of your wallet file was created in"
-msgstr "Pulqabı faylınızın bir kopyası burada yaradıldı"
-
-msgid "A few examples"
-msgstr "Bir neçə nümunə"
-
-msgid "A library is probably missing."
-msgstr "Yəqin ki, bir kitabxana yoxdur."
-
-msgid "A payment was already initiated for this invoice"
-msgstr "Bu faktura üçün artıq bir ödəniş başladılıb"
-
-msgid "A previous attempt to pay this invoice did not clear"
-msgstr "Bu fakturanı ödəmək üçün edilən əvvəlki cəhd aydın deyil"
-
-msgid "Accept Word"
-msgstr "Sözü qəbul et"
-
-msgid "Acquisition price"
-msgstr "Əldə etmə qiyməti"
-
-msgid "Add Cosigner {}"
-msgstr "Müştərək imza əlavə et {}"
-
-msgid "Add a cosigner to your multi-sig wallet"
-msgstr "Çox imzalı pulqabınıza bir müştərək imza əlavə edin"
-
-msgid "Add to History"
-msgstr "Tarixçəyə əlavə et"
-
-msgid "Adding info to tx, from network..."
-msgstr "Şəbəkədən tx-ə məlumat əlavə edilir..."
-
-msgid "Additional fees"
-msgstr "Əlavə xərclər"
-
-msgid "Additional {} satoshis are going to be added."
-msgstr "Əlavə ediləcək {} satoşi sayı."
-
-msgid "Address"
-msgstr "Ünvan"
-
-msgid "Address Details"
-msgstr "Ünvan detalları"
-
-msgid "Address is frozen"
-msgstr "Ünvan dondurulub"
-
-msgid "Address not in wallet."
-msgstr "Ünvan pulqabıda deyil."
-
-msgid "Address reuse"
-msgstr "Ünvan yenidən istifadəsi"
-
-msgid "Address unknown for node:"
-msgstr "Düyün üçün ünvan bilinmir:"
-
-msgid "Addresses"
-msgstr "Ünvanlar"
-
-msgid "Advanced"
-msgstr "Qabaqcıl"
-
-msgid "All"
-msgstr "Hamısı"
-
-msgid "All status"
-msgstr "Bütün status"
-
-msgid "All types"
-msgstr "Bütün növlər"
-
-msgid "All your addresses are used in pending requests."
-msgstr "Bütün ünvanlarınız gözləyən tələblərdə istifadə edilir."
-
-msgid "Already up to date"
-msgstr "Artıq güncəldir"
-
-msgid "Alternatively, you can save a backup of your wallet file from the File menu"
-msgstr "Alternativ olaraq, pulqabı faylınızın bir nüsxəsini Fayl menyusundan saxlaya bilərsiniz"
-
-msgid "Always check your backups."
-msgstr "Nüsxələrinizi həmişə yoxlayın."
-
-msgid "Amount"
-msgstr "Miqdar"
-
-msgid "Amount for OP_RETURN output must be zero."
-msgstr "OP_RETURN çıxışı üçün miqdar sıfır olmalıdır."
-
-msgid "Amount to be sent"
-msgstr "Göndəriləcək miqdar"
-
-msgid "Amount too low"
-msgstr "Miqdar çox aşağıdır"
-
-msgid "An Error Occurred"
-msgstr "Xəta baş verdi"
-
-msgid "An uninitialized Digital Bitbox is detected."
-msgstr "Başladılmamış bir Digital Bitbox aşkarlandı."
-
-msgid "An unnamed {}"
-msgstr "Adsız {}"
-
-msgid "Appearance"
-msgstr "Görünüş"
-
-msgid "Apply"
-msgstr "Tətbiq et"
-
-msgid ""
-"Are you SURE you want to wipe the device?\n"
-"Your wallet still has bitcoins in it!"
-msgstr ""
-"Cihazı sıfırlamaq istədiyinizə ƏMİNSİNİZ?\n"
-"Pulqabınızda hələ də \"bitcoin\"lər var!"
-
-msgid "Are you sure you want to erase the Digital Bitbox?"
-msgstr "\"Digital Bitbox\"u silmək istədiyinizə əminsiniz?"
-
-msgid "Are you sure you want to proceed?"
-msgstr "Davam etmək istədiyinizə əminsiniz?"
-
-msgid "At block height: {}"
-msgstr "Blok hündürlüyündə: {}"
-
-msgid "Audio Modem Settings"
-msgstr "Səs Modem Ayarları"
-
-msgid "Authenticator secret"
-msgstr "Kimlik doğrulayıcı sirri"
-
-msgid "Authorization"
-msgstr "Səlahiyyətləndirmə"
-
-msgid "Automatically check for software updates"
-msgstr "Proqram təminatı güncəlləmələrini avto-yoxla"
-
-msgid "Awaiting swap payment..."
-msgstr "Mübadilə ödənişi gözlənilir..."
-
-msgid "BIP39 Recovery"
-msgstr "BIP39 Geri qaytarma"
-
-msgid "BTC Fiat price"
-msgstr "BTC Fiat qiyməti"
-
-msgid "BTC balance"
-msgstr "BTC balansı"
-
-msgid "BTC incoming"
-msgstr "BTC gələn"
-
-msgid "BTC outgoing"
-msgstr "BTC gedən"
-
-msgid "Back"
-msgstr "Geri"
-
-msgid "Backup directory"
-msgstr "Nüsxələmə kataloqu"
-
-msgid "Backup not configured"
-msgstr "Nüsxə konfiqurasiya edilməyib"
-
-msgid "Balance"
-msgstr "Balans"
-
-msgid "Banner"
-msgstr "Banner"
-
-msgid "Base unit"
-msgstr "Təməl vahid"
-
-msgid "Base unit of your wallet."
-msgstr "Pulqabınızın təməl vahidi"
-
-msgid "Begin"
-msgstr "Başla"
-
-msgid "Bit rate [kbps]: "
-msgstr "Bit sürəti [kbps]: "
-
-msgid "BitBox02 Status"
-msgstr "BitBox02 Statusu"
-
-msgid "Bitcoin Address is None"
-msgstr "Bitcoin ünvanı yoxdur"
-
-msgid "Bitcoin URI"
-msgstr "Bitcoin URI"
-
-msgid "Blockchain"
-msgstr "Blok zənciri"
-
-msgid "Bootloader"
-msgstr "Bootloader"
-
-msgid "Bootloader Hash"
-msgstr "Bootloader Hash"
-
-msgid "Bottom"
-msgstr "Alt"
-
-msgid "Broadcast"
-msgstr "Yayım"
-
-msgid "Broadcast successfully"
-msgstr "Uğurla yayımlandı"
-
-msgid "Broadcasting"
-msgstr "Yayımlanır"
-
-msgid "Build Date"
-msgstr "Quruluş tarixi"
-
-msgid "CLTV expiry"
-msgstr "CLTV bitmə"
-
-msgid "CSV"
-msgstr "CSV"
-
-msgid "Calibration sheet"
-msgstr "Dərəcələndirmə səhifəsi"
+msgid "Revealer - Printer calibration settings"
+msgstr "Revealer - Printer dərəcələndirmə ayarları"
 
 msgid "Calibration values:"
 msgstr "Dərəcələndirmə dəyərləri:"
 
-msgid "Can receive"
-msgstr "Ala bilər"
-
-msgid "Can send"
-msgstr "Göndərə bilər"
-
-msgid "Cancel"
-msgstr "İmtina"
-
-msgid "Cancelled"
-msgstr "Ləğv edildi"
-
-msgid "Cancelled by user"
-msgstr "İstifadəçi tərəfindən ləğv edildi"
-
-msgid "Cannot determine dynamic fees, not connected"
-msgstr "Dinamik xərclər müəyyənləşdirilə bilmir, bağlantılı deyil"
-
-msgid "Cannot load wallet"
-msgstr "Pulqabı yüklənə bilmir"
-
-msgid "Cannot pay less than the amount specified in the invoice"
-msgstr "Fakturada göstərilən məbləğdən az ödəniş edilə bilməz"
-
-msgid "Cannot read file"
-msgstr "Fayl oxuna bilmir"
-
-msgid "Cannot sign messages with this type of address:"
-msgstr "Bu növ ünvanlara sahib mesajlar imzalana bilmir:"
-
-msgid "Cannot start QR scanner, no usable camera found."
-msgstr "QR skaner başladıla bilmir, əlçatan kamera tapılmadı."
-
-msgid "Cannot start QR scanner: initialization failed."
-msgstr "QR skaner başladıla bilmir: başlatma uğursuz oldu."
-
-msgid "Capacity"
-msgstr "Tutum:"
-
-msgid "Capital Gains"
-msgstr "Kapital Qazancları"
-
-msgid "Cash flow"
-msgstr "Nağd axın"
-
-msgid "Certificate mismatch"
-msgstr "Sertifikat uyğunsuzluğu"
-
-msgid "Change"
-msgstr "Dəyişdir"
-
-msgid "Change Address"
-msgstr "Ünvanı dəyişdir"
-
-msgid "Change PIN"
-msgstr "PIN-i dəyişdir"
-
-msgid "Change Password"
-msgstr "Parolu dəyişdir"
-
-msgid "Change your settings to allow spending unconfirmed coins."
-msgstr "Təsdiqlənməmiş pulların xərclənməsinə icazə vermək üçün ayarlarınızı dəyişdirin."
-
-msgid "Change..."
-msgstr "Dəyişdir..."
-
-msgid "Channel Backup"
-msgstr "Kanal nüsxələmə"
-
-msgid "Channel Backup:"
-msgstr "Kanal nüsxələmə:"
-
-msgid "Channel ID"
-msgstr "Kanal kimliyi"
-
-msgid "Channel backups can only be used to request your channels to be closed."
-msgstr "Kanal nüsxələri, yalnız kanallarınızın bağlanılmasını tələb etmək üçün istifadə edilə bilər."
-
-msgid "Channel established."
-msgstr "Kanal quruldu."
-
-msgid "Channel is frozen for sending"
-msgstr "Kanal göndərmə üçün donduruldu"
-
-msgid "Channel stats"
-msgstr "Kanal statistikaları"
-
-msgid "Channel type:"
-msgstr "Kanal növü:"
-
-msgid "Channels"
-msgstr "Kanallar"
-
-msgid "Check your {} device to continue"
-msgstr "Davam etmək üçün {} cihazınızı yoxlayın"
-
-msgid "Checking for updates..."
-msgstr "Güncəlləmələr yoxlanılır..."
-
-msgid "Choose Hardware Device"
-msgstr "Avadanlıq cihazını seçin"
-
-msgid "Choose Homescreen"
-msgstr "Əsas ekranı seçin"
-
-msgid "Choose a backup file:"
-msgstr "Nüsxə faylı seçin:"
-
-msgid "Choose a password to encrypt your wallet keys."
-msgstr "Pulqabı açarlarınızı şifrələmək üçün bir parol seçin."
-
-msgid "Choose an account to restore."
-msgstr "Bərpa etmək üçün bir hesab seçin."
-
-msgid "Choose how to initialize your Digital Bitbox:"
-msgstr "Digital Bitbox-unuzu necə başladacağınızı seçin:"
-
-msgid "Choose how you want to initialize your {}."
-msgstr "{} - necə başlatmaq istədiyinizi seçin."
-
-msgid "Choose the type of addresses in your wallet."
-msgstr "Pulqabınızdakı ünvanların növünü seçin."
-
-msgid "Choose..."
-msgstr "Seçin..."
-
-msgid "Clear"
-msgstr "Təmizlə"
-
-msgid "Click here to hide this message."
-msgstr "Bu mesajı gizlətmək üçün toxunun."
-
-msgid "Clipboard"
-msgstr "Lövhə"
-
-msgid "Clipboard doesn't contain a valid address"
-msgstr "Lövhədə yararlı bir ünvan yoxdur"
-
-msgid "Close"
-msgstr "Bağla"
-
-msgid "Close Lightning channel?"
-msgstr "Lightning kanalı bağlanılsın?"
-
-msgid "Close channel"
-msgstr "Kanalı bağla"
-
-msgid "Code"
-msgstr "Kod"
-
-msgid "Color theme"
-msgstr "Rəng teması"
-
-msgid "Combine"
-msgstr "Birləşdir"
-
-msgid "Comment"
-msgstr "Rəy"
-
-msgid "Comment for recipient"
-msgstr "Alıcı üçün rəy"
-
-msgid "Complete the initialization process on your {} device"
-msgstr "{} cihazınızda başlatma prosesini tamamla"
-
-msgid "Completed {} of {} groups needed"
-msgstr "Lazımi {}/{} qrup tamamlandı"
-
-msgid "Computing route..."
-msgstr "Marşrut hesablanır..."
-
-msgid "Con&sole"
-msgstr "Kon&sol"
-
-msgid "Con&tacts"
-msgstr "Əla&qələr"
-
-msgid "Confirm Device Wipe"
-msgstr "Cihaz silmə prosesini təsdiqlə"
-
-msgid "Confirm Lightning swap?"
-msgstr "Lightning mübadiləsi təsdiqlənsin?"
-
-msgid "Confirm Password:"
-msgstr "Parolu təsdiqlə:"
-
-msgid "Confirm on your {} device to set a PIN"
-msgstr "PIN ayarlamaq üçün {} cihazınızda təsdiqləyin"
-
-msgid "Connected"
-msgstr "Bağlantılı"
-
-msgid "Connected nodes"
-msgstr "Bağlantılı düyünlər"
-
-msgid "Connected to {0} node."
-msgstr "{0} düyünə bağlandı."
-
-msgid "Connected to {0} nodes."
-msgstr "{0} düyünə bağlandı."
-
-msgid "Connected to {} peers"
-msgstr "{} cütə bağlandı"
-
-msgid "Connecting"
-msgstr "Bağlantı qurulur"
-
-msgid "Consider trying to connect to a different server, or updating Electrum."
-msgstr "Fərqli bir serverə bağlanmağa və ya Electrum-u güncəlləməyə çalışın."
-
-msgid "Contacts"
-msgstr "Əlaqələr"
-
-msgid "Continue Online"
-msgstr "Onlayn davam et"
-
-msgid "Cooperative close"
-msgstr "Kooperativ bağlama"
-
-msgid "Cooperative close?"
-msgstr "Kooperativ bağlanılsın?"
-
-msgid "Copy"
-msgstr "Kopyala"
-
-msgid "Copy Address"
-msgstr "Ünvanı kopyala"
-
-msgid "Copy Amount"
-msgstr "Miqdarı kopyala"
-
-msgid "Copy Image"
-msgstr "Təsviri kopyala"
-
-msgid "Copy Text"
-msgstr "Mətni kopyala"
-
-msgid "Copy and Close"
-msgstr "Kopyala və bağla"
-
-msgid "Copy to clipboard"
-msgstr "Lövhəyə kopyala"
-
-msgid "Copy {}"
-msgstr "{} - kopyala"
-
-msgid "Cosign with hardware device"
-msgstr "Avandanlıq cihazı ilə müştərək imza"
-
-msgid "Could not close channel: "
-msgstr "Kanal bağlanıla bilmədi: "
-
-msgid "Could not connect to channel peer"
-msgstr "Kanalı cütləşdirmək üçün bağlantı qurula bilmədi"
-
-msgid "Could not find suitable output"
-msgstr "Uyğun çıxış tapıla bilmədi"
-
-msgid "Could not find suitable outputs"
-msgstr "Uyğun çıxışlar tapıla bilmədi"
-
-msgid "Could not open channel: {}"
-msgstr "Kanal açıla bilmədi: {}"
-
-msgid "Could not open wallet: {}"
-msgstr "Pulqabı açıla bilmədi: {}"
-
-msgid "Could not parse clipboard text"
-msgstr "Lövhə mətni təhlil edilə bilmədi"
-
-msgid "Could not read/write file"
-msgstr "Fayl oxuna/yazıla bilmədi"
-
-msgid "Could not sign message"
-msgstr "Mesaj imzalana bilmədi"
-
-msgid "Could not sign message."
-msgstr "Mesaj imzalana bilmədi."
-
-msgid "Create new wallet"
-msgstr "Yeni pulqabı yarat"
-
-msgid "Create or restore"
-msgstr "Yarat və ya bərpa et"
-
-msgid "Create recoverable channels"
-msgstr "Geri qaytarıla bilən kanallar yarat"
-
-msgid "Create/Restore wallet"
-msgstr "Pulqabı yarat/bərpa et"
-
-msgid "Creating a new payment request will reuse one of your addresses and overwrite an existing request. Continue anyway?"
-msgstr "Yeni bir ödəniş tələbinin yaradılması ilə ünvanlarınızdan biri yenidən istifadə ediləcək və mövcud bir tələbin üzərinə yazılacaq. Yenə də davam edilsin?"
-
-msgid "Creation time"
-msgstr "Yaratma vaxtı"
-
-msgid "Critical Error"
-msgstr "Kritik xəta"
-
-msgid "Current Password:"
-msgstr "Hazırkı parol:"
-
-msgid "Current fee"
-msgstr "Hazırkı xidmət haqqı"
-
-msgid "Current rate"
-msgstr "Hazırkı məzənnə"
-
-msgid "Current version: {}"
-msgstr "Hazırkı versiya: {}"
-
-msgid "Custom"
-msgstr "Özəl"
-
-msgid "Custom URL"
-msgstr "Özəl URL"
-
-msgid "Custom secret"
-msgstr "Özəl sirr"
-
-msgid "Dark"
-msgstr "Qaranlıq"
-
-msgid "Dark/Light"
-msgstr "Qaranlıq/İşıqlı"
-
-msgid "Date"
-msgstr "Tarix"
-
-msgid "Date: {}"
-msgstr "Tarix: {}"
-
-msgid "Debug message"
-msgstr "Sazlama mesajı"
-
-msgid "Decrease payment"
-msgstr "Ödənişi azalt"
-
-msgid "Decrypt"
-msgstr "Şifrəsini aç"
-
-msgid "Default"
-msgstr "İlkin"
-
-msgid "Delete"
-msgstr "Sil"
-
-msgid "Delete expired requests"
-msgstr "Vaxtı bitmiş tələbləri sil"
-
-msgid "Delete invoices"
-msgstr "Fakturaları sil"
-
-msgid "Delete requests"
-msgstr "Tələbləri sil"
-
-msgid "Delete wallet file?"
-msgstr "Pulqabı faylı silinsin?"
-
-msgid "Derivation path"
-msgstr "Törəmə yolu"
-
-msgid "Description"
-msgstr "Açıqlama"
-
-msgid "Description:"
-msgstr "Açıqlama:"
-
-msgid "Destination node"
-msgstr "Hədəf düyün"
-
-msgid "Details"
-msgstr "Detallar"
-
-msgid "Detect Existing Accounts"
-msgstr "Mövcud hesabları aşkarla"
-
-msgid "Detected valid Lightning invoice, but there are no open channels"
-msgstr "Yararlı Lightning fakturası aşkarlandı, ancaq açıq kanal yoxdur"
-
-msgid "Device ID"
-msgstr "Cihaz kimliyi"
-
-msgid "Device Label"
-msgstr "Cihaz etiketi"
-
-msgid "Device communication error. Please unplug and replug your Digital Bitbox."
-msgstr "Cihaz bağlantı xətası. Lütfən Digital Bitbox-unuzu ayırıb yenidən taxın."
-
-msgid "Device erased"
-msgstr "Cihaz silindi"
-
-msgid "Disable"
-msgstr "Sıradan çıxart"
-
-msgid "Disable PIN"
-msgstr "PIN-i sıradan çıxart"
-
-msgid "Disabled"
-msgstr "Sıradan çıxarıldı"
-
-msgid "Disclaimer"
-msgstr "Məsuliyyətdən imtina"
-
-msgid "Disconnected"
-msgstr "Bağlantı kəsildi"
-
-msgid "Do not enter sensitive/private information here. The report will be visible on the public issue tracker."
-msgstr "Bura həssas/şəxsi məlumatlarınızı daxil etməyin. Hər kəsə açıq hesabat, problem izləyicidə görünəcək."
-
-msgid "Do not pair"
-msgstr "Cütləşdirmə"
-
-msgid "Do not paste code here that you don't understand. Executing the wrong code could lead to your coins being irreversibly lost."
-msgstr "Anlamadığınız kodu bura yapışdırmayın. Yanlış kodların icra edilməsi, pullarınızın geri qaytarılmaz şəkildə itirilməsinə səbəb ola bilər."
-
-msgid "Do not store it electronically."
-msgstr "Elektronik şəkildə saxlamayın."
-
-msgid "Do you want to create your first channel?"
-msgstr "İlk kanalınızı yaratmaq istəyirsiniz?"
-
-msgid "Do you want to delete the old file"
-msgstr "Köhnə faylı silmək istəyirsiniz"
-
-msgid "Do you want to open it now?"
-msgstr "İndi açmaq istəyirsiniz?"
-
-msgid "Do you want to remove {} from your wallet?"
-msgstr "{} - pulqabınızdan silmək istəyirsiniz?"
-
-msgid "Do you want to send this report?"
-msgstr "Bu hesabatı göndərmək istəyirsiniz?"
-
-msgid "Do you wish to continue?"
-msgstr "Davam etmək istəyirsiniz?"
-
-msgid "Don't know any addresses for node:"
-msgstr "Düyün üçün heç bir ünvan bilmirəm:"
-
-msgid "Don't show this again."
-msgstr "Bunu bir daha göstərmə."
-
-msgid "Download historical rates"
-msgstr "Tarixi əmsalları endir"
-
-msgid "Download missing data"
-msgstr "Əskik datanı endir"
-
-msgid "ETA"
-msgstr "ETA"
-
-msgid "Edit"
-msgstr "Düzəliş et"
-
-msgid "Edit Locktime"
-msgstr "Kilid vaxtına düzəliş et"
-
-msgid "Edit fees manually"
-msgstr "Xidmət haqqına əllə düzəliş et"
-
-msgid "Edit {}"
-msgstr "{} - düzəliş et"
-
-msgid "Electrum Plugins"
-msgstr "Electrum Qoşmaları"
-
-msgid "Electrum preferences"
-msgstr "Electrum tərcihləri"
-
-msgid "Electrum wallet"
-msgstr "Electrum pulqabısı"
-
-msgid "Electrum will now exit."
-msgstr "Electrum indi çıxacaq."
-
-msgid "Electrum's focus is speed, with low resource usage and simplifying Bitcoin."
-msgstr "\"Electrum\"un fokus nöqtəsi sürəti, aşağı resurs istifadəsi və Bitcoin-in sadələşdirilməsidir."
-
-msgid "Enable"
-msgstr "Fəallaşdır"
-
-msgid "Enable PIN protection"
-msgstr "PIN qorumasını fəallaşdır"
-
-msgid "Enable output value rounding"
-msgstr "Çıxış dəyərini yuvarlaqlaşdırmağı fəallaşdır"
-
-msgid "Enable update check"
-msgstr "Güncəlləmə yoxlanışını fəallaşdır"
-
-msgid "Enabled"
-msgstr "Fəaldır"
-
-msgid "Encrypt"
-msgstr "Şifrələ"
-
-msgid "Encrypt custom secret"
-msgstr "Özəl sirri şifrələ"
-
-msgid "Encrypt using hardware"
-msgstr "Avadanlıq istifadəsini şifrələ"
-
-msgid "Encrypt/decrypt Message"
-msgstr "Mesajı şifrələ/şifrəsini aç"
-
-msgid "Encrypt/decrypt message"
-msgstr "Mesajı şifrələ/şifrəsini aç"
-
-msgid "Encrypted"
-msgstr "Şifrəli"
-
-msgid "Encryption and decryption are currently not supported for {}"
-msgstr "{} üçün şifrələmə və şifrəsini açma hazırda dəstəklənmir"
-
-msgid "Encryption and decryption are not implemented by {}"
-msgstr "Şifrələmə və şifrəsini açma {} tərəfindən tətbiq edilmir"
-
-msgid "End"
-msgstr "Bitmə"
-
-msgid "Enter PIN"
-msgstr "PİN-i daxil et"
-
-msgid "Enter Password"
-msgstr "Parolu daxil et"
-
-msgid "Enter cosigner key"
-msgstr "Müştərək imza açarını daxil et"
-
-msgid "Enter cosigner seed"
-msgstr "Müştərək imza toxumunu daxil et"
-
-msgid "Enter password:"
-msgstr "Parolu daxil et:"
-
-msgid "Enter private keys"
-msgstr "Şəxsi açarları daxil et"
-
-msgid "Enter the amount you want to send"
-msgstr "Göndərmək istədiyiniz məbləği daxil edin"
-
-msgid "Enter the master private key beginning with xprv:"
-msgstr "xprv ilə başlayan şəxsi ana açarı daxil edin:"
-
-msgid "Erase the Digital Bitbox"
-msgstr "Digital Bitbox-u sil"
-
-msgid "Error"
-msgstr "Xəta"
-
-msgid "Error adding payment request"
-msgstr "Ödəniş tələbini əlavə etmə xətası"
-
-msgid "Error connecting to server"
-msgstr "Serverə bağlanma xətası"
-
-msgid "Error connecting to {} server"
-msgstr "{} serverinə bağlanma xətası"
-
-msgid "Error creating payment request"
-msgstr "Ödəniş tələbini yaratma xətası"
-
-msgid "Error getting TrustedCoin account info."
-msgstr "TrustedCoin hesab məlumatlarını alma xətası."
-
-msgid "Error opening file"
-msgstr "Fayl açma xətası"
-
-msgid "Error parsing LNURL"
-msgstr "LNURL təhlil xətası"
-
-msgid "Error parsing Lightning invoice"
-msgstr "Lightning fakturasını təhlil etmə xətası"
-
-msgid "Error scanning devices"
-msgstr "Cihazları skan etmə xətası"
-
-msgid "Error showing address"
-msgstr "Ünvanları göstərmə xətası"
-
-msgid "Error synchronising labels"
-msgstr "Etiketləri sinxr. xətası"
-
-msgid "Error: Account discovery failed."
-msgstr "Xəta: Hesabın kəşf edilməsi uğursuz oldu."
-
-msgid "Estimate"
-msgstr "Təxmini"
-
-msgid "Exit Electrum"
-msgstr "Electrum-dan çıx"
-
-msgid "Expiration period of your request."
-msgstr "Tələbinizin bitmə müddəti."
-
-msgid "Expiration time"
-msgstr "Bitmə vaxtı"
-
-msgid "Expired"
-msgstr "Vaxtı bitdi"
-
-msgid "Expires"
-msgstr "Son istifadə tarixi"
-
-msgid "Expiry"
-msgstr "Bitmə"
-
-msgid "Export"
-msgstr "Xaricə köçür"
-
-msgid "Export History"
-msgstr "Tarixçəni xaricə köçür"
-
-msgid "Export backup"
-msgstr "Nüsxəni xaricə köçür"
-
-msgid "Export invoices"
-msgstr "Fakturaları xaricə köçür"
-
-msgid "Export requests"
-msgstr "Tələbləri xaricə köçür"
-
-msgid "Failed"
-msgstr "Uğursuz"
-
-msgid "Failed HTLCs"
-msgstr "HTLC uğursuz oldu"
-
-msgid "Failed to display QR code."
-msgstr "QR kodu göstərmə uğursuz oldu."
-
-msgid "Fee"
-msgstr "Xidmət haqqı"
-
-msgid "Finish"
-msgstr "Bitir"
-
-msgid "For Lightning requests, payments will not be accepted after the expiration."
-msgstr "Lightning tələblərində müddət bitdikdən sonra ödəniş qəbul edilməyəcək."
-
-msgid "From {0} cosigners"
-msgstr "{0} müştərək imzadan"
-
-msgid "If your device is not detected on Windows, go to \"Settings\", \"Devices\", \"Connected devices\", and do \"Remove device\". Then, plug your device again."
-msgstr "Cihazınız Windows-da aşkarlanmasa Ayarlar > Cihazlar > \"Bağlantılı cihazlar\"a gedin və \"Cihazı sil\"i seçin. Daha sonra cihazı yenidən qoşun."
-
-msgid "Invoice requires unknown or incompatible Lightning feature"
-msgstr "Faktura, bilinməyən və ya uyğunsuz Lightning özəlliyi tələb edir"
-
-msgid "Lightning"
-msgstr "Lightning"
-
-msgid "Lightning (frozen)"
-msgstr "Lightning (dondurulmuş)"
-
-msgid "Lightning Channel"
-msgstr "Lightning kanalı"
-
-msgid "Lightning Invoice"
-msgstr "Lightning fakturası"
-
-msgid "Lightning Network"
-msgstr "Lightning şəbəkəsi"
-
-msgid "Lightning Network Statistics"
-msgstr "Lightning şəbəkə statistikaları"
-
-msgid "Lightning Node ID:"
-msgstr "Lightning düyün kimliyi:"
-
-msgid "Lightning Payment"
-msgstr "Lightning ödənişi"
-
-msgid "Lightning Request"
-msgstr "Lightning tələbi"
-
-msgid "Lightning frozen"
-msgstr "Lightning donduruldu"
-
-msgid "Lightning funds were not received."
-msgstr "Lightning fondları alınmadı."
-
-msgid "Lightning is disabled"
-msgstr "Lightning sıradan çıxarıldı"
-
-msgid "Lightning is not enabled because this wallet was created with an old version of Electrum. Create lightning keys?"
-msgstr "Bu pulqabı Electrum-un köhnə versiyası ilə yaradıldığı üçün Lightning fəallaşdırıla bilmir. Lightning açarları yaradılsın?"
-
-msgid "Lightning keys have been initialized."
-msgstr "Lightning açarları başladıldı."
-
-msgid "Make sure you have a camera connected and enabled."
-msgstr "Kameranızın bağlantılı və fəal olduğuna əmin olun."
-
-msgid "Max"
-msgstr "Maks"
-
-msgid "Mining fee"
-msgstr "Mədənçilik haqqı"
-
-msgid "Move the slider to set the amount and direction of the swap."
-msgstr "Mübadilənin miqdarini və istiqamətini ayarlamaq üçün diyircəyi hərəkət etdirin."
-
-msgid "Network and server configuration"
-msgstr "Şəbəkə və server konfiqurasiyası"
-
-msgid "No"
-msgstr "Xeyr"
-
-msgid "Not Verified"
-msgstr "Doğrulanmadı"
-
-msgid "Not connected"
-msgstr "Bağlantı qurulmayıb"
-
-msgid "Not verified"
-msgstr "Doğrulanmadı"
-
-msgid "Note that lightning channels will be converted to channel backups."
-msgstr "Unutmayın ki, Lightning kanalları kanal nüsxələrinə çevriləcək."
-
-msgid "Open Lightning channel?"
-msgstr "Lightning kanalı açılsın?"
-
-msgid "PIN set"
-msgstr "PIN ayarla"
-
-msgid "Paid!"
-msgstr "Ödənildi!"
-
-msgid "Paste"
-msgstr "Yapışdır"
-
-msgid "Pay lightning invoice?"
-msgstr "Lightning fakturası ödənilsin?"
-
-msgid "Performing swap..."
-msgstr "Mübadilə icra edilir..."
-
-msgid "Please enter the master public key (xpub) of your cosigner."
-msgstr "Zəhmət olmasa müştərək imzanızın əsas ictimai açarını (xpub) daxil edin."
-
-msgid "Please restart Electrum to activate the new GUI settings"
-msgstr "Yeni GUI ayarlarını aktivləşdirmək üçün lütfən Electrum-u yenidən başladın"
-
-msgid "Provider"
-msgstr "Provayder"
-
-msgid "Proxy"
-msgstr "Proksi"
-
-msgid "Proxy settings apply to all connections: with Electrum servers, but also with third-party services."
-msgstr "Proksi ayarları bütün bağlantılara tətbiq edilir: Electrum serverlərlə, ancaq həm də üçüncü tərəf xidmətlərlə."
-
-msgid "Reset"
-msgstr "Sıfırla"
-
-msgid "Revealer - Printer calibration settings"
-msgstr "Revealer - Printer dərəcələndirmə ayarları"
-
-msgid "Select where to save the setup file"
-msgstr "Quraşdırma faylının harada saxlanılacağını seçin"
-
-msgid "Send change to Lightning"
-msgstr "Dəyişikliyi Lightning-ə göndər"
-
-msgid "Server"
-msgstr "Server"
-
-msgid "Server fee"
-msgstr "Server haqqı"
-
-msgid "Set a PIN"
-msgstr "Bir PIN təyin et"
-
-msgid "Set wallet file encryption."
-msgstr "Pulqabı faylının şifrələnməsini ayarlayın."
-
-msgid "Settings"
-msgstr "Ayarlar"
-
-msgid "Share #{} is not part of the current set."
-msgstr "#{} paylaşımı, hazırkı dəstin bir hissəsi deyil."
-
-msgid "Show expert settings"
-msgstr "Mütəxəssis ayarlarını göstər"
-
-msgid "Sign/verify Message"
-msgstr "Mesajı imzala/doğrula"
-
-msgid "Sign/verify message"
-msgstr "Mesajı imzala/doğrula"
-
-msgid "Signature verified"
-msgstr "İmza doğrulandı"
-
-msgid "Success!"
-msgstr "Uğurlu!"
-
-msgid "Swap"
-msgstr "Mübadilə"
-
-msgid "Swap cancelled"
-msgstr "Mübadilə ləğv edildi"
-
-msgid "Swap failed!"
-msgstr "Mübadilə uğursuz oldu!"
-
-msgid "Swapping lightning funds for onchain funds will increase your capacity to receive lightning payments."
-msgstr "Lightning fondlarını zəncirüstü fondlarla mübadilə etmək Lightning ödənişlərinizi alma tutumunu artıracaq."
-
-msgid "The device was disconnected."
-msgstr "Cihazın bağlantısı kəsildi."
-
-msgid "The swap server errored or is unreachable."
-msgstr "Mübadilə server xəta verir və ya əlçatmazdır."
-
-msgid "Try to connect again?"
-msgstr "Yenidən bağlantı qurmağa çalışılsın?"
-
-msgid "Unlock"
-msgstr "Kilidi aç"
-
-msgid "Verify"
-msgstr "Doğrula"
-
-msgid "Verify the cable is connected and that no other application is using it."
-msgstr "Kabelin bağlantılı olduğunu və başqa heç bir tətbiqin istifadə edilmədiyini doğrulayın."
-
-msgid "Warning: to be able to restore a multisig wallet, you should include the master public key for each cosigner in all of your backups."
-msgstr "Xəbərdarlıq: çoxlu imza pulqabısını bərpa edə bilmək üçün, bütün nüsxələrinizdəki hər bir müştərək imzaya əsas ictimai açarı daxil etməlisiniz."
-
-msgid "Yes"
-msgstr "Bəli"
-
-msgid "You are offline."
-msgstr "Oflaynsınız."
-
-msgid "You can disable this setting in '{}'."
-msgstr "'{}' daxilindəki bu ayarı sıradan çıxarda bilərsiniz."
-
-msgid "You need to set a lower fee."
-msgstr "Daha aşağı bir xidmət haqqı ayarlamalısınız."
-
-msgid "You receive"
-msgstr "Aldığın"
-
-msgid "You send"
-msgstr "Göndərdiyin"
-
-msgid "add inputs and outputs"
-msgstr "giriş və çıxışlar əlavə et"
-
-msgid "address already in wallet"
-msgstr "ünvanlar artıq pulqabıya əlavə edildi"
-
-msgid "can receive"
-msgstr "ala bilər"
-
-msgid "change"
-msgstr "dəyişdir"
-
-msgid "contacts"
-msgstr "əlaqələr"
-
-msgid "in new channel"
-msgstr "yeni kanalda"
-
-msgid "initialized"
-msgstr "başladıldı"
-
-msgid "invalid address"
-msgstr "yararsız ünvan"
-
-msgid "invalid private key"
-msgstr "yararsız şəxsi açar"
-
-msgid "invoices"
-msgstr "fakturalar"
-
-msgid "json"
-msgstr "json"
-
-msgid "labels"
-msgstr "etiketlər"
-
-msgid "not implemented type"
-msgstr "tətbiq edilməyən növ"
-
-msgid "unknown"
-msgstr "bilinmir"
-
-msgid "watching only"
-msgstr "yalnız baxma"
-
-msgid "watching-only"
-msgstr "yalnız baxma"
-
-msgid "wiped"
-msgstr "təmizləndi"
-
-msgid "your seed extension will <b>not</b> be included in the encrypted backup."
-msgstr "toxum uzantınız şifrələnmiş nüsxəyə <b>daxil edilməyəcək</b>."
-
-msgid "{:2d} minutes"
-msgstr "{:2d} dəqiqə"
+msgid "Bottom"
+msgstr "Alt"
 
 msgid "{:d} words"
 msgstr "{:d} söz"
 
-msgid "{} Settings"
-msgstr "{} Ayarları"
+msgid "Choose Homescreen"
+msgstr "Əsas ekranı seçin"
 
-msgid "{} channels"
-msgstr "{} kanal"
+msgid "Change..."
+msgstr "Dəyişdir..."
+
+msgid "Complete the initialization process on your {} device"
+msgstr "{} cihazınızda başlatma prosesini tamamla"
+
+msgid "Show expert settings"
+msgstr "Mütəxəssis ayarlarını göstər"
+
+msgid "Choose how you want to initialize your {}."
+msgstr "{} - necə başlatmaq istədiyinizi seçin."
+
+msgid "Error connecting to server"
+msgstr "Serverə bağlanma xətası"
+
+msgid "Authorization"
+msgstr "Səlahiyyətləndirmə"
+
+msgid "Code"
+msgstr "Kod"
+
+msgid "Error getting TrustedCoin account info."
+msgstr "TrustedCoin hesab məlumatlarını alma xətası."
+
+msgid "Disclaimer"
+msgstr "Məsuliyyətdən imtina"
+
+msgid "Create or restore"
+msgstr "Yarat və ya bərpa et"
+
+msgid "Authenticator secret"
+msgstr "Kimlik doğrulayıcı sirri"
+
+msgid "Continue Online"
+msgstr "Onlayn davam et"
+
+msgid "Cannot start QR scanner: initialization failed."
+msgstr "QR skaner başladıla bilmir: başlatma uğursuz oldu."
+
+msgid "Make sure you have a camera connected and enabled."
+msgstr "Kameranızın bağlantılı və fəal olduğuna əmin olun."
+
+msgid "Enable output value rounding"
+msgstr "Çıxış dəyərini yuvarlaqlaşdırmağı fəallaşdır"
+
+msgid "Send change to Lightning"
+msgstr "Dəyişikliyi Lightning-ə göndər"
+
+msgid "Download historical rates"
+msgstr "Tarixi əmsalları endir"
+
+msgid "Create recoverable channels"
+msgstr "Geri qaytarıla bilən kanallar yarat"
+
+msgid "Color theme"
+msgstr "Rəng teması"
+
+msgid "Download missing data"
+msgstr "Əskik datanı endir"
+
+msgid "Edit fees manually"
+msgstr "Xidmət haqqına əllə düzəliş et"
+
+msgid "Edit Locktime"
+msgstr "Kilid vaxtına düzəliş et"
+
+msgid "Automatically check for software updates"
+msgstr "Proqram təminatı güncəlləmələrini avto-yoxla"
+
+msgid "Share #{} is not part of the current set."
+msgstr "#{} paylaşımı, hazırkı dəstin bir hissəsi deyil."
+
+msgid "Completed {} of {} groups needed"
+msgstr "Lazımi {}/{} qrup tamamlandı"
+
+msgid "The swap server errored or is unreachable."
+msgstr "Mübadilə server xəta verir və ya əlçatmazdır."
+
+msgid "Not Verified"
+msgstr "Doğrulanmadı"
+
+msgid "Decrease payment"
+msgstr "Ödənişi azalt"
 
 msgid "{} confirmations"
 msgstr "{} təsdiq"
 
-msgid "{} outputs available ({} total)"
-msgstr "{} çıxış mövcuddur (cəmi {})"
+msgid "Not verified"
+msgstr "Doğrulanmadı"
 
-msgid "{} words"
-msgstr "{} söz"
+msgid "Could not find suitable outputs"
+msgstr "Uyğun çıxışlar tapıla bilmədi"
+
+msgid "Could not find suitable output"
+msgstr "Uyğun çıxış tapıla bilmədi"
+
+msgid "invalid address"
+msgstr "yararsız ünvan"
+
+msgid "address already in wallet"
+msgstr "ünvanlar artıq pulqabıya əlavə edildi"
+
+msgid "invalid private key"
+msgstr "yararsız şəxsi açar"
+
+msgid "not implemented type"
+msgstr "tətbiq edilməyən növ"
 
 msgctxt "About|"
 msgid "About Electrum"
@@ -2175,10 +2175,6 @@ msgstr "Əsas ictimai açar"
 msgctxt "WCHaveSeed|"
 msgid "Cosigner #%1 of %2"
 msgstr "Müştərək imza #%1/%2"
-
-msgctxt "WCHaveSeed|"
-msgid "BIP39"
-msgstr "BIP39"
 
 msgctxt "WCHaveSeed|"
 msgid "Enter cosigner seed"

@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: electrum\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-18 12:59+0000\n"
-"PO-Revision-Date: 2026-02-18 12:59\n"
+"POT-Creation-Date: 2026-02-19 16:44+0000\n"
+"PO-Revision-Date: 2026-02-19 16:44\n"
 "Last-Translator: \n"
 "Language-Team: Bengali\n"
 "Language: bn_BD\n"
@@ -21,29 +21,29 @@ msgstr ""
 "X-Crowdin-File: /electrum-client/messages.pot\n"
 "X-Crowdin-File-ID: 68\n"
 
-msgid "&About"
-msgstr "সম্পর্কে "
-
 msgid "&Addresses"
 msgstr "ঠিকানা"
-
-msgid "&Close"
-msgstr "বন্ধ "
-
-msgid "&Help"
-msgstr "সাহায্য "
-
-msgid "&Import"
-msgstr "আমদানি "
-
-msgid "&Information"
-msgstr "তথ্য "
 
 msgid "&Open"
 msgstr "খোলা "
 
+msgid "&Quit"
+msgstr "বন্ধ "
+
+msgid "&Information"
+msgstr "তথ্য "
+
 msgid "&Private keys"
 msgstr "ব্যক্তিগত চাবি "
 
-msgid "&Quit"
+msgid "&Import"
+msgstr "আমদানি "
+
+msgid "&Help"
+msgstr "সাহায্য "
+
+msgid "&About"
+msgstr "সম্পর্কে "
+
+msgid "&Close"
 msgstr "বন্ধ "

@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: electrum\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-18 12:59+0000\n"
-"PO-Revision-Date: 2026-02-18 12:59\n"
+"POT-Creation-Date: 2026-02-19 16:44+0000\n"
+"PO-Revision-Date: 2026-02-19 16:44\n"
 "Last-Translator: \n"
 "Language-Team: Kyrgyz\n"
 "Language: ky_KG\n"
@@ -21,20 +21,95 @@ msgstr ""
 "X-Crowdin-File: /electrum-client/messages.pot\n"
 "X-Crowdin-File-ID: 68\n"
 
-msgid "&About"
-msgstr "Electrum &тууралуу"
+msgid "Error"
+msgstr "Ката"
 
-msgid "&Documentation"
-msgstr "&Документация"
+msgid "Warning"
+msgstr "Эскертүү"
+
+msgid "Amount"
+msgstr "Сумма"
+
+msgid "Synchronizing..."
+msgstr "Синхрондоштурууда..."
+
+msgid "Network"
+msgstr "Тармак"
+
+msgid "Show/Hide"
+msgstr "Көрсөтүү/Жашыруу"
+
+msgid "Close"
+msgstr "Жабуу"
+
+msgid "Exit Electrum"
+msgstr "Electrum-дан чыгуу"
+
+msgid "Address"
+msgstr "Дарек"
+
+msgid "Balance"
+msgstr "Баланс"
+
+msgid "Private key"
+msgstr "Жеке ачкыч"
+
+msgid "Delete"
+msgstr "Өчүрүү"
+
+msgid "Preferences"
+msgstr "Касиеттери"
+
+msgid "OK"
+msgstr "Жарайт"
+
+msgid "Import"
+msgstr "Импорттоо"
+
+msgid "Date"
+msgstr "Дата"
+
+msgid "Description"
+msgstr "Баяндамасы"
 
 msgid "&Export"
 msgstr "&Экспорттоо"
 
+msgid "Copy"
+msgstr "Көчүрүү"
+
+msgid "Remove"
+msgstr "Өчүрүү"
+
+msgid "Message"
+msgstr "Билдирүү"
+
+msgid "History"
+msgstr "Тарых"
+
+msgid "Send"
+msgstr "Жөнөтүү"
+
 msgid "&File"
 msgstr "&Файл"
 
-msgid "&From QR code"
-msgstr "QR-&коддон"
+msgid "&Open"
+msgstr "&Ачуу"
+
+msgid "&Quit"
+msgstr "&Чыгуу"
+
+msgid "&Wallet"
+msgstr "&Капчык"
+
+msgid "&Import"
+msgstr "&Импорттоо"
+
+msgid "&Tools"
+msgstr "&Аспаптар"
+
+msgid "&Load transaction"
+msgstr "Транзакцияны &жүктөө"
 
 msgid "&From file"
 msgstr "&Файлдан"
@@ -42,128 +117,29 @@ msgstr "&Файлдан"
 msgid "&From text"
 msgstr "&Тексттен"
 
+msgid "&From QR code"
+msgstr "QR-&коддон"
+
 msgid "&Help"
 msgstr "&Жардам"
 
-msgid "&Import"
-msgstr "&Импорттоо"
+msgid "&About"
+msgstr "Electrum &тууралуу"
 
-msgid "&Load transaction"
-msgstr "Транзакцияны &жүктөө"
-
-msgid "&Open"
-msgstr "&Ачуу"
-
-msgid "&Pay to many"
-msgstr "&Көп адамдарга төлөө"
-
-msgid "&Quit"
-msgstr "&Чыгуу"
+msgid "&Documentation"
+msgstr "&Документация"
 
 msgid "&Report Bug"
 msgstr "Катаны маалымдоо"
 
-msgid "&Tools"
-msgstr "&Аспаптар"
+msgid "Version"
+msgstr "Версия"
 
-msgid "&Wallet"
-msgstr "&Капчык"
-
-msgid "1 day"
-msgstr "1 күн"
-
-msgid "1 hour"
-msgstr "1 саат"
-
-msgid "1 week"
-msgstr "1 жума"
-
-msgid "Address"
-msgstr "Дарек"
-
-msgid "Amount"
-msgstr "Сумма"
-
-msgid "Back"
-msgstr "Артка"
-
-msgid "Balance"
-msgstr "Баланс"
-
-msgid "CSV"
-msgstr "CSV"
-
-msgid "Cancel"
-msgstr "Жокко чыгаруу"
-
-msgid "Clear"
-msgstr "Тазалоо"
-
-msgid "Close"
-msgstr "Жабуу"
-
-msgid "Confirm Password:"
-msgstr "Сыр сөздү кайталаңыз:"
-
-msgid "Contacts"
-msgstr "Байланыштар"
-
-msgid "Copy"
-msgstr "Көчүрүү"
-
-msgid "Copy and Close"
-msgstr "Көчүрүп жабуу"
-
-msgid "Current Password:"
-msgstr "Кезектеги пароль:"
-
-msgid "Date"
-msgstr "Дата"
-
-msgid "Delete"
-msgstr "Өчүрүү"
-
-msgid "Description"
-msgstr "Баяндамасы"
-
-msgid "Enter Password"
-msgstr "Пароль киргизиңиз"
-
-msgid "Error"
-msgstr "Ката"
-
-msgid "Exit Electrum"
-msgstr "Electrum-дан чыгуу"
-
-msgid "History"
-msgstr "Тарых"
-
-msgid "Import"
-msgstr "Импорттоо"
-
-msgid "Inputs"
-msgstr "Кириштер"
+msgid "Reporting Bugs"
+msgstr "Каталарды маалымдоо"
 
 msgid "Invalid Address"
 msgstr "Дареги туура эмес"
-
-msgid "Language"
-msgstr "Тил"
-
-msgid "Load transaction"
-msgstr "Транзакцияны жүктөө"
-
-msgid "Message"
-msgstr "Билдирүү"
-
-msgid "Network"
-msgstr "Тармак"
-
-msgid "Next"
-msgstr "Кийинки"
-
-msgid "OK"
-msgstr "Жарайт"
 
 msgid "Outputs"
 msgstr "Чыгыштар"
@@ -171,77 +147,101 @@ msgstr "Чыгыштар"
 msgid "Password"
 msgstr "Сырсөзү"
 
-msgid "Preferences"
-msgstr "Касиеттери"
-
-msgid "Private key"
-msgstr "Жеке ачкыч"
-
-msgid "QR code"
-msgstr "QR-код"
-
-msgid "Remove"
-msgstr "Өчүрүү"
-
-msgid "Reporting Bugs"
-msgstr "Каталарды маалымдоо"
-
-msgid "Save"
-msgstr "Сактоо"
-
 msgid "Seed"
 msgstr "Seed"
-
-msgid "Seed Type"
-msgstr "Seed түрү"
-
-msgid "Select server automatically"
-msgstr "Серверди автоматтуу түрдө тандоо"
-
-msgid "Select your transaction file"
-msgstr "Транзакция файлыңызды тандаңыз"
-
-msgid "Send"
-msgstr "Жөнөтүү"
-
-msgid "Server"
-msgstr "Сервери"
-
-msgid "Settings"
-msgstr "Ырастоолор"
-
-msgid "Show/Hide"
-msgstr "Көрсөтүү/Жашыруу"
 
 msgid "Success"
 msgstr "Ийгиликтүү"
 
-msgid "Synchronizing..."
-msgstr "Синхрондоштурууда..."
-
-msgid "Transaction"
-msgstr "Транзакция"
-
-msgid "Transaction:"
-msgstr "Транзакция:"
+msgid "QR code"
+msgstr "QR-код"
 
 msgid "Verify"
 msgstr "Текшерүү"
 
-msgid "Version"
-msgstr "Версия"
+msgid "Select your transaction file"
+msgstr "Транзакция файлыңызды тандаңыз"
 
-msgid "Video Device"
-msgstr "Видео түзмөк"
+msgid "Transaction:"
+msgstr "Транзакция:"
+
+msgid "Load transaction"
+msgstr "Транзакцияны жүктөө"
+
+msgid "Server"
+msgstr "Сервери"
+
+msgid "Clear"
+msgstr "Тазалоо"
+
+msgid "Enter Password"
+msgstr "Пароль киргизиңиз"
+
+msgid "Confirm Password:"
+msgstr "Сыр сөздү кайталаңыз:"
+
+msgid "Current Password:"
+msgstr "Кезектеги пароль:"
+
+msgid "Settings"
+msgstr "Ырастоолор"
+
+msgid "Save"
+msgstr "Сактоо"
 
 msgid "WARNING"
 msgstr "ЭСКЕРТҮҮ"
 
-msgid "Warning"
-msgstr "Эскертүү"
+msgid "Seed Type"
+msgstr "Seed түрү"
+
+msgid "&Pay to many"
+msgstr "&Көп адамдарга төлөө"
+
+msgid "Inputs"
+msgstr "Кириштер"
+
+msgid "Transaction"
+msgstr "Транзакция"
+
+msgid "Copy and Close"
+msgstr "Көчүрүп жабуу"
+
+msgid "Cancel"
+msgstr "Жокко чыгаруу"
+
+msgid "CSV"
+msgstr "CSV"
 
 msgid "json"
 msgstr "json"
+
+msgid "Next"
+msgstr "Кийинки"
+
+msgid "Back"
+msgstr "Артка"
+
+msgid "Contacts"
+msgstr "Байланыштар"
+
+msgid "1 hour"
+msgstr "1 саат"
+
+msgid "1 day"
+msgstr "1 күн"
+
+msgid "1 week"
+msgstr "1 жума"
+
+msgid "Language"
+msgstr "Тил"
+
+msgid "Select server automatically"
+msgstr "Серверди автоматтуу түрдө тандоо"
+
+msgid "Video Device"
+msgstr "Видео түзмөк"
 
 msgctxt "About|"
 msgid "Version"

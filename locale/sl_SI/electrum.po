@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: electrum\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-18 12:59+0000\n"
-"PO-Revision-Date: 2026-02-18 12:59\n"
+"POT-Creation-Date: 2026-02-19 16:44+0000\n"
+"PO-Revision-Date: 2026-02-19 16:44\n"
 "Last-Translator: \n"
 "Language-Team: Slovenian\n"
 "Language: sl_SI\n"
@@ -21,92 +21,92 @@ msgstr ""
 "X-Crowdin-File: /electrum-client/messages.pot\n"
 "X-Crowdin-File-ID: 68\n"
 
-msgid "&Documentation"
-msgstr "Dokumentacija"
-
-msgid "1 day"
-msgstr "1 dan"
-
-msgid "1 hour"
-msgstr "1 ura"
-
-msgid "1 week"
-msgstr "1 teden"
-
-msgid "10 minutes"
-msgstr "10 minut"
-
-msgid "Address"
-msgstr "Naslov"
-
-msgid "Amount"
-msgstr "Znesek"
-
-msgid "Balance"
-msgstr "Stanje"
-
-msgid "Description"
-msgstr "Opis"
-
 msgid "Error"
 msgstr "Napaka"
-
-msgid "Fee"
-msgstr "Provizija"
-
-msgid "History"
-msgstr "Zgodovina"
-
-msgid "Invalid Address"
-msgstr "Neveljaven naslov"
-
-msgid "Invalid Amount"
-msgstr "Neveljaven znesek"
-
-msgid "Invalid Bitcoin Address"
-msgstr "Neveljaven Bitcoin naslov"
-
-msgid "Message"
-msgstr "Sporočilo"
-
-msgid "New Contact"
-msgstr "Nov kontakt"
-
-msgid "Not connected"
-msgstr "Niste povezani"
 
 msgid "Not enough funds"
 msgstr "Premalo sredstev"
 
-msgid "Number of zeros displayed after the decimal point. For example, if this is set to 2, \"1.\" will be displayed as \"1.00\""
-msgstr "Število decimalk"
+msgid "Amount"
+msgstr "Znesek"
+
+msgid "Synchronizing..."
+msgstr "Sinhroniziram..."
+
+msgid "Address"
+msgstr "Naslov"
+
+msgid "Balance"
+msgstr "Stanje"
 
 msgid "OK"
 msgstr "V redu"
 
-msgid "Password"
-msgstr "Geslo"
-
 msgid "Pay to"
 msgstr "Prejemnik"
 
-msgid "Payment sent."
-msgstr "Nakazilo je poslano."
+msgid "Description"
+msgstr "Opis"
 
-msgid "Please enter your password"
-msgstr "Prosim vnesite geslo"
+msgid "Message"
+msgstr "Sporočilo"
 
-msgid "Receive"
-msgstr "Prejmi"
-
-msgid "Save"
-msgstr "Shrani"
+msgid "History"
+msgstr "Zgodovina"
 
 msgid "Send"
 msgstr "Pošlji"
 
-msgid "Synchronizing..."
-msgstr "Sinhroniziram..."
+msgid "Receive"
+msgstr "Prejmi"
+
+msgid "&Documentation"
+msgstr "Dokumentacija"
+
+msgid "Not connected"
+msgstr "Niste povezani"
+
+msgid "Invalid Address"
+msgstr "Neveljaven naslov"
+
+msgid "Password"
+msgstr "Geslo"
+
+msgid "New Contact"
+msgstr "Nov kontakt"
+
+msgid "Please enter your password"
+msgstr "Prosim vnesite geslo"
+
+msgid "Save"
+msgstr "Shrani"
+
+msgid "Invalid Amount"
+msgstr "Neveljaven znesek"
+
+msgid "Payment sent."
+msgstr "Nakazilo je poslano."
+
+msgid "Fee"
+msgstr "Provizija"
+
+msgid "Invalid Bitcoin Address"
+msgstr "Neveljaven Bitcoin naslov"
+
+msgid "10 minutes"
+msgstr "10 minut"
+
+msgid "1 hour"
+msgstr "1 ura"
+
+msgid "1 day"
+msgstr "1 dan"
+
+msgid "1 week"
+msgstr "1 teden"
+
+msgid "Number of zeros displayed after the decimal point. For example, if this is set to 2, \"1.\" will be displayed as \"1.00\""
+msgstr "Število decimalk"
 
 msgctxt "AddressDetails|"
 msgid "Address"
