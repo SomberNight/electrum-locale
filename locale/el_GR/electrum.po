@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: electrum\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-18 12:59+0000\n"
-"PO-Revision-Date: 2026-02-18 12:59\n"
+"POT-Creation-Date: 2026-02-19 16:44+0000\n"
+"PO-Revision-Date: 2026-02-19 16:44\n"
 "Last-Translator: \n"
 "Language-Team: Greek\n"
 "Language: el_GR\n"
@@ -21,47 +21,395 @@ msgstr ""
 "X-Crowdin-File: /electrum-client/messages.pot\n"
 "X-Crowdin-File-ID: 68\n"
 
-msgid " confirmation"
-msgstr " επιβεβαίωση"
+msgid "Do you want to send this report?"
+msgstr "Θέλετε να στείλετε αυτήν την αναφορά;"
 
-msgid "&About"
-msgstr "&Πληροφορίες"
+msgid "&Undo"
+msgstr "&Αναίρεση"
 
-msgid "&Addresses"
-msgstr "&Διευθύνσεις"
+msgid "&Redo"
+msgstr "&Επανάληψη"
 
-msgid "&Bitcoin Paper"
-msgstr "Έγγραφο &Bitcoin"
-
-msgid "&Check for updates"
-msgstr "&Έλεγχος για ενημερώσεις"
-
-msgid "&Close"
-msgstr "&Κλείσιμο"
+msgid "Cu&t"
+msgstr "&Αποκοπή"
 
 msgid "&Copy"
 msgstr "&Αντιγραφή"
 
-msgid "&Documentation"
-msgstr "&Τεκμηρίωση"
+msgid "&Paste"
+msgstr "&Επικόλληση"
 
-msgid "&Donate to server"
-msgstr "&Δωρεά στον διακομιστή"
+msgid "Select All"
+msgstr "Επιλογή όλων"
 
-msgid "&Encrypt/decrypt message"
-msgstr "&Κρυπτογράφηση/Αποκρυπτογράφηση μηνύματος"
+msgid "Copy &Link Location"
+msgstr "Αντιγραφή τοποθεσίας &συνδέσμου"
+
+msgid "Auto-connect"
+msgstr "Αυτόματη σύνδεση"
+
+msgid "Manual server selection"
+msgstr "Μη αυτόματη επιλογή διακομιστή"
+
+msgid "Warning:"
+msgstr "Προειδοποίηση:"
+
+msgid "File not found"
+msgstr "Το αρχείο δεν βρέθηκε"
+
+msgid "Payment request has expired"
+msgstr "Η αίτηση πληρωμής έχει λήξει"
+
+msgid "Error"
+msgstr "Σφάλμα"
+
+msgid "Warning"
+msgstr "Προειδοποίηση"
+
+msgid "Network error"
+msgstr "Σφάλμα δικτύου"
+
+msgid "Not enough funds"
+msgstr "Δεν υπάρχει αρκετό κεφάλαιο"
+
+msgid "Amount"
+msgstr "Ποσό"
+
+msgid "New transaction: {}"
+msgstr "Νέα συναλλαγή: {}"
+
+msgid "Synchronizing..."
+msgstr "Συγχρονισμός..."
+
+msgid "Sign message?"
+msgstr "Υπογραφή μηνύματος;"
+
+msgid "Plugins"
+msgstr "Προσθήκες"
+
+msgid "Network"
+msgstr "Δίκτυο"
+
+msgid "Show/Hide"
+msgstr "Εμφάνιση/Απόκρυψη"
+
+msgid "Close"
+msgstr "Κλείσιμο"
+
+msgid "Dark/Light"
+msgstr "Σκοτεινό/Φωτεινό"
+
+msgid "Exit Electrum"
+msgstr "Έξοδος από το Electrum"
+
+msgid "Text copied to Clipboard"
+msgstr "Το κείμενο αντιγράφηκε στο πρόχειρο"
+
+msgid "Address"
+msgstr "Διεύθυνση"
+
+msgid "All status"
+msgstr "Όλες οι καταστάσεις"
+
+msgid "All types"
+msgstr "Όλοι οι τύποι"
+
+msgid "Change"
+msgstr "Αλλαγή"
+
+msgid "Type"
+msgstr "Τύπος"
+
+msgid "Label"
+msgstr "Ετικέτα"
+
+msgid "Balance"
+msgstr "Υπόλοιπο"
+
+msgid "change"
+msgstr "αλλαγή"
+
+msgid "{} addresses"
+msgstr "{} διευθύνσεις"
+
+msgid "Details"
+msgstr "Λεπτομέρειες"
+
+msgid "Private key"
+msgstr "Ιδιωτικό Κλειδί"
+
+msgid "Sign/verify message"
+msgstr "Υπογραφή/Επαλήθευση μηνύματος"
+
+msgid "View on block explorer"
+msgstr "Προβολή στον εξερευνητή των μπλόκ"
+
+msgid "Channel ID"
+msgstr "Αναγνωριστικό καναλιού"
+
+msgid "Capacity"
+msgstr "Χωρητικότητα"
+
+msgid "Channel type:"
+msgstr "Τύπος καναλιού:"
+
+msgid "Status"
+msgstr "Κατάσταση"
+
+msgid "Please wait..."
+msgstr "Παρακαλώ περιμένετε..."
+
+msgid "Delete"
+msgstr "Διαγραφή"
+
+msgid "New Channel"
+msgstr "Νέο κανάλι"
+
+msgid "Channels"
+msgstr "Κανάλια"
+
+msgid "Preferences"
+msgstr "Προτιμήσεις"
+
+msgid "Preview"
+msgstr "Προεπισκόπηση"
+
+msgid "OK"
+msgstr "Αποδοχή"
+
+msgid "Use change addresses"
+msgstr "Χρησιμοποιήστε διευθύνσεις εναλλαγής"
+
+msgid "Using change addresses makes it more difficult for other people to track your transactions."
+msgstr "Χρησιμοποιώντας διευθύνσεις εναλλαγής κανει ποιο δύσκολο τον εντοπισμό των συναλλαγών σας."
+
+msgid "Tools"
+msgstr "Εργαλεία"
+
+msgid "Connecting, please wait..."
+msgstr "Σύνδεση, παρακαλώ περιμένετε..."
+
+msgid "New Transaction"
+msgstr "Νέα συναλλαγή"
+
+msgid "Bitcoin transactions are in general not free. A transaction fee is paid by the sender of the funds."
+msgstr "Οι συναλλαγές Bitcoin σε γενικές γραμμές δεν είναι δωρεάν. Ένα τέλος συναλλαγής καταβάλλεται από τον αποστολέα των κεφαλαίων."
+
+msgid "The amount of fee can be decided freely by the sender. However, transactions with low fees take more time to be processed."
+msgstr "Το ύψος του τέλους μπορεί να αποφασίζεται ελεύθερα από τον αποστολέα. Ωστόσο, οι συναλλαγές με χαμηλές αμοιβές πάρουν περισσότερο χρόνο για να υποβληθούν σε επεξεργασία απο το δίκτυο."
+
+msgid "A suggested fee is automatically added to this field. You may override it. The suggested fee increases with the size of the transaction."
+msgstr "Μια προτεινόμενη αμοιβή προστίθεται αυτόματα στο πεδίο αυτό. Μπορείτε να την παρακάμψετε. Η προτεινόμενη αμοιβή αυξάνεται ανάλογα με το μέγεθος της συναλλαγής."
+
+msgid "Warning!"
+msgstr "Προειδοποίηση!"
+
+msgid "Click here to hide this message."
+msgstr "Κάντε κλικ εδώ για να αποκρύψετε αυτό το μήνυμα."
+
+msgid "Name"
+msgstr "Όνομα"
+
+msgid "Pay to"
+msgstr "Πληρώστε στο"
+
+msgid "&New contact"
+msgstr "&Νέα επαφή"
+
+msgid "Import"
+msgstr "Εισαγωγή"
+
+msgid "Export"
+msgstr "Εξαγωγή"
+
+msgid "Send Bug Report"
+msgstr "Αποστολή αναφοράς σφάλματος"
+
+msgid "Not Now"
+msgstr "Όχι τώρα"
+
+msgid "Crash report"
+msgstr "Αναφορά σφάλματος"
+
+msgid " confirmation"
+msgstr " επιβεβαίωση"
+
+msgid "{} transactions"
+msgstr "{} συναλλαγές"
+
+msgid "Date"
+msgstr "Ημερομηνία"
+
+msgid "Description"
+msgstr "Περιγραφή"
+
+msgid "All"
+msgstr "Όλα"
+
+msgid "From"
+msgstr "Απο"
 
 msgid "&Export"
 msgstr "&Εξαγωγή"
 
+msgid "Select date"
+msgstr "Επιλογή ημερομηνίας"
+
+msgid "Copy"
+msgstr "Αντιγραφή"
+
+msgid "View log"
+msgstr "Προβολή καταγραφής"
+
+msgid "Remove"
+msgstr "Κατάργηση"
+
+msgid "Transaction ID"
+msgstr "Ταυτότητα συναλλαγής"
+
+msgid "Edit"
+msgstr "Επεξεργασία"
+
+msgid "View Channel"
+msgstr "Προβολή καναλιού"
+
+msgid "Export History"
+msgstr "Εξαγωγή ιστορικού"
+
+msgid "Select file to export your wallet transactions to"
+msgstr "Επιλέξτε το αρχείο που θα εξάγετε τις συναλλαγές πορτοφολιού σας"
+
+msgid "Electrum was unable to produce a transaction export."
+msgstr "Το Electrum δεν ήταν σε θέση να εξάγει την συναλλαγή σας."
+
+msgid "Unable to export history"
+msgstr "Δεν είναι δυνατή η εξαγωγή του ιστορικού"
+
+msgid "Your wallet history has been successfully exported."
+msgstr "Το ιστορικό του πορτοφολιού σας έχει εξαχθεί με επιτυχία."
+
+msgid "Pay"
+msgstr "Πληρωμή"
+
+msgid "Retry"
+msgstr "Επανάληψη"
+
+msgid "Message"
+msgstr "Μήνυμα"
+
+msgid "{} channels"
+msgstr "{} κανάλια"
+
+msgid "Description:"
+msgstr "Περιγραφή:"
+
+msgid "History"
+msgstr "Ιστορικό"
+
+msgid "Send"
+msgstr "Αποστολή"
+
+msgid "Receive"
+msgstr "Λάβετε"
+
+msgid "&Addresses"
+msgstr "&Διευθύνσεις"
+
+msgid "Con&tacts"
+msgstr "&Επαφές"
+
+msgid "&Notes"
+msgstr "&Σημειώσεις"
+
+msgid "Enable update check"
+msgstr "Ενεργοποίηση ελέγχου ενημέρωσης"
+
+msgid "Lock"
+msgstr "Κλείδωμα"
+
+msgid "Unlock"
+msgstr "Ξεκλείδωμα"
+
+msgid "watching only"
+msgstr "παρακολούθηση μονο"
+
+msgid "Electrum was unable to copy your wallet file to the specified location."
+msgstr "Το Electrum δεν ήταν σε θέση να αντιγράψει το αρχείο του πορτοφολιου σας στη συγκεκριμένη τοποθεσία."
+
+msgid "A copy of your wallet file was created in"
+msgstr "Ένα αντίγραφο πορτοφολιού σας δημιουργήθηκε στο"
+
 msgid "&File"
 msgstr "&Αρχείο"
 
-msgid "&Flip horizontally"
-msgstr "&Αναστροφή οριζόντια"
+msgid "&Open"
+msgstr "&Άνοιγμα"
 
-msgid "&From QR code"
-msgstr "&Από κωδικό QR"
+msgid "&New/Restore"
+msgstr "&Νέο/Επαναφορά"
+
+msgid "&Save backup"
+msgstr "&Αποθήκευση αντιγράφου ασφαλείας"
+
+msgid "&Quit"
+msgstr "&Έξοδος"
+
+msgid "&Wallet"
+msgstr "&Πορτοφόλι"
+
+msgid "&Information"
+msgstr "&Πληροφορίες"
+
+msgid "&Password"
+msgstr "&Κωδικός"
+
+msgid "&Unlock"
+msgstr "&Ξεκλείδωμα"
+
+msgid "&Seed"
+msgstr "&Λέξεις Κλειδιά"
+
+msgid "&Private keys"
+msgstr "&Ιδιωτικά Κλειδιά"
+
+msgid "&Sweep"
+msgstr "&Εισαγωγή"
+
+msgid "&Import"
+msgstr "&Εισαγωγή"
+
+msgid "Import addresses"
+msgstr "Εισαγωγή διευθύνσεων"
+
+msgid "&Labels"
+msgstr "&Ετικέτες"
+
+msgid "Find"
+msgstr "Εύρεση"
+
+msgid "&View"
+msgstr "&Προβολή"
+
+msgid "&Tools"
+msgstr "&Εργαλεία"
+
+msgid "Electrum preferences"
+msgstr "Electrum Προτιμήσεις"
+
+msgid "&Network"
+msgstr "&Δίκτυο"
+
+msgid "&Plugins"
+msgstr "&Προσθήκες"
+
+msgid "&Sign/verify message"
+msgstr "&Υπογραφή/Επαλήθευση μηνύματος"
+
+msgid "&Encrypt/decrypt message"
+msgstr "&Κρυπτογράφηση/Αποκρυπτογράφηση μηνύματος"
+
+msgid "&Load transaction"
+msgstr "&Φόρτωση συναλλαγής"
 
 msgid "&From file"
 msgstr "&Από αρχείο"
@@ -72,968 +420,206 @@ msgstr "&Από κείμενο"
 msgid "&From the blockchain"
 msgstr "&Από την αλυσίδα συναλλαγών"
 
+msgid "&From QR code"
+msgstr "&Από κωδικό QR"
+
 msgid "&Help"
 msgstr "&Βοήθεια"
 
-msgid "&Import"
-msgstr "&Εισαγωγή"
-
-msgid "&Information"
+msgid "&About"
 msgstr "&Πληροφορίες"
 
-msgid "&Labels"
-msgstr "&Ετικέτες"
-
-msgid "&Load transaction"
-msgstr "&Φόρτωση συναλλαγής"
-
-msgid "&Network"
-msgstr "&Δίκτυο"
-
-msgid "&New contact"
-msgstr "&Νέα επαφή"
-
-msgid "&New/Restore"
-msgstr "&Νέο/Επαναφορά"
-
-msgid "&Notes"
-msgstr "&Σημειώσεις"
+msgid "&Check for updates"
+msgstr "&Έλεγχος για ενημερώσεις"
 
 msgid "&Official website"
 msgstr "&Επίσημη ιστοσελίδα"
 
-msgid "&Open"
-msgstr "&Άνοιγμα"
+msgid "&Documentation"
+msgstr "&Τεκμηρίωση"
 
-msgid "&Password"
-msgstr "&Κωδικός"
-
-msgid "&Paste"
-msgstr "&Επικόλληση"
-
-msgid "&Pay to many"
-msgstr "&Πληρωμή σε πολλούς"
-
-msgid "&Plugins"
-msgstr "&Προσθήκες"
-
-msgid "&Private keys"
-msgstr "&Ιδιωτικά Κλειδιά"
-
-msgid "&Quit"
-msgstr "&Έξοδος"
-
-msgid "&Redo"
-msgstr "&Επανάληψη"
+msgid "&Bitcoin Paper"
+msgstr "Έγγραφο &Bitcoin"
 
 msgid "&Report Bug"
 msgstr "&Αναφορά σφάλματος"
 
-msgid "&Save backup"
-msgstr "&Αποθήκευση αντιγράφου ασφαλείας"
-
-msgid "&Seed"
-msgstr "&Λέξεις Κλειδιά"
-
-msgid "&Sign/verify message"
-msgstr "&Υπογραφή/Επαλήθευση μηνύματος"
-
-msgid "&Sweep"
-msgstr "&Εισαγωγή"
-
-msgid "&Tools"
-msgstr "&Εργαλεία"
-
-msgid "&Undo"
-msgstr "&Αναίρεση"
-
-msgid "&Unlock"
-msgstr "&Ξεκλείδωμα"
-
-msgid "&View"
-msgstr "&Προβολή"
-
-msgid "&Wallet"
-msgstr "&Πορτοφόλι"
-
-msgid "1 day"
-msgstr "1 ημέρα"
-
-msgid "1 hour"
-msgstr "1 ώρα"
-
-msgid "1 week"
-msgstr "1 εβδομάδα"
-
-msgid "10 minutes"
-msgstr "10 λεπτά"
-
-msgid "A copy of your wallet file was created in"
-msgstr "Ένα αντίγραφο πορτοφολιού σας δημιουργήθηκε στο"
-
-msgid "A suggested fee is automatically added to this field. You may override it. The suggested fee increases with the size of the transaction."
-msgstr "Μια προτεινόμενη αμοιβή προστίθεται αυτόματα στο πεδίο αυτό. Μπορείτε να την παρακάμψετε. Η προτεινόμενη αμοιβή αυξάνεται ανάλογα με το μέγεθος της συναλλαγής."
-
-msgid "Accept"
-msgstr "Αποδοχή"
-
-msgid "Add"
-msgstr "Προσθήκη"
-
-msgid "Add plugin"
-msgstr "Προσθήκη προσθήκης"
-
-msgid "Add to History"
-msgstr "Προσθήκη στο ιστορικό"
-
-msgid "Address"
-msgstr "Διεύθυνση"
-
-msgid "Address Details"
-msgstr "Λεπτομέρειες διεύθυνσης"
-
-msgid "Addresses"
-msgstr "Διευθύνσεις"
-
-msgid "All"
-msgstr "Όλα"
-
-msgid "All status"
-msgstr "Όλες οι καταστάσεις"
-
-msgid "All types"
-msgstr "Όλοι οι τύποι"
-
-msgid "Already up to date"
-msgstr "Ήδη ενημερωμένο"
-
-msgid "Amount"
-msgstr "Ποσό"
-
-msgid "Appearance"
-msgstr "Εμφάνιση"
-
-msgid "Apply"
-msgstr "Εφαρμογή"
-
-msgid "Auto-connect"
-msgstr "Αυτόματη σύνδεση"
-
-msgid "Automatically check for software updates"
-msgstr "Αυτόματος έλεγχος για ενημερώσεις λογισμικού"
-
-msgid "Back"
-msgstr "Πίσω"
-
-msgid "Balance"
-msgstr "Υπόλοιπο"
-
-msgid "Base unit"
-msgstr "Βασική Μονάδα"
-
-msgid "Base unit of your wallet."
-msgstr "Βασική μονάδα του πορτοφολιού σου."
-
-msgid "Bitcoin Address is None"
-msgstr "Η διεύθυνση Bitcoin δεν υπάρχει"
-
-msgid "Bitcoin transactions are in general not free. A transaction fee is paid by the sender of the funds."
-msgstr "Οι συναλλαγές Bitcoin σε γενικές γραμμές δεν είναι δωρεάν. Ένα τέλος συναλλαγής καταβάλλεται από τον αποστολέα των κεφαλαίων."
-
-msgid "Blockchain"
-msgstr "Αλυσίδα των Μπλόκ"
-
-msgid "Broadcast"
-msgstr "Μετάδοση"
-
-msgid "CSV"
-msgstr "CSV"
-
-msgid "Cancel"
-msgstr "Ακύρωση"
-
-msgid "Cancelled"
-msgstr "Ακυρώθηκε"
-
-msgid "Cancelled by user"
-msgstr "Ακυρώθηκε από τον χρήστη"
-
-msgid "Capacity"
-msgstr "Χωρητικότητα"
-
-msgid "Change"
-msgstr "Αλλαγή"
-
-msgid "Change Address"
-msgstr "Αλλαγή διεύθυνσης"
-
-msgid "Change PIN"
-msgstr "Αλλαγή PIN"
-
-msgid "Change Password"
-msgstr "Αλλαγή κωδικού πρόσβασης"
-
-msgid "Change..."
-msgstr "Αλλαγή..."
-
-msgid "Channel ID"
-msgstr "Αναγνωριστικό καναλιού"
-
-msgid "Channel type:"
-msgstr "Τύπος καναλιού:"
-
-msgid "Channels"
-msgstr "Κανάλια"
-
-msgid "Checking for updates..."
-msgstr "Έλεγχος για ενημερώσεις..."
-
-msgid "Choose which online block explorer to use for functions that open a web browser"
-msgstr "Επιλέξτε ποιος εξερευνητής Μπλόκ θα χρησιμοποιηθεί για τις λειτουργίες του περιηγητή ιστού"
-
-msgid "Choose..."
-msgstr "Επιλογή..."
-
-msgid "Clear"
-msgstr "Εκκαθάριση"
-
-msgid "Click here to hide this message."
-msgstr "Κάντε κλικ εδώ για να αποκρύψετε αυτό το μήνυμα."
-
-msgid "Clipboard"
-msgstr "Πρόχειρο"
-
-msgid "Close"
-msgstr "Κλείσιμο"
-
-msgid "Close channel"
-msgstr "Κλείσιμο καναλιού"
-
-msgid "Code"
-msgstr "Κωδικός"
-
-msgid "Color theme"
-msgstr "Θέμα χρωμάτων"
-
-msgid "Comment"
-msgstr "Σχόλιο"
-
-msgid "Con&tacts"
-msgstr "&Επαφές"
-
-msgid "Confirm Password:"
-msgstr "Επιβεβαίωση κωδικού πρόσβασης:"
-
-msgid "Connecting"
-msgstr "Σύνδεση"
-
-msgid "Connecting, please wait..."
-msgstr "Σύνδεση, παρακαλώ περιμένετε..."
-
-msgid "Connection mode"
-msgstr "Λειτουργία σύνδεσης"
-
-msgid "Contacts"
-msgstr "Επαφές"
-
-msgid "Copy"
-msgstr "Αντιγραφή"
-
-msgid "Copy &Link Location"
-msgstr "Αντιγραφή τοποθεσίας &συνδέσμου"
-
-msgid "Copy Address"
-msgstr "Αντιγραφή διεύθυνσης"
-
-msgid "Copy Image"
-msgstr "Αντιγραφή εικόνας"
-
-msgid "Copy Text"
-msgstr "Αντιγραφή κειμένου"
-
-msgid "Copy and Close"
-msgstr "Αντιγραφή και κλείσιμο"
-
-msgid "Copy to clipboard"
-msgstr "Αντιγραφή στο πρόχειρο"
-
-msgid "Crash report"
-msgstr "Αναφορά σφάλματος"
-
-msgid "Create"
-msgstr "Δημιουργία"
-
-msgid "Create or restore"
-msgstr "Δημιουργία ή επαναφορά"
-
-msgid "Create/Restore wallet"
-msgstr "Δημιουργία/Επαναφορά πορτοφολιού"
-
-msgid "Creation time"
-msgstr "Ώρα δημιουργίας"
-
-msgid "Critical Error"
-msgstr "Κρίσιμο σφάλμα"
-
-msgid "Cu&t"
-msgstr "&Αποκοπή"
-
-msgid "Current Password:"
-msgstr "Τρέχων κωδικός πρόσβασης:"
-
-msgid "Current version: {}"
-msgstr "Τρέχουσα έκδοση: {}"
-
-msgid "Custom URL"
-msgstr "Προσαρμοσμένη διεύθυνση URL"
-
-msgid "Dark"
-msgstr "Σκοτεινό"
-
-msgid "Dark/Light"
-msgstr "Σκοτεινό/Φωτεινό"
-
-msgid "Date"
-msgstr "Ημερομηνία"
-
-msgid "Date: {}"
-msgstr "Ημερομηνία: {}"
-
-msgid "Decrypt"
-msgstr "Αποκρυπτογράφηση"
-
-msgid "Default"
-msgstr "Προεπιλογή"
-
-msgid "Delete"
-msgstr "Διαγραφή"
-
-msgid "Delete wallet file?"
-msgstr "Διαγραφή αρχείου πορτοφολιού;"
-
-msgid "Description"
-msgstr "Περιγραφή"
-
-msgid "Description of the transaction (not mandatory)."
-msgstr "Περιγραφή της συναλλαγής (δεν είναι υποχρεωτικό)."
-
-msgid "Description:"
-msgstr "Περιγραφή:"
-
-msgid "Details"
-msgstr "Λεπτομέρειες"
-
-msgid "Device ID"
-msgstr "Αναγνωριστικό συσκευής"
-
-msgid "Device Label"
-msgstr "Ετικέτα συσκευής"
-
-msgid "Disable"
-msgstr "Απενεργοποίηση"
-
-msgid "Disable PIN"
-msgstr "Απενεργοποίηση PIN"
-
-msgid "Do you want to create your first channel?"
-msgstr "Θέλετε να δημιουργήσετε το πρώτο σας κανάλι;"
-
-msgid "Do you want to send this report?"
-msgstr "Θέλετε να στείλετε αυτήν την αναφορά;"
-
-msgid "Do you wish to continue?"
-msgstr "Θέλετε να συνεχίσετε;"
-
-msgid "Edit"
-msgstr "Επεξεργασία"
-
-msgid "Electrum Plugins"
-msgstr "Προσθήκες Electrum"
-
-msgid "Electrum preferences"
-msgstr "Electrum Προτιμήσεις"
-
-msgid "Electrum was unable to copy your wallet file to the specified location."
-msgstr "Το Electrum δεν ήταν σε θέση να αντιγράψει το αρχείο του πορτοφολιου σας στη συγκεκριμένη τοποθεσία."
-
-msgid "Electrum was unable to open your transaction file"
-msgstr "Το Electrum δεν ήταν σε θέση να ανοίξει το αρχείο συναλλαγών σας"
-
-msgid "Electrum was unable to parse your transaction"
-msgstr "Το Electrum δεν ήταν σε θέση να αναλύσει τις συναλλαγές σας"
-
-msgid "Electrum was unable to produce a private key-export."
-msgstr "Το Electrum δεν ήταν σε θέση να παράξει και να εξάγει το ιδιωτικό κλειδί."
-
-msgid "Electrum was unable to produce a transaction export."
-msgstr "Το Electrum δεν ήταν σε θέση να εξάγει την συναλλαγή σας."
-
-msgid "Enable"
-msgstr "Ενεργοποίηση"
-
-msgid "Enable update check"
-msgstr "Ενεργοποίηση ελέγχου ενημέρωσης"
-
-msgid "Encrypt"
-msgstr "Κρυπτογράφηση"
-
-msgid "Encrypt/decrypt Message"
-msgstr "Κρυπτογράφηση/Αποκρυπτογράφηση μηνύματος"
-
-msgid "Encrypted"
-msgstr "Κρυπτογραφημένο"
-
-msgid "Enter PIN"
-msgstr "Εισαγωγή PIN"
-
-msgid "Enter Password"
-msgstr "Εισάγετε κωδικό"
-
-msgid "Enter addresses"
-msgstr "Εισαγωγή διευθύνσεων"
-
-msgid "Enter password:"
-msgstr "Εισαγωγή κωδικού πρόσβασης:"
-
-msgid "Enter private keys"
-msgstr "Εισάγετε τα ιδιωτικά κλειδιά σας"
-
-msgid "Error"
-msgstr "Σφάλμα"
-
-msgid "Error opening file"
-msgstr "Σφάλμα ανοίγματος αρχείου"
-
-msgid "Error saving file"
-msgstr "Σφάλμα αποθήκευσης αρχείου"
-
-msgid "Exit Electrum"
-msgstr "Έξοδος από το Electrum"
-
-msgid "Expiration time"
-msgstr "Ημερομηνία λήξης"
-
-msgid "Expired"
-msgstr "Έληξε"
-
-msgid "Expires"
-msgstr "Λήγει"
-
-msgid "Expiry"
-msgstr "Λήξη"
-
-msgid "Export"
-msgstr "Εξαγωγή"
-
-msgid "Export History"
-msgstr "Εξαγωγή ιστορικού"
-
-msgid "Exposing a single private key can compromise your entire wallet!"
-msgstr "Εκθέτοντας ένα μόνο ιδιωτικό κλειδί μπορεί να θέσει σε κίνδυνο ολόκληρο το πορτοφόλι σας!"
-
-msgid "Failed to import from file."
-msgstr "Απέτυχε η εισαγωγή από αρχείο."
-
-msgid "Failed to update password"
-msgstr "Απέτυχε η ενημέρωση του κωδικού πρόσβασης"
-
-msgid "Fee"
-msgstr "Χρέωση"
-
-msgid "File"
-msgstr "Αρχείο"
-
-msgid "File not found"
-msgstr "Το αρχείο δεν βρέθηκε"
-
-msgid "File saved successfully"
-msgstr "Το αρχείο αποθηκεύτηκε με επιτυχία"
-
-msgid "Find"
-msgstr "Εύρεση"
-
-msgid "Format"
-msgstr "Μορφή"
-
-msgid "From"
-msgstr "Απο"
-
-msgid "Help"
-msgstr "Βοήθεια"
-
-msgid "History"
-msgstr "Ιστορικό"
-
-msgid "Homescreen"
-msgstr "Αρχική οθόνη"
-
-msgid "I Accept"
-msgstr "Αποδέχομαι"
-
-msgid "Ignore and continue?"
-msgstr "Αγνόηση και συνέχεια;"
-
-msgid "Import"
-msgstr "Εισαγωγή"
-
-msgid "Import addresses"
-msgstr "Εισαγωγή διευθύνσεων"
-
-msgid "Import private keys"
-msgstr "Εισαγωγή ιδιωτικών κλειδιών"
-
-msgid "In particular, DO NOT use 'redeem private key' services proposed by third parties."
-msgstr "Συγκεκριμένα, ΜΗΝ χρησιμοποιείται την λειτουργία 'εξαργύρωσης ιδιωτικών κλειδιών' που σας προτείνουν τρίτα μέλη."
-
-msgid "In progress"
-msgstr "Σε εξέλιξη"
-
-msgid "Incorrect password"
-msgstr "Λανθασμένος κωδικός πρόσβασης"
-
-msgid "Incorrect password."
-msgstr "Λανθασμένος κωδικός πρόσβασης."
-
-msgid "Info"
-msgstr "Πληροφορίες"
-
-msgid "Information"
-msgstr "Πληροφορίες"
-
-msgid "Input raw transaction"
-msgstr "Είσαγωγή ωμής συναλλαγής"
-
-msgid "Inputs"
-msgstr "Εισροές"
-
-msgid "Instructions:"
-msgstr "Οδηγίες:"
-
-msgid "Insufficient funds"
-msgstr "Ανεπαρκές χρηματικό υπόλοιπο"
-
-msgid "Invalid Address"
-msgstr "Μη έγκυρη διεύθυνση"
-
-msgid "Invalid Amount"
-msgstr "Μη έγκυρο ποσό"
-
-msgid "Invalid Bitcoin Address"
-msgstr "Μη έγκυρη διεύθυνση Bitcoin"
-
-msgid "Invalid Bitcoin address"
-msgstr "Μη έγκυρη διεύθυνση Bitcoin"
-
-msgid "Invalid Bitcoin address."
-msgstr "Μη έγκυρη διεύθυνση Bitcoin."
-
-msgid "Invalid Lines found:"
-msgstr "Λανθασμένες Γραμμές βρέθηκαν:"
-
-msgid "Invalid address."
-msgstr "Μη έγκυρη διεύθυνση."
-
-msgid "Invalid length."
-msgstr "Μη έγκυρο μήκος."
-
-msgid "Invoices"
-msgstr "Παραστατικά"
-
-msgid "JSON files (*.json)"
-msgstr "Αρχεία JSON (*.json)"
-
-msgid "Keep"
-msgstr "Διατήρηση"
-
-msgid "Keyboard shortcut: type \"!\" to send all your coins."
-msgstr "Συντόμευση πληκτρολογίου: πατήστε \"!\" για να στείλετε όλα τα νομισματά σας."
-
-msgid "Label"
-msgstr "Ετικέτα"
-
-msgid "Language"
-msgstr "Γλώσσα"
-
-msgid "Latest version: {}"
-msgstr "Τελευταία έκδοση: {}"
-
-msgid "Load backup"
-msgstr "Φόρτωση αντιγράφου ασφαλείας"
-
-msgid "Load transaction"
-msgstr "Φορτώστε την συναλλαγή"
-
-msgid "Loading backup..."
-msgstr "Φόρτωση αντιγράφου ασφαλείας..."
-
-msgid "Lock"
-msgstr "Κλείδωμα"
-
-msgid "Lookup transaction"
-msgstr "Δείτε την συναλλαγή"
-
-msgid "Manual server selection"
-msgstr "Μη αυτόματη επιλογή διακομιστή"
-
-msgid "Merge signatures from"
-msgstr "Συγχώνευση υπογραφών από"
-
-msgid "Message"
-msgstr "Μήνυμα"
-
-msgid "Misc"
-msgstr "Διάφορα"
-
-msgid "Name"
-msgstr "Όνομα"
-
-msgid "Network"
-msgstr "Δίκτυο"
-
-msgid "Network error"
-msgstr "Σφάλμα δικτύου"
-
-msgid "Never"
-msgstr "Ποτέ"
-
-msgid "New"
-msgstr "Νέο"
-
-msgid "New Channel"
-msgstr "Νέο κανάλι"
-
-msgid "New Contact"
-msgstr "Νέα Επαφή"
-
-msgid "New Password:"
-msgstr "Νέος κωδικός πρόσβασης:"
-
-msgid "New Transaction"
-msgstr "Νέα συναλλαγή"
-
-msgid "New transaction: {}"
-msgstr "Νέα συναλλαγή: {}"
-
-msgid "Next"
-msgstr "Επόμενο"
-
-msgid "No"
-msgstr "Όχι"
-
-msgid "No more addresses in your wallet."
-msgstr "Δεν υπάρχουν άλλες διευθύνσεις στο πορτοφόλι σας."
-
-msgid "No outputs"
-msgstr "Δεν υπάρχουν εξόδοι"
-
-msgid "Not Now"
-msgstr "Όχι τώρα"
-
-msgid "Not connected"
-msgstr "Δεν συνδέθηκε"
-
-msgid "Not enough funds"
-msgstr "Δεν υπάρχει αρκετό κεφάλαιο"
-
-msgid "Note that if you have frozen some of your addresses, the available funds will be lower than your total balance."
-msgstr "Σημειώστε ότι αν έχετε παγώσει κάποιες από τις διευθύνσεις σας, οι διαθέσιμοι πόροι θα είναι χαμηλότεροι από το συνολικό υπόλοιπό σας."
-
-msgid "Number of zeros displayed after the decimal point. For example, if this is set to 2, \"1.\" will be displayed as \"1.00\""
-msgstr "Ο αριθμός με τα μηδενικά που εμφανίζεται μετά την υποδιαστολή. Για παράδειγμα, αν αυτό έχει οριστεί σε 2,  το \"1.\" θα εμφανιστεί ως \"1.00\""
-
-msgid "OK"
-msgstr "Αποδοχή"
-
-msgid "Offline"
-msgstr "Εκτός σύνδεσης"
-
-msgid "Online Block Explorer"
-msgstr "Online Εξερευνητής Μπλόκ"
-
-msgid "Opening channel..."
-msgstr "Άνοιγμα καναλιού..."
-
-msgid "Options"
-msgstr "Επιλογές"
-
-msgid "Other known servers"
-msgstr "Άλλοι γνωστοί διακομιστές"
-
-msgid "Other options"
-msgstr "Άλλες επιλογές"
-
-msgid "Outputs"
-msgstr "Εκροές"
-
-msgid "PDF files (*.pdf)"
-msgstr "Αρχεία PDF (*.pdf)"
-
-msgid "Paid"
-msgstr "Πληρωμένα"
-
-msgid "Password"
-msgstr "Κωδικός Πρόσβασης"
-
-msgid "Password Strength"
-msgstr "Δύναμη Κωδικού"
-
-msgid "Password was updated successfully"
-msgstr "Ο κωδικός ενημερώθηκε επιτυχώς"
-
-msgid "Password:"
-msgstr "Κωδικός πρόσβασης:"
-
-msgid "Paste"
-msgstr "Επικόλληση"
-
-msgid "Paste from clipboard"
-msgstr "Επικόλληση από το πρόχειρο"
-
-msgid "Pay"
-msgstr "Πληρωμή"
-
-msgid "Pay to"
-msgstr "Πληρώστε στο"
-
-msgid "Payment request has expired"
-msgstr "Η αίτηση πληρωμής έχει λήξει"
-
-msgid "Payment sent."
-msgstr "Πληρωμή απεστάλει."
-
-msgid "Please enter your password"
-msgstr "Παρακαλώ εισάγετε τον κωδικό πρόσβασής σας"
-
-msgid "Please restart Electrum to activate the new GUI settings"
-msgstr "Παρακαλώ κάντε επανεκκίνηση του Electrum για να ενεργοποιήσετε τις νέες ρυθμίσεις του γραφικού περιβάλλοντος"
-
-msgid "Please wait"
-msgstr "Παρακαλώ περιμένετε"
-
-msgid "Please wait..."
-msgstr "Παρακαλώ περιμένετε..."
-
-msgid "Plugins"
-msgstr "Προσθήκες"
-
-msgid "Preferences"
-msgstr "Προτιμήσεις"
-
-msgid "Prevent screenshots"
-msgstr "Αποτροπή στιγμιότυπων οθόνης"
-
-msgid "Preview"
-msgstr "Προεπισκόπηση"
-
-msgid "Private key"
-msgstr "Ιδιωτικό Κλειδί"
-
-msgid "Private keys"
-msgstr "Ιδιωτικά Κλειδιά"
-
-msgid "Private keys exported."
-msgstr "Ιδιωτικά Κλειδιά εξήχθησαν."
-
-msgid "Proxy"
-msgstr "Μεσολαβητής"
-
-msgid "Proxy password"
-msgstr "Κωδικός πρόσβασης μεσολαβητή"
-
-msgid "Proxy username"
-msgstr "Όνομα χρήστη μεσολαβητή"
-
-msgid "Public key"
-msgstr "Δημόσιο κλειδί"
-
-msgid "QR code"
-msgstr "Κωδικός QR"
-
-msgid "Question"
-msgstr "Ερώτηση"
-
-msgid "Quit"
-msgstr "Έξοδος"
-
-msgid "REMEMBER THE PASSWORD!"
-msgstr "ΑΠΟΜΝΗΜΟΝΕΥΣΗ ΤΟΥ ΚΩΔΙΚΟΥ ΠΡΟΣΒΑΣΗΣ!"
-
-msgid "Read QR code from file"
-msgstr "Ανάγνωση κωδικού QR από αρχείο"
-
-msgid "Read QR code from screen"
-msgstr "Ανάγνωση κώδικα QR από οθόνη"
-
-msgid "Read QR code with camera"
-msgstr "Ανάγνωση κωδικού QR με κάμερα"
-
-msgid "Read file"
-msgstr "Ανάγνωση αρχείου"
-
-msgid "Read from microphone"
-msgstr "Ανάγνωση από μικρόφωνο"
-
-msgid "Read text from file"
-msgstr "Ανάγνωση κειμένου από αρχείο"
-
-msgid "Receive"
-msgstr "Λάβετε"
-
-msgid "Recipient of the funds."
-msgstr "Αποδέκτης του ποσού."
-
-msgid "Remove"
-msgstr "Κατάργηση"
-
-msgid "Remove from bookmarks"
-msgstr "Αφαίρεση από τα αγαπημένα"
+msgid "&Donate to server"
+msgstr "&Δωρεά στον διακομιστή"
+
+msgid "Version"
+msgstr "Έκδοση"
 
 msgid "Reporting Bugs"
 msgstr "Αναφορά Σφαλμάτων"
 
-msgid "Requested amount"
-msgstr "Ζητηθέν ποσό"
+msgid "Offline"
+msgstr "Εκτός σύνδεσης"
 
-msgid "Requestor"
-msgstr "Αιτών"
+msgid "Not connected"
+msgstr "Δεν συνδέθηκε"
 
-msgid "Requires"
-msgstr "Απαιτεί"
-
-msgid "Reset"
-msgstr "Επαναφορά"
-
-msgid "Retry"
-msgstr "Επανάληψη"
-
-msgid "Save"
-msgstr "Αποθήκευση"
-
-msgid "Save as JSON"
-msgstr "Αποθήκευση ως JSON"
-
-msgid "Save as PDF"
-msgstr "Αποθήκευση ως PDF"
-
-msgid "Save to file"
-msgstr "Αποθήκευση σε αρχείο"
-
-msgid "Scan QR Code"
-msgstr "Σάρωση κωδικού QR"
-
-msgid "Scanning devices..."
-msgstr "Σάρωση συσκευών..."
-
-msgid "Seed"
-msgstr "Λέξη κλειδί"
-
-msgid "Select All"
-msgstr "Επιλογή όλων"
-
-msgid "Select date"
-msgstr "Επιλογή ημερομηνίας"
-
-msgid "Select file to export your private keys to"
-msgstr "Επιλέξτε το αρχείο που θα εξάγετε τα ιδιωτικά σας κλειδιά"
-
-msgid "Select file to export your wallet transactions to"
-msgstr "Επιλέξτε το αρχείο που θα εξάγετε τις συναλλαγές πορτοφολιού σας"
-
-msgid "Select image file"
-msgstr "Επιλογή αρχείου εικόνας"
-
-msgid "Select recovery type:"
-msgstr "Επιλογή τύπου ανάκτησης:"
-
-msgid "Select which language is used in the GUI (after restart)."
-msgstr "Επιλέξτε ποιά γλωσσα θα χρησιμοποιηθεί στο Γραφικό Περιβάλλον (μετά την επανεκκίνηση)."
-
-msgid "Select your transaction file"
-msgstr "Επιλέξτε το αρχείο συναλλαγών σας"
-
-msgid "Send"
-msgstr "Αποστολή"
-
-msgid "Send Bug Report"
-msgstr "Αποστολή αναφοράς σφάλματος"
-
-msgid "Server"
-msgstr "Διακομιστής"
-
-msgid "Service Error"
-msgstr "Σφάλμα υπηρεσίας"
-
-msgid "Settings"
-msgstr "Ρυθμίσεις"
-
-msgid "Show as QR code"
-msgstr "Εμφάνιση ως κωδικός QR"
-
-msgid "Show/Hide"
-msgstr "Εμφάνιση/Απόκρυψη"
-
-msgid "Sign"
-msgstr "Υπογραφή"
-
-msgid "Sign message?"
-msgstr "Υπογραφή μηνύματος;"
-
-msgid "Sign/verify Message"
-msgstr "Υπογραφή/Πιστοποίηση Μυνήματος"
-
-msgid "Sign/verify message"
-msgstr "Υπογραφή/Επαλήθευση μηνύματος"
-
-msgid "Signature"
-msgstr "Υπογραφή"
-
-msgid "Signature verified"
-msgstr "Υπογραφή πιστοποιήθηκε"
-
-msgid "Signing message ..."
-msgstr "Υπογραφή μηνύματος ..."
+msgid "tasks"
+msgstr "εργασίες"
 
 msgid "Signing transaction..."
 msgstr "Υπογραφή συναλλαγής..."
 
-msgid "Size: {} {}"
-msgstr "Μέγεθος: {} {}"
+msgid "Opening channel..."
+msgstr "Άνοιγμα καναλιού..."
 
-msgid "Status"
-msgstr "Κατάσταση"
+msgid "Invalid Address"
+msgstr "Μη έγκυρη διεύθυνση"
 
-msgid "Status: {}"
-msgstr "Κατάσταση: {}"
+msgid "Outputs"
+msgstr "Εκροές"
 
-msgid "Success"
-msgstr "Επιτυχία"
+msgid "Expires"
+msgstr "Λήγει"
 
-msgid "Sweep"
-msgstr "Σαρώστε"
+msgid "Requestor"
+msgstr "Αιτών"
 
-msgid "Sweep private keys"
-msgstr "Σαρώστε ιδιωτικά κλειδιά"
+msgid "Signature"
+msgstr "Υπογραφή"
 
-msgid "Synchronizing..."
-msgstr "Συγχρονισμός..."
+msgid "Creation time"
+msgstr "Ώρα δημιουργίας"
+
+msgid "Expiration time"
+msgstr "Ημερομηνία λήξης"
 
 msgid "Text"
 msgstr "Κείμενο"
 
-msgid "Text copied to Clipboard"
-msgstr "Το κείμενο αντιγράφηκε στο πρόχειρο"
+msgid "Password"
+msgstr "Κωδικός Πρόσβασης"
 
-msgid "Text copied to clipboard"
-msgstr "Το κείμενο αντιγράφηκε στο πρόχειρο"
+msgid "Seed"
+msgstr "Λέξη κλειδί"
 
-msgid "The amount of fee can be decided freely by the sender. However, transactions with low fees take more time to be processed."
-msgstr "Το ύψος του τέλους μπορεί να αποφασίζεται ελεύθερα από τον αποστολέα. Ωστόσο, οι συναλλαγές με χαμηλές αμοιβές πάρουν περισσότερο χρόνο για να υποβληθούν σε επεξεργασία απο το δίκτυο."
+msgid "Reset"
+msgstr "Επαναφορά"
 
-msgid "The description is not sent to the recipient of the funds. It is stored in your wallet file, and displayed in the 'History' tab."
-msgstr "Η περιγραφή δεν έχει σταλεί στον παραλήπτη των κεφαλαίων. Είναι αποθηκευμένη στο αρχείο του πορτοφολιου σας, και εμφανίζεται στην καρτέλα «Ιστορικό»."
+msgid "Failed to update password"
+msgstr "Απέτυχε η ενημέρωση του κωδικού πρόσβασης"
 
-msgid "The file was removed"
-msgstr "Το αρχείο αφαιρέθηκε"
+msgid "Password was updated successfully"
+msgstr "Ο κωδικός ενημερώθηκε επιτυχώς"
+
+msgid "Success"
+msgstr "Επιτυχία"
+
+msgid "Do you want to create your first channel?"
+msgstr "Θέλετε να δημιουργήσετε το πρώτο σας κανάλι;"
+
+msgid "New Contact"
+msgstr "Νέα Επαφή"
+
+msgid "Delete wallet file?"
+msgstr "Διαγραφή αρχείου πορτοφολιού;"
+
+msgid "This wallet has no seed"
+msgstr "Αυτό το πορτοφόλι δεν έχει λέξεις κλειδιά"
+
+msgid "QR code"
+msgstr "Κωδικός QR"
+
+msgid "Invalid Bitcoin address."
+msgstr "Μη έγκυρη διεύθυνση Bitcoin."
+
+msgid "Signature verified"
+msgstr "Υπογραφή πιστοποιήθηκε"
+
+msgid "Sign/verify Message"
+msgstr "Υπογραφή/Πιστοποίηση Μυνήματος"
+
+msgid "Sign"
+msgstr "Υπογραφή"
+
+msgid "Verify"
+msgstr "Επαλήθευση"
+
+msgid "Encrypt/decrypt Message"
+msgstr "Κρυπτογράφηση/Αποκρυπτογράφηση μηνύματος"
+
+msgid "Public key"
+msgstr "Δημόσιο κλειδί"
+
+msgid "Encrypted"
+msgstr "Κρυπτογραφημένο"
+
+msgid "Encrypt"
+msgstr "Κρυπτογράφηση"
+
+msgid "Decrypt"
+msgstr "Αποκρυπτογράφηση"
+
+msgid "Electrum was unable to parse your transaction"
+msgstr "Το Electrum δεν ήταν σε θέση να αναλύσει τις συναλλαγές σας"
+
+msgid "Select your transaction file"
+msgstr "Επιλέξτε το αρχείο συναλλαγών σας"
+
+msgid "Electrum was unable to open your transaction file"
+msgstr "Το Electrum δεν ήταν σε θέση να ανοίξει το αρχείο συναλλαγών σας"
+
+msgid "Unable to read file or no transaction found"
+msgstr "Δεν είναι δυνατή η ανάγνωση του αρχείου ή καμία συναλλαγή δεν βρέθηκε"
+
+msgid "Input raw transaction"
+msgstr "Είσαγωγή ωμής συναλλαγής"
+
+msgid "Transaction:"
+msgstr "Συναλλαγή:"
+
+msgid "Load transaction"
+msgstr "Φορτώστε την συναλλαγή"
+
+msgid "Load backup"
+msgstr "Φόρτωση αντιγράφου ασφαλείας"
+
+msgid "Lookup transaction"
+msgstr "Δείτε την συναλλαγή"
+
+msgid "This is a watching-only wallet"
+msgstr "Αυτή είναι ένα πορτοφόλι παρακολούθησης μόνο"
+
+msgid "Private keys"
+msgstr "Ιδιωτικά Κλειδιά"
+
+msgid "WARNING: ALL your private keys are secret."
+msgstr "ΠΡΟΕΙΔΟΠΟΙΗΣΗ: ΟΛΑ τα ιδιωτικά κλειδιά σας είναι μυστικά."
+
+msgid "Exposing a single private key can compromise your entire wallet!"
+msgstr "Εκθέτοντας ένα μόνο ιδιωτικό κλειδί μπορεί να θέσει σε κίνδυνο ολόκληρο το πορτοφόλι σας!"
+
+msgid "In particular, DO NOT use 'redeem private key' services proposed by third parties."
+msgstr "Συγκεκριμένα, ΜΗΝ χρησιμοποιείται την λειτουργία 'εξαργύρωσης ιδιωτικών κλειδιών' που σας προτείνουν τρίτα μέλη."
+
+msgid "Select file to export your private keys to"
+msgstr "Επιλέξτε το αρχείο που θα εξάγετε τα ιδιωτικά σας κλειδιά"
+
+msgid "Electrum was unable to produce a private key-export."
+msgstr "Το Electrum δεν ήταν σε θέση να παράξει και να εξάγει το ιδιωτικό κλειδί."
+
+msgid "Unable to create csv"
+msgstr "Αδύνατη η δημιουργία CSV αρχείου"
+
+msgid "Private keys exported."
+msgstr "Ιδιωτικά Κλειδιά εξήχθησαν."
+
+msgid "labels"
+msgstr "ετικέτες"
+
+msgid "contacts"
+msgstr "επαφές"
+
+msgid "Sweep private keys"
+msgstr "Σαρώστε ιδιωτικά κλειδιά"
+
+msgid "Sweep"
+msgstr "Σαρώστε"
 
 msgid "The following addresses were added"
 msgstr "Προστέθηκαν οι παρακάτω διευθύνσεις"
@@ -1041,128 +627,143 @@ msgstr "Προστέθηκαν οι παρακάτω διευθύνσεις"
 msgid "The following inputs could not be imported"
 msgstr "Οι ακόλουθες εισόδοι δεν μπορούν να εισαχθούν"
 
-msgid "This file does not exist."
-msgstr "Αυτό το αρχείο δεν υπάρχει."
+msgid "Enter addresses"
+msgstr "Εισαγωγή διευθύνσεων"
 
-msgid "This file is already open in memory."
-msgstr "Αυτό το αρχείο είναι ήδη ανοιχτό στη μνήμη."
+msgid "Import private keys"
+msgstr "Εισαγωγή ιδιωτικών κλειδιών"
 
-msgid "This is a watching-only wallet"
-msgstr "Αυτή είναι ένα πορτοφόλι παρακολούθησης μόνο"
+msgid "Enter private keys"
+msgstr "Εισάγετε τα ιδιωτικά κλειδιά σας"
 
-msgid "This seed will allow you to recover your wallet in case of computer failure."
-msgstr "Αυτές οι λέξεις κλειδιά θα σας επιτρέψουν να ανακτήσετε το πορτοφόλι σας σε περίπτωση βλάβης του υπολογιστή."
+msgid "Please restart Electrum to activate the new GUI settings"
+msgstr "Παρακαλώ κάντε επανεκκίνηση του Electrum για να ενεργοποιήσετε τις νέες ρυθμίσεις του γραφικού περιβάλλοντος"
 
-msgid "This transaction is not saved. Close anyway?"
-msgstr "Η συναλλαγή αυτή δεν αποθηκεύεται. Κλείσιμο ούτως ή άλλως;"
+msgid "Expired"
+msgstr "Έληξε"
 
-msgid "This wallet has no seed"
-msgstr "Αυτό το πορτοφόλι δεν έχει λέξεις κλειδιά"
+msgid "Server"
+msgstr "Διακομιστής"
 
-msgid "To make sure that you have properly saved your seed, please retype it here."
-msgstr "Για να βεβαιωθείτε ότι έχετε αποθηκεύσει σωστά τις λέξεις κλειδιά σας, παρακαλώ πληκτρολογήστε τις ξανά εδώ."
-
-msgid "Tools"
-msgstr "Εργαλεία"
-
-msgid "Transaction"
-msgstr "Συναλλαγή"
-
-msgid "Transaction ID"
-msgstr "Ταυτότητα συναλλαγής"
-
-msgid "Transaction ID:"
-msgstr "Ταυτότητα συναλλαγής:"
-
-msgid "Transaction unrelated to your wallet"
-msgstr "Η συναλλαγή δεν σχετίζετε με το πορτοφόλι σας"
-
-msgid "Transaction:"
-msgstr "Συναλλαγή:"
-
-msgid "Type"
-msgstr "Τύπος"
-
-msgid "Unable to create csv"
-msgstr "Αδύνατη η δημιουργία CSV αρχείου"
-
-msgid "Unable to export history"
-msgstr "Δεν είναι δυνατή η εξαγωγή του ιστορικού"
-
-msgid "Unable to read file or no transaction found"
-msgstr "Δεν είναι δυνατή η ανάγνωση του αρχείου ή καμία συναλλαγή δεν βρέθηκε"
-
-msgid "Units"
-msgstr "Μονάδες"
-
-msgid "Unlock"
-msgstr "Ξεκλείδωμα"
-
-msgid "Update Check"
-msgstr "Έλεγχος ενημέρωσης"
-
-msgid "Update check failed"
-msgstr "Ο έλεγχος ενημέρωσης απέτυχε"
-
-msgid "Upgrade"
-msgstr "Αναβάθμιση"
-
-msgid "Use Proxy"
-msgstr "Χρήση μεσολαβητή"
+msgid "Proxy"
+msgstr "Μεσολαβητής"
 
 msgid "Use as server"
 msgstr "Χρήση ως διακομιστής"
 
-msgid "Use change addresses"
-msgstr "Χρησιμοποιήστε διευθύνσεις εναλλαγής"
+msgid "Remove from bookmarks"
+msgstr "Αφαίρεση από τα αγαπημένα"
+
+msgid "Other known servers"
+msgstr "Άλλοι γνωστοί διακομιστές"
 
 msgid "Use proxy"
 msgstr "Χρήση μεσολαβητή"
 
-msgid "Using change addresses makes it more difficult for other people to track your transactions."
-msgstr "Χρησιμοποιώντας διευθύνσεις εναλλαγής κανει ποιο δύσκολο τον εντοπισμό των συναλλαγών σας."
+msgid "Proxy username"
+msgstr "Όνομα χρήστη μεσολαβητή"
 
-msgid "Verify"
-msgstr "Επαλήθευση"
+msgid "Proxy password"
+msgstr "Κωδικός πρόσβασης μεσολαβητή"
 
-msgid "Version"
-msgstr "Έκδοση"
+msgid "Connection mode"
+msgstr "Λειτουργία σύνδεσης"
 
-msgid "Video Device"
-msgstr "Συσκευή βίντεο"
+msgid "Blockchain"
+msgstr "Αλυσίδα των Μπλόκ"
 
-msgid "View"
-msgstr "Προβολή"
+msgid "Add"
+msgstr "Προσθήκη"
 
-msgid "View Channel"
-msgstr "Προβολή καναλιού"
+msgid "Clear"
+msgstr "Εκκαθάριση"
 
-msgid "View log"
-msgstr "Προβολή καταγραφής"
+msgid "Enter Password"
+msgstr "Εισάγετε κωδικό"
 
-msgid "View on block explorer"
-msgstr "Προβολή στον εξερευνητή των μπλόκ"
+msgid "Change Password"
+msgstr "Αλλαγή κωδικού πρόσβασης"
 
-msgid "WARNING"
-msgstr "ΠΡΟΕΙΔΟΠΟΙΗΣΗ"
+msgid "New Password:"
+msgstr "Νέος κωδικός πρόσβασης:"
 
-msgid "WARNING: ALL your private keys are secret."
-msgstr "ΠΡΟΕΙΔΟΠΟΙΗΣΗ: ΟΛΑ τα ιδιωτικά κλειδιά σας είναι μυστικά."
+msgid "Password:"
+msgstr "Κωδικός πρόσβασης:"
 
-msgid "Wallet Information"
-msgstr "Πληροφορίες πορτοφολιού"
+msgid "Confirm Password:"
+msgstr "Επιβεβαίωση κωδικού πρόσβασης:"
 
-msgid "Warning"
-msgstr "Προειδοποίηση"
+msgid "Current Password:"
+msgstr "Τρέχων κωδικός πρόσβασης:"
 
-msgid "Warning "
-msgstr "Προειδοποίηση "
+msgid "Password Strength"
+msgstr "Δύναμη Κωδικού"
 
-msgid "Warning!"
-msgstr "Προειδοποίηση!"
+msgid "Please enter your password"
+msgstr "Παρακαλώ εισάγετε τον κωδικό πρόσβασής σας"
 
-msgid "Warning:"
-msgstr "Προειδοποίηση:"
+msgid "Requires"
+msgstr "Απαιτεί"
+
+msgid "Disable"
+msgstr "Απενεργοποίηση"
+
+msgid "Enable"
+msgstr "Ενεργοποίηση"
+
+msgid "Settings"
+msgstr "Ρυθμίσεις"
+
+msgid "Electrum Plugins"
+msgstr "Προσθήκες Electrum"
+
+msgid "Incorrect password."
+msgstr "Λανθασμένος κωδικός πρόσβασης."
+
+msgid "Text copied to clipboard"
+msgstr "Το κείμενο αντιγράφηκε στο πρόχειρο"
+
+msgid "Copy Image"
+msgstr "Αντιγραφή εικόνας"
+
+msgid "Copy Text"
+msgstr "Αντιγραφή κειμένου"
+
+msgid "Save"
+msgstr "Αποθήκευση"
+
+msgid "Scan QR Code"
+msgstr "Σάρωση κωδικού QR"
+
+msgid "&Flip horizontally"
+msgstr "&Αναστροφή οριζόντια"
+
+msgid "&Close"
+msgstr "&Κλείσιμο"
+
+msgid "Show as QR code"
+msgstr "Εμφάνιση ως κωδικός QR"
+
+msgid "Read QR code from screen"
+msgstr "Ανάγνωση κώδικα QR από οθόνη"
+
+msgid "Read QR code from file"
+msgstr "Ανάγνωση κωδικού QR από αρχείο"
+
+msgid "Read text from file"
+msgstr "Ανάγνωση κειμένου από αρχείο"
+
+msgid "Requested amount"
+msgstr "Ζητηθέν ποσό"
+
+msgid "Expiry"
+msgstr "Λήξη"
+
+msgid "Accept"
+msgstr "Αποδοχή"
+
+msgid "No more addresses in your wallet."
+msgstr "Δεν υπάρχουν άλλες διευθύνσεις στο πορτοφόλι σας."
 
 msgid ""
 "Warning: The next address will not be recovered automatically if you restore your wallet from seed; you may need to add it manually.\n"
@@ -1177,80 +778,479 @@ msgstr ""
 "\n"
 "Να δημιουργηθεί ούτως ή άλλως?"
 
-msgid "Write logs to file"
-msgstr "Εγγραφή καταγραφών σε αρχείο"
+msgid "This seed will allow you to recover your wallet in case of computer failure."
+msgstr "Αυτές οι λέξεις κλειδιά θα σας επιτρέψουν να ανακτήσετε το πορτοφόλι σας σε περίπτωση βλάβης του υπολογιστή."
 
-msgid "Yes"
-msgstr "Ναι"
+msgid "WARNING"
+msgstr "ΠΡΟΕΙΔΟΠΟΙΗΣΗ"
 
-msgid "You are already on the latest version of Electrum."
-msgstr "Έχετε ήδη την τελευταία έκδοση του Electrum."
+msgid "Options"
+msgstr "Επιλογές"
 
-msgid "You can download the new version from {}."
-msgstr "Μπορείτε να κάνετε λήψη της νέας έκδοσης από το {}."
+msgid "Recipient of the funds."
+msgstr "Αποδέκτης του ποσού."
 
-msgid "Your labels have been synchronised."
-msgstr "Οι ετικέτες σας έχουν συγχρονιστεί."
+msgid "Description of the transaction (not mandatory)."
+msgstr "Περιγραφή της συναλλαγής (δεν είναι υποχρεωτικό)."
 
-msgid "Your seed is important!"
-msgstr "Οι λέξεις κλειδιά σας είναι σημαντικές!"
+msgid "The description is not sent to the recipient of the funds. It is stored in your wallet file, and displayed in the 'History' tab."
+msgstr "Η περιγραφή δεν έχει σταλεί στον παραλήπτη των κεφαλαίων. Είναι αποθηκευμένη στο αρχείο του πορτοφολιου σας, και εμφανίζεται στην καρτέλα «Ιστορικό»."
 
-msgid "Your wallet history has been successfully exported."
-msgstr "Το ιστορικό του πορτοφολιού σας έχει εξαχθεί με επιτυχία."
+msgid "Comment"
+msgstr "Σχόλιο"
 
-msgid "Zeros after decimal point"
-msgstr "Μηδενικά μετά  την υποδιαστολή"
+msgid "Note that if you have frozen some of your addresses, the available funds will be lower than your total balance."
+msgstr "Σημειώστε ότι αν έχετε παγώσει κάποιες από τις διευθύνσεις σας, οι διαθέσιμοι πόροι θα είναι χαμηλότεροι από το συνολικό υπόλοιπό σας."
 
-msgid "change"
-msgstr "αλλαγή"
+msgid "Keyboard shortcut: type \"!\" to send all your coins."
+msgstr "Συντόμευση πληκτρολογίου: πατήστε \"!\" για να στείλετε όλα τα νομισματά σας."
 
-msgid "contacts"
-msgstr "επαφές"
+msgid "Paste"
+msgstr "Επικόλληση"
+
+msgid "Invoices"
+msgstr "Παραστατικά"
+
+msgid "&Pay to many"
+msgstr "&Πληρωμή σε πολλούς"
+
+msgid "No outputs"
+msgstr "Δεν υπάρχουν εξόδοι"
+
+msgid "Bitcoin Address is None"
+msgstr "Η διεύθυνση Bitcoin δεν υπάρχει"
+
+msgid "Invalid Amount"
+msgstr "Μη έγκυρο ποσό"
+
+msgid "Invalid Lines found:"
+msgstr "Λανθασμένες Γραμμές βρέθηκαν:"
+
+msgid "Do you wish to continue?"
+msgstr "Θέλετε να συνεχίσετε;"
+
+msgid "Payment sent."
+msgstr "Πληρωμή απεστάλει."
+
+msgid "Base unit of your wallet."
+msgstr "Βασική μονάδα του πορτοφολιού σου."
+
+msgid "Base unit"
+msgstr "Βασική Μονάδα"
+
+msgid "Dark"
+msgstr "Σκοτεινό"
+
+msgid "Custom URL"
+msgstr "Προσαρμοσμένη διεύθυνση URL"
+
+msgid "Appearance"
+msgstr "Εμφάνιση"
+
+msgid "Units"
+msgstr "Μονάδες"
+
+msgid "Misc"
+msgstr "Διάφορα"
+
+msgid "Fee"
+msgstr "Χρέωση"
+
+msgid "Change Address"
+msgstr "Αλλαγή διεύθυνσης"
+
+msgid "Inputs"
+msgstr "Εισροές"
+
+msgid "Address Details"
+msgstr "Λεπτομέρειες διεύθυνσης"
+
+msgid "Copy Address"
+msgstr "Αντιγραφή διεύθυνσης"
+
+msgid "Transaction ID:"
+msgstr "Ταυτότητα συναλλαγής:"
+
+msgid "Broadcast"
+msgstr "Μετάδοση"
+
+msgid "Add to History"
+msgstr "Προσθήκη στο ιστορικό"
+
+msgid "Merge signatures from"
+msgstr "Συγχώνευση υπογραφών από"
+
+msgid "This transaction is not saved. Close anyway?"
+msgstr "Η συναλλαγή αυτή δεν αποθηκεύεται. Κλείσιμο ούτως ή άλλως;"
+
+msgid "Copy to clipboard"
+msgstr "Αντιγραφή στο πρόχειρο"
+
+msgid "Save to file"
+msgstr "Αποθήκευση σε αρχείο"
+
+msgid "Transaction"
+msgstr "Συναλλαγή"
+
+msgid "Status: {}"
+msgstr "Κατάσταση: {}"
+
+msgid "Date: {}"
+msgstr "Ημερομηνία: {}"
+
+msgid "Transaction unrelated to your wallet"
+msgstr "Η συναλλαγή δεν σχετίζετε με το πορτοφόλι σας"
+
+msgid "Size: {} {}"
+msgstr "Μέγεθος: {} {}"
 
 msgid "error"
 msgstr "σφάλμα"
 
-msgid "json"
-msgstr "json"
-
-msgid "labels"
-msgstr "ετικέτες"
-
-msgid "never"
-msgstr "ποτέ"
-
-msgid "tasks"
-msgstr "εργασίες"
-
 msgid "unknown"
 msgstr "άγνωστο"
 
-msgid "watching only"
-msgstr "παρακολούθηση μονο"
+msgid "Update Check"
+msgstr "Έλεγχος ενημέρωσης"
+
+msgid "Current version: {}"
+msgstr "Τρέχουσα έκδοση: {}"
+
+msgid "Latest version: {}"
+msgstr "Τελευταία έκδοση: {}"
+
+msgid "Update check failed"
+msgstr "Ο έλεγχος ενημέρωσης απέτυχε"
+
+msgid "You can download the new version from {}."
+msgstr "Μπορείτε να κάνετε λήψη της νέας έκδοσης από το {}."
+
+msgid "Already up to date"
+msgstr "Ήδη ενημερωμένο"
+
+msgid "You are already on the latest version of Electrum."
+msgstr "Έχετε ήδη την τελευταία έκδοση του Electrum."
+
+msgid "Checking for updates..."
+msgstr "Έλεγχος για ενημερώσεις..."
+
+msgid "Help"
+msgstr "Βοήθεια"
+
+msgid "Info"
+msgstr "Πληροφορίες"
+
+msgid "Copy and Close"
+msgstr "Αντιγραφή και κλείσιμο"
+
+msgid "Cancel"
+msgstr "Ακύρωση"
+
+msgid "Critical Error"
+msgstr "Κρίσιμο σφάλμα"
+
+msgid "Information"
+msgstr "Πληροφορίες"
+
+msgid "Question"
+msgstr "Ερώτηση"
+
+msgid "Please wait"
+msgstr "Παρακαλώ περιμένετε"
+
+msgid "Format"
+msgstr "Μορφή"
+
+msgid "CSV"
+msgstr "CSV"
+
+msgid "json"
+msgstr "json"
+
+msgid "File"
+msgstr "Αρχείο"
+
+msgid "Read QR code with camera"
+msgstr "Ανάγνωση κωδικού QR με κάμερα"
+
+msgid "Error opening file"
+msgstr "Σφάλμα ανοίγματος αρχείου"
+
+msgid "Select image file"
+msgstr "Επιλογή αρχείου εικόνας"
+
+msgid "Paste from clipboard"
+msgstr "Επικόλληση από το πρόχειρο"
+
+msgid "Read file"
+msgstr "Ανάγνωση αρχείου"
+
+msgid "Other options"
+msgstr "Άλλες επιλογές"
+
+msgid "Wallet Information"
+msgstr "Πληροφορίες πορτοφολιού"
+
+msgid "Next"
+msgstr "Επόμενο"
+
+msgid "Use Proxy"
+msgstr "Χρήση μεσολαβητή"
+
+msgid "I Accept"
+msgstr "Αποδέχομαι"
+
+msgid "Create/Restore wallet"
+msgstr "Δημιουργία/Επαναφορά πορτοφολιού"
+
+msgid "The file was removed"
+msgstr "Το αρχείο αφαιρέθηκε"
+
+msgid "Choose..."
+msgstr "Επιλογή..."
+
+msgid "New"
+msgstr "Νέο"
+
+msgid "This file does not exist."
+msgstr "Αυτό το αρχείο δεν υπάρχει."
+
+msgid "This file is already open in memory."
+msgstr "Αυτό το αρχείο είναι ήδη ανοιχτό στη μνήμη."
+
+msgid "Your seed is important!"
+msgstr "Οι λέξεις κλειδιά σας είναι σημαντικές!"
+
+msgid "To make sure that you have properly saved your seed, please retype it here."
+msgstr "Για να βεβαιωθείτε ότι έχετε αποθηκεύσει σωστά τις λέξεις κλειδιά σας, παρακαλώ πληκτρολογήστε τις ξανά εδώ."
+
+msgid "Add plugin"
+msgstr "Προσθήκη προσθήκης"
+
+msgid "Scanning devices..."
+msgstr "Σάρωση συσκευών..."
+
+msgid "Back"
+msgstr "Πίσω"
+
+msgid "Invalid Bitcoin address"
+msgstr "Μη έγκυρη διεύθυνση Bitcoin"
+
+msgid "Addresses"
+msgstr "Διευθύνσεις"
+
+msgid "Contacts"
+msgstr "Επαφές"
+
+msgid "Clipboard"
+msgstr "Πρόχειρο"
+
+msgid "Quit"
+msgstr "Έξοδος"
+
+msgid "Invalid Bitcoin Address"
+msgstr "Μη έγκυρη διεύθυνση Bitcoin"
+
+msgid "Ignore and continue?"
+msgstr "Αγνόηση και συνέχεια;"
+
+msgid "Default"
+msgstr "Προεπιλογή"
+
+msgid "Paid"
+msgstr "Πληρωμένα"
+
+msgid "In progress"
+msgstr "Σε εξέλιξη"
+
+msgid "Never"
+msgstr "Ποτέ"
+
+msgid "10 minutes"
+msgstr "10 λεπτά"
+
+msgid "1 hour"
+msgstr "1 ώρα"
+
+msgid "1 day"
+msgstr "1 ημέρα"
+
+msgid "1 week"
+msgstr "1 εβδομάδα"
+
+msgid "Close channel"
+msgstr "Κλείσιμο καναλιού"
+
+msgid "Connecting"
+msgstr "Σύνδεση"
+
+msgid "Read from microphone"
+msgstr "Ανάγνωση από μικρόφωνο"
+
+msgid "Cancelled"
+msgstr "Ακυρώθηκε"
+
+msgid "Upgrade"
+msgstr "Αναβάθμιση"
+
+msgid "Enter password:"
+msgstr "Εισαγωγή κωδικού πρόσβασης:"
+
+msgid "REMEMBER THE PASSWORD!"
+msgstr "ΑΠΟΜΝΗΜΟΝΕΥΣΗ ΤΟΥ ΚΩΔΙΚΟΥ ΠΡΟΣΒΑΣΗΣ!"
+
+msgid "Loading backup..."
+msgstr "Φόρτωση αντιγράφου ασφαλείας..."
+
+msgid "Signing message ..."
+msgstr "Υπογραφή μηνύματος ..."
+
+msgid "Enter PIN"
+msgstr "Εισαγωγή PIN"
+
+msgid "{} words"
+msgstr "{} λέξεις"
+
+msgid "No"
+msgstr "Όχι"
+
+msgid "Yes"
+msgstr "Ναι"
+
+msgid "Change PIN"
+msgstr "Αλλαγή PIN"
 
 msgid "{:2d} minutes"
 msgstr "{:2d} λεπτά"
 
+msgid "Device Label"
+msgstr "Ετικέτα συσκευής"
+
+msgid "Device ID"
+msgstr "Αναγνωριστικό συσκευής"
+
+msgid "Language"
+msgstr "Γλώσσα"
+
+msgid "Apply"
+msgstr "Εφαρμογή"
+
+msgid "Disable PIN"
+msgstr "Απενεργοποίηση PIN"
+
+msgid "Your labels have been synchronised."
+msgstr "Οι ετικέτες σας έχουν συγχρονιστεί."
+
+msgid "Cancelled by user"
+msgstr "Ακυρώθηκε από τον χρήστη"
+
+msgid "never"
+msgstr "ποτέ"
+
+msgid "Create"
+msgstr "Δημιουργία"
+
+msgid "Warning "
+msgstr "Προειδοποίηση "
+
+msgid "Instructions:"
+msgstr "Οδηγίες:"
+
 msgid "{:d} words"
 msgstr "{:d} λέξεις"
 
-msgid "{} addresses"
-msgstr "{} διευθύνσεις"
+msgid "Homescreen"
+msgstr "Αρχική οθόνη"
 
-msgid "{} channels"
-msgstr "{} κανάλια"
+msgid "Change..."
+msgstr "Αλλαγή..."
 
-msgid "{} confirmations"
-msgstr "{} επιβεβαιώσεις"
+msgid "View"
+msgstr "Προβολή"
+
+msgid "Invalid address."
+msgstr "Μη έγκυρη διεύθυνση."
+
+msgid "Save as PDF"
+msgstr "Αποθήκευση ως PDF"
+
+msgid "Save as JSON"
+msgstr "Αποθήκευση ως JSON"
+
+msgid "JSON files (*.json)"
+msgstr "Αρχεία JSON (*.json)"
+
+msgid "File saved successfully"
+msgstr "Το αρχείο αποθηκεύτηκε με επιτυχία"
+
+msgid "Error saving file"
+msgstr "Σφάλμα αποθήκευσης αρχείου"
+
+msgid "PDF files (*.pdf)"
+msgstr "Αρχεία PDF (*.pdf)"
+
+msgid "Select recovery type:"
+msgstr "Επιλογή τύπου ανάκτησης:"
+
+msgid "Service Error"
+msgstr "Σφάλμα υπηρεσίας"
+
+msgid "Code"
+msgstr "Κωδικός"
+
+msgid "Create or restore"
+msgstr "Δημιουργία ή επαναφορά"
+
+msgid "Keep"
+msgstr "Διατήρηση"
+
+msgid "Color theme"
+msgstr "Θέμα χρωμάτων"
+
+msgid "Prevent screenshots"
+msgstr "Αποτροπή στιγμιότυπων οθόνης"
+
+msgid "Zeros after decimal point"
+msgstr "Μηδενικά μετά  την υποδιαστολή"
+
+msgid "Number of zeros displayed after the decimal point. For example, if this is set to 2, \"1.\" will be displayed as \"1.00\""
+msgstr "Ο αριθμός με τα μηδενικά που εμφανίζεται μετά την υποδιαστολή. Για παράδειγμα, αν αυτό έχει οριστεί σε 2,  το \"1.\" θα εμφανιστεί ως \"1.00\""
+
+msgid "Online Block Explorer"
+msgstr "Online Εξερευνητής Μπλόκ"
+
+msgid "Choose which online block explorer to use for functions that open a web browser"
+msgstr "Επιλέξτε ποιος εξερευνητής Μπλόκ θα χρησιμοποιηθεί για τις λειτουργίες του περιηγητή ιστού"
+
+msgid "Video Device"
+msgstr "Συσκευή βίντεο"
+
+msgid "Automatically check for software updates"
+msgstr "Αυτόματος έλεγχος για ενημερώσεις λογισμικού"
+
+msgid "Write logs to file"
+msgstr "Εγγραφή καταγραφών σε αρχείο"
+
+msgid "Select which language is used in the GUI (after restart)."
+msgstr "Επιλέξτε ποιά γλωσσα θα χρησιμοποιηθεί στο Γραφικό Περιβάλλον (μετά την επανεκκίνηση)."
+
+msgid "Invalid length."
+msgstr "Μη έγκυρο μήκος."
+
+msgid "Insufficient funds"
+msgstr "Ανεπαρκές χρηματικό υπόλοιπο"
+
+msgid "Incorrect password"
+msgstr "Λανθασμένος κωδικός πρόσβασης"
+
+msgid "Failed to import from file."
+msgstr "Απέτυχε η εισαγωγή από αρχείο."
 
 msgid "{} seconds"
 msgstr "{} δευτερόλεπτα"
 
-msgid "{} transactions"
-msgstr "{} συναλλαγές"
-
-msgid "{} words"
-msgstr "{} λέξεις"
+msgid "{} confirmations"
+msgstr "{} επιβεβαιώσεις"
 
 msgctxt "About|"
 msgid "About Electrum"
@@ -1855,14 +1855,6 @@ msgstr "Αυτές οι λέξεις κλειδιά θα σας επιτρέψο
 msgctxt "WCCreateSeed|"
 msgid "WARNING"
 msgstr "ΠΡΟΕΙΔΟΠΟΙΗΣΗ"
-
-msgctxt "WCHaveSeed|"
-msgid "Electrum"
-msgstr "Electrum"
-
-msgctxt "WCHaveSeed|"
-msgid "BIP39"
-msgstr "BIP39"
 
 msgctxt "WCMultisig|"
 msgid "Number of signatures: %1"

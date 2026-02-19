@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: electrum\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-18 12:59+0000\n"
-"PO-Revision-Date: 2026-02-18 12:59\n"
+"POT-Creation-Date: 2026-02-19 16:44+0000\n"
+"PO-Revision-Date: 2026-02-19 16:44\n"
 "Last-Translator: \n"
 "Language-Team: Norwegian Bokmal\n"
 "Language: nb_NO\n"
@@ -21,26 +21,335 @@ msgstr ""
 "X-Crowdin-File: /electrum-client/messages.pot\n"
 "X-Crowdin-File-ID: 68\n"
 
+msgid "Could not close channel: "
+msgstr "Kunne ikke lukke kanal: "
+
+msgid "Payment request has expired"
+msgstr "Payment request has expired"
+
+msgid "Error"
+msgstr "Feil"
+
+msgid "Are you sure you want to remove this transaction?"
+msgstr "Er du sikker på at du vil fjerne denne transaksjonen?"
+
+msgid "Are you sure you want to remove this transaction and {} child transactions?"
+msgstr "Er du sikker på at du vil fjerne denne transaksjonen og {} underordnede transaksjoner?"
+
+msgid "Warning"
+msgstr "Warning"
+
+msgid "Can't CPFP: unknown fee for parent transaction."
+msgstr "Kan ikke CPFP: ukjent gebyr for overordnet transaksjon."
+
+msgid "Not enough funds"
+msgstr "Not enough funds"
+
+msgid "Amount"
+msgstr "Beløp"
+
+msgid "Synchronizing..."
+msgstr "Synchronizing..."
+
+msgid "Network"
+msgstr "Nettverk"
+
+msgid "Close"
+msgstr "Lukk"
+
+msgid "Exit Electrum"
+msgstr "Avslutt Electrum"
+
+msgid "Cannot load wallet"
+msgstr "Kan ikke laste inn wallet"
+
+msgid "Address"
+msgstr "Adresse"
+
+msgid "Public keys"
+msgstr "Offentlige nøkler"
+
+msgid "Redeem Script"
+msgstr "Løs inn skript"
+
+msgid "Change"
+msgstr "Vekslepenger"
+
+msgid "Fiat"
+msgstr "Fiat"
+
+msgid "Balance"
+msgstr "Saldo"
+
+msgid "Details"
+msgstr "Detaljer"
+
+msgid "Private key"
+msgstr "Private key"
+
+msgid "View on block explorer"
+msgstr "View on block explorer"
+
+msgid "BIP39 Recovery"
+msgstr "BIP39-gjenoppretting"
+
+msgid "Channel Backup"
+msgstr "Kanal-sikkerhetskopiering"
+
+msgid "CLTV expiry"
+msgstr "CLTV utløp"
+
+msgid "Capacity"
+msgstr "Kapasitet"
+
+msgid "Can send"
+msgstr "Kan sende"
+
+msgid "Can receive"
+msgstr "Kan motta"
+
+msgid "Status"
+msgstr "Status"
+
+msgid "Cooperative close?"
+msgstr "Lukk med samarbeid?"
+
+msgid "Please wait..."
+msgstr "Vennligst vent..."
+
+msgid "Are you sure you want to delete this channel? This will purge associated transactions from your wallet history."
+msgstr "Er du sikker på at du vil slette denne kanalen? Dette vil fjerne tilknyttede transaksjoner fra lommebokloggen din."
+
+msgid "Cooperative close"
+msgstr "Lukk med samarbeid"
+
+msgid "Delete"
+msgstr "Slett"
+
+msgid "Channels"
+msgstr "Kanaler"
+
+msgid "At most 100 satoshis might be lost due to this rounding."
+msgstr "På det meste kan 100 satoshier gå tapt på grunn av denne avrundingen."
+
+msgid "Preferences"
+msgstr "Preferences"
+
+msgid "Additional {} satoshis are going to be added."
+msgstr "Ekstra {} satoshis blir lagt til"
+
+msgid "OK"
+msgstr "OK"
+
+msgid "Use change addresses"
+msgstr "Use change addresses"
+
+msgid "Using change addresses makes it more difficult for other people to track your transactions."
+msgstr "Using change addresses makes it more difficult for other people to track your transactions."
+
+msgid "Bitcoin transactions are in general not free. A transaction fee is paid by the sender of the funds."
+msgstr "Bitcoin-transaksjoner er i hovedsak ikke gratis. Senderen betaler en transaksjonsavgift."
+
+msgid "The amount of fee can be decided freely by the sender. However, transactions with low fees take more time to be processed."
+msgstr "The amount of fee can be decided freely by the sender. However, transactions with low fees take more time to be processed."
+
+msgid "A suggested fee is automatically added to this field. You may override it. The suggested fee increases with the size of the transaction."
+msgstr "A suggested fee is automatically added to this field. You may override it. The suggested fee increases with the size of the transaction."
+
+msgid "Additional fees"
+msgstr "Ekstra kostnader"
+
+msgid "Name"
+msgstr "Navn"
+
+msgid "Copy {}"
+msgstr "Kopier {}"
+
+msgid "Pay to"
+msgstr "Betale til"
+
+msgid "Import"
+msgstr "Importer"
+
+msgid "Export"
+msgstr "Eksportere"
+
+msgid "An Error Occurred"
+msgstr "En Feil Oppstod"
+
+msgid "Crash report"
+msgstr "Krasjrapport"
+
 msgid " confirmation"
 msgstr "%d bekreftelse"
 
-msgid "&About"
-msgstr "&Om"
+msgid "Capital Gains"
+msgstr "Kapitalgevinster"
 
-msgid "&Documentation"
-msgstr "&Documentation"
+msgid "Date"
+msgstr "Dato"
 
-msgid "&Encrypt/decrypt message"
-msgstr "&Encrypt/decrypt message"
+msgid "Description"
+msgstr "Beskrivelse"
+
+msgid "All"
+msgstr "Alle"
+
+msgid "None"
+msgstr "Ingen"
+
+msgid "From"
+msgstr "Fra"
 
 msgid "&Export"
 msgstr "&Export"
 
+msgid "Begin"
+msgstr "Start"
+
+msgid "BTC balance"
+msgstr "BTC-saldo"
+
+msgid "BTC Fiat price"
+msgstr "BTC Fiat-pris"
+
+msgid "BTC incoming"
+msgstr "Innkommende BTC"
+
+msgid "BTC outgoing"
+msgstr "Utgående BTC"
+
+msgid "Cash flow"
+msgstr "Kontantstrøm"
+
+msgid "Copy"
+msgstr "Kopiere"
+
+msgid "Remove"
+msgstr "Fjern"
+
+msgid "Transaction ID"
+msgstr "Transaction ID"
+
+msgid "Cancel (double-spend)"
+msgstr "Avbryt (dobbelforbruk)"
+
+msgid "Export History"
+msgstr "Eksportere historie"
+
+msgid "Select file to export your wallet transactions to"
+msgstr "Select file to export your wallet transactions to"
+
+msgid "Electrum was unable to produce a transaction export."
+msgstr "Electrum kunne ikke produsere en transaksjonseksport."
+
+msgid "Unable to export history"
+msgstr "Unable to export history"
+
+msgid "Your wallet history has been successfully exported."
+msgstr "Your wallet history has been successfully exported."
+
+msgid "Unknown"
+msgstr "Ukjent"
+
+msgid "Batch pay invoices"
+msgstr "Betal fakturaer buntvis"
+
+msgid "Message"
+msgstr "Message"
+
+msgid "Connected to {} peers"
+msgstr "Koblet til {} peers"
+
+msgid "Block height"
+msgstr "blokkhøyde"
+
+msgid "History"
+msgstr "Historie"
+
+msgid "Send"
+msgstr "Send"
+
+msgid "Receive"
+msgstr "Receive"
+
+msgid "watching only"
+msgstr "watching only"
+
+msgid "Backup directory"
+msgstr "Katalog for sikkerhetskopiering"
+
+msgid "Channel backups can only be used to request your channels to be closed."
+msgstr "Sikkerhetskopierte kanaler kan kun brukes til forespørsler om stenging av egne kanaler."
+
+msgid "Backup not configured"
+msgstr "Sikkerhetskopiering er ikke konfigurert"
+
+msgid "Electrum was unable to copy your wallet file to the specified location."
+msgstr "Electrum kunne ikke kopiere din lommebokfil til det spesifiserte området."
+
+msgid "Unable to create backup"
+msgstr "Kan ikke opprette backup"
+
+msgid "A copy of your wallet file was created in"
+msgstr "En kopi av lommebokfilen ble lagret i"
+
 msgid "&File"
 msgstr "&Fil"
 
-msgid "&From QR code"
-msgstr "&Fra QR-kode"
+msgid "&Open"
+msgstr "&Åpne"
+
+msgid "&New/Restore"
+msgstr "&Ny/Gjenopprette"
+
+msgid "&Quit"
+msgstr "&Avslutte"
+
+msgid "&Wallet"
+msgstr "&Lommebok"
+
+msgid "&Password"
+msgstr "&Passord"
+
+msgid "&Seed"
+msgstr "&Seed"
+
+msgid "&Private keys"
+msgstr "&Privatnøkler"
+
+msgid "&Sweep"
+msgstr "&Sweep"
+
+msgid "&Import"
+msgstr "&Importere"
+
+msgid "&Labels"
+msgstr "&Merkelapper"
+
+msgid "Find"
+msgstr "Søk etter"
+
+msgid "&Tools"
+msgstr "&Verktøy"
+
+msgid "Electrum preferences"
+msgstr "Electrum-innstillinger"
+
+msgid "&Network"
+msgstr "&Network"
+
+msgid "&Plugins"
+msgstr "&Plugins"
+
+msgid "&Sign/verify message"
+msgstr "&Sign/verify message"
+
+msgid "&Encrypt/decrypt message"
+msgstr "&Encrypt/decrypt message"
+
+msgid "&Load transaction"
+msgstr "&Last transaksjon"
 
 msgid "&From file"
 msgstr "&Fra fil"
@@ -51,155 +360,684 @@ msgstr "&Fra tekst"
 msgid "&From the blockchain"
 msgstr "&Fra blokk-kjeden"
 
+msgid "&From QR code"
+msgstr "&Fra QR-kode"
+
 msgid "&Help"
 msgstr "&Hjelp"
 
-msgid "&Import"
-msgstr "&Importere"
-
-msgid "&Labels"
-msgstr "&Merkelapper"
-
-msgid "&Load transaction"
-msgstr "&Last transaksjon"
-
-msgid "&Network"
-msgstr "&Network"
-
-msgid "&New/Restore"
-msgstr "&Ny/Gjenopprette"
+msgid "&About"
+msgstr "&Om"
 
 msgid "&Official website"
 msgstr "&Offisiell webside"
 
-msgid "&Open"
-msgstr "&Åpne"
-
-msgid "&Password"
-msgstr "&Passord"
-
-msgid "&Pay to many"
-msgstr "&Betale til mange"
-
-msgid "&Plugins"
-msgstr "&Plugins"
-
-msgid "&Private keys"
-msgstr "&Privatnøkler"
-
-msgid "&Quit"
-msgstr "&Avslutte"
+msgid "&Documentation"
+msgstr "&Documentation"
 
 msgid "&Report Bug"
 msgstr "&Rapportere feil"
 
-msgid "&Seed"
-msgstr "&Seed"
+msgid "No donation address for this server"
+msgstr "Det er ingen donasjonsaddresser for denne serveren"
 
-msgid "&Sign/verify message"
-msgstr "&Sign/verify message"
+msgid "Version"
+msgstr "Version"
 
-msgid "&Sweep"
-msgstr "&Sweep"
+msgid "Before reporting a bug, upgrade to the most recent version of Electrum (latest release or git HEAD), and include the version number in your report."
+msgstr "Før du rapporterer en feil, oppgrader til den nyeste versjonen av Electrum (siste utgivelse eller git HEAD), og inkluderer versjonsnummeret i rapporten."
 
-msgid "&Tools"
-msgstr "&Verktøy"
+msgid "Try to explain not only what the bug is, but how it occurs."
+msgstr "Forklar hvordan feilen skjedde og hva den gjør."
 
-msgid "&Wallet"
-msgstr "&Lommebok"
+msgid "Reporting Bugs"
+msgstr "Rapporter feil"
 
-msgid "1 day"
-msgstr "1 dag"
+msgid "Offline"
+msgstr "Offline"
 
-msgid "1 hour"
-msgstr "1 time"
+msgid "Connected"
+msgstr "Tilkoblet"
 
-msgid "1 week"
-msgstr "1 uke"
+msgid "Not connected"
+msgstr "Ikke tilkoblet"
 
-msgid "10 minutes"
-msgstr "10 minutter"
-
-msgid "A backup is saved automatically when generating a new wallet."
-msgstr "En sikkerhetskopi blir automatisk lagret når en ny \"wallet\" blir generert."
-
-msgid "A copy of your wallet file was created in"
-msgstr "En kopi av lommebokfilen ble lagret i"
-
-msgid "A few examples"
-msgstr "Noen eksempler"
-
-msgid "A payment was already initiated for this invoice"
-msgstr "En betaling har allerede blitt påbegynt for denne fakturaen"
-
-msgid "A small fee will be charged on each transaction that uses the remote server.  You may check and modify your billing preferences once the installation is complete."
-msgstr "Et lite gebyr vil påløpe for hver transaksjon som bruker serveren. Du kan når som helst sjekke og endre betalingsdetaljene dine når installasjonen er fullført."
-
-msgid "A suggested fee is automatically added to this field. You may override it. The suggested fee increases with the size of the transaction."
-msgstr "A suggested fee is automatically added to this field. You may override it. The suggested fee increases with the size of the transaction."
-
-msgid "Accept Word"
-msgstr "Godta ord"
-
-msgid "Additional fees"
-msgstr "Ekstra kostnader"
-
-msgid "Additional {} satoshis are going to be added."
-msgstr "Ekstra {} satoshis blir lagt til"
-
-msgid "Address"
-msgstr "Adresse"
-
-msgid "Address Details"
-msgstr "Adressedetaljer"
-
-msgid "Address is frozen"
-msgstr "Adressen er låst"
-
-msgid "Address not in wallet."
-msgstr "Adressen er ikke i wallet'en"
-
-msgid "Addresses"
-msgstr "Adresser"
-
-msgid "Advanced"
-msgstr "Avansert"
-
-msgid "All"
-msgstr "Alle"
-
-msgid "Already up to date"
-msgstr "Allerede oppdatert"
+msgid "Could not open channel: {}"
+msgstr "Kunne ikke åpne kanal: {}"
 
 msgid "Alternatively, you can save a backup of your wallet file from the File menu"
 msgstr "Alternativt kan du lagre en sikkerhetskopi av lommebokfilen fra Fil-menyen"
 
-msgid "Always check your backups."
-msgstr "Sjekk alltid sikkerhetskopiene dine."
+msgid "Channel established."
+msgstr "Kanal opprettet"
 
-msgid "Amount"
-msgstr "Beløp"
+msgid "Invalid Address"
+msgstr "Invalid Address"
 
-msgid "Amount for OP_RETURN output must be zero."
-msgstr "Beløpet for OP_RETURN-utdata må være null."
+msgid "Outputs"
+msgstr "Outputs"
+
+msgid "Expires"
+msgstr "Utløper"
+
+msgid "Requestor"
+msgstr "Requestor"
+
+msgid "Signature"
+msgstr "Signature"
+
+msgid "BIP70 invoice saved as {}"
+msgstr "BIP70-faktura lagret som {}"
+
+msgid "Password"
+msgstr "Passord"
+
+msgid "Seed"
+msgstr "Seed"
+
+msgid "Failed to update password"
+msgstr "Kunne ikke oppdatere passord"
+
+msgid "Password was updated successfully"
+msgstr "Password was updated successfully"
+
+msgid "Success"
+msgstr "Success"
+
+msgid "New Contact"
+msgstr "Ny kontakt"
+
+msgid "This wallet has no seed"
+msgstr "This wallet has no seed"
+
+msgid "QR code"
+msgstr "QR kode"
+
+msgid "Address not in wallet."
+msgstr "Adressen er ikke i wallet'en"
+
+msgid "Cannot sign messages with this type of address:"
+msgstr "Kan ikke signere meldinger med denne typen adresse:"
+
+msgid "Signature verified"
+msgstr "Signature verified"
+
+msgid "Sign/verify Message"
+msgstr "Sign/verify Message"
+
+msgid "Sign"
+msgstr "Sign"
+
+msgid "Verify"
+msgstr "Verify"
+
+msgid "Encrypt/decrypt Message"
+msgstr "Kryptere/dekryptere melding"
+
+msgid "Public key"
+msgstr "Public key"
+
+msgid "Encrypted"
+msgstr "Kryptert"
+
+msgid "Encrypt"
+msgstr "Kryptere"
+
+msgid "Decrypt"
+msgstr "Dekryptere"
+
+msgid "Electrum was unable to parse your transaction"
+msgstr "Electrum kunne ikke lese transaksjonen"
+
+msgid "Select your transaction file"
+msgstr "Select your transaction file"
+
+msgid "Electrum was unable to open your transaction file"
+msgstr "Electrum kunne ikke åpne transaksjonsfilen din"
+
+msgid "Unable to read file or no transaction found"
+msgstr "Unable to read file or no transaction found"
+
+msgid "Input raw transaction"
+msgstr "Input raw transaction"
+
+msgid "Transaction:"
+msgstr "Transaction:"
+
+msgid "Load transaction"
+msgstr "Load transaction"
+
+msgid "Channel Backup:"
+msgstr "Kanal-sikkerhetskopiering:"
+
+msgid "Lookup transaction"
+msgstr "Lookup transaction"
+
+msgid "Error getting transaction from network"
+msgstr "Feil ved mottak av transaksjon fra nettverket"
+
+msgid "This is a watching-only wallet"
+msgstr "This is a watching-only wallet"
+
+msgid "Private keys"
+msgstr "Private keys"
+
+msgid "WARNING: ALL your private keys are secret."
+msgstr "WARNING: ALL your private keys are secret."
+
+msgid "Exposing a single private key can compromise your entire wallet!"
+msgstr "Å eksponere en enkel privatnøkkel kan kompromittere hele lommeboken din!"
+
+msgid "In particular, DO NOT use 'redeem private key' services proposed by third parties."
+msgstr "In particular, DO NOT use 'redeem private key' services proposed by third parties."
+
+msgid "Select file to export your private keys to"
+msgstr "Select file to export your private keys to"
+
+msgid "Electrum was unable to produce a private key-export."
+msgstr "Electrum kunne ikke produsere en privatnøkkeleksport."
+
+msgid "Unable to create csv"
+msgstr "Unable to create csv"
+
+msgid "Private keys exported."
+msgstr "Private keys exported."
+
+msgid "Sweep private keys"
+msgstr "Sweep private keys"
+
+msgid "Sweep"
+msgstr "Sweep"
+
+msgid "The following addresses were added"
+msgstr "The following addresses were added"
+
+msgid "The following inputs could not be imported"
+msgstr "The following inputs could not be imported"
+
+msgid "Import private keys"
+msgstr "Importer privatnøkler"
+
+msgid "Enter private keys"
+msgstr "Oppgi privatnøkler"
+
+msgid "Please restart Electrum to activate the new GUI settings"
+msgstr "Please restart Electrum to activate the new GUI settings"
+
+msgid "Total size"
+msgstr "Total størrelse"
+
+msgid "Certificate mismatch"
+msgstr "Misforhold ved sertifikatet"
+
+msgid "Expired"
+msgstr "Utløpt"
+
+msgid "Server"
+msgstr "Server"
+
+msgid "Proxy"
+msgstr "Proxy"
+
+msgid "Height"
+msgstr "Høyde"
+
+msgid "Use as server"
+msgstr "Bruk som server"
+
+msgid "Follow this branch"
+msgstr "Følg denne grenen"
+
+msgid "Connected nodes"
+msgstr "Tilkoblede noder"
+
+msgid "Blockchain"
+msgstr "Blokk-kjede"
+
+msgid "Clear"
+msgstr "Fjern"
+
+msgid "Choose a password to encrypt your wallet keys."
+msgstr "Velg passord for kryptering av nøkler."
+
+msgid "Enter Password"
+msgstr "Oppgi passord"
+
+msgid "Change Password"
+msgstr "Endre passord"
+
+msgid "Enter Passphrase"
+msgstr "Skriv passordet ditt"
+
+msgid "Passphrase:"
+msgstr "Passord:"
+
+msgid "Confirm Passphrase:"
+msgstr "Bekreft Passordfrase:"
+
+msgid "Password:"
+msgstr "Passord:"
+
+msgid "Confirm Password:"
+msgstr "Bekreft Passord:"
+
+msgid "Password Strength"
+msgstr "Password Strength"
+
+msgid "Please enter your password"
+msgstr "Please enter your password"
+
+msgid "Requires"
+msgstr "Krever"
+
+msgid "Settings"
+msgstr "Settings"
+
+msgid "Electrum Plugins"
+msgstr "Electrum-plugins"
+
+msgid "QR code saved to file"
+msgstr "QR-kode lagret som fil"
+
+msgid "QR code copied to clipboard"
+msgstr "QR-kode kopiert til utklippstavlen"
+
+msgid "Copy Image"
+msgstr "Kopier Bilde"
+
+msgid "Copy Text"
+msgstr "Kopier Tekst"
+
+msgid "Save"
+msgstr "Lagre"
+
+msgid "Cannot start QR scanner, no usable camera found."
+msgstr "Kan ikke starte QR-skanneren, ikke noe brukbart kamera funnet."
+
+msgid "Show as QR code"
+msgstr "Vis som QR-kode"
+
+msgid "Payment Request"
+msgstr "Betalingsforespørsel"
+
+msgid "Bump Fee"
+msgstr "Øk gebyr"
+
+msgid "Cancel transaction"
+msgstr "Avbryt transaksjonen"
+
+msgid "Requested amount"
+msgstr "Requested amount"
 
 msgid "Amount too small to be received onchain"
 msgstr "Beløpet er for lite til å mottas på blokkjeden"
 
-msgid "An Error Occurred"
-msgstr "En Feil Oppstod"
+msgid "Error adding payment request"
+msgstr "Feil ved opprettelse av betalingsforespørsel"
 
-msgid "An uninitialized Digital Bitbox is detected."
-msgstr "En uinitialisert Digital Bitboks er oppdaget."
+msgid "No more addresses in your wallet."
+msgstr "No more addresses in your wallet."
 
-msgid "An unnamed {}"
-msgstr "En ikke navngitt {}"
+msgid ""
+"Warning: The next address will not be recovered automatically if you restore your wallet from seed; you may need to add it manually.\n"
+"\n"
+"This occurs because you have too many unused addresses in your wallet. To avoid this situation, use the existing addresses first.\n"
+"\n"
+"Create anyway?"
+msgstr ""
+"Warning: The next address will not be recovered automatically if you restore your wallet from seed; you may need to add it manually.\n"
+"\n"
+"This occurs because you have too many unused addresses in your wallet. To avoid this situation, use the existing addresses first.\n"
+"\n"
+"Create anyway?"
+
+msgid "This seed will allow you to recover your wallet in case of computer failure."
+msgstr "This seed will allow you to recover your wallet in case of computer failure."
+
+msgid "WARNING"
+msgstr "WARNING"
+
+msgid "BIP39 seed"
+msgstr "BIP39 seed"
+
+msgid "Options"
+msgstr "Alternativer"
+
+msgid "BIP39 seeds can be imported in Electrum, so that users can access funds locked in other wallets."
+msgstr "BIP39-seeds kan importeres i Electrum, slik at brukere kan få tilgang til midler som er låst i andre lommebøker."
+
+msgid "BIP39 seeds do not include a version number, which compromises compatibility with future software."
+msgstr "BIP39-seeds inkluderer ikke et versjonsnummer, noe som kompromitterer kompatibiliteten med fremtidig programvare."
+
+msgid "Recipient of the funds."
+msgstr "Recipient of the funds."
+
+msgid "Format: address, amount"
+msgstr "Format: addresse, mengde"
+
+msgid "Description of the transaction (not mandatory)."
+msgstr "Beskrivelse av transaksjonen (ikke påkrevd)."
+
+msgid "The description is not sent to the recipient of the funds. It is stored in your wallet file, and displayed in the 'History' tab."
+msgstr "The description is not sent to the recipient of the funds. It is stored in your wallet file, and displayed in the 'History' tab."
+
+msgid "Note that if you have frozen some of your addresses, the available funds will be lower than your total balance."
+msgstr "Merk at dersom du har fryst noen av dine adresser, vil tilgjengelige midler være lavere enn din totale saldo."
+
+msgid "Keyboard shortcut: type \"!\" to send all your coins."
+msgstr "Keyboard shortcut: type \"!\" to send all your coins."
+
+msgid "Invoices"
+msgstr "Invoices"
+
+msgid "&Pay to many"
+msgstr "&Betale til mange"
+
+msgid "No outputs"
+msgstr "No outputs"
+
+msgid "Bitcoin Address is None"
+msgstr "Bitcoin-adressen er None"
+
+msgid "Invalid Amount"
+msgstr "Invalid Amount"
+
+msgid "Invalid Lines found:"
+msgstr "Invalid Lines found:"
+
+msgid "Do you wish to continue?"
+msgstr "Ønsker du å fortsette?"
+
+msgid "Payment sent."
+msgstr "Betaling sent."
+
+msgid "Broadcasting transaction..."
+msgstr "Kringkaster transaksjon..."
+
+msgid "Base unit of your wallet."
+msgstr "Din lommeboks baseenhet."
+
+msgid "Base unit"
+msgstr "Baseenhet"
+
+msgid "Fiat currency"
+msgstr "Fiat penger"
 
 msgid "Appearance"
 msgstr "Utseende"
 
-msgid "Apply"
-msgstr "Bruk"
+msgid "Fee"
+msgstr "Avgift"
+
+msgid "Change Address"
+msgstr "Vekslepenge-adresse"
+
+msgid "Inputs"
+msgstr "Inputs"
+
+msgid "Address Details"
+msgstr "Adressedetaljer"
+
+msgid "Copy Address"
+msgstr "Kopier adresse"
+
+msgid "Transaction ID:"
+msgstr "Transaction ID:"
+
+msgid "Broadcast"
+msgstr "Kringkast"
+
+msgid "This transaction is not saved. Close anyway?"
+msgstr "Denne transaksjonen er ikke lagret. Lukke likevel?"
+
+msgid "Copy to clipboard"
+msgstr "Kopier til utklippstavlen"
+
+msgid "Transaction"
+msgstr "Transaction"
+
+msgid "Error combining partial transactions"
+msgstr "Feil ved kombinering av delbetalinger"
+
+msgid "Error joining partial transactions"
+msgstr "Feil ved kombinering av delbetalinger"
+
+msgid "At block height: {}"
+msgstr "På blokkhøyde: {}"
+
+msgid "Transaction unrelated to your wallet"
+msgstr "Transaction unrelated to your wallet"
+
+msgid "unknown"
+msgstr "unknown"
+
+msgid "Already up to date"
+msgstr "Allerede oppdatert"
+
+msgid "Checking for updates..."
+msgstr "Ser etter oppdateringer..."
+
+msgid "Copy and Close"
+msgstr "Kopier og lukk"
+
+msgid "Cancel"
+msgstr "Avbryt"
+
+msgid "Critical Error"
+msgstr "Kritisk feil"
+
+msgid "Information"
+msgstr "Information"
+
+msgid "Please wait"
+msgstr "Vennligst vent"
+
+msgid "Format"
+msgstr "Format"
+
+msgid "CSV"
+msgstr "CSV"
+
+msgid "json"
+msgstr "json"
+
+msgid "File"
+msgstr "Fil"
+
+msgid "Error opening file"
+msgstr "Feil ved åpning av fil"
+
+msgid "Read file"
+msgstr "Les fil"
+
+msgid "Address is frozen"
+msgstr "Adressen er låst"
+
+msgid "Next"
+msgstr "Neste"
+
+msgid "A few examples"
+msgstr "Noen eksempler"
+
+msgid "Electrum wallet"
+msgstr "Electrum Lommebok"
+
+msgid "Wallet"
+msgstr "Lommebok"
+
+msgid "Cannot read file"
+msgstr "Kan ikke lese fil"
+
+msgid "This file does not exist."
+msgstr "Filen finnes ikke."
+
+msgid "Press 'Next' to create this wallet, or choose another file."
+msgstr "Trykk 'neste' for å lage denne lommeboken, eller velg en annen fil."
+
+msgid "Create new wallet"
+msgstr "Opprett ny lommebok"
+
+msgid "Confirm Seed"
+msgstr "Bekreft Seed"
+
+msgid "Your seed is important!"
+msgstr "Your seed is important!"
+
+msgid "To make sure that you have properly saved your seed, please retype it here."
+msgstr "To make sure that you have properly saved your seed, please retype it here."
+
+msgid "Confirm Seed Extension"
+msgstr "Bekreft Seed Extension"
+
+msgid "Enter Seed"
+msgstr "Skriv inn din hemmelige frase"
+
+msgid "Cosign with hardware device"
+msgstr "Cosign med maskinvareenhet"
+
+msgid "An unnamed {}"
+msgstr "En ikke navngitt {}"
+
+msgid "Back"
+msgstr "Tilbake"
+
+msgid "Addresses"
+msgstr "Adresser"
+
+msgid "Contacts"
+msgstr "Kontakter"
+
+msgid "Banner"
+msgstr "Banner"
+
+msgid "Could not parse clipboard text"
+msgstr "Kunne ikke analysere tekst fra utklippstavlen"
+
+msgid "Invalid Bitcoin Address"
+msgstr "Invalid Bitcoin Address"
+
+msgid "Amount for OP_RETURN output must be zero."
+msgstr "Beløpet for OP_RETURN-utdata må være null."
+
+msgid "Consider trying to connect to a different server, or updating Electrum."
+msgstr "Vurder å koble til en annen server, eller å oppdater Electrum."
+
+msgid "Paid"
+msgstr "Betalt"
+
+msgid "Never"
+msgstr "Aldri"
+
+msgid "10 minutes"
+msgstr "10 minutter"
+
+msgid "1 hour"
+msgstr "1 time"
+
+msgid "1 day"
+msgstr "1 dag"
+
+msgid "1 week"
+msgstr "1 uke"
+
+msgid "A payment was already initiated for this invoice"
+msgstr "En betaling har allerede blitt påbegynt for denne fakturaen"
+
+msgid "Connected to {0} nodes."
+msgstr "Koblet til {0} noder."
+
+msgid "Connected to {0} node."
+msgstr "Koblet til {0} node."
+
+msgid "Could not automatically pair with device for given keystore."
+msgstr "Kunne ikke automatisk pare med enheten for gitt keystore."
+
+msgid "Audio Modem Settings"
+msgstr "Audio Modem-Innstillinger"
+
+msgid "Bit rate [kbps]: "
+msgstr "Bithastighet [kbps]: "
+
+msgid "BitBox02 Status"
+msgstr "BitBox02 Status"
+
+msgid "Build Date"
+msgstr "Versjonsdato"
+
+msgid "Bootloader"
+msgstr "Bootloader"
+
+msgid "An uninitialized Digital Bitbox is detected."
+msgstr "En uinitialisert Digital Bitboks er oppdaget."
+
+msgid "A backup is saved automatically when generating a new wallet."
+msgstr "En sikkerhetskopi blir automatisk lagret når en ny \"wallet\" blir generert."
+
+msgid "Are you sure you want to erase the Digital Bitbox?"
+msgstr "Er du sikker på at du vil slette Digital Bitbox?"
+
+msgid "Choose a backup file:"
+msgstr "Velg fil for sikkerhetskopi:"
+
+msgid "Could not sign message."
+msgstr "Kunne ikke signere melding."
+
+msgid "Could not sign message"
+msgstr "Kunne ikke signere melding"
+
+msgid "Confirm the transaction output on your {} device"
+msgstr "Bekreft transaksjonsutdata på {}-enheten"
+
+msgid "Confirm internal entropy on your {} device to begin"
+msgstr "Bekreft intern entropi på {}-enheten for å begynne"
+
+msgid "Confirm on your {} that you want to wipe it clean"
+msgstr "Bekreft på {} at du vil slette den"
+
+msgid "Confirm on your {} device the message to sign"
+msgstr "Bekreft på {}-enheten meldingen som skal signeres"
+
+msgid "Confirm the total amount spent and the transaction fee on your {} device"
+msgstr "Bekreft det totale beløpet som er brukt og transaksjonsgebyret på {}-enheten"
+
+msgid "Confirm wallet address on your {} device"
+msgstr "Bekreft lommebokadressen på {}-enheten"
+
+msgid "Check your {} device to continue"
+msgstr "Sjekk din {}enhet for å fortsette"
+
+msgid "Confirm on your {} device to disable passphrases"
+msgstr "Bekreft på {}-enheten for å deaktivere passordfraser"
+
+msgid "Confirm on your {} device to enable passphrases"
+msgstr "Bekreft på {}-enheten for å aktivere passordfraser"
+
+msgid "Confirm the new label on your {} device"
+msgstr "Bekreft den nye etiketten på {}-enheten"
+
+msgid "Confirm on your {} device to change your home screen"
+msgstr "Bekreft på {}-enheten for å endre startskjermen"
+
+msgid "Confirm on your {} device to disable PIN protection"
+msgstr "Bekreft på {}-enheten for å deaktivere PIN-beskyttelse"
+
+msgid "Confirm on your {} device to change your PIN"
+msgstr "Bekreft på {}-enheten for å endre PIN-koden"
+
+msgid "Confirm on your {} device to set a PIN"
+msgstr "Bekreft på {}-enheten for å angi en PIN-kode"
+
+msgid "Accept Word"
+msgstr "Godta ord"
+
+msgid "Change PIN"
+msgstr "Endre PIN"
+
+msgid "Confirm Toggle Passphrase Protection"
+msgstr "Bekreft Toggle Passordfrasebeskyttelse"
+
+msgid "Are you sure you want to proceed?"
+msgstr "Er du sikker på at du vil fortsette?"
 
 msgid ""
 "Are you SURE you want to wipe the device?\n"
@@ -208,137 +1046,32 @@ msgstr ""
 "Er du SIKKER på at du vil slette enheten?\n"
 "Lommeboken din har fortsatt bitcoins i seg!"
 
-msgid "Are you sure you want to delete this channel? This will purge associated transactions from your wallet history."
-msgstr "Er du sikker på at du vil slette denne kanalen? Dette vil fjerne tilknyttede transaksjoner fra lommebokloggen din."
-
-msgid "Are you sure you want to erase the Digital Bitbox?"
-msgstr "Er du sikker på at du vil slette Digital Bitbox?"
-
-msgid "Are you sure you want to proceed?"
-msgstr "Er du sikker på at du vil fortsette?"
-
-msgid "Are you sure you want to remove this transaction and {} child transactions?"
-msgstr "Er du sikker på at du vil fjerne denne transaksjonen og {} underordnede transaksjoner?"
-
-msgid "Are you sure you want to remove this transaction?"
-msgstr "Er du sikker på at du vil fjerne denne transaksjonen?"
-
-msgid "At block height: {}"
-msgstr "På blokkhøyde: {}"
-
-msgid "At most 100 satoshis might be lost due to this rounding."
-msgstr "På det meste kan 100 satoshier gå tapt på grunn av denne avrundingen."
-
-msgid "Audio Modem Settings"
-msgstr "Audio Modem-Innstillinger"
-
-msgid "Authorization"
-msgstr "Autorisasjon"
-
-msgid "Automatically check for software updates"
-msgstr "Sjekk automatisk for oppdateringer"
-
-msgid "BIP39 Recovery"
-msgstr "BIP39-gjenoppretting"
-
-msgid "BIP39 seed"
-msgstr "BIP39 seed"
-
-msgid "BIP39 seeds can be imported in Electrum, so that users can access funds locked in other wallets."
-msgstr "BIP39-seeds kan importeres i Electrum, slik at brukere kan få tilgang til midler som er låst i andre lommebøker."
-
-msgid "BIP39 seeds do not include a version number, which compromises compatibility with future software."
-msgstr "BIP39-seeds inkluderer ikke et versjonsnummer, noe som kompromitterer kompatibiliteten med fremtidig programvare."
-
-msgid "BIP70 invoice saved as {}"
-msgstr "BIP70-faktura lagret som {}"
-
-msgid "BTC Fiat price"
-msgstr "BTC Fiat-pris"
-
-msgid "BTC balance"
-msgstr "BTC-saldo"
-
-msgid "BTC incoming"
-msgstr "Innkommende BTC"
-
-msgid "BTC outgoing"
-msgstr "Utgående BTC"
-
-msgid "Back"
-msgstr "Tilbake"
-
-msgid "Backup directory"
-msgstr "Katalog for sikkerhetskopiering"
-
-msgid "Backup not configured"
-msgstr "Sikkerhetskopiering er ikke konfigurert"
-
-msgid "Balance"
-msgstr "Saldo"
-
-msgid "Banner"
-msgstr "Banner"
-
-msgid "Base unit"
-msgstr "Baseenhet"
-
-msgid "Base unit of your wallet."
-msgstr "Din lommeboks baseenhet."
-
-msgid "Batch pay invoices"
-msgstr "Betal fakturaer buntvis"
-
-msgid "Before reporting a bug, upgrade to the most recent version of Electrum (latest release or git HEAD), and include the version number in your report."
-msgstr "Før du rapporterer en feil, oppgrader til den nyeste versjonen av Electrum (siste utgivelse eller git HEAD), og inkluderer versjonsnummeret i rapporten."
-
-msgid "Begin"
-msgstr "Start"
-
-msgid "Bit rate [kbps]: "
-msgstr "Bithastighet [kbps]: "
-
-msgid "BitBox02 Status"
-msgstr "BitBox02 Status"
-
-msgid "Bitcoin Address is None"
-msgstr "Bitcoin-adressen er None"
-
-msgid "Bitcoin transactions are in general not free. A transaction fee is paid by the sender of the funds."
-msgstr "Bitcoin-transaksjoner er i hovedsak ikke gratis. Senderen betaler en transaksjonsavgift."
-
-msgid "Block height"
-msgstr "blokkhøyde"
-
-msgid "Blockchain"
-msgstr "Blokk-kjede"
-
-msgid "Bootloader"
-msgstr "Bootloader"
-
 msgid "Bootloader Hash"
 msgstr "Bootloader Hash"
 
-msgid "Bottom"
-msgstr "Bunn"
+msgid "Language"
+msgstr "Språk"
 
-msgid "Broadcast"
-msgstr "Kringkast"
+msgid "Apply"
+msgstr "Bruk"
 
-msgid "Broadcasting transaction..."
-msgstr "Kringkaster transaksjon..."
+msgid "Advanced"
+msgstr "Avansert"
 
-msgid "Build Date"
-msgstr "Versjonsdato"
+msgid "Error connecting to {} server"
+msgstr "Feil ved tilknytning til server {}"
 
-msgid "Bump Fee"
-msgstr "Øk gebyr"
+msgid "Your labels have been synchronised."
+msgstr "Your labels have been synchronised."
 
-msgid "CLTV expiry"
-msgstr "CLTV utløp"
+msgid "Confirm Transaction on your Ledger device..."
+msgstr "Bekreft transaksjon på din Ledger-enhet..."
 
-msgid "CSV"
-msgstr "CSV"
+msgid "Cancelled by user"
+msgstr "Avbrutt av bruker"
+
+msgid "Always check your backups."
+msgstr "Sjekk alltid sikkerhetskopiene dine."
 
 msgid "Calibration sheet"
 msgstr "Kalibreringsark"
@@ -346,26 +1079,56 @@ msgstr "Kalibreringsark"
 msgid "Calibration values:"
 msgstr "Kalibreringsverdier:"
 
-msgid "Can receive"
-msgstr "Kan motta"
+msgid "Bottom"
+msgstr "Bunn"
 
-msgid "Can send"
-msgstr "Kan sende"
+msgid "Change..."
+msgstr "Vekslepenger..."
 
-msgid "Can't CPFP: unknown fee for parent transaction."
-msgstr "Kan ikke CPFP: ukjent gebyr for overordnet transaksjon."
+msgid "Choose how you want to initialize your {}."
+msgstr "Velg hvordan du vil påbegynne din {}."
 
-msgid "Cancel"
-msgstr "Avbryt"
+msgid "Error connecting to server"
+msgstr "Feil ved tilknytning til server"
 
-msgid "Cancel (double-spend)"
-msgstr "Avbryt (dobbelforbruk)"
+msgid "Authorization"
+msgstr "Autorisasjon"
 
-msgid "Cancel transaction"
-msgstr "Avbryt transaksjonen"
+msgid "Create or restore"
+msgstr "Opprett eller gjenopprett"
 
-msgid "Cancelled by user"
-msgstr "Avbrutt av bruker"
+msgid "A small fee will be charged on each transaction that uses the remote server.  You may check and modify your billing preferences once the installation is complete."
+msgstr "Et lite gebyr vil påløpe for hver transaksjon som bruker serveren. Du kan når som helst sjekke og endre betalingsdetaljene dine når installasjonen er fullført."
+
+msgid "Cannot start QR scanner: initialization failed."
+msgstr "Kan ikke starte QR-skanner: initialisering mislyktes."
+
+msgid "Zeros after decimal point"
+msgstr "Zeros after decimal point"
+
+msgid "Number of zeros displayed after the decimal point. For example, if this is set to 2, \"1.\" will be displayed as \"1.00\""
+msgstr "Number of zeros displayed after the decimal point. For example, if this is set to 2, \"1.\" will be displayed as \"1.00\""
+
+msgid "Online Block Explorer"
+msgstr "Online Block Explorer"
+
+msgid "Choose which online block explorer to use for functions that open a web browser"
+msgstr "Velg hvilken blokkutforsker du vil bruke for funksjoner som åpner en nettleser"
+
+msgid "Video Device"
+msgstr "Video Device"
+
+msgid "The following alias providers are available:"
+msgstr "Følgende alias tjenere er tilgjengelige:"
+
+msgid "Automatically check for software updates"
+msgstr "Sjekk automatisk for oppdateringer"
+
+msgid "Select which language is used in the GUI (after restart)."
+msgstr "Select which language is used in the GUI (after restart)."
+
+msgid "Insufficient funds"
+msgstr "Insufficient funds"
 
 msgid "Cannot bump fee"
 msgstr "Kan ikke betale høyere gebyr"
@@ -376,780 +1139,17 @@ msgstr "Kan ikke avbryte transaksjonen"
 msgid "Cannot create child transaction"
 msgstr "Kan ikke opprette underordnet transaksjon"
 
-msgid "Cannot load wallet"
-msgstr "Kan ikke laste inn wallet"
-
-msgid "Cannot read file"
-msgstr "Kan ikke lese fil"
-
-msgid "Cannot sign messages with this type of address:"
-msgstr "Kan ikke signere meldinger med denne typen adresse:"
-
-msgid "Cannot start QR scanner, no usable camera found."
-msgstr "Kan ikke starte QR-skanneren, ikke noe brukbart kamera funnet."
-
-msgid "Cannot start QR scanner: initialization failed."
-msgstr "Kan ikke starte QR-skanner: initialisering mislyktes."
-
-msgid "Capacity"
-msgstr "Kapasitet"
-
-msgid "Capital Gains"
-msgstr "Kapitalgevinster"
-
-msgid "Cash flow"
-msgstr "Kontantstrøm"
-
-msgid "Certificate mismatch"
-msgstr "Misforhold ved sertifikatet"
-
-msgid "Change"
-msgstr "Vekslepenger"
-
-msgid "Change Address"
-msgstr "Vekslepenge-adresse"
-
-msgid "Change PIN"
-msgstr "Endre PIN"
-
-msgid "Change Password"
-msgstr "Endre passord"
-
-msgid "Change..."
-msgstr "Vekslepenger..."
-
-msgid "Channel Backup"
-msgstr "Kanal-sikkerhetskopiering"
-
-msgid "Channel Backup:"
-msgstr "Kanal-sikkerhetskopiering:"
-
-msgid "Channel backups can only be used to request your channels to be closed."
-msgstr "Sikkerhetskopierte kanaler kan kun brukes til forespørsler om stenging av egne kanaler."
-
-msgid "Channel established."
-msgstr "Kanal opprettet"
-
-msgid "Channels"
-msgstr "Kanaler"
-
-msgid "Check your {} device to continue"
-msgstr "Sjekk din {}enhet for å fortsette"
-
-msgid "Checking for updates..."
-msgstr "Ser etter oppdateringer..."
-
-msgid "Choose a backup file:"
-msgstr "Velg fil for sikkerhetskopi:"
-
-msgid "Choose a password to encrypt your wallet keys."
-msgstr "Velg passord for kryptering av nøkler."
-
-msgid "Choose how you want to initialize your {}."
-msgstr "Velg hvordan du vil påbegynne din {}."
-
-msgid "Choose which online block explorer to use for functions that open a web browser"
-msgstr "Velg hvilken blokkutforsker du vil bruke for funksjoner som åpner en nettleser"
-
-msgid "Clear"
-msgstr "Fjern"
-
-msgid "Close"
-msgstr "Lukk"
-
-msgid "Confirm Passphrase:"
-msgstr "Bekreft Passordfrase:"
-
-msgid "Confirm Password:"
-msgstr "Bekreft Passord:"
-
-msgid "Confirm Seed"
-msgstr "Bekreft Seed"
-
-msgid "Confirm Seed Extension"
-msgstr "Bekreft Seed Extension"
-
-msgid "Confirm Toggle Passphrase Protection"
-msgstr "Bekreft Toggle Passordfrasebeskyttelse"
-
-msgid "Confirm Transaction on your Ledger device..."
-msgstr "Bekreft transaksjon på din Ledger-enhet..."
-
-msgid "Confirm internal entropy on your {} device to begin"
-msgstr "Bekreft intern entropi på {}-enheten for å begynne"
-
-msgid "Confirm on your {} device the message to sign"
-msgstr "Bekreft på {}-enheten meldingen som skal signeres"
-
-msgid "Confirm on your {} device to change your PIN"
-msgstr "Bekreft på {}-enheten for å endre PIN-koden"
-
-msgid "Confirm on your {} device to change your home screen"
-msgstr "Bekreft på {}-enheten for å endre startskjermen"
-
-msgid "Confirm on your {} device to disable PIN protection"
-msgstr "Bekreft på {}-enheten for å deaktivere PIN-beskyttelse"
-
-msgid "Confirm on your {} device to disable passphrases"
-msgstr "Bekreft på {}-enheten for å deaktivere passordfraser"
-
-msgid "Confirm on your {} device to enable passphrases"
-msgstr "Bekreft på {}-enheten for å aktivere passordfraser"
-
-msgid "Confirm on your {} device to set a PIN"
-msgstr "Bekreft på {}-enheten for å angi en PIN-kode"
-
-msgid "Confirm on your {} that you want to wipe it clean"
-msgstr "Bekreft på {} at du vil slette den"
-
-msgid "Confirm the new label on your {} device"
-msgstr "Bekreft den nye etiketten på {}-enheten"
-
-msgid "Confirm the total amount spent and the transaction fee on your {} device"
-msgstr "Bekreft det totale beløpet som er brukt og transaksjonsgebyret på {}-enheten"
-
-msgid "Confirm the transaction output on your {} device"
-msgstr "Bekreft transaksjonsutdata på {}-enheten"
-
-msgid "Confirm wallet address on your {} device"
-msgstr "Bekreft lommebokadressen på {}-enheten"
-
-msgid "Connected"
-msgstr "Tilkoblet"
-
-msgid "Connected nodes"
-msgstr "Tilkoblede noder"
-
-msgid "Connected to {0} node."
-msgstr "Koblet til {0} node."
-
-msgid "Connected to {0} nodes."
-msgstr "Koblet til {0} noder."
-
-msgid "Connected to {} peers"
-msgstr "Koblet til {} peers"
-
-msgid "Consider trying to connect to a different server, or updating Electrum."
-msgstr "Vurder å koble til en annen server, eller å oppdater Electrum."
-
-msgid "Contacts"
-msgstr "Kontakter"
-
-msgid "Cooperative close"
-msgstr "Lukk med samarbeid"
-
-msgid "Cooperative close?"
-msgstr "Lukk med samarbeid?"
-
-msgid "Copy"
-msgstr "Kopiere"
-
-msgid "Copy Address"
-msgstr "Kopier adresse"
-
-msgid "Copy Image"
-msgstr "Kopier Bilde"
-
-msgid "Copy Text"
-msgstr "Kopier Tekst"
-
-msgid "Copy and Close"
-msgstr "Kopier og lukk"
-
-msgid "Copy to clipboard"
-msgstr "Kopier til utklippstavlen"
-
-msgid "Copy {}"
-msgstr "Kopier {}"
-
-msgid "Cosign with hardware device"
-msgstr "Cosign med maskinvareenhet"
-
-msgid "Could not automatically pair with device for given keystore."
-msgstr "Kunne ikke automatisk pare med enheten for gitt keystore."
-
-msgid "Could not close channel: "
-msgstr "Kunne ikke lukke kanal: "
-
 msgid "Could not figure out which outputs to keep"
 msgstr "Kunne ikke finne ut hvilke utdata som skal beholdes"
-
-msgid "Could not find coins for output"
-msgstr "Kunne ikke finne mynter for utdata"
-
-msgid "Could not find suitable output"
-msgstr "Kunne ikke finne passende utdata"
 
 msgid "Could not find suitable outputs"
 msgstr "Kunne ikke finne passende utdata"
 
-msgid "Could not open channel: {}"
-msgstr "Kunne ikke åpne kanal: {}"
-
-msgid "Could not parse clipboard text"
-msgstr "Kunne ikke analysere tekst fra utklippstavlen"
-
-msgid "Could not sign message"
-msgstr "Kunne ikke signere melding"
-
-msgid "Could not sign message."
-msgstr "Kunne ikke signere melding."
-
-msgid "Crash report"
-msgstr "Krasjrapport"
-
-msgid "Create new wallet"
-msgstr "Opprett ny lommebok"
-
-msgid "Create or restore"
-msgstr "Opprett eller gjenopprett"
-
-msgid "Critical Error"
-msgstr "Kritisk feil"
-
-msgid "Date"
-msgstr "Dato"
-
-msgid "Decrypt"
-msgstr "Dekryptere"
-
-msgid "Delete"
-msgstr "Slett"
-
-msgid "Description"
-msgstr "Beskrivelse"
-
-msgid "Description of the transaction (not mandatory)."
-msgstr "Beskrivelse av transaksjonen (ikke påkrevd)."
-
-msgid "Details"
-msgstr "Detaljer"
-
-msgid "Do you wish to continue?"
-msgstr "Ønsker du å fortsette?"
-
-msgid "Electrum Plugins"
-msgstr "Electrum-plugins"
-
-msgid "Electrum preferences"
-msgstr "Electrum-innstillinger"
-
-msgid "Electrum wallet"
-msgstr "Electrum Lommebok"
-
-msgid "Electrum was unable to copy your wallet file to the specified location."
-msgstr "Electrum kunne ikke kopiere din lommebokfil til det spesifiserte området."
-
-msgid "Electrum was unable to open your transaction file"
-msgstr "Electrum kunne ikke åpne transaksjonsfilen din"
-
-msgid "Electrum was unable to parse your transaction"
-msgstr "Electrum kunne ikke lese transaksjonen"
-
-msgid "Electrum was unable to produce a private key-export."
-msgstr "Electrum kunne ikke produsere en privatnøkkeleksport."
-
-msgid "Electrum was unable to produce a transaction export."
-msgstr "Electrum kunne ikke produsere en transaksjonseksport."
-
-msgid "Encrypt"
-msgstr "Kryptere"
-
-msgid "Encrypt/decrypt Message"
-msgstr "Kryptere/dekryptere melding"
-
-msgid "Encrypted"
-msgstr "Kryptert"
-
-msgid "Enter Passphrase"
-msgstr "Skriv passordet ditt"
-
-msgid "Enter Password"
-msgstr "Oppgi passord"
-
-msgid "Enter Seed"
-msgstr "Skriv inn din hemmelige frase"
-
-msgid "Enter private keys"
-msgstr "Oppgi privatnøkler"
-
-msgid "Error"
-msgstr "Feil"
-
-msgid "Error adding payment request"
-msgstr "Feil ved opprettelse av betalingsforespørsel"
-
-msgid "Error combining partial transactions"
-msgstr "Feil ved kombinering av delbetalinger"
-
-msgid "Error connecting to server"
-msgstr "Feil ved tilknytning til server"
-
-msgid "Error connecting to {} server"
-msgstr "Feil ved tilknytning til server {}"
-
-msgid "Error getting transaction from network"
-msgstr "Feil ved mottak av transaksjon fra nettverket"
-
-msgid "Error joining partial transactions"
-msgstr "Feil ved kombinering av delbetalinger"
-
-msgid "Error opening file"
-msgstr "Feil ved åpning av fil"
-
-msgid "Exit Electrum"
-msgstr "Avslutt Electrum"
-
-msgid "Expired"
-msgstr "Utløpt"
-
-msgid "Expires"
-msgstr "Utløper"
-
-msgid "Export"
-msgstr "Eksportere"
-
-msgid "Export History"
-msgstr "Eksportere historie"
-
-msgid "Exposing a single private key can compromise your entire wallet!"
-msgstr "Å eksponere en enkel privatnøkkel kan kompromittere hele lommeboken din!"
-
-msgid "Failed to update password"
-msgstr "Kunne ikke oppdatere passord"
-
-msgid "Fee"
-msgstr "Avgift"
-
-msgid "Fiat"
-msgstr "Fiat"
-
-msgid "Fiat currency"
-msgstr "Fiat penger"
-
-msgid "File"
-msgstr "Fil"
-
-msgid "Find"
-msgstr "Søk etter"
-
-msgid "Follow this branch"
-msgstr "Følg denne grenen"
-
-msgid "Format"
-msgstr "Format"
-
-msgid "Format: address, amount"
-msgstr "Format: addresse, mengde"
-
-msgid "From"
-msgstr "Fra"
-
-msgid "Height"
-msgstr "Høyde"
-
-msgid "History"
-msgstr "Historie"
-
-msgid "Import"
-msgstr "Importer"
-
-msgid "Import private keys"
-msgstr "Importer privatnøkler"
-
-msgid "In particular, DO NOT use 'redeem private key' services proposed by third parties."
-msgstr "In particular, DO NOT use 'redeem private key' services proposed by third parties."
-
-msgid "Information"
-msgstr "Information"
-
-msgid "Input raw transaction"
-msgstr "Input raw transaction"
-
-msgid "Inputs"
-msgstr "Inputs"
-
-msgid "Insufficient funds"
-msgstr "Insufficient funds"
-
-msgid "Invalid Address"
-msgstr "Invalid Address"
-
-msgid "Invalid Amount"
-msgstr "Invalid Amount"
-
-msgid "Invalid Bitcoin Address"
-msgstr "Invalid Bitcoin Address"
-
-msgid "Invalid Lines found:"
-msgstr "Invalid Lines found:"
-
-msgid "Invoices"
-msgstr "Invoices"
-
-msgid "Keyboard shortcut: type \"!\" to send all your coins."
-msgstr "Keyboard shortcut: type \"!\" to send all your coins."
-
-msgid "Language"
-msgstr "Språk"
-
-msgid "Load transaction"
-msgstr "Load transaction"
-
-msgid "Lookup transaction"
-msgstr "Lookup transaction"
-
-msgid "Message"
-msgstr "Message"
-
-msgid "Name"
-msgstr "Navn"
-
-msgid "Network"
-msgstr "Nettverk"
-
-msgid "Never"
-msgstr "Aldri"
-
-msgid "New Contact"
-msgstr "Ny kontakt"
-
-msgid "Next"
-msgstr "Neste"
-
-msgid "No donation address for this server"
-msgstr "Det er ingen donasjonsaddresser for denne serveren"
-
-msgid "No more addresses in your wallet."
-msgstr "No more addresses in your wallet."
-
-msgid "No outputs"
-msgstr "No outputs"
-
-msgid "None"
-msgstr "Ingen"
-
-msgid "Not connected"
-msgstr "Ikke tilkoblet"
-
-msgid "Not enough funds"
-msgstr "Not enough funds"
-
-msgid "Note that if you have frozen some of your addresses, the available funds will be lower than your total balance."
-msgstr "Merk at dersom du har fryst noen av dine adresser, vil tilgjengelige midler være lavere enn din totale saldo."
-
-msgid "Number of zeros displayed after the decimal point. For example, if this is set to 2, \"1.\" will be displayed as \"1.00\""
-msgstr "Number of zeros displayed after the decimal point. For example, if this is set to 2, \"1.\" will be displayed as \"1.00\""
-
-msgid "OK"
-msgstr "OK"
-
-msgid "Offline"
-msgstr "Offline"
-
-msgid "Online Block Explorer"
-msgstr "Online Block Explorer"
-
-msgid "Options"
-msgstr "Alternativer"
-
-msgid "Outputs"
-msgstr "Outputs"
-
-msgid "Paid"
-msgstr "Betalt"
-
-msgid "Passphrase:"
-msgstr "Passord:"
-
-msgid "Password"
-msgstr "Passord"
-
-msgid "Password Strength"
-msgstr "Password Strength"
-
-msgid "Password was updated successfully"
-msgstr "Password was updated successfully"
-
-msgid "Password:"
-msgstr "Passord:"
-
-msgid "Pay to"
-msgstr "Betale til"
-
-msgid "Payment Request"
-msgstr "Betalingsforespørsel"
-
-msgid "Payment request has expired"
-msgstr "Payment request has expired"
-
-msgid "Payment sent."
-msgstr "Betaling sent."
-
-msgid "Please enter your password"
-msgstr "Please enter your password"
-
-msgid "Please restart Electrum to activate the new GUI settings"
-msgstr "Please restart Electrum to activate the new GUI settings"
-
-msgid "Please wait"
-msgstr "Vennligst vent"
-
-msgid "Please wait..."
-msgstr "Vennligst vent..."
-
-msgid "Preferences"
-msgstr "Preferences"
-
-msgid "Press 'Next' to create this wallet, or choose another file."
-msgstr "Trykk 'neste' for å lage denne lommeboken, eller velg en annen fil."
-
-msgid "Private key"
-msgstr "Private key"
-
-msgid "Private keys"
-msgstr "Private keys"
-
-msgid "Private keys exported."
-msgstr "Private keys exported."
-
-msgid "Proxy"
-msgstr "Proxy"
-
-msgid "Public key"
-msgstr "Public key"
-
-msgid "Public keys"
-msgstr "Offentlige nøkler"
-
-msgid "QR code"
-msgstr "QR kode"
-
-msgid "QR code copied to clipboard"
-msgstr "QR-kode kopiert til utklippstavlen"
-
-msgid "QR code saved to file"
-msgstr "QR-kode lagret som fil"
-
-msgid "Read file"
-msgstr "Les fil"
-
-msgid "Receive"
-msgstr "Receive"
-
-msgid "Recipient of the funds."
-msgstr "Recipient of the funds."
-
-msgid "Redeem Script"
-msgstr "Løs inn skript"
-
-msgid "Remove"
-msgstr "Fjern"
-
-msgid "Reporting Bugs"
-msgstr "Rapporter feil"
-
-msgid "Requested amount"
-msgstr "Requested amount"
-
-msgid "Requestor"
-msgstr "Requestor"
-
-msgid "Requires"
-msgstr "Krever"
-
-msgid "Save"
-msgstr "Lagre"
-
-msgid "Seed"
-msgstr "Seed"
-
-msgid "Select file to export your private keys to"
-msgstr "Select file to export your private keys to"
-
-msgid "Select file to export your wallet transactions to"
-msgstr "Select file to export your wallet transactions to"
-
-msgid "Select which language is used in the GUI (after restart)."
-msgstr "Select which language is used in the GUI (after restart)."
-
-msgid "Select your transaction file"
-msgstr "Select your transaction file"
-
-msgid "Send"
-msgstr "Send"
-
-msgid "Server"
-msgstr "Server"
-
-msgid "Settings"
-msgstr "Settings"
-
-msgid "Show as QR code"
-msgstr "Vis som QR-kode"
-
-msgid "Sign"
-msgstr "Sign"
-
-msgid "Sign/verify Message"
-msgstr "Sign/verify Message"
-
-msgid "Signature"
-msgstr "Signature"
-
-msgid "Signature verified"
-msgstr "Signature verified"
-
-msgid "Status"
-msgstr "Status"
-
-msgid "Success"
-msgstr "Success"
-
-msgid "Sweep"
-msgstr "Sweep"
-
-msgid "Sweep private keys"
-msgstr "Sweep private keys"
-
-msgid "Synchronizing..."
-msgstr "Synchronizing..."
-
-msgid "The amount of fee can be decided freely by the sender. However, transactions with low fees take more time to be processed."
-msgstr "The amount of fee can be decided freely by the sender. However, transactions with low fees take more time to be processed."
-
-msgid "The description is not sent to the recipient of the funds. It is stored in your wallet file, and displayed in the 'History' tab."
-msgstr "The description is not sent to the recipient of the funds. It is stored in your wallet file, and displayed in the 'History' tab."
-
-msgid "The following addresses were added"
-msgstr "The following addresses were added"
-
-msgid "The following alias providers are available:"
-msgstr "Følgende alias tjenere er tilgjengelige:"
-
-msgid "The following inputs could not be imported"
-msgstr "The following inputs could not be imported"
-
-msgid "This file does not exist."
-msgstr "Filen finnes ikke."
-
-msgid "This is a watching-only wallet"
-msgstr "This is a watching-only wallet"
-
-msgid "This seed will allow you to recover your wallet in case of computer failure."
-msgstr "This seed will allow you to recover your wallet in case of computer failure."
-
-msgid "This transaction is not saved. Close anyway?"
-msgstr "Denne transaksjonen er ikke lagret. Lukke likevel?"
-
-msgid "This wallet has no seed"
-msgstr "This wallet has no seed"
-
-msgid "To make sure that you have properly saved your seed, please retype it here."
-msgstr "To make sure that you have properly saved your seed, please retype it here."
-
-msgid "Total size"
-msgstr "Total størrelse"
-
-msgid "Transaction"
-msgstr "Transaction"
-
-msgid "Transaction ID"
-msgstr "Transaction ID"
-
-msgid "Transaction ID:"
-msgstr "Transaction ID:"
-
-msgid "Transaction unrelated to your wallet"
-msgstr "Transaction unrelated to your wallet"
-
-msgid "Transaction:"
-msgstr "Transaction:"
-
-msgid "Try to explain not only what the bug is, but how it occurs."
-msgstr "Forklar hvordan feilen skjedde og hva den gjør."
-
-msgid "Unable to create backup"
-msgstr "Kan ikke opprette backup"
-
-msgid "Unable to create csv"
-msgstr "Unable to create csv"
-
-msgid "Unable to export history"
-msgstr "Unable to export history"
-
-msgid "Unable to read file or no transaction found"
-msgstr "Unable to read file or no transaction found"
-
-msgid "Unknown"
-msgstr "Ukjent"
-
-msgid "Use as server"
-msgstr "Bruk som server"
-
-msgid "Use change addresses"
-msgstr "Use change addresses"
-
-msgid "Using change addresses makes it more difficult for other people to track your transactions."
-msgstr "Using change addresses makes it more difficult for other people to track your transactions."
-
-msgid "Verify"
-msgstr "Verify"
-
-msgid "Version"
-msgstr "Version"
-
-msgid "Video Device"
-msgstr "Video Device"
-
-msgid "View on block explorer"
-msgstr "View on block explorer"
-
-msgid "WARNING"
-msgstr "WARNING"
-
-msgid "WARNING: ALL your private keys are secret."
-msgstr "WARNING: ALL your private keys are secret."
-
-msgid "Wallet"
-msgstr "Lommebok"
-
-msgid "Warning"
-msgstr "Warning"
-
-msgid ""
-"Warning: The next address will not be recovered automatically if you restore your wallet from seed; you may need to add it manually.\n"
-"\n"
-"This occurs because you have too many unused addresses in your wallet. To avoid this situation, use the existing addresses first.\n"
-"\n"
-"Create anyway?"
-msgstr ""
-"Warning: The next address will not be recovered automatically if you restore your wallet from seed; you may need to add it manually.\n"
-"\n"
-"This occurs because you have too many unused addresses in your wallet. To avoid this situation, use the existing addresses first.\n"
-"\n"
-"Create anyway?"
-
-msgid "Your labels have been synchronised."
-msgstr "Your labels have been synchronised."
-
-msgid "Your seed is important!"
-msgstr "Your seed is important!"
-
-msgid "Your wallet history has been successfully exported."
-msgstr "Your wallet history has been successfully exported."
-
-msgid "Zeros after decimal point"
-msgstr "Zeros after decimal point"
-
-msgid "json"
-msgstr "json"
-
-msgid "unknown"
-msgstr "unknown"
-
-msgid "watching only"
-msgstr "watching only"
+msgid "Could not find suitable output"
+msgstr "Kunne ikke finne passende utdata"
+
+msgid "Could not find coins for output"
+msgstr "Kunne ikke finne mynter for utdata"
 
 msgctxt "About|"
 msgid "About Electrum"

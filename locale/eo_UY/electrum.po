@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: electrum\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-18 12:59+0000\n"
-"PO-Revision-Date: 2026-02-18 12:59\n"
+"POT-Creation-Date: 2026-02-19 16:44+0000\n"
+"PO-Revision-Date: 2026-02-19 16:44\n"
 "Last-Translator: \n"
 "Language-Team: Esperanto\n"
 "Language: eo_UY\n"
@@ -21,11 +21,38 @@ msgstr ""
 "X-Crowdin-File: /electrum-client/messages.pot\n"
 "X-Crowdin-File-ID: 68\n"
 
-msgid "&About"
-msgstr "&Pri"
+msgid "Error"
+msgstr "Eraro"
 
-msgid "&Documentation"
-msgstr "&Dokumentaro"
+msgid "Amount"
+msgstr "Sumo"
+
+msgid "Close"
+msgstr "Fermi"
+
+msgid "Address"
+msgstr "Adreso"
+
+msgid "Balance"
+msgstr "Bilanco"
+
+msgid "Details"
+msgstr "Detalo"
+
+msgid "Delete"
+msgstr "Forigi"
+
+msgid "Bitcoin transactions are in general not free. A transaction fee is paid by the sender of the funds."
+msgstr "Bitmonaj transakcioj ne estas senkosta ĝenerale. Sendanto pagis la transakcian honorarion por la kasoj."
+
+msgid "A suggested fee is automatically added to this field. You may override it. The suggested fee increases with the size of the transaction."
+msgstr "Sugestita honorario aldoniĝis aŭtomate al tiu kampo. Vi povas transpasi ĝin. La sugestita honorario pligrandiĝas kun la grando de la transakcio."
+
+msgid "Date"
+msgstr "Dato"
+
+msgid "Description"
+msgstr "Priskribo"
 
 msgid "&File"
 msgstr "&Dosiero"
@@ -33,59 +60,11 @@ msgstr "&Dosiero"
 msgid "&Help"
 msgstr "&Helpo"
 
-msgid "1 day"
-msgstr "1 tago"
+msgid "&About"
+msgstr "&Pri"
 
-msgid "1 hour"
-msgstr "1 horo"
-
-msgid "1 week"
-msgstr "1 semajno"
-
-msgid "A suggested fee is automatically added to this field. You may override it. The suggested fee increases with the size of the transaction."
-msgstr "Sugestita honorario aldoniĝis aŭtomate al tiu kampo. Vi povas transpasi ĝin. La sugestita honorario pligrandiĝas kun la grando de la transakcio."
-
-msgid "Address"
-msgstr "Adreso"
-
-msgid "Amount"
-msgstr "Sumo"
-
-msgid "Balance"
-msgstr "Bilanco"
-
-msgid "Bitcoin transactions are in general not free. A transaction fee is paid by the sender of the funds."
-msgstr "Bitmonaj transakcioj ne estas senkosta ĝenerale. Sendanto pagis la transakcian honorarion por la kasoj."
-
-msgid "Cancel"
-msgstr "Nuligi"
-
-msgid "Clear"
-msgstr "Vakigi"
-
-msgid "Close"
-msgstr "Fermi"
-
-msgid "Contacts"
-msgstr "Kontaktoj"
-
-msgid "Date"
-msgstr "Dato"
-
-msgid "Delete"
-msgstr "Forigi"
-
-msgid "Description"
-msgstr "Priskribo"
-
-msgid "Description of the transaction (not mandatory)."
-msgstr "Priskribo de la transakcio (ne nepra)."
-
-msgid "Details"
-msgstr "Detalo"
-
-msgid "Encrypt"
-msgstr "Ĉifri"
+msgid "&Documentation"
+msgstr "&Dokumentaro"
 
 msgid "Encrypt/decrypt Message"
 msgstr "Ĉifri/malĉifri Mesaĝo"
@@ -93,8 +72,29 @@ msgstr "Ĉifri/malĉifri Mesaĝo"
 msgid "Encrypted"
 msgstr "Ĉifrita"
 
-msgid "Error"
-msgstr "Eraro"
+msgid "Encrypt"
+msgstr "Ĉifri"
+
+msgid "Clear"
+msgstr "Vakigi"
+
+msgid "Description of the transaction (not mandatory)."
+msgstr "Priskribo de la transakcio (ne nepra)."
+
+msgid "Cancel"
+msgstr "Nuligi"
+
+msgid "Contacts"
+msgstr "Kontaktoj"
+
+msgid "1 hour"
+msgstr "1 horo"
+
+msgid "1 day"
+msgstr "1 tago"
+
+msgid "1 week"
+msgstr "1 semajno"
 
 msgctxt "AddressDetails|"
 msgid "Address"
