@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: electrum\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-02-19 16:44+0000\n"
-"PO-Revision-Date: 2026-02-19 16:44\n"
+"PO-Revision-Date: 2026-02-20 15:03\n"
 "Last-Translator: \n"
 "Language-Team: Ukrainian\n"
 "Language: uk_UA\n"
@@ -1819,11 +1819,6 @@ msgstr "Уведіть насіння"
 msgid "Please enter your seed phrase in order to restore your wallet."
 msgstr "Будь ласка, ведіть Ваш seed для того, щоб відновити гаманець."
 
-msgid "Script type and Derivation path"
-msgstr ""
-"31/5000\n"
-"Тип сценарію і шлях виведення"
-
 msgid "Choose the type of addresses in your wallet."
 msgstr "Виберіть тип адрес у вашому гаманці."
 
@@ -1850,9 +1845,6 @@ msgstr "Створення сховища ключів з майстер-клю�
 
 msgid "To create a watching-only wallet, please enter your master public key (xpub/ypub/zpub)."
 msgstr "Щоб створити гаманець, лише для перегляду, введіть свій відкритий майстер-ключ (xpub/ypub/zpub)."
-
-msgid "To create a spending wallet, please enter a master private key (xprv/yprv/zprv)."
-msgstr "Щоб створити гаманець для оплати, введіть свій відкритий майстер-ключ (xpub/ypub/zpub)."
 
 msgid "Please enter the master public key (xpub) of your cosigner."
 msgstr "Будь ласка, введіть відкритий ключ (xpub) вашого поручителя."

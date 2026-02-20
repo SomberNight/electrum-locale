@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: electrum\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-02-19 16:44+0000\n"
-"PO-Revision-Date: 2026-02-19 16:44\n"
+"PO-Revision-Date: 2026-02-20 15:03\n"
 "Last-Translator: \n"
 "Language-Team: Latvian\n"
 "Language: lv_LV\n"
@@ -107,9 +107,6 @@ msgstr "Tie var tikt importēti citā maciņā ar tādu pašu sēklu."
 
 msgid "Close Lightning channel?"
 msgstr "Aizvērt Lightning kanālu?"
-
-msgid "Could not close channel: "
-msgstr "Neizdevās atvērt kanālu: "
 
 msgid "Invoice already paid"
 msgstr "Rēķins jau ir samaksāts"

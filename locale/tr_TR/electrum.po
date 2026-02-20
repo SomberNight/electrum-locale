@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: electrum\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-02-19 16:44+0000\n"
-"PO-Revision-Date: 2026-02-19 16:44\n"
+"PO-Revision-Date: 2026-02-20 15:03\n"
 "Last-Translator: \n"
 "Language-Team: Turkish\n"
 "Language: tr_TR\n"
@@ -400,7 +400,7 @@ msgid "&New contact"
 msgstr "&Yeni kişi"
 
 msgid "Import"
-msgstr "Dışa aktar"
+msgstr "İçe Aktar"
 
 msgid "Export"
 msgstr "Dışa aktar"
@@ -1112,9 +1112,6 @@ msgstr "Bitcoinleriniz şifre korumalıdır. Cüzdan dosyanız şifrelenmemekted
 
 msgid "Your wallet is password protected and encrypted."
 msgstr "Cüzdanınız parola korumalı ve şifrelidir."
-
-msgid "Use this dialog to change your password."
-msgstr "Parola değiştirmek için lütfen e-mail adresini kontrol et"
 
 msgid "Your wallet file is NOT encrypted."
 msgstr "Cüzdan dosyanız şifreli DEĞİLDİR."
@@ -2668,11 +2665,11 @@ msgstr "Daha eski"
 
 msgctxt "ImportAddressesKeysDialog|"
 msgid "Import"
-msgstr "Dışa aktar"
+msgstr "İçe Aktar"
 
 msgctxt "ImportChannelBackupDialog|"
 msgid "Import"
-msgstr "Dışa aktar"
+msgstr "İçe Aktar"
 
 msgctxt "InvoiceDialog|"
 msgid "Address"

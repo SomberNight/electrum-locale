@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: electrum\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-02-19 16:44+0000\n"
-"PO-Revision-Date: 2026-02-19 16:44\n"
+"PO-Revision-Date: 2026-02-20 15:03\n"
 "Last-Translator: \n"
 "Language-Team: Korean\n"
 "Language: ko_KR\n"
@@ -1161,9 +1161,6 @@ msgstr "네트워크(&N)"
 msgid "&Plugins"
 msgstr "플러그인(&P)"
 
-msgid "&Sign/verify message"
-msgstr "메시지 서명/검증(&S)"
-
 msgid "&Encrypt/decrypt message"
 msgstr "메시지 암호화/복호화(%E)"
 
@@ -1205,9 +1202,6 @@ msgstr "오류 보고(&R)"
 
 msgid "&Donate to server"
 msgstr "서버 후원(&D)"
-
-msgid "No donation address for this server"
-msgstr "이메일 주소 알림"
 
 msgid "Version"
 msgstr "버전"
@@ -1397,9 +1391,6 @@ msgstr "서명 확인"
 
 msgid "Wrong signature"
 msgstr "잘못 된 서명"
-
-msgid "Sign/verify Message"
-msgstr "로그인"
 
 msgid "Sign"
 msgstr "사인"
@@ -1882,9 +1873,6 @@ msgstr "이 시드는 컴퓨터가 고장났을 경우 사용자의 지갑을 �
 
 msgid "WARNING"
 msgstr "경고"
-
-msgid "Never disclose your seed."
-msgstr "당신의 씨앗을 공개하지 마십시오. 웹 사이트에 입력하지 마십시오."
 
 msgid "Never type it on a website."
 msgstr "결코 웹사이트에 그것을 입력 합니다."
@@ -3741,7 +3729,7 @@ msgid "Continue Online"
 msgstr "온라인에서 계속하기"
 
 msgid "Go online to complete wallet creation"
-msgstr "Go online to complete wallet creation"
+msgstr "지갑 생성을 완료하기 위해 온라인 연결"
 
 msgid "Your wallet file is: {}."
 msgstr "지갑 파일: {}"
@@ -4836,10 +4824,6 @@ msgstr "이 시드는 컴퓨터가 고장났을 경우 사용자의 지갑을 �
 msgctxt "WCCreateSeed|"
 msgid "WARNING"
 msgstr "경고"
-
-msgctxt "WCCreateSeed|"
-msgid "Never disclose your seed."
-msgstr "당신의 씨앗을 공개하지 마십시오. 웹 사이트에 입력하지 마십시오."
 
 msgctxt "WCCreateSeed|"
 msgid "Never type it on a website."
