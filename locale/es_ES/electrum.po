@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: electrum\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-02-19 16:44+0000\n"
-"PO-Revision-Date: 2026-02-19 16:44\n"
+"PO-Revision-Date: 2026-02-20 02:41\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -165,32 +165,8 @@ msgstr "No se pudo conectar al par del canal"
 msgid "File not found"
 msgstr "Archivo no encontrado"
 
-msgid "There are still channels that are not fully closed"
-msgstr "There are still channels that are not fully closed"
-
-msgid "There are still unpaid requests. Really delete?"
-msgstr "There are still unpaid requests. Really delete?"
-
-msgid "There are still coins present in this wallet. Really delete?"
-msgstr "There are still coins present in this wallet. Really delete?"
-
-msgid "Problem deleting wallet"
-msgstr "Problem deleting wallet"
-
 msgid "This invoice has expired"
 msgstr "Esta factura ha expirado"
-
-msgid "Invoice has unknown status"
-msgstr ""
-"Key: Invoice has unknown status\n"
-"#: electrum/gui/qml/qeinvoice.py:295 electrum/gui/qml/qeinvoice.py:312\n"
-"File: messages.pot"
-
-msgid "Cannot pay less than the amount specified in the invoice"
-msgstr "Cannot pay less than the amount specified in the invoice"
-
-msgid "Insufficient balance"
-msgstr "Insufficient balance"
 
 msgid "Invoice already paid"
 msgstr "La factura ya está pagada"
@@ -200,9 +176,6 @@ msgstr "Solicitud de pago caducada"
 
 msgid "Detected valid Lightning invoice, but there are no open channels"
 msgstr "Factura Lightning válida detectada, pero no hay canales abiertos"
-
-msgid "The platform QR detection library is not available."
-msgstr "The platform QR detection library is not available."
 
 msgid "Error"
 msgstr "Error"
@@ -224,12 +197,6 @@ msgstr "¿Confirma que quiere quitar esta transacción y las {} subtransacciones
 
 msgid "Warning"
 msgstr "Advertencia"
-
-msgid "Cannot determine dynamic fees, not connected"
-msgstr ""
-"Key: Cannot determine dynamic fees, not connected\n"
-"#: electrum/gui/qml/qetxfinalizer.py:431\n"
-"File: messages.pot"
 
 msgid "The new fee rate needs to be higher than the old fee rate."
 msgstr "La nueva comisión debe ser más alta que la comisión anterior."
@@ -299,9 +266,6 @@ msgstr "Dirección"
 
 msgid "Public keys"
 msgstr "Llaves públicas"
-
-msgid "Public Key"
-msgstr "Public Key"
 
 msgid "Redeem Script"
 msgstr "Cargar script"
@@ -384,9 +348,6 @@ msgstr "Eliminar desde control de monedas"
 msgid "Frozen"
 msgstr "Congelado"
 
-msgid "Unmatured"
-msgstr "Unmatured"
-
 msgid "Unconfirmed"
 msgstr "Sin confirmar"
 
@@ -423,17 +384,11 @@ msgstr "Canal Lightning"
 msgid "Channel Backup"
 msgstr "Copia de seguridad del canal"
 
-msgid "This is a channel backup."
-msgstr "This is a channel backup."
-
 msgid "It shows a channel that was opened with another instance of this wallet"
 msgstr "Muestra un canal que se abrió con otra instancia de este monedero"
 
 msgid "A backup does not contain information about your local balance in the channel."
 msgstr "Una copia de seguridad no contiene información sobre el saldo local en el canal."
-
-msgid "You can use it to request a force close."
-msgstr "You can use it to request a force close."
 
 msgid "Channel stats"
 msgstr "Estadísticas del canal"
@@ -459,9 +414,6 @@ msgstr "HTLC en la transacción de compromiso actual"
 msgid "Failed HTLCs"
 msgstr "HTLC fallidos"
 
-msgid "Transaction not found."
-msgstr "Transaction not found."
-
 msgid "Remote Node ID"
 msgstr "ID de nodo remoto"
 
@@ -470,9 +422,6 @@ msgstr "ID de Canal"
 
 msgid "Short Channel ID"
 msgstr "ID corto de Canal"
-
-msgid "State"
-msgstr "State"
 
 msgid "Capacity"
 msgstr "Capacidad"
@@ -492,9 +441,6 @@ msgstr "Cerrando Transacción"
 msgid "Local balance"
 msgstr "Balance local"
 
-msgid "Remote balance"
-msgstr "Remote balance"
-
 msgid "Can send"
 msgstr "Puede enviar"
 
@@ -504,14 +450,8 @@ msgstr "Puede recibir"
 msgid "Local reserve"
 msgstr "Reserva local"
 
-msgid "Remote reserve:"
-msgstr "Remote reserve:"
-
 msgid "Local dust limit"
 msgstr "Límite de polvo local"
-
-msgid "Remote dust limit"
-msgstr "Remote dust limit"
 
 msgid "Total sent"
 msgstr "Total enviado"
@@ -555,14 +495,8 @@ msgstr "¿Estás seguro de que deseas eliminar este canal? Esto eliminará las t
 msgid "Remove channel backup?"
 msgstr "¿Eliminar la copia de seguridad del canal?"
 
-msgid "Request force-close from remote peer?"
-msgstr "Request force-close from remote peer?"
-
 msgid "Channel is frozen for sending"
 msgstr "El canal está congelado para enviar"
-
-msgid "Rebalance channels"
-msgstr "Rebalance channels"
 
 msgid "Node ID"
 msgstr "ID de nodo"
@@ -573,14 +507,8 @@ msgstr "ID largo de Canal"
 msgid "Freeze for sending"
 msgstr "Congelar para el envío"
 
-msgid "Unfreeze for sending"
-msgstr "Unfreeze for sending"
-
 msgid "Freeze for receiving"
 msgstr "Congelar (para recibir)"
-
-msgid "Unfreeze for receiving"
-msgstr "Unfreeze for receiving"
 
 msgid "Cooperative close"
 msgstr "Cierre Cooperativo"
@@ -704,11 +632,6 @@ msgstr "Comisión de minado"
 
 msgid "New Transaction"
 msgstr "Nueva Transacción"
-
-msgid "Fees are paid by the sender."
-msgstr ""
-"Las tarifas las paga el remitente.\n"
-" SOLICITUD DE CONTEXTO"
 
 msgid "Amount to be sent"
 msgstr "Cantidad a enviar"
@@ -1316,9 +1239,6 @@ msgstr "Funcionalidades"
 msgid "Fallback address"
 msgstr "Dirección de retorno"
 
-msgid "Text"
-msgstr "Text"
-
 msgid "Password"
 msgstr "Contraseña"
 
@@ -1538,9 +1458,6 @@ msgstr "Por favor reinicie Electrum para activar los nuevos ajustes de la interf
 
 msgid "Child Pays for Parent"
 msgstr "Transacción hija paga por el padre (CPFP)"
-
-msgid "A CPFP is a transaction that sends an unconfirmed output back to yourself, with a high fee. The goal is to have miners confirm the parent transaction in order to get the fee attached to the child transaction."
-msgstr "A CPFP is a transaction that sends an unconfirmed output back to yourself, with a high fee. The goal is to have miners confirm the parent transaction in order to get the fee attached to the child transaction"
 
 msgid "Total size"
 msgstr "Tamaño total"
@@ -1794,14 +1711,8 @@ msgstr "Cancelar una transacción no confirmada sustituyéndola con una de trans
 msgid "Cancel transaction"
 msgstr "Cancelar transacción"
 
-msgid "Rebalance your channels in order to increase your sending or receiving capacity"
-msgstr "Rebalance your channels in order to increase your sending or receiving capacity"
-
 msgid "From channel"
 msgstr "Del canal"
-
-msgid "Rebalancing channels"
-msgstr "Rebalancing channels"
 
 msgid "Requested amount"
 msgstr "Cantidad solicitada"
@@ -1975,11 +1886,6 @@ msgstr "- en script on-chain arbitrario, p. ej.:"
 msgid "Format: address, amount"
 msgstr "Formato: dirección, cantidad"
 
-msgid "Integers weights can also be used in conjunction with '!', e.g. set one amount to '2!' and another to '3!' to split your coins 40-60."
-msgstr ""
-"Los pesos enteros también se pueden usar junto con '!', P. Ej.  establezca una cantidad en '2!'  y otro a '¡3!'  para dividir sus monedas 40-60.\n"
-" SOLICITUD DE CONTEXTO"
-
 msgid "Description of the transaction (not mandatory)."
 msgstr "Descripción de la transacción (opcional)."
 
@@ -2040,9 +1946,6 @@ msgstr "Líneas inválidas conseguidas:"
 msgid "Do you wish to continue?"
 msgstr "¿Desea continuar?"
 
-msgid "Rebalance existing channels"
-msgstr "Rebalance existing channels"
-
 msgid "Move funds between your channels in order to increase your sending capacity."
 msgstr "Mueva fondos entre sus canales para aumentar su capacidad de envío."
 
@@ -2051,9 +1954,6 @@ msgstr "Abrir un nuevo canal"
 
 msgid "You will be able to pay once the channel is open."
 msgstr "Podrás pagar una vez que el canal esté abierto."
-
-msgid "You will be able to pay once the swap is confirmed."
-msgstr "You will be able to pay once the swap is confirmed."
 
 msgid "You cannot pay that invoice using Lightning."
 msgstr "No puede pagar esa factura con Lightning."
@@ -2739,15 +2639,6 @@ msgstr "Portapapeles"
 msgid "Quit"
 msgstr "Salir"
 
-msgid "[Paste]"
-msgstr "[Paste]"
-
-msgid "[Save]"
-msgstr "[Save]"
-
-msgid "[Pay]"
-msgstr "[Pay]"
-
 msgid "Could not parse clipboard text"
 msgstr "No se ha podido analizar el texto del portapapeles"
 
@@ -2927,11 +2818,6 @@ msgstr "Conectado a {0} nodos."
 
 msgid "Error parsing URI"
 msgstr "Error al analizar gramaticalmente la URI"
-
-msgid "Error parsing Lightning invoice"
-msgstr ""
-"Error al analizar la factura Lightning\n"
-" SOLICITUD DE CONTEXTO"
 
 msgid "Invoice requires unknown or incompatible Lightning feature"
 msgstr "La factura requiere una función de Lightning desconocida o incompatible"
@@ -3149,9 +3035,6 @@ msgstr "Por favor, confirme los detalles del monedero multi-firma en su disposit
 
 msgid "Outdated {} firmware for device labelled {}. Please update using a Blockstream Green companion app"
 msgstr "Firmware {} desactualizado para el dispositivo etiquetado como {}. Por favor, actualice con la app complementaria Blockstream Green"
-
-msgid "The address generated by {} does not match!"
-msgstr "The address generated by {} does not match!"
 
 msgid "Confirm the transaction output on your {} device"
 msgstr "Confirma la salida de la transacción en tu dispositivo {}"
@@ -3769,12 +3652,6 @@ msgstr "Ceros después del punto decimal"
 msgid "Number of zeros displayed after the decimal point. For example, if this is set to 2, \"1.\" will be displayed as \"1.00\""
 msgstr "Número de ceros mostrados tras la coma decimal. Por ejemplo, si está configurada a 2, \"1,\" se mostrará como \"1,00\""
 
-msgid "Show Lightning amounts with msat precision"
-msgstr "Show Lightning amounts with msat precision"
-
-msgid "Add thousand separators to bitcoin amounts"
-msgstr "Agregue miles de separadores a las cantidades de bitcoins"
-
 msgid "Online Block Explorer"
 msgstr "Explorador de Bloques Online"
 
@@ -3834,9 +3711,6 @@ msgstr "Algunas comparticiones son invalidas."
 
 msgid "Invalid mnemonic word"
 msgstr "Palabra nemotécnica invalida."
-
-msgid "waiting for funding tx confirmation"
-msgstr "waiting for funding tx confirmation"
 
 msgid "Insufficient funds"
 msgstr "Fondos insuficientes"
@@ -3974,9 +3848,6 @@ msgstr "(feerate: {})"
 
 msgid "This request has expired"
 msgstr "Esta solicitud ha caducado"
-
-msgid "This request cannot be paid on-chain"
-msgstr "This request cannot be paid on-chain"
 
 msgid "This request does not have a Lightning invoice."
 msgstr "Esta solicitud no tiene una factura Lightning."
@@ -4128,10 +3999,6 @@ msgid "Unconfirmed"
 msgstr "Sin confirmar"
 
 msgctxt "BalanceDetails|"
-msgid "Unmatured"
-msgstr "Unmatured"
-
-msgctxt "BalanceDetails|"
 msgid "Frozen"
 msgstr "Congelado"
 
@@ -4174,10 +4041,6 @@ msgstr "Copia de seguridad del canal"
 msgctxt "ChannelDetails|"
 msgid "Node name"
 msgstr "Nombre del nodo"
-
-msgctxt "ChannelDetails|"
-msgid "State"
-msgstr "State"
 
 msgctxt "ChannelDetails|"
 msgid "Capacity"
@@ -4358,10 +4221,6 @@ msgstr "Esto puede resultar en mayores comisiones de transacción."
 msgctxt "CpfpBumpFeeDialog|"
 msgid "Bump Fee"
 msgstr "Incrementar comisión"
-
-msgctxt "CpfpBumpFeeDialog|"
-msgid "A CPFP is a transaction that sends an unconfirmed output back to yourself, with a high fee. The goal is to have miners confirm the parent transaction in order to get the fee attached to the child transaction."
-msgstr "A CPFP is a transaction that sends an unconfirmed output back to yourself, with a high fee. The goal is to have miners confirm the parent transaction in order to get the fee attached to the child transaction"
 
 msgctxt "CpfpBumpFeeDialog|"
 msgid "Fee for child"

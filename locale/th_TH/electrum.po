@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: electrum\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-02-19 16:44+0000\n"
-"PO-Revision-Date: 2026-02-19 16:44\n"
+"PO-Revision-Date: 2026-02-20 15:03\n"
 "Last-Translator: \n"
 "Language-Team: Thai\n"
 "Language: th_TH\n"
@@ -21,26 +21,14 @@ msgstr ""
 "X-Crowdin-File: /electrum-client/messages.pot\n"
 "X-Crowdin-File-ID: 68\n"
 
-msgid "  (No FX rate available)"
-msgstr "  (No FX rate available)"
-
 msgid "If you force-close this channel, the funds you have in it will not be available for {} blocks."
 msgstr "หากคุณบังคับปิดแชนแนลนี้ เงินที่คุณมีอยู่จะไม่สามารถใช้ได้สำหรับ {} บล็อก "
 
 msgid "Could not close channel: "
 msgstr "ไม่สามารถปิดแชนแนลได้"
 
-msgid "Are you sure you want to remove this transaction?"
-msgstr "Are you sure you want to remove this transaction?"
-
-msgid "Are you sure you want to remove this transaction and {} child transactions?"
-msgstr "Are you sure you want to remove this transaction and {} child transactions?"
-
 msgid "Can't CPFP: unknown fee for parent transaction."
 msgstr "ไม่สามารถ CPFP: ค่าธรรมเนียมที่ไม่รู้จักสำหรับธุรกรรมหลัก"
-
-msgid "Amount"
-msgstr "Amount"
 
 msgid "Close"
 msgstr "ปิด"
@@ -50,9 +38,6 @@ msgstr "โหมดมืด/สว่าง"
 
 msgid "Cannot load wallet"
 msgstr "ไม่สามารถเปิดกระเป๋าได้"
-
-msgid "Address"
-msgstr "Address"
 
 msgid "Public keys"
 msgstr "คีย์สาธารณะ"
@@ -120,26 +105,11 @@ msgstr "ช่อง"
 msgid "At most 100 satoshis might be lost due to this rounding."
 msgstr "อาจเสียไปอย่างมากที่สุด 100 satoshi เนื่องจากการปัดเศษนี้"
 
-msgid "Also, dust is not kept as change, but added to the fee."
-msgstr "Also, dust is not kept as change, but added to the fee."
-
 msgid "Also, when batching RBF transactions, BIP 125 imposes a lower bound on the fee."
 msgstr "นอกจากนี้เมื่อทำธุรกรรม RBF เป็นชุด BIP 125 จะกำหนดขอบเขตค่าธรรมเนียมที่ต่ำกว่า"
 
-msgid "Additional {} satoshis are going to be added."
-msgstr "Additional {} satoshis are going to be added."
-
-msgid "Amount to be sent"
-msgstr "Amount to be sent"
-
 msgid "Bitcoin transactions are in general not free. A transaction fee is paid by the sender of the funds."
 msgstr "การทำธุรกรรม Bitcoin นั้นไม่ได้ฟรี และมีค่าธรรมเนียม ที่ผู้โอนจะต้องจ่าย."
-
-msgid "A suggested fee is automatically added to this field. You may override it. The suggested fee increases with the size of the transaction."
-msgstr "A suggested fee is automatically added to this field. You may override it. The suggested fee increases with the size of the transaction."
-
-msgid "Additional fees"
-msgstr "Additional fees"
 
 msgid "Click here to hide this message."
 msgstr "คลิกที่นี่เพื่อซ่อนข้อความนี้"
@@ -147,17 +117,11 @@ msgstr "คลิกที่นี่เพื่อซ่อนข้อคว
 msgid "Copy {}"
 msgstr "คัดลอก {}"
 
-msgid "An Error Occurred"
-msgstr "An Error Occurred"
-
 msgid "Crash report"
 msgstr "รายงานความผิดพลาด"
 
 msgid " confirmation"
 msgstr "การยืนยัน"
-
-msgid "Acquisition price"
-msgstr "Acquisition price"
 
 msgid "Capital Gains"
 msgstr "กำไรจากทุน"
@@ -165,17 +129,8 @@ msgstr "กำไรจากทุน"
 msgid "Date"
 msgstr "วันที่"
 
-msgid "All"
-msgstr "All"
-
 msgid "Custom"
 msgstr "กำหนดเอง"
-
-msgid "&Summary"
-msgstr "&Summary"
-
-msgid "&Plot"
-msgstr "&Plot"
 
 msgid "Begin"
 msgstr "เริ่มต้น"
@@ -216,9 +171,6 @@ msgstr "เชื่อมต่อกับ {} เพียร์"
 msgid "Block height"
 msgstr "เลขที่บล็อค"
 
-msgid "&Addresses"
-msgstr "&Addresses"
-
 msgid "Co&ins"
 msgstr "Co&ins"
 
@@ -237,41 +189,8 @@ msgstr "ไดเรกทอรีสำรอง"
 msgid "Backup not configured"
 msgstr "ไม่ได้ตั้งค่าการสำรองข้อมูล"
 
-msgid "A copy of your wallet file was created in"
-msgstr "A copy of your wallet file was created in"
-
-msgid "&Recently open"
-msgstr "&Recently open"
-
 msgid "&Save backup"
 msgstr "บันทึกข้อมูลสำรอง"
-
-msgid "&Quit"
-msgstr "&Quit"
-
-msgid "&Wallet"
-msgstr "&Wallet"
-
-msgid "&Information"
-msgstr "&Information"
-
-msgid "&Seed"
-msgstr "&Seed"
-
-msgid "&Private keys"
-msgstr "&Private keys"
-
-msgid "&Sweep"
-msgstr "&Sweep"
-
-msgid "&View"
-msgstr "&View"
-
-msgid "&Tools"
-msgstr "&Tools"
-
-msgid "&Sign/verify message"
-msgstr "&Sign/verify message"
 
 msgid "&From QR code"
 msgstr "&จากคิวอาร์โค้ด"
@@ -281,9 +200,6 @@ msgstr "Check for Updates"
 
 msgid "&Bitcoin Paper"
 msgstr "เอกสารเกี่ยวกับ บิตคอย"
-
-msgid "&Report Bug"
-msgstr "&Report Bug"
 
 msgid "Before reporting a bug, upgrade to the most recent version of Electrum (latest release or git HEAD), and include the version number in your report."
 msgstr "ก่อนที่จะรายงานข้อบกพร่องให้อัปเกรด Electrum เป็นเวอร์ชันล่าสุด (รุ่นล่าสุดหรือ git HEAD) และระบุหมายเลขเวอร์ชันในรีพอร์ตของคุณ"
@@ -305,9 +221,6 @@ msgstr "ต้องการสร้างแชนแนลแรกของ
 
 msgid "QR code"
 msgstr "คิวอาร์โค้ด"
-
-msgid "Address not in wallet."
-msgstr "Address not in wallet."
 
 msgid "Encrypt/decrypt Message"
 msgstr "ข้อความ เข้ารหัส/ถอดรหัส"
@@ -341,9 +254,6 @@ msgstr "พร็อกซี"
 
 msgid "Connected nodes"
 msgstr "โหนดที่เชื่อมต่อ"
-
-msgid "Blockchain"
-msgstr "Address"
 
 msgid "Enter Remote Node ID or connection string or invoice"
 msgstr "ป้อน Remote Node ID หรือสตริงการเชื่อมต่อหรือใบแจ้งหนี้"
@@ -441,9 +351,6 @@ msgstr "ค่าธรรมเนียม 2fa: {} (สำหรับธุ�
 msgid "Bitcoin Address is None"
 msgstr "ไม่มีที่อยู่ Bitcoin"
 
-msgid "Broadcasting transaction..."
-msgstr "Broadcasting transaction..."
-
 msgid "Base unit of your wallet."
 msgstr "หน่วยฐานของกระเป๋าเงินของคุณ"
 
@@ -464,9 +371,6 @@ msgstr "รายละเอียดที่อยู่"
 
 msgid "Copy Address"
 msgstr "คัดลอกแอดเดรส"
-
-msgid "Broadcast"
-msgstr "Broadcast"
 
 msgid "Combine"
 msgstr "รวมกัน"
@@ -510,9 +414,6 @@ msgstr "เลือกเหรียญที่จะใช้จ่าย"
 msgid "Address is frozen"
 msgstr "Adresa e blocată"
 
-msgid "A few examples"
-msgstr "A few examples"
-
 msgid "Choose..."
 msgstr "เลือก..."
 
@@ -534,32 +435,20 @@ msgstr "ป้อน Seed"
 msgid "Choose the type of addresses in your wallet."
 msgstr "เลือกประเภทที่อยู่ในกระเป๋าเงินของคุณ"
 
-msgid "Add a cosigner to your multi-sig wallet"
-msgstr "Add a cosigner to your multi-sig wallet"
-
 msgid "Choose the number of signatures needed to unlock funds in your wallet:"
 msgstr "เลือกจำนวนลายเซ็นที่จำเป็นในการปลดล็อกเงินในกระเป๋าเงินของคุณ:"
 
 msgid "Enter a list of Bitcoin addresses (this will create a watching-only wallet), or a list of private keys."
 msgstr "ป้อนรายการแอดเดรส Bitcoin (ซึ่งจะสร้างวอลเล็ตสำหรับดูเท่านั้น) หรือรายการไพรเวทคีย์"
 
-msgid "An unnamed {}"
-msgstr "An unnamed {}"
-
 msgid "Back"
 msgstr "กลับ"
-
-msgid "Addresses"
-msgstr "Addresses"
 
 msgid "Contacts"
 msgstr "รายชื่อผู้ติดต่อ"
 
 msgid "Banner"
 msgstr "แบนเนอร์"
-
-msgid "Amount for OP_RETURN output must be zero."
-msgstr "Amount for OP_RETURN output must be zero."
 
 msgid "Default"
 msgstr "ค่าเริ่มต้น"
@@ -569,15 +458,6 @@ msgstr "ลองเชื่อมต่อกับเซิร์ฟเวอ
 
 msgid "10 minutes"
 msgstr "10 นาที"
-
-msgid "1 hour"
-msgstr "1 hour"
-
-msgid "1 day"
-msgstr "1 day"
-
-msgid "1 week"
-msgstr "1 week"
 
 msgid "Address unknown for node:"
 msgstr "ไม่ทราบที่อยู่สำหรับโหนด:"
@@ -599,9 +479,6 @@ msgstr "เชื่อมต่อกับ {0} โหนด"
 
 msgid "Connected to {0} node."
 msgstr "เชื่อมต่อกับโหนด {0}"
-
-msgid "A library is probably missing."
-msgstr "A library is probably missing."
 
 msgid "Audio Modem Settings"
 msgstr "การตั้งค่าโมเด็มเสียง"
@@ -625,20 +502,8 @@ msgstr "ขณะนี้ยังไม่รองรับการเข้
 msgid "Coldcard Status"
 msgstr "สถานะ Coldcard"
 
-msgid "Build Date"
-msgstr "Build Date"
-
-msgid "Bootloader"
-msgstr "Bootloader"
-
 msgid "Enter password:"
 msgstr "ป้อนรหัสผ่าน"
-
-msgid "An uninitialized Digital Bitbox is detected."
-msgstr "An uninitialized Digital Bitbox is detected."
-
-msgid "A backup is saved automatically when generating a new wallet."
-msgstr "A backup is saved automatically when generating a new wallet."
 
 msgid "Create a wallet using the current seed"
 msgstr "สร้างกระเป๋าโดยใช้ Seed ที่มีอยู่"
@@ -646,14 +511,8 @@ msgstr "สร้างกระเป๋าโดยใช้ Seed ที่ม
 msgid "Choose how to initialize your Digital Bitbox:"
 msgstr "เลือกวิธีเริ่มต้น Digital Bitbox ของคุณ:"
 
-msgid "Are you sure you want to erase the Digital Bitbox?"
-msgstr "Are you sure you want to erase the Digital Bitbox?"
-
 msgid "Choose a backup file:"
 msgstr "เลือกไฟล์สำรอง:"
-
-msgid "(Touch {} of {})"
-msgstr "(Touch {} of {})"
 
 msgid "Encryption and decryption are not implemented by {}"
 msgstr "การเข้ารหัสและถอดรหัสไม่ได้ใช้งานโดย {}"
@@ -691,9 +550,6 @@ msgstr "กรุณายืนยันบนอุปกรณ์ {} เพ�
 msgid "Confirm on your {} device to set a PIN"
 msgstr "กรุณายืนยันบนอุปกรณ์ {} เพื่อตั้ง PIN"
 
-msgid "Accept Word"
-msgstr "Accept Word"
-
 msgid "Enter PIN"
 msgstr "ป้อน PIN"
 
@@ -706,30 +562,11 @@ msgstr "เปิดใช้งานพาสเฟส"
 msgid "Change PIN"
 msgstr "เปลี่ยน PIN"
 
-msgid "Are you sure you want to proceed?"
-msgstr "Are you sure you want to proceed?"
-
 msgid "Confirm Device Wipe"
 msgstr "ยืนยันการล้างข้อมูลอุปกรณ์"
 
-msgid ""
-"Are you SURE you want to wipe the device?\n"
-"Your wallet still has bitcoins in it!"
-msgstr ""
-"Are you SURE you want to wipe the device?\n"
-"Your wallet still has bitcoins in it!"
-
-msgid "Bootloader Hash"
-msgstr "Bootloader Hash"
-
-msgid "Apply"
-msgstr "Apply"
-
 msgid "Clear the session after the specified period of inactivity.  Once a session has timed out, your PIN and passphrase (if enabled) must be re-entered to use the device."
 msgstr "ล้างเซสชันหลังจากไม่มีการใช้งานในช่วงเวลาที่กำหนด เมื่อเซสชันหมดเวลา PIN และรหัสผ่านของคุณ (หากเปิดใช้งาน) จะต้องถูกป้อนอีกครั้งเพื่อใช้อุปกรณ์"
-
-msgid "Advanced"
-msgstr "Advanced"
 
 msgid ""
 "Choose how you want to initialize your {}.\n"
@@ -756,20 +593,8 @@ msgstr "ตรวจสอบข้อมูลสำรองของคุณ
 msgid "Calibration sheet"
 msgstr "แผ่นสอบเทียบ"
 
-msgid "2. Align your Revealer borderlines to the dashed lines on the top and left."
-msgstr "2. Align your Revealer borderlines to the dashed lines on the top and left."
-
-msgid "3. Press slightly the Revealer against the paper and read the numbers that best match on the opposite sides. "
-msgstr "3. Press slightly the Revealer against the paper and read the numbers that best match on the opposite sides. "
-
-msgid "4. Type the numbers in the software"
-msgstr "4. Type the numbers in the software"
-
 msgid "Calibration values:"
 msgstr "ค่าการปรับเทียบ"
-
-msgid "Bottom"
-msgstr "Bottom"
 
 msgid "Choose on your {} device where to enter your passphrase"
 msgstr "เลือกบนอุปกรณ์ {} ของคุณที่จะป้อนรหัสผ่านของคุณ"
@@ -798,9 +623,6 @@ msgstr "โค้ด"
 msgid "Create or restore"
 msgstr "สร้าง หรือกู้คืน"
 
-msgid "A small fee will be charged on each transaction that uses the remote server.  You may check and modify your billing preferences once the installation is complete."
-msgstr "A small fee will be charged on each transaction that uses the remote server.  You may check and modify your billing preferences once the installation is complete."
-
 msgid "Cannot start QR scanner: initialization failed."
 msgstr "ไม่สามารถแสกน QR Code ได้."
 
@@ -825,14 +647,6 @@ msgstr "ไม่สามารถสร้างธุรกรรมย่อ
 msgid "All outputs are non-change is_mine"
 msgstr "เอาต์พุตทั้งหมดไม่เปลี่ยนแปลง is_mine"
 
-msgctxt "About|"
-msgid "About Electrum"
-msgstr "About Electrum"
-
-msgctxt "AddressDetails|"
-msgid "Address"
-msgstr "Address"
-
 msgctxt "AddressDetails|"
 msgid "Balance"
 msgstr "Balance"
@@ -844,10 +658,6 @@ msgstr "คีย์สาธารณะ"
 msgctxt "AddressDetails|"
 msgid "Delete"
 msgstr "ลบ"
-
-msgctxt "Addresses|"
-msgid "Addresses"
-msgstr "Addresses"
 
 msgctxt "BIP39RecoveryDialog|"
 msgid "Choose an account to restore."
@@ -864,10 +674,6 @@ msgstr "สามารถรับ"
 msgctxt "BalanceSummary|"
 msgid "Balance"
 msgstr "Balance"
-
-msgctxt "BtcField|"
-msgid "Amount"
-msgstr "Amount"
 
 msgctxt "ChannelDetails|"
 msgid "Channel Backup"
@@ -921,17 +727,9 @@ msgctxt "ExportTxDialog|"
 msgid "Copy"
 msgstr "คัดลอก"
 
-msgctxt "FiatField|"
-msgid "Amount"
-msgstr "Amount"
-
 msgctxt "GenericShareDialog|"
 msgid "Copy"
 msgstr "คัดลอก"
-
-msgctxt "InvoiceDialog|"
-msgid "Address"
-msgstr "Address"
 
 msgctxt "Invoices|"
 msgid "Delete"
@@ -941,21 +739,9 @@ msgctxt "LightningPaymentDetails|"
 msgid "Date"
 msgstr "วันที่"
 
-msgctxt "LnurlPayRequestDialog|"
-msgid "Amount"
-msgstr "Amount"
-
-msgctxt "LnurlWithdrawRequestDialog|"
-msgid "Amount"
-msgstr "Amount"
-
 msgctxt "NetworkOverview|"
 msgid "Proxy"
 msgstr "พร็อกซี"
-
-msgctxt "OpenChannelDialog|"
-msgid "Amount"
-msgstr "Amount"
 
 msgctxt "OpenChannelDialog|"
 msgid "Channel established."
@@ -977,14 +763,6 @@ msgctxt "Preferences|"
 msgid "Base unit"
 msgstr "หน่วยฐาน"
 
-msgctxt "Preferences|"
-msgid "Advanced"
-msgstr "Advanced"
-
-msgctxt "ProxyConfig|"
-msgid "Address"
-msgstr "Address"
-
 msgctxt "ProxyConfig|"
 msgid "Port"
 msgstr "พอร์ท"
@@ -997,14 +775,6 @@ msgctxt "RbfBumpFeeDialog|"
 msgid "Bump Fee"
 msgstr "ค่าธรรมเนียมเพิ่มเติม"
 
-msgctxt "ReceiveDetailsDialog|"
-msgid "Amount"
-msgstr "Amount"
-
-msgctxt "ReceiveDialog|"
-msgid "Amount"
-msgstr "Amount"
-
 msgctxt "ReceiveRequests|"
 msgid "Delete"
 msgstr "ลบ"
@@ -1012,18 +782,6 @@ msgstr "ลบ"
 msgctxt "RequestExpiryComboBox|"
 msgid "10 minutes"
 msgstr "10 นาที"
-
-msgctxt "RequestExpiryComboBox|"
-msgid "1 hour"
-msgstr "1 hour"
-
-msgctxt "RequestExpiryComboBox|"
-msgid "1 day"
-msgstr "1 day"
-
-msgctxt "RequestExpiryComboBox|"
-msgid "1 week"
-msgstr "1 week"
 
 msgctxt "ScanDialog|"
 msgid "Cancel"
@@ -1033,17 +791,9 @@ msgctxt "ServerConfig|"
 msgid "Connected"
 msgstr "เชื่อมต่อแล้ว"
 
-msgctxt "SignVerifyMessageDialog|"
-msgid "Address"
-msgstr "Address"
-
 msgctxt "SwapDialog|"
 msgid "Cancel"
 msgstr "ยกเลิก"
-
-msgctxt "SweepDialog|"
-msgid "A few examples"
-msgstr "A few examples"
 
 msgctxt "TxDetails|"
 msgid "Amount received in channels"
@@ -1056,10 +806,6 @@ msgstr "จำนวนเงินที่ถอนออกจากช่อ
 msgctxt "TxDetails|"
 msgid "Date"
 msgstr "วันที่"
-
-msgctxt "TxDetails|"
-msgid "Broadcast"
-msgstr "Broadcast"
 
 msgctxt "WCHaveSeed|"
 msgid "BIP39 seeds can be imported in Electrum, so that users can access funds locked in other wallets."
@@ -1104,7 +850,3 @@ msgstr "ยกเลิก"
 msgctxt "Wizard|"
 msgid "Back"
 msgstr "กลับ"
-
-msgctxt "main|"
-msgid "About"
-msgstr "About"

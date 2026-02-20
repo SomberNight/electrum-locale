@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: electrum\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-02-19 16:44+0000\n"
-"PO-Revision-Date: 2026-02-19 16:44\n"
+"PO-Revision-Date: 2026-02-20 15:03\n"
 "Last-Translator: \n"
 "Language-Team: Russian\n"
 "Language: ru_RU\n"
@@ -438,9 +438,6 @@ msgstr "Канал Lightning"
 msgid "Channel Backup"
 msgstr "Резервный Канал"
 
-msgid "A backup does not contain information about your local balance in the channel."
-msgstr "A backup does not contain information about your local balance in the channel."
-
 msgid "Channel stats"
 msgstr "Сведения о канале"
 
@@ -647,9 +644,6 @@ msgstr "Копировать {}"
 
 msgid "Pay to"
 msgstr "Получатель"
-
-msgid "&New contact"
-msgstr "&New contact"
 
 msgid "Import"
 msgstr "Импортировать"
@@ -1413,9 +1407,6 @@ msgstr "Текущая операция требует, чтобы вы оста
 msgid "Child Pays for Parent"
 msgstr "Потомок Платит за Родителя"
 
-msgid "A CPFP is a transaction that sends an unconfirmed output back to yourself, with a high fee. The goal is to have miners confirm the parent transaction in order to get the fee attached to the child transaction."
-msgstr "A CPFP is a transaction that sends an unconfirmed output back to yourself, with a high fee. The goal is to have miners confirm the parent transaction in order to get the fee attached to the child transaction."
-
 msgid "Total size"
 msgstr "Общий размер"
 
@@ -1626,9 +1617,6 @@ msgstr "Ошибка чтения QR кода"
 msgid "Scan QR Code"
 msgstr "Сканировать QR код"
 
-msgid "&Flip horizontally"
-msgstr "&Flip horizontally"
-
 msgid "&Close"
 msgstr "&Закрыть"
 
@@ -1803,9 +1791,6 @@ msgstr "Seed-фраза вашего кошелька:"
 
 msgid "Recipient of the funds."
 msgstr "Получатель средств."
-
-msgid "- an arbitrary on-chain script, e.g.:"
-msgstr "- an arbitrary on-chain script, e.g.:"
 
 msgid "Format: address, amount"
 msgstr "Формат: адрес, сумма"
@@ -2022,9 +2007,6 @@ msgstr "Да"
 
 msgid "False"
 msgstr "Нет"
-
-msgid "At block height: {}"
-msgstr "At block height: {}"
 
 msgid "Transaction unrelated to your wallet"
 msgstr "Транзакция не связана с Вашим кошельком"
@@ -3784,9 +3766,6 @@ msgstr "Частично подписано"
 msgid "Invalid invoice format"
 msgstr "Неверный формат счета"
 
-msgid "All outputs are non-change is_mine"
-msgstr "All outputs are non-change is_mine"
-
 msgid "Could not figure out which outputs to keep"
 msgstr "Не удалось понять, какие выходы оставить "
 
@@ -4148,10 +4127,6 @@ msgstr "Это может привести к увеличению комисс�
 msgctxt "CpfpBumpFeeDialog|"
 msgid "Bump Fee"
 msgstr "Комиссия коллизии"
-
-msgctxt "CpfpBumpFeeDialog|"
-msgid "A CPFP is a transaction that sends an unconfirmed output back to yourself, with a high fee. The goal is to have miners confirm the parent transaction in order to get the fee attached to the child transaction."
-msgstr "A CPFP is a transaction that sends an unconfirmed output back to yourself, with a high fee. The goal is to have miners confirm the parent transaction in order to get the fee attached to the child transaction."
 
 msgctxt "CpfpBumpFeeDialog|"
 msgid "Fee for child"

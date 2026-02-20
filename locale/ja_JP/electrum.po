@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: electrum\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-02-19 16:44+0000\n"
-"PO-Revision-Date: 2026-02-19 16:44\n"
+"PO-Revision-Date: 2026-02-20 15:03\n"
 "Last-Translator: \n"
 "Language-Team: Japanese\n"
 "Language: ja_JP\n"
@@ -495,9 +495,6 @@ msgstr "公開鍵"
 
 msgid "Public Key"
 msgstr "公開鍵"
-
-msgid "Redeem Script"
-msgstr "文字列に変換"
 
 msgid "Witness Script"
 msgstr "ウィットネス・スクリプト"
@@ -1022,9 +1019,6 @@ msgstr "リポートを表示する"
 
 msgid "Send Bug Report"
 msgstr "バグリポートを送信"
-
-msgid "Not Now"
-msgstr "Not Now"
 
 msgid "Crash report"
 msgstr "クラッシュの報告"
@@ -1731,9 +1725,6 @@ msgstr "署名"
 
 msgid "Verify"
 msgstr "検証"
-
-msgid "Invalid Public key"
-msgstr "無効な秘密鍵です"
 
 msgid "Encrypt/decrypt Message"
 msgstr "メッセージの暗号化・解読"
@@ -3211,9 +3202,6 @@ msgstr "規定のパスを書き換え可能です。"
 
 msgid "If you are not sure what this is, leave this field unchanged."
 msgstr "よく分からない場合、ここは変更しないで下さい。"
-
-msgid "Detect Existing Accounts"
-msgstr "既存のアカウントを削除"
 
 msgid "Or"
 msgstr "または"
@@ -5776,10 +5764,6 @@ msgid "Send Bug Report"
 msgstr "バグリポートを送信"
 
 msgctxt "ExceptionDialog|"
-msgid "Not Now"
-msgstr "Not Now"
-
-msgctxt "ExceptionDialog|"
 msgid "Error"
 msgstr "エラー"
 
@@ -7314,10 +7298,6 @@ msgstr "よく分からない場合、ここは変更しないで下さい。"
 msgctxt "WCScriptAndDerivation|"
 msgid "Derivation path"
 msgstr "派生パス"
-
-msgctxt "WCScriptAndDerivation|"
-msgid "Detect Existing Accounts"
-msgstr "既存のアカウントを削除"
 
 msgctxt "WCServerConfig|"
 msgid "Server"

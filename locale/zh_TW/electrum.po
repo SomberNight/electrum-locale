@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: electrum\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-02-19 16:44+0000\n"
-"PO-Revision-Date: 2026-02-19 16:44\n"
+"PO-Revision-Date: 2026-02-20 15:03\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Traditional\n"
 "Language: zh_TW\n"
@@ -278,9 +278,6 @@ msgstr "Electrum 無法產生交易資訊匯出。"
 
 msgid "Unable to export history"
 msgstr "無法匯出歷史"
-
-msgid "Your wallet history has been successfully exported."
-msgstr "您的錢包歷史記錄已經成功匯入。"
 
 msgid "Unknown"
 msgstr "未知"
@@ -1185,9 +1182,6 @@ msgstr "不能簽署消息。"
 msgid "Could not sign message"
 msgstr "不能簽署消息"
 
-msgid "(Touch {} of {})"
-msgstr "(Touch {} of {})"
-
 msgid "Confirm wallet address on your {} device"
 msgstr "確認錢包位址在你的 {} 設備"
 
@@ -1245,9 +1239,6 @@ msgstr "發送給共同簽署者"
 
 msgid "Always check your backups."
 msgstr "請經常檢查您的備份資料"
-
-msgid "2. Align your Revealer borderlines to the dashed lines on the top and left."
-msgstr "2. Align your Revealer borderlines to the dashed lines on the top and left."
 
 msgid "Change..."
 msgstr "改變..."

@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: electrum\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-02-19 16:44+0000\n"
-"PO-Revision-Date: 2026-02-19 16:44\n"
+"PO-Revision-Date: 2026-02-20 15:03\n"
 "Last-Translator: \n"
 "Language-Team: Swedish\n"
 "Language: sv_SE\n"
@@ -299,9 +299,6 @@ msgstr "Till"
 
 msgid "&Summary"
 msgstr "&Sammanfattning"
-
-msgid "&Plot"
-msgstr "Rita"
 
 msgid "&Export"
 msgstr "&Exportera"
@@ -1175,9 +1172,6 @@ msgstr "För närvarande stöds inte kryptering och dekryptering för {}"
 
 msgid "{} Settings"
 msgstr "Inställningar"
-
-msgid "Build Date"
-msgstr "Versionsdatum"
 
 msgid "Bootloader"
 msgstr "Bootloader"

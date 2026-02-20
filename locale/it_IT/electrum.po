@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: electrum\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-02-19 16:44+0000\n"
-"PO-Revision-Date: 2026-02-19 16:44\n"
+"PO-Revision-Date: 2026-02-20 15:03\n"
 "Last-Translator: \n"
 "Language-Team: Italian\n"
 "Language: it_IT\n"
@@ -4179,9 +4179,6 @@ msgstr "Coinbase non supportato"
 
 msgid "Input {} has a non_witness_utxo with the wrong hash"
 msgstr "L'input {} ha un non_witness_utxo con l'hash sbagliato"
-
-msgid "Cannot have witness v1+ in p2sh"
-msgstr "Impossibile determinare le tariffe dinamiche, non connesso"
 
 msgid "Unable to sign this transaction"
 msgstr "Impossibile firmare questa transazione"

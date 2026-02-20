@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: electrum\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-02-19 16:44+0000\n"
-"PO-Revision-Date: 2026-02-19 16:44\n"
+"PO-Revision-Date: 2026-02-20 15:03\n"
 "Last-Translator: \n"
 "Language-Team: Norwegian Bokmal\n"
 "Language: nb_NO\n"
@@ -150,12 +150,6 @@ msgstr "Using change addresses makes it more difficult for other people to track
 msgid "Bitcoin transactions are in general not free. A transaction fee is paid by the sender of the funds."
 msgstr "Bitcoin-transaksjoner er i hovedsak ikke gratis. Senderen betaler en transaksjonsavgift."
 
-msgid "The amount of fee can be decided freely by the sender. However, transactions with low fees take more time to be processed."
-msgstr "The amount of fee can be decided freely by the sender. However, transactions with low fees take more time to be processed."
-
-msgid "A suggested fee is automatically added to this field. You may override it. The suggested fee increases with the size of the transaction."
-msgstr "A suggested fee is automatically added to this field. You may override it. The suggested fee increases with the size of the transaction."
-
 msgid "Additional fees"
 msgstr "Ekstra kostnader"
 
@@ -245,9 +239,6 @@ msgstr "Electrum kunne ikke produsere en transaksjonseksport."
 
 msgid "Unable to export history"
 msgstr "Unable to export history"
-
-msgid "Your wallet history has been successfully exported."
-msgstr "Your wallet history has been successfully exported."
 
 msgid "Unknown"
 msgstr "Ukjent"
@@ -438,9 +429,6 @@ msgstr "Seed"
 msgid "Failed to update password"
 msgstr "Kunne ikke oppdatere passord"
 
-msgid "Password was updated successfully"
-msgstr "Password was updated successfully"
-
 msgid "Success"
 msgstr "Success"
 
@@ -531,9 +519,6 @@ msgstr "Å eksponere en enkel privatnøkkel kan kompromittere hele lommeboken di
 msgid "In particular, DO NOT use 'redeem private key' services proposed by third parties."
 msgstr "In particular, DO NOT use 'redeem private key' services proposed by third parties."
 
-msgid "Select file to export your private keys to"
-msgstr "Select file to export your private keys to"
-
 msgid "Electrum was unable to produce a private key-export."
 msgstr "Electrum kunne ikke produsere en privatnøkkeleksport."
 
@@ -548,12 +533,6 @@ msgstr "Sweep private keys"
 
 msgid "Sweep"
 msgstr "Sweep"
-
-msgid "The following addresses were added"
-msgstr "The following addresses were added"
-
-msgid "The following inputs could not be imported"
-msgstr "The following inputs could not be imported"
 
 msgid "Import private keys"
 msgstr "Importer privatnøkler"
@@ -678,22 +657,6 @@ msgstr "Feil ved opprettelse av betalingsforespørsel"
 msgid "No more addresses in your wallet."
 msgstr "No more addresses in your wallet."
 
-msgid ""
-"Warning: The next address will not be recovered automatically if you restore your wallet from seed; you may need to add it manually.\n"
-"\n"
-"This occurs because you have too many unused addresses in your wallet. To avoid this situation, use the existing addresses first.\n"
-"\n"
-"Create anyway?"
-msgstr ""
-"Warning: The next address will not be recovered automatically if you restore your wallet from seed; you may need to add it manually.\n"
-"\n"
-"This occurs because you have too many unused addresses in your wallet. To avoid this situation, use the existing addresses first.\n"
-"\n"
-"Create anyway?"
-
-msgid "This seed will allow you to recover your wallet in case of computer failure."
-msgstr "This seed will allow you to recover your wallet in case of computer failure."
-
 msgid "WARNING"
 msgstr "WARNING"
 
@@ -717,9 +680,6 @@ msgstr "Format: addresse, mengde"
 
 msgid "Description of the transaction (not mandatory)."
 msgstr "Beskrivelse av transaksjonen (ikke påkrevd)."
-
-msgid "The description is not sent to the recipient of the funds. It is stored in your wallet file, and displayed in the 'History' tab."
-msgstr "The description is not sent to the recipient of the funds. It is stored in your wallet file, and displayed in the 'History' tab."
 
 msgid "Note that if you have frozen some of your addresses, the available funds will be lower than your total balance."
 msgstr "Merk at dersom du har fryst noen av dine adresser, vil tilgjengelige midler være lavere enn din totale saldo."
@@ -882,9 +842,6 @@ msgstr "Bekreft Seed"
 
 msgid "Your seed is important!"
 msgstr "Your seed is important!"
-
-msgid "To make sure that you have properly saved your seed, please retype it here."
-msgstr "To make sure that you have properly saved your seed, please retype it here."
 
 msgid "Confirm Seed Extension"
 msgstr "Bekreft Seed Extension"
@@ -1106,9 +1063,6 @@ msgstr "Kan ikke starte QR-skanner: initialisering mislyktes."
 msgid "Zeros after decimal point"
 msgstr "Zeros after decimal point"
 
-msgid "Number of zeros displayed after the decimal point. For example, if this is set to 2, \"1.\" will be displayed as \"1.00\""
-msgstr "Number of zeros displayed after the decimal point. For example, if this is set to 2, \"1.\" will be displayed as \"1.00\""
-
 msgid "Online Block Explorer"
 msgstr "Online Block Explorer"
 
@@ -1123,9 +1077,6 @@ msgstr "Følgende alias tjenere er tilgjengelige:"
 
 msgid "Automatically check for software updates"
 msgstr "Sjekk automatisk for oppdateringer"
-
-msgid "Select which language is used in the GUI (after restart)."
-msgstr "Select which language is used in the GUI (after restart)."
 
 msgid "Insufficient funds"
 msgstr "Insufficient funds"
@@ -1550,14 +1501,6 @@ msgstr "Feil"
 msgctxt "WCConfirmSeed|"
 msgid "Your seed is important!"
 msgstr "Your seed is important!"
-
-msgctxt "WCConfirmSeed|"
-msgid "To make sure that you have properly saved your seed, please retype it here."
-msgstr "To make sure that you have properly saved your seed, please retype it here."
-
-msgctxt "WCCreateSeed|"
-msgid "This seed will allow you to recover your wallet in case of computer failure."
-msgstr "This seed will allow you to recover your wallet in case of computer failure."
 
 msgctxt "WCCreateSeed|"
 msgid "WARNING"

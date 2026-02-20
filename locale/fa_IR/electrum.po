@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: electrum\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-02-19 16:44+0000\n"
-"PO-Revision-Date: 2026-02-19 16:44\n"
+"PO-Revision-Date: 2026-02-20 02:41\n"
 "Last-Translator: \n"
 "Language-Team: Persian\n"
 "Language: fa_IR\n"
@@ -26,9 +26,6 @@ msgstr "می خواهید این گزارش را ارسال نمائید؟"
 
 msgid "Do not enter sensitive/private information here. The report will be visible on the public issue tracker."
 msgstr "اطلاعات حساس/خصوصی خود را اینجا وارد نکنید. این گزارش به صورت عمومی برای دنبال کننده های مشکلات قابل روئیت خواهد بود."
-
-msgid "  (No FX rate available)"
-msgstr "متن"
 
 msgid "Current rate"
 msgstr "نرخ فعلی"

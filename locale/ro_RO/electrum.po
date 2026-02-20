@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: electrum\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-02-19 16:44+0000\n"
-"PO-Revision-Date: 2026-02-19 16:44\n"
+"PO-Revision-Date: 2026-02-20 15:03\n"
 "Last-Translator: \n"
 "Language-Team: Romanian\n"
 "Language: ro_RO\n"
@@ -733,9 +733,6 @@ msgstr "Extinde acest secret cu cuvinte personale"
 msgid "We do not guarantee that BIP39 imports will always be supported in Electrum."
 msgstr "Nu putem granta că importurile BIP39 vor fi suportate întotdeauna de Electrum."
 
-msgid "Seed Type"
-msgstr "Trimite tip"
-
 msgid "Your wallet generation seed is:"
 msgstr "Cuvintele secrete pentru portofelul tău sunt:"
 
@@ -780,9 +777,6 @@ msgstr "Vrei sã continui?"
 
 msgid "Payment sent."
 msgstr "Plată trimisă."
-
-msgid "Broadcasting transaction..."
-msgstr "Tranzactie pe lungime de unda mare..."
 
 msgid "Enter a list of outputs in the 'Pay to' field."
 msgstr "Introduceți o listă de rezultate în câmpul 'Plătește la'."
@@ -1464,10 +1458,6 @@ msgstr "Vă rugăm introduceți cheia publică principală (xpub) a cosemnatarul
 msgctxt "WCHaveMasterKey|"
 msgid "Enter their master private key (xprv) if you want to be able to sign for them."
 msgstr "Introduceți cheia master privată (xprv) dacă vrei să poți să semnezi pentru ele."
-
-msgctxt "WCHaveSeed|"
-msgid "Seed Type"
-msgstr "Trimite tip"
 
 msgctxt "WCProxyConfig|"
 msgid "Proxy"

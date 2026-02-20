@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: electrum\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-02-19 16:44+0000\n"
-"PO-Revision-Date: 2026-02-19 16:44\n"
+"PO-Revision-Date: 2026-02-20 15:03\n"
 "Last-Translator: \n"
 "Language-Team: Indonesian\n"
 "Language: id_ID\n"
@@ -179,9 +179,6 @@ msgstr "Cadangan tidak berisi informasi tentang saldo lokal di saluran Anda."
 
 msgid "CLTV expiry"
 msgstr "CLTV kedaluwarsa"
-
-msgid "Remote Node"
-msgstr "Hapus Node"
 
 msgid "Channel ID"
 msgstr "ID saluran"
@@ -425,9 +422,6 @@ msgstr "Electrum tidak dapat menghasilkan ekspor transaksi."
 
 msgid "Unable to export history"
 msgstr "Tidak dapat mengekspor riwayat"
-
-msgid "Your wallet history has been successfully exported."
-msgstr "Twoja historia portfela została pomyślnie wyeksportowana."
 
 msgid "Unknown"
 msgstr "Tidak diketahui"
@@ -1035,9 +1029,6 @@ msgstr "Salin Gambar"
 msgid "Copy Text"
 msgstr "Salin Teks"
 
-msgid "Save"
-msgstr "Benih"
-
 msgid "QR Reader Error"
 msgstr "Kesalahan pada pembaca QR"
 
@@ -1354,12 +1345,6 @@ msgstr "Harap tunggu"
 msgid "Format"
 msgstr "Format"
 
-msgid "CSV"
-msgstr "CSV"
-
-msgid "json"
-msgstr "Json"
-
 msgid "File"
 msgstr "Berkas"
 
@@ -1575,9 +1560,6 @@ msgstr "1 hari"
 
 msgid "1 week"
 msgstr "1 minggu"
-
-msgid "Address unknown for node:"
-msgstr "Tambahkan alamat cadangan ke faktur kilat BOLT11."
 
 msgid "Close channel"
 msgstr "Tutup saluran"
@@ -2031,9 +2013,6 @@ msgstr "Tidak terverifikasi"
 msgid "Signed"
 msgstr "Ditanda tangani"
 
-msgid "All outputs are non-change is_mine"
-msgstr "Izinkan pertukaran instan"
-
 msgid "Could not find suitable outputs"
 msgstr "Tidak bisa meneumukan hasil yang cocok."
 
@@ -2273,10 +2252,6 @@ msgstr "Keterangan"
 msgctxt "InvoiceDialog|"
 msgid "Max"
 msgstr "Maksimal"
-
-msgctxt "InvoiceDialog|"
-msgid "Save"
-msgstr "Benih"
 
 msgctxt "InvoiceDialog|"
 msgid "Payment sent."
@@ -2589,10 +2564,6 @@ msgstr "Tanda Tangani"
 msgctxt "TxDetails|"
 msgid "Broadcast"
 msgstr "Kirim"
-
-msgctxt "TxDetails|"
-msgid "Save"
-msgstr "Benih"
 
 msgctxt "TxDetails|"
 msgid "Error"

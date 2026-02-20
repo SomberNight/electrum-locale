@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: electrum\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-02-19 16:44+0000\n"
-"PO-Revision-Date: 2026-02-19 16:44\n"
+"PO-Revision-Date: 2026-02-20 15:03\n"
 "Last-Translator: \n"
 "Language-Team: Portuguese, Brazilian\n"
 "Language: pt_BR\n"
@@ -2265,9 +2265,6 @@ msgstr "Ativar"
 
 msgid "Settings"
 msgstr "Configurações"
-
-msgid "This plugin requires installation of additional dependencies."
-msgstr "Esta opção só está disponível no Windows"
 
 msgid "For Electrum to recognize external packages, you need to run it from source."
 msgstr "Para que a Electrum reconheça pacotes externos, você precisa executá-lo a partir da fonte."
@@ -7654,10 +7651,6 @@ msgid "Error: invalid private key(s)"
 msgstr "Erro: chave(s) privada(s) inválida(s)"
 
 msgctxt "SweepDialog|"
-msgid "Enter the list of private keys to sweep into this wallet"
-msgstr "Erro: chave(s) privada(s) inválida(s)"
-
-msgctxt "SweepDialog|"
 msgid "This will create a transaction sending all funds associated with the private keys to the current wallet"
 msgstr "Isso criará uma transação enviando todos os fundos associados às chaves privadas para a carteira atual"
 
@@ -7728,10 +7721,6 @@ msgstr "Apresente esta transação à carteira de assinatura."
 msgctxt "TxDetails|"
 msgid "Present this transaction to the next cosigner."
 msgstr "Apresente esta transação ao próximo avalista."
-
-msgctxt "TxDetails|"
-msgid "Amount received onchain"
-msgstr "Quantidade recebida nos canais"
 
 msgctxt "TxDetails|"
 msgid "Amount sent onchain"

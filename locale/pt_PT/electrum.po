@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: electrum\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-02-19 16:44+0000\n"
-"PO-Revision-Date: 2026-02-19 16:44\n"
+"PO-Revision-Date: 2026-02-20 15:03\n"
 "Last-Translator: \n"
 "Language-Team: Portuguese\n"
 "Language: pt_PT\n"
@@ -509,9 +509,6 @@ msgstr "{} canais"
 
 msgid "Connected to {} peers"
 msgstr "Conectado a {} pares"
-
-msgid "Block height"
-msgstr "Peso do bloco"
 
 msgid "History"
 msgstr "Histórico"
