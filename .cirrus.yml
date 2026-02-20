@@ -1,7 +1,7 @@
 proofreader_task:
   name: "LLM Translation Proofreader"
   container:
-    image: python:3.12-slim
+    image: python:3.12
   env:
     OPENAI_BASE_URL: "https://api.ppq.ai"
     OPENAI_MODEL: "google/gemini-3-flash-preview"
@@ -15,9 +15,9 @@ proofreader_task:
     - git diff origin/$CIRRUS_DEFAULT_BRANCH..HEAD -- locale/ > /tmp/locale.diff
     - echo "Diff size:" && wc -l /tmp/locale.diff
   proofread_script:
-    - python llm_proofreader/llm_proofreader.py --diff /tmp/locale.diff --output-dir /tmp/proofreader_reports
+    - python llm_proofreader/llm_proofreader.py --diff /tmp/locale.diff --output-dir /tmp/cirrus-ci-build/proofreader_reports
   always:
     report_artifacts:
-      path: "/tmp/proofreader_reports/**"
+      path: "/tmp/cirrus-ci-build/proofreader_reports/**"
       type: text/plain
 
